@@ -1,0 +1,461 @@
+Date: Thu, 28 May 2026 14:57:12 +0500 (UZT)
+Message-ID: <1704857760.134723.1779962232158@confluence-srv.bank.corp.centercredit.kz>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_134722_1173206286.1779962232158"
+
+------=_Part_134722_1173206286.1779962232158
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=D0=BB=D1=8E=D0=B1=D0=B8=D0=BC=D1=8B=D0=B5 =D0=BA=D0=B0=D1=82=D0=
+=B5=D0=B3=D0=BE=D1=80=D0=B8=D0=B8 #=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=
+=B0=D1=80=D1=82=D0=B0</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=D0=BB=D1=8E=D0=B1=D0=B8=D0=BC=D1=8B=D0=B5 =D0=BA=D0=B0=D1=82=D0=B5=
+=D0=B3=D0=BE=D1=80=D0=B8=D0=B8 #=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=
+=D1=80=D1=82=D0=B0</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">
+<div class=3D"columnLayout two-equal" data-layout=3D"two-equal">
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<div>
+<style>
+    .innerCell .aura-panel-8e365504148d33a6, .sectionMacro .aura-panel-8e36=
+5504148d33a6 {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-8e365504148d33a6 {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-8e365504148d33a6 .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-8e365504148d33a6 a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-8e365504148d33a6 a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-8e365504148d33a6 .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-8e365504148d33a6 .aura-headline svg {
+            margin-right: 0.5em;
+          }
+
+    .aura-panel-8e365504148d33a6 .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-8e365504148d33a6" style=3D"min-height: 270px;box-s=
+hadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.2), 0px 12px 4px -10px rgba(0, 0, 0,=
+ 0.4);border-radius: 4.0px;">
+<div class=3D"aura-header" style=3D"" href=3D"$href" target=3D"$hrefTarget"=
+>
+<div role=3D"heading" aria-level=3D"2" id=3D"aura-panel-8e365504148d33a6" c=
+lass=3D"aura-headline" style=3D"color: #152A29 !important;font-weight: norm=
+al;text-align: left;font-size: 14.0px;border-bottom: 1px solid #999;">
+<svg version=3D"1.1" width=3D"18" height=3D"18" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"Icons">
+<path fill=3D"#152A29" d=3D"M116.65 219.35a15.68 15.68 0 0 0 22.65 0l96.75-=
+99.83c28.15-29 26.5-77.1-4.91-103.88C203.75-7.7 163-3.5 137.86 22.44L128 32=
+.58l-9.85-10.14C93.05-3.5 52.25-7.7 24.86 15.64c-31.41 26.78-33 74.85-5 103=
+.88zm143.92 100.49h-48l-7.08-14.24a27.39 27.39 0 0 0-25.66-17.78h-71.71a27.=
+39 27.39 0 0 0-25.66 17.78l-7 14.24h-48A27.45 27.45 0 0 0 0 347.3v137.25A27=
+.44 27.44 0 0 0 27.43 512h233.14A27.45 27.45 0 0 0 288 484.55V347.3a27.45 2=
+7.45 0 0 0-27.43-27.46zM144 468a52 52 0 1 1 52-52 52 52 0 0 1-52 52zm355.4-=
+115.9h-60.58l22.36-50.75c2.1-6.65-3.93-13.21-12.18-13.21h-75.59c-6.3 0-11.6=
+6 3.9-12.5 9.1l-16.8 106.93c-1 6.3 4.88 11.89 12.5 11.89h62.31l-24.2 83c-1.=
+89 6.65 4.2 12.9 12.23 12.9a13.26 13.26 0 0 0 10.92-5.25l92.4-138.91c4.88-6=
+.91-1.16-15.7-10.87-15.7zM478.08.33L329.51 23.17C314.87 25.42 304 38.92 304=
+ 54.83V161.6a83.25 83.25 0 0 0-16-1.7c-35.35 0-64 21.48-64 48s28.65 48 64 4=
+8c35.2 0 63.73-21.32 64-47.66V99.66l112-17.22v47.18a83.25 83.25 0 0 0-16-1.=
+7c-35.35 0-64 21.48-64 48s28.65 48 64 48c35.2 0 63.73-21.32 64-47.66V32c0-1=
+9.48-16-34.42-33.92-31.67z">
+</path>
+</svg><span>=D0=9A=D0=90=D0=9A =D0=92=D0=AB=D0=91=D0=98=D0=A0=D0=90=D0=A2=
+=D0=AC =D0=9B=D0=AE=D0=91=D0=98=D0=9C=D0=AB=D0=95 =D0=9A=D0=90=D0=A2=D0=95=
+=D0=93=D0=9E=D0=A0=D0=98=D0=98?</span>
+</div>
+</div>
+<div class=3D"aura-body" style=3D"">
+<p><span style=3D"color: rgb(70,86,113);">=D0=92 =D0=BD=D0=B0=D1=87=D0=B0=
+=D0=BB=D0=B5 =D0=BA=D0=B0=D0=B6=D0=B4=D0=BE=D0=B3=D0=BE =D0=BC=D0=B5=D1=81=
+=D1=8F=D1=86=D0=B0, =D0=BC=D1=8B =D0=BF=D1=80=D0=B5=D0=B4=D0=BB=D0=B0=D0=B3=
+=D0=B0=D0=B5=D0=BC =D0=BD=D0=BE=D0=B2=D1=8B=D0=B9 =D0=BD=D0=B0=D0=B1=D0=BE=
+=D1=80 =D0=BA=D0=B0=D1=82=D0=B5=D0=B3=D0=BE=D1=80=D0=B8=D0=B9 =D0=BF=D0=BE=
+=D0=BA=D1=83=D0=BF=D0=BE=D0=BA =D1=81 =D0=BA=D1=8D=D1=88=D0=B1=D1=8D=D0=BA=
+=D0=BE=D0=BC =D0=B4=D0=BE 10%.&nbsp;<br>
+ =D0=94=D0=BB=D1=8F =D0=B2=D1=8B=D0=B1=D0=BE=D1=80=D0=B0 =D0=BB=D1=8E=D0=B1=
+=D0=B8=D0=BC=D1=8B=D1=85 =D0=BA=D0=B0=D1=82=D0=B5=D0=B3=D0=BE=D1=80=D0=B8=
+=D0=B9:</span></p>
+<ul>
+<li><span style=3D"color: rgb(122,134,154);">=D0=97=D0=B0=D0=B9=D0=B4=D0=B8=
+=D1=82=D0=B5 =D0=B2 =D0=BF=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=
+=D0=B5 BCC.KZ</span></li>
+<li><span style=3D"color: rgb(122,134,154);">=D0=9D=D0=B0=D0=B6=D0=BC=D0=B8=
+=D1=82=D0=B5 =D0=BD=D0=B0 =D0=B8=D0=BA=D0=BE=D0=BD=D0=BA=D1=83 "=D0=9A=D1=
+=8D=D1=88=D0=B1=D1=8D=D0=BA" <sup></sup></span></li>
+<li><span style=3D"color: rgb(70,86,113);"><span style=3D"color: rgb(122,13=
+4,154);">=D0=9D=D0=B0 =D0=B3=D0=BB=D0=B0=D0=B2=D0=BD=D0=BE=D0=BC =D1=8D=D0=
+=BA=D1=80=D0=B0=D0=BD=D0=B5 "=D0=9C=D0=BE=D0=B8 =D0=9A=D0=B0=D1=82=D0=B5=D0=
+=B3=D0=BE=D1=80=D0=B8=D0=B8", =D0=B2=D1=8B=D0=B1=D0=B5=D1=80=D0=B8=D1=82=D0=
+=B5 3 =D0=BF=D0=BE=D0=BD=D1=80=D0=B0=D0=B2=D0=B8=D0=B2=D1=88=D0=B8=D0=B5=D1=
+=81=D1=8F =D0=BA=D0=B0=D1=82=D0=B5=D0=B3=D0=BE=D1=80=D0=B8=D0=B8 =D0=B8=D0=
+=B7 7, =D0=BF=D0=BE=D1=81=D0=BB=D0=B5 =D1=87=D0=B5=D0=B3=D0=BE =D0=BD=D0=B0=
+=D0=B6=D0=BC=D0=B8=D1=82=D0=B5 "=D0=B3=D0=BE=D1=82=D0=BE=D0=B2=D0=BE".</spa=
+n><br></span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<div>
+<style>
+    .innerCell .aura-panel-39e3b828fdd935bd, .sectionMacro .aura-panel-39e3=
+b828fdd935bd {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-39e3b828fdd935bd {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-39e3b828fdd935bd .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-39e3b828fdd935bd a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-39e3b828fdd935bd a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-39e3b828fdd935bd .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-39e3b828fdd935bd .aura-headline svg {
+            margin-right: 0.5em;
+          }
+
+    .aura-panel-39e3b828fdd935bd .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-39e3b828fdd935bd" style=3D"min-height: 270px;box-s=
+hadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.2), 0px 12px 4px -10px rgba(0, 0, 0,=
+ 0.4);border-radius: 4.0px;">
+<div class=3D"aura-header" style=3D"" href=3D"$href" target=3D"$hrefTarget"=
+>
+<div role=3D"heading" aria-level=3D"2" id=3D"aura-panel-39e3b828fdd935bd" c=
+lass=3D"aura-headline" style=3D"color: #152A29 !important;font-weight: norm=
+al;text-align: left;font-size: 14.0px;border-bottom: 1px solid #999;">
+<svg version=3D"1.1" width=3D"18" height=3D"18" viewbox=3D"0 0 640 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"Braille">
+<path fill=3D"#152A29" d=3D"M128 256c0 35.346-28.654 64-64 64S0 291.346 0 2=
+56s28.654-64 64-64 64 28.654 64 64zM64 384c-17.673 0-32 14.327-32 32s14.327=
+ 32 32 32 32-14.327 32-32-14.327-32-32-32zm0-352C28.654 32 0 60.654 0 96s28=
+.654 64 64 64 64-28.654 64-64-28.654-64-64-64zm160 192c-17.673 0-32 14.327-=
+32 32s14.327 32 32 32 32-14.327 32-32-14.327-32-32-32zm0 160c-17.673 0-32 1=
+4.327-32 32s14.327 32 32 32 32-14.327 32-32-14.327-32-32-32zm0-352c-35.346 =
+0-64 28.654-64 64s28.654 64 64 64 64-28.654 64-64-28.654-64-64-64zm224 192c=
+-17.673 0-32 14.327-32 32s14.327 32 32 32 32-14.327 32-32-14.327-32-32-32zm=
+0 160c-17.673 0-32 14.327-32 32s14.327 32 32 32 32-14.327 32-32-14.327-32-3=
+2-32zm0-352c-35.346 0-64 28.654-64 64s28.654 64 64 64 64-28.654 64-64-28.65=
+4-64-64-64zm160 192c-17.673 0-32 14.327-32 32s14.327 32 32 32 32-14.327 32-=
+32-14.327-32-32-32zm0 160c-17.673 0-32 14.327-32 32s14.327 32 32 32 32-14.3=
+27 32-32-14.327-32-32-32zm0-320c-17.673 0-32 14.327-32 32s14.327 32 32 32 3=
+2-14.327 32-32-14.327-32-32-32z">
+</path>
+</svg><span>=D0=A1=D0=9A=D0=9E=D0=9B=D0=AC=D0=9A=D0=9E =D0=A0=D0=90=D0=97 =
+=D0=92 =D0=9C=D0=95=D0=A1=D0=AF=D0=A6 =D0=9C=D0=9E=D0=96=D0=9D=D0=9E =D0=92=
+=D0=AB=D0=91=D0=98=D0=A0=D0=90=D0=A2=D0=AC =D0=9A=D0=90=D0=A2=D0=95=D0=93=
+=D0=9E=D0=A0=D0=98=D0=98?</span>
+</div>
+</div>
+<div class=3D"aura-body" style=3D"">
+<p><span style=3D"color: rgb(122,134,154);">=D0=92 =D1=82=D0=B5=D1=87=D0=B5=
+=D0=BD=D0=B8=D0=B5 =D0=BC=D0=B5=D1=81=D1=8F=D1=86=D0=B0 =D0=92=D1=8B =D0=B2=
+=D1=8B=D0=B1=D0=B8=D1=80=D0=B0=D0=B5=D1=82=D0=B5 =D0=BB=D1=8E=D0=B1=D0=B8=
+=D0=BC=D1=8B=D0=B5 =D0=BA=D0=B0=D1=82=D0=B5=D0=B3=D0=BE=D1=80=D0=B8=D0=B8 =
+=D1=82=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE 1 =D1=80=D0=B0=D0=B7. <br>
+ =D0=9F=D0=BE=D0=B4=D1=83=D0=BC=D0=B0=D0=B9=D1=82=D0=B5, =D1=87=D1=82=D0=BE=
+ =D0=92=D1=8B =D0=B1=D1=83=D0=B4=D0=B5=D1=82=D0=B5 =D0=BF=D0=BE=D0=BA=D1=83=
+=D0=BF=D0=B0=D1=82=D1=8C =D1=87=D0=B0=D1=89=D0=B5 =D0=B2=D1=81=D0=B5=D0=B3=
+=D0=BE =D0=B2 =D1=8D=D1=82=D0=BE=D0=BC =D0=BC=D0=B5=D1=81=D1=8F=D1=86=D0=B5=
+. <br>
+ =D0=98=D0=B7=D0=BC=D0=B5=D0=BD=D0=B8=D1=82=D1=8C =D0=B2=D1=8B=D0=B1=D0=BE=
+=D1=80 =D0=BD=D0=B5=D0=BB=D1=8C=D0=B7=D1=8F.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_134722_1173206286.1779962232158--

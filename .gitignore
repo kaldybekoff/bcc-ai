@@ -4,9 +4,6 @@
 .env.production
 .env.development
 
-# ── Knowledge files (internal bank docs — add manually on server) ──
-backend/knowledge/**/*.doc
-backend/knowledge/**/*.docx
 
 # ── Python ───────────────────────────────
 __pycache__/

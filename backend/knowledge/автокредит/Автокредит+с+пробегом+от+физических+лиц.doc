@@ -1,0 +1,4036 @@
+Date: Thu, 28 May 2026 15:15:21 +0500 (UZT)
+Message-ID: <946808840.134999.1779963321277@confluence-srv.bank.corp.centercredit.kz>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_134998_1405116173.1779963321277"
+
+------=_Part_134998_1405116173.1779963321277
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=D0=90=D0=B2=D1=82=D0=BE=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82 =D1=
+=81 =D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC =D0=BE=D1=82 =D1=84=D0=
+=B8=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85 =D0=BB=D0=B8=D1=86</tit=
+le>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=D0=90=D0=B2=D1=82=D0=BE=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82 =D1=81=
+ =D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC =D0=BE=D1=82 =D1=84=D0=B8=
+=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85 =D0=BB=D0=B8=D1=86</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">
+<div class=3D"columnLayout three-equal" data-layout=3D"three-equal">
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<p><br></p>
+</div>
+</div>
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<p><br></p>
+</div>
+</div>
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<p style=3D"text-align: right;"><span style=3D"display: inline-block;"><sty=
+le> .aura-button-22918a7a6b7f51d6 { background: #ddd; text-decoration: none=
+ !important; color: #00875a !important; box-sizing: border-box; cursor: poi=
+nter; display: inline-flex; align-items: center; justify-content: center; w=
+ord-break: break-word; transition: background 0.5s; padding: 8px 14px; flex=
+-direction: row; border-radius: 4px; font-size: 12px; border: 2px solid #00=
+875a; background: transparent; color: #00875a !important; } .aura-button-22=
+918a7a6b7f51d6:hover{ background: #00875a; color: #FFFFFF !important; } .au=
+ra-button-22918a7a6b7f51d6:hover svg path { fill: #FFFFFF !important; } .au=
+ra-button-22918a7a6b7f51d6 svg, .aura-button-22918a7a6b7f51d6 img { margin-=
+right: 10px; height: 12px !important; width: 12px !important; } .aura-butto=
+n-22918a7a6b7f51d6 svg path { fill: #00875a !important; }</style><a href=3D=
+"https://kb.apps.bcc.kz/pages/viewpage.action?pageId=3D237177339" class=3D"=
+aura-button-22918a7a6b7f51d6" target=3D"" data-aura-link=3D"page" data-link=
+ed-resource-id=3D"237177339">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 448 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"Book">
+<path fill=3D"#FFFFFF" d=3D"M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0=
+ 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18=
+.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 =
+6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0=
+-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v=
+-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.=
+1-1.9 46.9 0 64z">
+</path>
+</svg><span>=D0=9A=D0=90=D0=97</span> </a></span></p>
+</div>
+</div>
+</div>
+<div class=3D"columnLayout two-right-sidebar" data-layout=3D"two-right-side=
+bar">
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<p><a href=3D"https://kb.apps.bcc.kz/pages/viewpage.action?pageId=3D1742991=
+48" class=3D"rwui_button rwui_inline-block  rwui_id_e57db3e2-e8bd-478c-8d4b=
+-2d540924250d " style=3D" color: #666666 !important; background-color: rgb(=
+237,237,237); " title=3D"=D0=9D=D0=B0=D0=B7=D0=B0=D0=B4" role=3D"button"><s=
+tyle>.rwui_id_e57db3e2-e8bd-478c-8d4b-2d540924250d {color: #666666 !importa=
+nt; background: rgb(237,237,237);}.rwui_id_e57db3e2-e8bd-478c-8d4b-2d540924=
+250d:hover {background: rgb(219,219,219);}.rwui_id_e57db3e2-e8bd-478c-8d4b-=
+2d540924250d .rwui_icon {color: #666666 !important;}</style><span class=3D"=
+rwui_content">=D0=9D=D0=B0=D0=B7=D0=B0=D0=B4</span></a></p>
+<div style=3D"padding:10px; background-repeat:no-repeat; background-size:co=
+ver; flex-direction:column; display:flex; width:100%; min-height:200px; jus=
+tify-content:center; background-image:url(https://kb.apps.bcc.kz/download/a=
+ttachments/225192256/image-2024-10-29_11-29-15.png?version=3D1&amp;modifica=
+tionDate=3D1730183356175&amp;api=3Dv2); background-position:center right; b=
+ox-sizing:border-box" aria-role=3D"banner" data-background-image=3D"url(htt=
+ps://kb.apps.bcc.kz/download/attachments/225192256/image-2024-10-29_11-29-1=
+5.png?version=3D1&amp;modificationDate=3D1730183356175&amp;api=3Dv2)">
+<div>
+<p><img src=3D"https://kb.apps.bcc.kz/download/attachments/193589288/image-=
+2024-6-12_11-30-32.png?version=3D1&amp;modificationDate=3D1718173832537&amp=
+;api=3Dv2" width=3D"130"></p>
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:3%;min-width:3%;max-width:3%;">
+<p><br></p>
+</div>
+<div class=3D"columnMacro" style=3D"width:17%;min-width:17%;max-width:17%;"=
+>
+<p><br></p>
+<div>
+<div class=3D"noprint" style=3D"display: none">
+</div><span id=3D"cf_messages" style=3D"padding-bottom: 5px;"></span>
+<script type=3D"text/javascript">
+    var cfRowHL =3D false;
+
+        AJS.toInit(function () {
+      if (!cfRowHL) {
+        cfHandleHL('97b12dab3aea1d5e6c373659f7ba4f04');
+      }
+           =20
+          });
+
+        </script>
+<div style=3D"margin-top: 5px">
+<style type=3D"text/css">
+  .confiFormsFormBorder {
+    border: 1px solid #ccc; border-radius: 3px;margin: 10px 0 20px 0;
+    /*max-width: 720px;*/
+    /*min-width: 720px;*/
+  }
+  .confiFormsFormContent {
+    padding: 20px;
+  }
+  .confiFormsFormTitle {
+    padding: 10px;
+  }
+  .confiFormsFormFooter {
+    background-color: var(--ds-background-accent-gray-subtlest, #f0f0f0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .confiFormsFormContent .copy-heading-link-container {
+    display:none;
+  }
+</style>
+<style type=3D"text/css">
+ form.cf-539cf2c98f28a28460f3e005d1f502c1 span[class^=3D'i_holdingrow_'] > =
+label {
+     width:250px; max-width:250px; display: inline-block; vertical-align: t=
+op;
+  } =20
+
+ form.cf-539cf2c98f28a28460f3e005d1f502c1 div[class^=3D'i_holdingrow_'] > l=
+abel {
+     width:250px; max-width:250px; display: inline-block; vertical-align: t=
+op;
+  } =20
+</style>
+<div id=3D"i_confiform_registration_panel_539cf2c98f28a28460f3e005d1f502c1"=
+ style=3D"display: none;mso-hide:all;" class=3D"cf_perevod ">
+<style type=3D"text/css">
+.ui-autocomplete
+ {
+  /*width:220px;*/
+ }
+
+/*.registrationFormUserFullName a:hover*/
+  /*{*/
+    /*background-color:yellow;*/
+  /*}*/
+
+.large-field {
+  max-width: 380px !important;
+  /*width: 250px !important;*/
+  /*min-width: 250px;*/
+}
+.aui-dropdown {
+  z-index: 9999;
+}
+
+.aui-confiforms .aui-dropdown li a {
+  cursor: pointer;
+  height: 25px;
+  min-height: 25px;
+  display: block;
+  /*width: 100%;*/
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius:0;
+  color: black;
+  background-color: white;
+}
+.aui-confiforms .aui-dropdown li a:hover {
+  border: 0;
+  background-color: #c0c0c0 !important;
+  /*width: 100% !important;*/
+  /*padding-left: 10px;*/
+  /*padding-right: 10px;*/
+}
+
+.ui-state-hover {
+  border: 0 !important;
+  background-color: #c0c0c0 !important;
+}
+
+/*.ui-state-hover {*/
+  /*border: 0 !important;*/
+  /*background-color: #ffffff !important;*/
+/*}*/
+
+/*.cf-calendar {*/
+/*  display:     inline-block;*/
+/*  width:       26px;*/
+/*  height:      20px;*/
+/*}*/
+
+/*.cf-calendar-time {*/
+/*  display:     inline-block;*/
+/*  width:       26px;*/
+/*  height:      20px;*/
+/*}*/
+
+/*.cf-calendar-clock {*/
+/*  display:     inline-block;*/
+/*  width:       24px;*/
+/*  height:      20px;*/
+/*}*/
+
+.aui-confiforms div.select {
+  padding: 0 !important;
+}
+
+.aui-confiforms div.text {
+  padding: 0 !important;
+}
+
+.select2-container-multi {
+  padding: 0 !important;
+}
+
+.cf_readonly {
+  background-color: var(--ds-background-accent-gray-subtlest, #F4F5F7) !imp=
+ortant;
+}
+
+.cf_validation_error {
+  border-color: #d04437 !important;
+}
+
+.cf_field_validation_error {
+  color: #d04437 !important;
+}
+
+.aui-select2-container.select2-allowclear .select2-choice .select2-search-c=
+hoice-close {
+  display: block;
+  opacity: 0.7;
+  top: 10px;
+  height: 0;
+}
+
+.aui-select2-container.select2-allowclear .select2-choice .select2-search-c=
+hoice-close:hover {
+  opacity: 1;
+}
+
+.cf_select2 {
+  min-width:250px !important;
+  /*width:380px !important;*/
+  /*width:200px;*/
+}
+
+.cf_dynamicmutlilabel {
+  min-width:250px;
+  width:250px;
+}
+
+.cf_textarea {
+  max-width: 380px !important;
+  width: 380px;
+  min-width: 250px;
+}
+
+.cf_select {
+  /*min-width:200px;*/
+  /*width:200px;*/
+  /*max-width:250px;*/
+  /*width:250px;*/
+}
+
+.cf_text {
+  /*min-width:200px;*/
+  /*max-width:250px;*/
+  /*width:250px;*/
+}
+
+.cf_dynamicselect {
+  min-width:250px;
+  max-width:250px;
+  width:250px;
+}
+
+.cf_dbdynamicselect {
+  min-width:250px;
+  max-width:250px;
+  width:250px;
+}
+
+.cf_wsdynamicselect {
+  min-width:250px;
+  max-width:250px;
+  width:250px;
+}
+</style>
+<style type=3D"text/css">
+ form.cf-e2772dad3fcfd87c4dbfce492013f9e2 span[class^=3D'i_holdingrow_'] > =
+label {
+     width:250px; max-width:250px; display: inline-block; vertical-align: t=
+op;
+  } =20
+
+ form.cf-e2772dad3fcfd87c4dbfce492013f9e2 div[class^=3D'i_holdingrow_'] > l=
+abel {
+     width:250px; max-width:250px; display: inline-block; vertical-align: t=
+op;
+  } =20
+</style>
+<form action=3D"https://kb.apps.bcc.kz/ajax/confiforms/success.action" meth=
+od=3D"post" class=3D"aui aui-confiforms cf-e2772dad3fcfd87c4dbfce492013f9e2=
+" id=3D"i_confiform_registration_form" target=3D"_self" enctype=3D"multipar=
+t/form-data" style=3D"margin-top: 0;" autocomplete=3D"on">
+<input id=3D"pageId" name=3D"pageId" type=3D"hidden" value=3D"174299267"> <=
+input id=3D"storagePageId" name=3D"storagePageId" type=3D"hidden" value=3D"=
+174299267"> <input id=3D"confiform_entry_id" name=3D"entryId" type=3D"hidde=
+n" value=3D""> <input name=3D"copiedFromId" type=3D"hidden" value=3D""> <in=
+put id=3D"confiform_form_name" name=3D"registrationFormName" type=3D"hidden=
+" value=3D"perevod"> <input id=3D"confiform_params_hash" name=3D"paramsHash=
+" type=3D"hidden" value=3D"17d46b0e0b3d2e4e5b260272457d168b"> <input id=3D"=
+confiform_params_macroId" name=3D"macro_id_hash" type=3D"hidden" value=3D""=
+> <input id=3D"confiform_printEditable" name=3D"printEditable" type=3D"hidd=
+en" value=3D"false"> <input id=3D"confiform_redirectUrl" name=3D"_redirectU=
+rl" type=3D"hidden" value=3D""> <input id=3D"confiform_skipIfParamIsEmpty" =
+name=3D"_skipIfParamIsEmpty" type=3D"hidden" value=3D"">
+<div class=3D"table-wrap">
+<p><span class=3D"i_holdingrow_p1"><label style=3D"font-weight:bold" id=3D"=
+i_labelfor_p1" for=3D"i_p1">=D0=92=D0=BE=D0=BF=D1=80=D0=BE=D1=81: </label><=
+span id=3D"i_holdingrow_p1"><textarea cf-field=3D"p1" data-type=3D"textarea=
+" id=3D"i_p1" name=3D"p1" rows=3D"4" class=3D"textarea large-field cf_texta=
+rea "></textarea></span></span></p>
+<p><span class=3D"i_holdingrow_p4"><label style=3D"font-weight:bold" id=3D"=
+i_labelfor_p4" for=3D"i_p4">=D0=AD=D0=BB=D0=B5=D0=BA=D1=82=D1=80=D0=BE=D0=
+=BD=D0=BD=D1=8B=D0=B9 =D0=B0=D0=B4=D1=80=D0=B5=D1=81: </label><span id=3D"i=
+_holdingrow_p4"><input cf-field=3D"p4" type=3D"text" id=3D"i_p4" name=3D"p4=
+" class=3D"text large-field cf_text " title=3D"=D0=AD=D0=BB=D0=B5=D0=BA=D1=
+=82=D1=80=D0=BE=D0=BD=D0=BD=D1=8B=D0=B9 =D0=B0=D0=B4=D1=80=D0=B5=D1=81"></s=
+pan></span></p>
+<div style=3D"display: none">
+<span id=3D"i_holdingrow_p2"><textarea cf-field=3D"p2" data-type=3D"textare=
+a" id=3D"i_p2" name=3D"p2" rows=3D"4" class=3D"textarea large-field cf_text=
+area "></textarea></span><span id=3D"i_holdingrow_p3"><textarea data-type=
+=3D"comment-editor" data-editor-mode=3D"legacy" style=3D"max-width:200px !i=
+mportant;width:100%" cf-field=3D"p3" id=3D"i_p3" name=3D"p3" rows=3D"5" cla=
+ss=3D"aui textarea cf_wysiwyg "></textarea></span><span id=3D"i_holdingrow_=
+FieldHTML"><input cf-field=3D"FieldHTML" type=3D"hidden" id=3D"i_FieldHTML"=
+ name=3D"FieldHTML" class=3D"text large-field " title=3D"FieldHTML"></span>=
+<span id=3D"i_holdingrow_changeLog"><input cf-field=3D"changeLog" type=3D"h=
+idden" id=3D"i_changeLog" name=3D"changeLog" class=3D"text large-field " ti=
+tle=3D"changeLog"></span>
+</div>
+</div>
+</form>
+</div><button class=3D"aui-button aui-button-primary cf_perevod " type=3D"b=
+utton" style=3D"margin-left: 0;" title=3D"=D0=97=D0=B0=D0=B4=D0=B0=D1=82=D1=
+=8C =D0=B2=D0=BE=D0=BF=D1=80=D0=BE=D1=81" id=3D"i_confiform_add_new_button_=
+539cf2c98f28a28460f3e005d1f502c1">=D0=97=D0=B0=D0=B4=D0=B0=D1=82=D1=8C =D0=
+=B2=D0=BE=D0=BF=D1=80=D0=BE=D1=81</button>
+</div>
+</div>
+<p><span><br>
+ &nbsp;</span></p>
+<p><br></p>
+<p><br></p>
+</div>
+<div class=3D"columnMacro">
+<h1 id=3D"title--7dccf2adc9e2e347" role=3D"heading" style=3D"color:#000000b=
+3 !important; font-weight:lighter !important; font-size:40px !important; li=
+ne-height:72px !important; text-align:left">=D0=90=D0=B2=D1=82=D0=BE=D0=BA=
+=D1=80=D0=B5=D0=B4=D0=B8=D1=82 =D1=81 =D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=
+=D0=BE=D0=BC</h1>
+<h1 id=3D"title--5f480826a627759c" role=3D"heading" style=3D"color:#000000b=
+3 !important; font-weight:lighter !important; font-size:40px !important; li=
+ne-height:0px !important; text-align:left">=D0=BE=D1=82 =D1=84=D0=B8=D0=B7=
+=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85 =D0=BB=D0=B8=D1=86</h1>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"cell aside" data-type=3D"aside">
+<div class=3D"innerCell">
+<p><br></p>
+<div>
+<style>
+    .innerCell .aura-panel-f93794ce7f1e4886, .sectionMacro .aura-panel-f937=
+94ce7f1e4886 {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-f93794ce7f1e4886 {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-f93794ce7f1e4886 .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-f93794ce7f1e4886 a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-f93794ce7f1e4886 a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-f93794ce7f1e4886 .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-f93794ce7f1e4886 .aura-headline svg {
+            margin-right: 0.5em;
+          }
+
+    .aura-panel-f93794ce7f1e4886 .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-f93794ce7f1e4886" style=3D"border-radius: 4.0px;">
+<div class=3D"aura-header" style=3D"" href=3D"$href" target=3D"$hrefTarget"=
+>
+<div role=3D"heading" aria-level=3D"2" id=3D"aura-panel-f93794ce7f1e4886" c=
+lass=3D"aura-headline" style=3D"color: #152A29 !important;font-weight: norm=
+al;text-align: left;font-size: 18.0px;border-bottom: 1px solid #999;">
+<svg version=3D"1.1" width=3D"18" height=3D"18" viewbox=3D"0 0 640 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"UserTag">
+<path fill=3D"#333" d=3D"M630.6 364.9l-90.3-90.2c-12-12-28.3-18.7-45.3-18.7=
+h-79.3c-17.7 0-32 14.3-32 32v79.2c0 17 6.7 33.2 18.7 45.2l90.3 90.2c12.5 12=
+.5 32.8 12.5 45.3 0l92.5-92.5c12.6-12.5 12.6-32.7.1-45.2zm-182.8-21c-13.3 0=
+-24-10.7-24-24s10.7-24 24-24 24 10.7 24 24c0 13.2-10.7 24-24 24zm-223.8-88c=
+70.7 0 128-57.3 128-128C352 57.3 294.7 0 224 0S96 57.3 96 128c0 70.6 57.3 1=
+27.9 128 127.9zm127.8 111.2V294c-12.2-3.6-24.9-6.2-38.2-6.2h-16.7c-22.2 10.=
+2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 287.9 0 348.1 0 422.3v41.6c0=
+ 26.5 21.5 48 48 48h352c15.5 0 29.1-7.5 37.9-18.9l-58-58c-18.1-18.1-28.1-42=
+.2-28.1-67.9z">
+</path>
+</svg><span>=D0=BF=D1=80=D0=BE=D0=B4=D1=83=D0=BA=D1=82-=D0=BE=D1=83=D0=BD=
+=D0=B5=D1=80</span>
+</div>
+</div>
+<div class=3D"aura-body" style=3D"color: #333 !important;font-weight: norma=
+l;text-align: left;font-size: 14.0px;">
+<ul>
+<li><p>=D0=A1=D1=83=D0=BB=D0=B5=D0=B9=D0=BC=D0=B0=D0=BD=D0=BE=D0=B2 =D0=A4=
+=D0=B0=D1=80=D1=83=D1=85 <a class=3D"external-link" href=3D"mailto:farukh.s=
+uleimanov@bcc.kz" rel=3D"nofollow">farukh.suleimanov@bcc.kz</a></p></li>
+<li><span><span style=3D"color: rgb(51,51,51);">=D0=9D=D1=8B=D0=B3=D0=B8=D0=
+=BC=D0=B5=D1=82=D0=BE=D0=B2=D0=B0 =D0=97=D0=B0=D1=80=D0=B8=D0=BD=D0=B0 =D0=
+=A1=D0=B5=D1=80=D0=B8=D0=BA=D0=BE=D0=B2=D0=BD=D0=B0</span>&nbsp;<a class=3D=
+"external-link" href=3D"mailto:zarina.nygimetova@bcc.kz" rel=3D"nofollow">z=
+arina.nygimetova@bcc.kz</a></span></li>
+<li>=D0=91=D0=BE=D1=82=D0=B0=D0=BD =D0=A1=D0=B0=D0=BD=D0=B6=D0=B0=D1=80 =D0=
+=90=D2=9B=D0=B0=D0=BD=D2=B1=D0=BB=D1=8B <a class=3D"external-link" href=3D"=
+mailto:sanzhar.botan@bcc.kz" rel=3D"nofollow">sanzhar.botan@bcc.kz</a><span=
+>&nbsp;</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"columnLayout single" data-layout=3D"single">
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<div id=3D"mainpageproduct" class=3D"contentf aui-tabs horizontal-tabs">
+<ul class=3D"tabs-menu">
+</ul>
+<div id=3D"=D0=90=D0=B2=D1=82=D0=BE=D1=81=D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=
+=B3=D0=BE=D0=BC=D0=BE=D1=82=D0=A4=D0=9B" data-pane-title=3D"=D0=90=D0=B2=D1=
+=82=D0=BE =D1=81 =D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC =D0=BE=D1=
+=82 =D0=A4=D0=9B" class=3D"cfm tabs-pane ">
+<p><style>
+ .aura-tab-container-8fda81ce-c7dc-4463-ba9e-b58a88c1c0e4.aura-tab-containe=
+r {
+     box-sizing: border-box;
+     display: flex;
+      flex-direction: row;  }
+
+ .aura-tab-container-8fda81ce-c7dc-4463-ba9e-b58a88c1c0e4 > .aura-tab-nav-w=
+rapper {
+     box-sizing: border-box;
+      }
+
+ .aura-tab-container-8fda81ce-c7dc-4463-ba9e-b58a88c1c0e4 > .aura-tab-nav-w=
+rapper > .aura-tab-nav {
+     box-sizing: border-box;
+     display: flex;
+     justify-content: space-between;
+     padding: 0;
+     margin: 0;
+
+             width: calc(50.0px * 4);
+        flex-direction: column;
+                    position: sticky;
+            top: 0px;
+              }
+
+ .aura-tab-container-8fda81ce-c7dc-4463-ba9e-b58a88c1c0e4 > .aura-tab-nav-w=
+rapper > .aura-tab-nav > .aura-tab-item {
+     appearance: none;
+     -moz-appearance: none;
+     -webkit-appearance: none;
+     box-sizing: border-box;
+     border: none;
+     display: flex;
+     gap: 0.5rem;
+     align-items: center;
+     padding-left: 1rem;
+     padding-right: 1rem;
+     height: 45.0px;
+     overflow: hidden;
+     white-space: nowrap;
+     cursor: pointer;
+     transition: all 0.3s;
+          justify-content: flex-end;
+      }
+
+
+ .aura-tab-container-8fda81ce-c7dc-4463-ba9e-b58a88c1c0e4 .aura-tab-item * =
+ {
+     overflow: hidden;
+     text-overflow: ellipsis;
+     pointer-events: none;
+ }
+
+ .aura-tab-container-8fda81ce-c7dc-4463-ba9e-b58a88c1c0e4 > .aura-tab-nav-w=
+rapper > .aura-tab-nav > .aura-tab-item[aria-selected=3Dtrue] svg,
+ .aura-tab-container-8fda81ce-c7dc-4463-ba9e-b58a88c1c0e4 > .aura-tab-nav-w=
+rapper > .aura-tab-nav > .aura-tab-item[aria-selected=3Dtrue] svg path {
+     fill: #2f9e74;width: 14.0px;
+ }
+
+ .aura-tab-container-8fda81ce-c7dc-4463-ba9e-b58a88c1c0e4 > .aura-tab-nav-w=
+rapper > .aura-tab-nav > .aura-tab-item[aria-selected=3Dfalse] svg,
+ .aura-tab-container-8fda81ce-c7dc-4463-ba9e-b58a88c1c0e4 > .aura-tab-nav-w=
+rapper > .aura-tab-nav > .aura-tab-item[aria-selected=3Dfalse] svg path {
+     fill: #5e6c84;width: 14.0px;
+ }
+
+ .aura-tab-container-8fda81ce-c7dc-4463-ba9e-b58a88c1c0e4 > .aura-tab-nav-w=
+rapper > .aura-tab-nav > .aura-tab-item[aria-selected=3Dfalse]:hover svg,
+ .aura-tab-container-8fda81ce-c7dc-4463-ba9e-b58a88c1c0e4 > .aura-tab-nav-w=
+rapper > .aura-tab-nav > .aura-tab-item[aria-selected=3Dfalse]:hover svg pa=
+th {
+     fill: #5e6c84;width: 16.0px;
+ }
+
+ .aura-tab-container-8fda81ce-c7dc-4463-ba9e-b58a88c1c0e4 > .aura-tab-nav-w=
+rapper > .aura-tab-nav > .aura-tab-item[aria-selected=3Dtrue] {
+     color: #2f9e74 !important;font-weight: bold;text-align: left;font-size=
+: 14.0px;border-right: 2px solid #2f9e74;background-color: #ffffff;
+ }
+
+ .aura-tab-container-8fda81ce-c7dc-4463-ba9e-b58a88c1c0e4 > .aura-tab-nav-w=
+rapper > .aura-tab-nav > .aura-tab-item[aria-selected=3Dfalse] {
+     color: #5e6c84 !important;font-weight: lighter;text-align: left;font-s=
+ize: 14.0px;border-right: 2px solid #f4f5f7;background-color: #ffffff;
+     cursor: pointer;
+ }
+
+ .aura-tab-container-8fda81ce-c7dc-4463-ba9e-b58a88c1c0e4 > .aura-tab-nav-w=
+rapper > .aura-tab-nav > .aura-tab-item[aria-selected=3Dfalse]:hover {
+     color: #5e6c84 !important;font-weight: normal;text-align: left;font-si=
+ze: 16.0px;background-color: #ffffff;
+ }
+
+ .aura-tab-container-8fda81ce-c7dc-4463-ba9e-b58a88c1c0e4 > .aura-tab-conte=
+nt {
+     background-color: #fff;padding: 5.0px;
+     box-sizing: border-box;
+             flex: 1;
+           }
+
+
+ </style></p>
+<div id=3D"aura-tab-container-8fda81ce-c7dc-4463-ba9e-b58a88c1c0e4" class=
+=3D"aura-tab-container-8fda81ce-c7dc-4463-ba9e-b58a88c1c0e4 aura-tab-contai=
+ner">
+<div class=3D"aura-tab-nav-wrapper">
+<div class=3D"aura-tab-nav" role=3D"tablist">
+<button role=3D"tab" class=3D"aura-tab-item" aria-selected=3D"true" aria-co=
+ntrols=3D"tabpanel-0d37b73e-3086-40eb-a991-b49c40e21de2" id=3D"tab-0d37b73e=
+-3086-40eb-a991-b49c40e21de2">
+<div class=3D"aura-tab-item-label">
+=D0=BE=D0=B1=D1=89=D0=B8=D0=B5 =D1=83=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F
+</div></button> <button role=3D"tab" class=3D"aura-tab-item" aria-selected=
+=3D"false" aria-controls=3D"tabpanel-12188068-a002-448d-8d5a-f872ac17a8ab" =
+id=3D"tab-12188068-a002-448d-8d5a-f872ac17a8ab">
+<div class=3D"aura-tab-item-label">
+=D1=81=D1=82=D0=B0=D0=B2=D0=BA=D0=B8
+</div></button>
+</div>
+</div>
+<div class=3D"aura-tab-content">
+<div hidden aria-labelledby=3D"tab-0d37b73e-3086-40eb-a991-b49c40e21de2" da=
+ta-aura-tab-id=3D"0d37b73e-3086-40eb-a991-b49c40e21de2" role=3D"tabpanel" i=
+d=3D"tabpanel-0d37b73e-3086-40eb-a991-b49c40e21de2" data-aura-tab-icon=3D""=
+ data-aura-tab-title=3D"=D0=BE=D0=B1=D1=89=D0=B8=D0=B5 =D1=83=D1=81=D0=BB=
+=D0=BE=D0=B2=D0=B8=D1=8F">
+<div id=3D"addtab" class=3D"contentf aui-tabs horizontal-tabs">
+<ul class=3D"tabs-menu">
+</ul>
+<div id=3D"=D0=BE=D0=B1=D1=89=D0=B8=D0=B5=D1=83=D1=81=D0=BB=D0=BE=D0=B2=D0=
+=B8=D1=8F" data-pane-title=3D"=D0=BE=D0=B1=D1=89=D0=B8=D0=B5 =D1=83=D1=81=
+=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F" class=3D"cfm tabs-pane ">
+<p></p>
+<div style=3D"padding:15px; background-repeat:no-repeat; background-size:co=
+ver; flex-direction:column; display:flex; width:100%; min-height:0px; justi=
+fy-content:flex-start; background-image:; background-position:center center=
+; box-sizing:border-box" aria-role=3D"banner" data-background-image=3D"">
+<div>
+<br>
+<table style=3D"width: 100%;  border-collapse: collapse; box-shadow: 0px 0p=
+x 12px rgba(0, 0, 0, 0.1); border-radius: 10px; overflow: hidden; margin: 0=
+; padding: 0;" class=3D"cfm-html-table">
+<tbody>
+<tr></tr>
+<tr>
+<td style=3D"padding: 12px; text-align: left; background: linear-gradient(t=
+o right, #E3F2FD, #BBDEFB, #90CAF9); border-bottom: 1px solid #eee; font-si=
+ze: 16px;"><h4 class=3D"aura-card-title" style=3D"text-align: left;" id=3D"=
+id-=D0=90=D0=B2=D1=82=D0=BE=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D1=81=D0=BF=
+=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC=D0=BE=D1=82=D1=84=D0=B8=D0=B7=D0=
+=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85=D0=BB=D0=B8=D1=86-=D0=A6=D0=B5=D0=
+=BB=D1=8C=D1=84=D0=B8=D0=BD=D0=B0=D0=BD=D1=81=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=
+=D0=BD=D0=B8=D1=8F"><span style=3D"color: rgb(51,51,51);">=D0=A6=D0=B5=D0=
+=BB=D1=8C =D1=84=D0=B8=D0=BD=D0=B0=D0=BD=D1=81=D0=B8=D1=80=D0=BE=D0=B2=D0=
+=B0=D0=BD=D0=B8=D1=8F</span></h4></td>
+<td style=3D"padding: 12px; text-align: left; border-bottom: 1px solid #eee=
+; font-size: 14px;"><p><span style=3D"color: rgb(51,51,51);">=D0=9F=D1=80=
+=D0=B8=D0=BE=D0=B1=D1=80=D0=B5=D1=82=D0=B5=D0=BD=D0=B8=D0=B5&nbsp;=D0=B0=D0=
+=B2=D1=82=D0=BE=D1=82=D1=80=D0=B0=D0=BD=D1=81=D0=BF=D0=BE=D1=80=D1=82=D0=B0=
+ =D1=81 =D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC =D0=BE=D1=82 =D0=
+=A4=D0=9B</span></p></td>
+</tr>
+<tr>
+<td style=3D"padding: 12px; text-align: left; background: linear-gradient(t=
+o right, #E3F2FD, #BBDEFB, #90CAF9); border-bottom: 1px solid #eee; font-si=
+ze: 16px;"><h4 class=3D"aura-card-title" style=3D"text-align: left;" id=3D"=
+id-=D0=90=D0=B2=D1=82=D0=BE=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D1=81=D0=BF=
+=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC=D0=BE=D1=82=D1=84=D0=B8=D0=B7=D0=
+=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85=D0=BB=D0=B8=D1=86-=D0=9C=D0=B0=D0=
+=BA=D1=81=D0=B8=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9=D1=81=D1=80=D0=BE=
+=D0=BA"><span style=3D"color: rgb(51,51,51);">=D0=9C=D0=B0=D0=BA=D1=81=D0=
+=B8=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D1=81=D1=80=D0=BE=D0=BA</spa=
+n></h4></td>
+<td style=3D"padding: 12px; text-align: left; border-bottom: 1px solid #eee=
+; font-size: 14px;"><p><span style=3D"color: rgb(51,51,51);">=D0=94=D0=BE 8=
+4 =D0=BC=D0=B5=D1=81=D1=8F=D1=86=D0=B5=D0=B2&nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp;&nbsp;</span></p></td>
+</tr>
+<tr>
+<td style=3D"padding: 12px; text-align: left; background: linear-gradient(t=
+o right, #E3F2FD, #BBDEFB, #90CAF9); border-bottom: 1px solid #eee; font-si=
+ze: 16px;"><h4 class=3D"aura-card-title" style=3D"text-align: left;" id=3D"=
+id-=D0=90=D0=B2=D1=82=D0=BE=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D1=81=D0=BF=
+=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC=D0=BE=D1=82=D1=84=D0=B8=D0=B7=D0=
+=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85=D0=BB=D0=B8=D1=86-=D0=9C=D0=B0=D0=
+=BA=D1=81=D0=B8=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D0=B0=D1=8F=D1=81=D1=83=D0=BC=
+=D0=BC=D0=B0=D0=B7=D0=B0=D0=B9=D0=BC=D0=B0"><span style=3D"color: rgb(51,51=
+,51);">=D0=9C=D0=B0=D0=BA=D1=81=D0=B8=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D0=B0=
+=D1=8F =D1=81=D1=83=D0=BC=D0=BC=D0=B0 =D0=B7=D0=B0=D0=B9=D0=BC=D0=B0</span>=
+</h4></td>
+<td style=3D"padding: 12px; text-align: left; border-bottom: 1px solid #eee=
+; font-size: 14px;"><p><span style=3D"color: rgb(51,51,51);">15 000 000 =D1=
+=82=D0=B5=D0=BD=D0=B3=D0=B5</span></p></td>
+</tr>
+<tr>
+<td style=3D"padding: 12px; text-align: left; background: linear-gradient(t=
+o right, #E3F2FD, #BBDEFB, #90CAF9); border-bottom: 1px solid #eee; font-si=
+ze: 16px;"><h4 class=3D"aura-card-title" id=3D"id-=D0=90=D0=B2=D1=82=D0=BE=
+=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D1=81=D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=
+=B3=D0=BE=D0=BC=D0=BE=D1=82=D1=84=D0=B8=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=
+=D0=B8=D1=85=D0=BB=D0=B8=D1=86-=D0=9F=D0=B5=D1=80=D0=B2=D0=BE=D0=BD=D0=B0=
+=D1=87=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9=D0=B2=D0=B7=D0=BD=D0=BE=D1=81"><=
+span style=3D"color: rgb(51,51,51);">=D0=9F=D0=B5=D1=80=D0=B2=D0=BE=D0=BD=
+=D0=B0=D1=87=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D0=B2=D0=B7=D0=BD=D0=BE=
+=D1=81</span></h4></td>
+<td style=3D"padding: 12px; text-align: left; border-bottom: 1px solid #eee=
+; font-size: 14px;"><p><span style=3D"color: rgb(51,51,51);">=D0=9E=D1=82 3=
+0% =D0=BE=D1=82 =D1=81=D1=82=D0=BE=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=B8 =D0=
+=B0=D0=B2=D1=82=D0=BE=D0=BC=D0=BE=D0=B1=D0=B8=D0=BB=D1=8F</span></p></td>
+</tr>
+<tr>
+<td style=3D"padding: 12px; text-align: left; background: linear-gradient(t=
+o right, #E3F2FD, #BBDEFB, #90CAF9); border-bottom: 1px solid #eee; font-si=
+ze: 16px;"><h4 class=3D"aura-card-title" id=3D"id-=D0=90=D0=B2=D1=82=D0=BE=
+=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D1=81=D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=
+=B3=D0=BE=D0=BC=D0=BE=D1=82=D1=84=D0=B8=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=
+=D0=B8=D1=85=D0=BB=D0=B8=D1=86-=D0=9C=D0=B5=D1=82=D0=BE=D0=B4=D0=BF=D0=BE=
+=D0=B3=D0=B0=D1=88=D0=B5=D0=BD=D0=B8=D1=8F"><span style=3D"color: rgb(51,51=
+,51);">=D0=9C=D0=B5=D1=82=D0=BE=D0=B4 =D0=BF=D0=BE=D0=B3=D0=B0=D1=88=D0=B5=
+=D0=BD=D0=B8=D1=8F</span></h4></td>
+<td style=3D"padding: 12px; text-align: left; border-bottom: 1px solid #eee=
+; font-size: 14px;"><p class=3D"aura-card-body" style=3D"text-align: left;"=
+><span style=3D"color: rgb(51,51,51);">=D0=90=D0=BD=D0=BD=D1=83=D0=B8=D1=82=
+=D0=B5=D1=82=D0=BD=D1=8B=D0=B9 =D0=BC=D0=B5=D1=82=D0=BE=D0=B4 =D0=B8=D0=BB=
+=D0=B8 =D0=B4=D0=B8=D1=84=D1=84=D0=B5=D1=80=D0=B5=D0=BD=D1=86=D0=B8=D1=80=
+=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D0=B5 =D0=BF=D0=BB=D0=B0=D1=82=D0=B5=
+=D0=B6=D0=B8</span></p></td>
+</tr>
+<tr>
+<td style=3D"padding: 12px; text-align: left; background: linear-gradient(t=
+o right, #E3F2FD, #BBDEFB, #90CAF9); border-bottom: 1px solid #eee; font-si=
+ze: 16px;"><h4 class=3D"aura-card-title" id=3D"id-=D0=90=D0=B2=D1=82=D0=BE=
+=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D1=81=D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=
+=B3=D0=BE=D0=BC=D0=BE=D1=82=D1=84=D0=B8=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=
+=D0=B8=D1=85=D0=BB=D0=B8=D1=86-=D0=9E=D0=B1=D0=B5=D1=81=D0=BF=D0=B5=D1=87=
+=D0=B5=D0=BD=D0=B8=D0=B5"><span style=3D"color: rgb(51,51,51);">=D0=9E=D0=
+=B1=D0=B5=D1=81=D0=BF=D0=B5=D1=87=D0=B5=D0=BD=D0=B8=D0=B5</span></h4></td>
+<td style=3D"padding: 12px; text-align: left; border-bottom: 1px solid #eee=
+; font-size: 14px;"><p class=3D"aura-card-body" style=3D"text-align: left;"=
+><span style=3D"color: rgb(51,51,51);">=D0=A2=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE=
+ =D0=BF=D1=80=D0=B8=D0=BE=D0=B1=D1=80=D0=B5=D1=82=D0=B0=D0=B5=D0=BC=D1=8B=
+=D0=B9 =D0=B0=D0=B2=D1=82=D0=BE=D1=82=D1=80=D0=B0=D0=BD=D1=81=D0=BF=D0=BE=
+=D1=80=D1=82</span></p></td>
+</tr>
+<tr>
+<td style=3D"padding: 12px; text-align: left; background: linear-gradient(t=
+o right, #E3F2FD, #BBDEFB, #90CAF9);border-bottom: 1px solid #eee; font-siz=
+e: 16px;"><h4 class=3D"aura-card-title" style=3D"text-align: left;" id=3D"i=
+d-=D0=90=D0=B2=D1=82=D0=BE=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D1=81=D0=BF=
+=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC=D0=BE=D1=82=D1=84=D0=B8=D0=B7=D0=
+=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85=D0=BB=D0=B8=D1=86-=D0=9A=D0=90=D0=
+=A1=D0=9A=D0=9E"><span style=3D"color: rgb(51,51,51);">=D0=9A=D0=90=D0=A1=
+=D0=9A=D0=9E</span></h4></td>
+<td style=3D"padding: 12px; text-align: left; border-bottom: 1px solid #eee=
+; font-size: 14px;"><p><span style=3D"color: rgb(51,51,51);">=D0=92 =D0=B7=
+=D0=B0=D0=B2=D0=B8=D1=81=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=B8 =D0=BE=D1=82 =
+=D1=80=D0=B5=D1=88=D0=B5=D0=BD=D0=B8=D1=8F =D1=81=D0=BA=D0=BE=D1=80=D0=B8=
+=D0=BD=D0=B3=D0=B0</span></p><p><span style=3D"color: rgb(51,51,51);">=D0=
+=9A=D0=90=D0=A1=D0=9A=D0=9E =D0=A1=D1=82=D0=B0=D0=BD=D0=B4=D0=B0=D1=80=D1=
+=82 (=D0=B3=D0=B8=D0=B1=D0=B5=D0=BB=D1=8C =D0=B0=D0=B2=D1=82=D0=BE + =D1=83=
+=D1=89=D0=B5=D1=80=D0=B1) =E2=80=93 2% =D0=B2 =D0=B3=D0=BE=D0=B4 =D0=BE=D1=
+=82 =D1=81=D1=83=D0=BC=D0=BC=D1=8B =D0=B7=D0=B0=D0=B9=D0=BC=D0=B0</span></p=
+></td>
+</tr>
+<tr>
+<td style=3D"padding: 12px; text-align: left; background: linear-gradient(t=
+o right, #E3F2FD, #BBDEFB, #90CAF9);border-bottom: 1px solid #eee; font-siz=
+e: 16px;"><h4 class=3D"aura-card-title" style=3D"text-align: left;" id=3D"i=
+d-=D0=90=D0=B2=D1=82=D0=BE=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D1=81=D0=BF=
+=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC=D0=BE=D1=82=D1=84=D0=B8=D0=B7=D0=
+=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85=D0=BB=D0=B8=D1=86-=D0=94=D0=BE=D1=
+=81=D1=80=D0=BE=D1=87=D0=BD=D0=BE=D0=B5=D0=BF=D0=BE=D0=B3=D0=B0=D1=88=D0=B5=
+=D0=BD=D0=B8=D0=B5"><span style=3D"color: rgb(51,51,51);">=D0=94=D0=BE=D1=
+=81=D1=80=D0=BE=D1=87=D0=BD=D0=BE=D0=B5 =D0=BF=D0=BE=D0=B3=D0=B0=D1=88=D0=
+=B5=D0=BD=D0=B8=D0=B5</span></h4></td>
+<td style=3D"padding: 12px; text-align: left; border-bottom: 1px solid #eee=
+; font-size: 14px;"><p><span style=3D"color: rgb(51,51,51);">=D0=97=D0=B0 =
+=D1=87=D0=B0=D1=81=D1=82=D0=B8=D1=87=D0=BD=D0=BE=D0=B5 =D0=B8=D0=BB=D0=B8 =
+=D0=BF=D0=BE=D0=BB=D0=BD=D0=BE=D0=B5 =D0=B4=D0=BE=D1=81=D1=80=D0=BE=D1=87=
+=D0=BD=D0=BE=D0=B5 =D0=BF=D0=BE=D0=B3=D0=B0=D1=88=D0=B5=D0=BD=D0=B8=D0=B5 =
+=D0=B7=D0=B0=D0=B9=D0=BC=D0=B0 =D0=BA=D0=BE=D0=BC=D0=B8=D1=81=D1=81=D0=B8=
+=D1=8F =D0=BD=D0=B5 =D0=B2=D0=B7=D0=B8=D0=BC=D0=B0=D0=B5=D1=82=D1=81=D1=8F<=
+br></span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div>
+<div id=3D"=D1=83=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F=D0=BA=D1=80=D0=B5=D0=
+=B4=D0=B8=D1=82=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F" data-pane-title=3D"=D1=
+=83=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F =D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=
+=82=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F" class=3D"cfm tabs-pane ">
+<p></p>
+<div style=3D"padding:10px; background-repeat:no-repeat; background-size:co=
+ver; flex-direction:column; display:flex; width:100%; min-height:0px; justi=
+fy-content:flex-start; background-image:; background-position:center center=
+; box-sizing:border-box" aria-role=3D"banner" data-background-image=3D"">
+<div>
+<table style=3D"width: 100%;  border-collapse: collapse; box-shadow: 0px 4p=
+x 12px rgba(0, 0, 0, 0.1); border-radius: 12px; overflow: hidden; border: 1=
+px solid #CCCCCC;margin: 0; padding: 0;" class=3D"cfm-html-table">
+<tbody>
+<tr>
+<th style=3D"background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);=
+ color: white; padding: 15px 20px; text-align: center; font-size: 16px; fon=
+t-weight: bold; letter-spacing: 1px; border-bottom: 2px solid #CCCCCC;"><h4=
+ id=3D"id-=D0=90=D0=B2=D1=82=D0=BE=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D1=
+=81=D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC=D0=BE=D1=82=D1=84=D0=B8=
+=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85=D0=BB=D0=B8=D1=86-=D0=9A=
+=D0=B0=D1=82=D0=B5=D0=B3=D0=BE=D1=80=D0=B8=D1=8F"><span style=3D"color: rgb=
+(0,0,0);">=D0=9A=D0=B0=D1=82=D0=B5=D0=B3=D0=BE=D1=80=D0=B8=D1=8F</span></h4=
+></th>
+<th colspan=3D"1" style=3D"background: linear-gradient(135deg, #89f7fe 0%, =
+#66a6ff 100%); color: white; padding: 15px 20px; text-align: center; font-s=
+ize: 16px; font-weight: bold; letter-spacing: 1px; border-bottom: 2px solid=
+ #CCCCCC;"><h4 id=3D"id-=D0=90=D0=B2=D1=82=D0=BE=D0=BA=D1=80=D0=B5=D0=B4=D0=
+=B8=D1=82=D1=81=D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC=D0=BE=D1=82=
+=D1=84=D0=B8=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85=D0=BB=D0=B8=D1=
+=86-=D0=9A=D0=B0=D1=82=D0=B5=D0=B3=D0=BE=D1=80=D0=B8=D1=8F=E2=84=961">=D0=
+=9A=D0=B0=D1=82=D0=B5=D0=B3=D0=BE=D1=80=D0=B8=D1=8F =E2=84=961</h4></th>
+<th colspan=3D"2" style=3D"background: linear-gradient(135deg, #89f7fe 0%, =
+#66a6ff 100%); color: white; padding: 15px 20px; text-align: center; font-s=
+ize: 16px; font-weight: bold; letter-spacing: 1px; border-bottom: 2px solid=
+ #CCCCCC;"><h4 id=3D"id-=D0=90=D0=B2=D1=82=D0=BE=D0=BA=D1=80=D0=B5=D0=B4=D0=
+=B8=D1=82=D1=81=D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC=D0=BE=D1=82=
+=D1=84=D0=B8=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85=D0=BB=D0=B8=D1=
+=86-=D0=9A=D0=B0=D1=82=D0=B5=D0=B3=D0=BE=D1=80=D0=B8=D1=8F=E2=84=962">=D0=
+=9A=D0=B0=D1=82=D0=B5=D0=B3=D0=BE=D1=80=D0=B8=D1=8F =E2=84=962</h4></th>
+<th colspan=3D"2" style=3D"background: linear-gradient(135deg, #89f7fe 0%, =
+#66a6ff 100%); color: white; padding: 15px 20px; text-align: center; font-s=
+ize: 16px; font-weight: bold; letter-spacing: 1px; border-bottom: 2px solid=
+ #CCCCCC;"><h4 id=3D"id-=D0=90=D0=B2=D1=82=D0=BE=D0=BA=D1=80=D0=B5=D0=B4=D0=
+=B8=D1=82=D1=81=D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC=D0=BE=D1=82=
+=D1=84=D0=B8=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85=D0=BB=D0=B8=D1=
+=86-=D0=9A=D0=B0=D1=82=D0=B5=D0=B3=D0=BE=D1=80=D0=B8=D1=8F=E2=84=963">=D0=
+=9A=D0=B0=D1=82=D0=B5=D0=B3=D0=BE=D1=80=D0=B8=D1=8F =E2=84=963</h4></th>
+</tr>
+<tr style=3D"background-color: #f9f9f9;">
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p style=3D"text-align: left;"><strong>=D0=A1=D1=82=D1=
+=80=D0=B0=D0=BD=D0=B0 =D0=BF=D1=80=D0=B8=D0=BD=D0=B0=D0=B4=D0=BB=D0=B5=D0=
+=B6=D0=BD=D0=BE=D1=81=D1=82=D1=8C =D0=B1=D1=80=D0=B5=D0=BD=D0=B4=D0=B0/=D0=
+=9C=D0=B0=D1=80=D0=BA=D0=B0 =D0=B0=D0=B2=D1=82=D0=BE</strong></p></td>
+<td colspan=3D"1" style=3D"padding: 10px; border-left: 1px solid #CCCCCC; b=
+order-right: 1px solid #CCCCCC;"><p><span style=3D"color: rgb(23,43,77);">=
+=D0=9A=D0=B8=D1=82=D0=B0=D0=B9</span></p></td>
+<td colspan=3D"2" style=3D"padding: 10px; border-left: 1px solid #CCCCCC; b=
+order-right: 1px solid #CCCCCC;"><p style=3D"text-align: left;">=D0=A1=D0=
+=A8=D0=90,</p><p style=3D"text-align: left;">CHEVROLET (=D0=BA=D1=80=D0=BE=
+=D0=BC=D0=B5<span>&nbsp;</span><span>DAMAS, NEXIA, NIVA)</span></p></td>
+<td colspan=3D"2" style=3D"padding: 10px; border-left: 1px solid #CCCCCC; b=
+order-right: 1px solid #CCCCCC;"><p><span style=3D"color: rgb(23,43,77);">=
+=D0=AF=D0=BF=D0=BE=D0=BD=D0=B8=D1=8F, =D0=95=D0=B2=D1=80=D0=BE=D0=BF=D0=B0,=
+<span>&nbsp;</span></span>=D0=9A=D0=BE=D1=80=D0=B5=D1=8F</p></td>
+</tr>
+<tr>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p><strong><span style=3D"color: rgb(23,43,77);">=D0=A3=
+=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F</span></strong></p></td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p style=3D"text-align: left;">=D0=A1&nbsp;=D0=BF=D0=BE=
+=D0=B4=D1=82=D0=B2=D0=B5=D1=80=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D0=B5=D0=BC =
+=D0=B4=D0=BE=D1=85=D0=BE=D0=B4=D0=B0</p></td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p style=3D"text-align: left;">=D0=A1 =D0=BF=D0=BE=D0=B4=
+=D1=82=D0=B2=D0=B5=D1=80=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D0=B5=D0=BC =D0=B4=
+=D0=BE=D1=85=D0=BE=D0=B4=D0=B0</p></td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p style=3D"text-align: left;">=D0=91=D0=B5=D0=B7 =D0=BF=
+=D0=BE=D0=B4=D1=82=D0=B2=D0=B5=D1=80=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F =
+=D0=B4=D0=BE=D1=85=D0=BE=D0=B4=D0=B0</p></td>
+<td colspan=3D"2" style=3D"padding: 10px; border-left: 1px solid #CCCCCC; b=
+order-right: 1px solid #CCCCCC;"><p>=D0=A1 =D0=BF=D0=BE=D0=B4=D1=82=D0=B2=
+=D0=B5=D1=80=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D0=B5=D0=BC =D0=B4=D0=BE=D1=85=
+=D0=BE=D0=B4=D0=B0</p></td>
+</tr>
+<tr style=3D"background-color: #F9F9F9;">
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p style=3D"text-align: left;"><strong>=D0=9C=D0=B0=D0=
+=BA=D1=81. =D1=81=D1=80=D0=BE=D0=BA&nbsp;=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=
+=82=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F, =D0=BC=D0=B5=D1=81</strong></p></t=
+d>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p>36</p></td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p><span style=3D"color: rgb(23,43,77);">84</span></p></=
+td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p><span style=3D"color: rgb(23,43,77);">84</span></p></=
+td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p>84</p></td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p>60</p></td>
+</tr>
+<tr>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p><strong><span style=3D"color: rgb(23,43,77);">=D0=9C=
+=D0=B0=D0=BA=D1=81. =D1=81=D1=83=D0=BC=D0=BC=D0=B0 =D0=B7=D0=B0=D0=B9=D0=BC=
+=D0=B0, =D1=82=D0=B3.</span></strong></p></td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p><span style=3D"color: rgb(23,43,77);">&nbsp; 15 000 0=
+00</span></p></td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p><span style=3D"color: rgb(23,43,77);">&nbsp; 15 000 0=
+00</span></p></td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p><span>10 000 000</span></p></td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p><span style=3D"color: rgb(23,43,77);">15 000 000</spa=
+n></p></td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p><span style=3D"color: rgb(23,43,77);">&nbsp;15 000 00=
+0</span></p></td>
+</tr>
+<tr style=3D"background-color: #F9F9F9;">
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p><strong style=3D"text-align: left;">=D0=A1=D1=80=D0=
+=BE=D0=BA =D1=8D=D0=BA=D1=81=D0=BF=D0=BB=D1=83=D0=B0=D1=82=D0=B0=D1=86=D0=
+=B8=D0=B8 =D0=BD=D0=B0 =D0=BC=D0=BE=D0=BC=D0=B5=D0=BD=D1=82 =D0=BF=D0=BE=D0=
+=B4=D0=B0=D1=87=D0=B8 =D0=B7=D0=B0=D1=8F=D0=B2=D0=BA=D0=B8</strong></p></td=
+>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p>3 =D0=B3=D0=BE=D0=B4=D0=B0</p></td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p><span style=3D"color: rgb(23,43,77);">10 =D0=BB=D0=B5=
+=D1=82</span></p></td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p><span style=3D"color: rgb(23,43,77);">10 =D0=BB=D0=B5=
+=D1=82</span></p></td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p>10 =D0=BB=D0=B5=D1=82</p></td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p>13 =D0=BB=D0=B5=D1=82</p></td>
+</tr>
+<tr style=3D"background-color: #F9F9F9;">
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p style=3D"text-align: left;"><strong>=D0=9C=D0=B8=D0=
+=BD.&nbsp;=D0=BF=D0=B5=D1=80=D0=B2=D0=BE=D0=BD=D0=B0=D1=87=D0=B0=D0=BB=D1=
+=8C=D0=BD=D1=8B=D0=B9 =D0=B2=D0=B7=D0=BD=D0=BE=D1=81</strong></p></td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p>30%</p></td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p><span style=3D"color: rgb(23,43,77);">30%</span></p><=
+/td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p><span style=3D"color: rgb(23,43,77);">30%</span></p><=
+/td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p>30%</p></td>
+<td style=3D"padding: 10px; border-left: 1px solid #CCCCCC; border-right: 1=
+px solid #CCCCCC;"><p>30%</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p></p>
+</div>
+<div id=3D"=D1=82=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F=D0=
+=BA=D0=B7=D0=B0=D0=B5=D0=BC=D1=89=D0=B8=D0=BA=D0=B0=D0=BC" data-pane-title=
+=3D"=D1=82=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=BA =D0=
+=B7=D0=B0=D0=B5=D0=BC=D1=89=D0=B8=D0=BA=D0=B0=D0=BC" class=3D"cfm tabs-pane=
+ ">
+<p></p>
+<div>
+<style>
+    .innerCell .aura-panel-a85cbbac0ed8f0a1, .sectionMacro .aura-panel-a85c=
+bbac0ed8f0a1 {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-a85cbbac0ed8f0a1 {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-a85cbbac0ed8f0a1 .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-a85cbbac0ed8f0a1 a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-a85cbbac0ed8f0a1 a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-a85cbbac0ed8f0a1 .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-a85cbbac0ed8f0a1 .aura-headline svg {
+            margin-right: 0.5em;
+          }
+
+    .aura-panel-a85cbbac0ed8f0a1 .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-a85cbbac0ed8f0a1" style=3D"box-shadow: 0px 1px 6px=
+ 0px rgba(0, 0, 0, 0.2), 0px 12px 4px -10px rgba(0, 0, 0, 0.4);border-radiu=
+s: 4.0px;">
+<div class=3D"aura-header" style=3D"" href=3D"$href" target=3D"$hrefTarget"=
+>
+<div role=3D"heading" aria-level=3D"2" id=3D"aura-panel-a85cbbac0ed8f0a1" c=
+lass=3D"aura-headline" style=3D"color: #152A29 !important;font-weight: norm=
+al;text-align: left;font-size: 14.0px;border-bottom: 1px solid #999;">
+<svg version=3D"1.1" width=3D"18" height=3D"18" viewbox=3D"0 0 640 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"Users">
+<path fill=3D"#2f9e74" d=3D"M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 =
+28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7=
+-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 6=
+2 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 =
+0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 =
+32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 1=
+28 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.=
+6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-6=
+4 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z">
+</path>
+</svg><span>=D0=A4=D0=98=D0=97=D0=98=D0=A7=D0=95=D0=A1=D0=9A=D0=98=D0=95 =
+=D0=9B=D0=98=D0=A6=D0=90</span>
+</div>
+</div>
+<div class=3D"aura-body" style=3D"">
+<ul>
+<li><strong>=D0=A0=D0=B5=D0=B7=D0=B8=D0=B4=D0=B5=D0=BD=D1=82 </strong>- =D0=
+=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=B8=D0=B5 =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=
+=B5=D0=BD=D1=82=D0=B0 =D1=83=D0=B4=D0=BE=D1=81=D1=82=D0=BE=D0=B2=D0=B5=D1=
+=80=D1=8F=D1=8E=D1=89=D0=B8=D0=B5 =D0=BB=D0=B8=D1=87=D0=BD=D0=BE=D1=81=D1=
+=82=D1=8C.</li>
+<li>=D0=9E=D1=82 <strong>21 =D0=B3=D0=BE=D0=B4=D0=B0</strong> =D0=BD=D0=B0 =
+=D0=BC=D0=BE=D0=BC=D0=B5=D0=BD=D1=82 =D0=B2=D1=8B=D0=B4=D0=B0=D1=87=D0=B8 =
+=D0=B7=D0=B0=D0=B9=D0=BC=D0=B0 =D0=B8 =D0=B4=D0=BE 68 =D0=BB=D0=B5=D1=82 =
+=D0=BD=D0=B0 =D0=BC=D0=BE=D0=BC=D0=B5=D0=BD=D1=82 =D0=BE=D0=BA=D0=BE=D0=BD=
+=D1=87=D0=B0=D0=BD=D0=B8=D1=8F =D0=B7=D0=B0=D0=B9=D0=BC=D0=B0.</li>
+<li><p>=D0=A1 =D0=BE=D1=84=D0=B8=D1=86=D0=B8=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=
+=D0=BC <strong>=D0=BF=D0=BE=D0=B4=D1=82=D0=B2=D0=B5=D1=80=D0=B6=D0=B4=D0=B5=
+=D0=BD=D0=B8=D0=B5=D0=BC =D0=B4=D0=BE=D1=85=D0=BE=D0=B4=D0=B0</strong>.<br>=
+<br></p><p><em><strong>=D0=94=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D0=
+=B5=D0=BB=D1=8C=D0=BD=D0=BE =D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D1=83=D1=
+=8E=D1=82=D1=81=D1=8F:<br><br></strong></em></p></li>
+<li><strong>=D0=9F=D0=B5=D0=BD=D1=81=D0=B8=D0=BE=D0=BD=D0=B5=D1=80=D1=8B </=
+strong>- =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82 =D1=83=D0=B4=D0=
+=BE=D1=81=D1=82=D0=BE=D0=B2=D0=B5=D1=80=D1=8F=D1=8E=D1=89=D0=B8=D0=B5 =D0=
+=BB=D0=B8=D1=87=D0=BD=D0=BE=D1=81=D1=82=D1=8C.</li>
+<li><strong>=D0=92=D0=BE=D0=B5=D0=BD=D0=BD=D0=BE=D1=81=D0=BB=D1=83=D0=B6=D0=
+=B0=D1=89=D0=B8=D0=B5 =D0=B8 =D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BD=D0=B8=D0=
+=BA=D0=B8 =D0=BF=D1=80=D0=B0=D0=B2=D0=BE=D0=BE=D1=85=D1=80=D0=B0=D0=BD=D0=
+=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D1=85 =D0=BE=D1=80=D0=B3=D0=B0=D0=
+=BD=D0=BE=D0=B2</strong> - =D1=83=D0=B4=D0=BE=D1=81=D1=82=D0=BE=D0=B2=D0=B5=
+=D1=80=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BB=D0=B8=D1=87=D0=BD=D0=BE=D1=81=D1=82=
+=D0=B8; =D1=81=D0=BF=D1=80=D0=B0=D0=B2=D0=BA=D0=B0 =D1=81 =D0=BC=D0=B5=D1=
+=81=D1=82=D0=B0 =D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=8B&nbsp; =D0=BE =D0=B4=D0=
+=BE=D1=85=D0=BE=D0=B4=D0=B0=D1=85.</li>
+</ul>
+</div>
+</div>
+</div>
+<p></p>
+</div>
+</div>
+</div>
+<div hidden aria-labelledby=3D"tab-12188068-a002-448d-8d5a-f872ac17a8ab" da=
+ta-aura-tab-id=3D"12188068-a002-448d-8d5a-f872ac17a8ab" role=3D"tabpanel" i=
+d=3D"tabpanel-12188068-a002-448d-8d5a-f872ac17a8ab" data-aura-tab-icon=3D""=
+ data-aura-tab-title=3D"=D1=81=D1=82=D0=B0=D0=B2=D0=BA=D0=B8">
+<div style=3D"padding:10px; background-repeat:no-repeat; background-size:co=
+ver; flex-direction:column; display:flex; width:100%; min-height:0px; justi=
+fy-content:flex-start; background-image:; background-position:center center=
+; box-sizing:border-box" aria-role=3D"banner" data-background-image=3D"">
+<div>
+<table style=3D"width: 100%;  border-collapse: collapse; box-shadow: 0px 4p=
+x 12px rgba(0, 0, 0, 0.1); border-radius: 12px; overflow: hidden; margin: 0=
+; padding: 0;" class=3D"cfm-html-table">
+<tbody>
+<tr>
+<th style=3D"padding: 8px; background: linear-gradient(135deg, #4a90e2, #1c=
+60b3);color: white; font-size: 16px;"><p><span style=3D"color: rgb(255,255,=
+255);">=D0=A4=D0=B8=D0=BD=D0=B0=D0=BD=D1=81=D0=BE=D0=B2=D1=8B=D0=B9 =D0=B0=
+=D0=BD=D0=B0=D0=BB=D0=B8=D0=B7</span></p></th>
+<th style=3D"padding: 8px; background: linear-gradient(135deg, #4a90e2, #1c=
+60b3);color: white; font-size: 16px;"><p><span style=3D"color: rgb(255,255,=
+255);">=D0=A1=D1=82=D0=B0=D0=B2=D0=BA=D0=B8</span></p></th>
+<th style=3D"padding: 8px; background: linear-gradient(135deg, #4a90e2, #1c=
+60b3);color: white; font-size: 16px;"><p><span style=3D"color: rgb(255,255,=
+255);">=D0=9F=D0=B5=D1=80=D0=B2=D0=BE=D0=BD=D0=B0=D1=87=D0=B0=D0=BB=D1=8C=
+=D0=BD=D1=8B=D0=B9 =D0=B2=D0=B7=D0=BD=D0=BE=D1=81</span></p></th>
+<th style=3D"padding: 8px; background: linear-gradient(135deg, #4a90e2, #1c=
+60b3);color: white; font-size: 16px;"><p><span style=3D"color: rgb(255,255,=
+255);">24 =D0=BC=D0=B5=D1=81</span></p></th>
+<th style=3D"padding: 8px; background: linear-gradient(135deg, #4a90e2, #1c=
+60b3);color: white; font-size: 16px;"><p><span style=3D"color: rgb(255,255,=
+255);">25-36 =D0=BC=D0=B5=D1=81</span></p></th>
+<th style=3D"padding: 8px; background: linear-gradient(135deg, #4a90e2, #1c=
+60b3);color: white; font-size: 16px;"><p><span style=3D"color: rgb(255,255,=
+255);">37-48 =D0=BC=D0=B5=D1=81</span></p></th>
+<th style=3D"padding: 8px; background: linear-gradient(135deg, #4a90e2, #1c=
+60b3);color: white; font-size: 16px;"><p><span style=3D"color: rgb(255,255,=
+255);">49-60 =D0=BC=D0=B5=D1=81</span></p></th>
+<th style=3D"padding: 8px; background: linear-gradient(135deg, #4a90e2, #1c=
+60b3);color: white; font-size: 16px;"><p><span style=3D"color: rgb(255,255,=
+255);">61-72 =D0=BC=D0=B5=D1=81</span></p></th>
+<th style=3D"padding: 8px; background: linear-gradient(135deg, #4a90e2, #1c=
+60b3);color: white; font-size: 16px;"><p><span style=3D"color: rgb(255,255,=
+255);">73-84 =D0=BC=D0=B5=D1=81</span></p></th>
+</tr>
+<tr>
+<td rowspan=3D"1" style=3D"padding: 6px; text-align: center; background-col=
+or: #f7f9fc;     border-bottom: 1px solid #eee; font-size: 14px;"><p><span>=
+=D0=A1 =D0=BF=D0=BE=D0=B4=D1=82=D0=B2=D0=B5=D1=80=D0=B6=D0=B4=D0=B5=D0=BD=
+=D0=B8=D0=B5=D0=BC =D0=B4=D0=BE=D1=85=D0=BE=D0=B4=D0=B0</span></p></td>
+<td rowspan=3D"1" style=3D"padding: 6px; text-align: center; background-col=
+or: #f7f9fc;     border-bottom: 1px solid #eee; font-size: 14px;"><p>=D0=93=
+=D0=A1=D0=92</p></td>
+<td style=3D"padding: 6px; text-align: center; background-color: #f7f9fc;  =
+   border-bottom: 1px solid #eee; font-size: 14px;"><p>=D0=BE=D1=82 30%</p>=
+</td>
+<td style=3D"padding: 6px; text-align: center; background-color: #f7f9fc;  =
+   border-bottom: 1px solid #eee; font-size: 14px;"><p><span>25,50%</span><=
+/p></td>
+<td style=3D"padding: 6px; text-align: center; background-color: #f7f9fc;  =
+   border-bottom: 1px solid #eee; font-size: 14px;"><p><span>25,40%</span><=
+/p></td>
+<td style=3D"padding: 6px; text-align: center; background-color: #f7f9fc;  =
+   border-bottom: 1px solid #eee; font-size: 14px;"><p><span>25,40%</span><=
+/p></td>
+<td style=3D"padding: 6px; text-align: center; background-color: #f7f9fc;  =
+   border-bottom: 1px solid #eee; font-size: 14px;"><p><span>25,30%</span><=
+/p></td>
+<td style=3D"padding: 6px; text-align: center; background-color: #f7f9fc;  =
+   border-bottom: 1px solid #eee; font-size: 14px;"><p><span>25,30%</span><=
+/p></td>
+<td style=3D"padding: 15px; text-align: center; background-color: #f7f9fc; =
+    border-bottom: 1px solid #eee; font-size: 16px;"><p><span>25,20%</span>=
+</p></td>
+</tr>
+<tr>
+<td style=3D"padding: 6px; text-align: center;border-bottom: 1px solid #eee=
+; font-size: 14px;"><p><span>=D0=91=D0=B5=D0=B7 =D0=BF=D0=BE=D0=B4=D1=82=D0=
+=B2=D0=B5=D1=80=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F =D0=B4=D0=BE=D1=85=D0=
+=BE=D0=B4=D0=B0</span></p></td>
+<td style=3D"padding: 6px; text-align: center;border-bottom: 1px solid #eee=
+; font-size: 14px;"><p><span style=3D"color: rgb(51,51,51);">=D0=93=D0=A1=
+=D0=92</span></p></td>
+<td style=3D"padding: 6px; text-align: center;border-bottom: 1px solid #eee=
+; font-size: 14px;"><p><span style=3D"color: rgb(51,51,51);">=D0=BE=D1=82 3=
+0%</span></p></td>
+<td style=3D"padding: 6px; text-align: center;border-bottom: 1px solid #eee=
+; font-size: 14px;"><p><span style=3D"color: rgb(51,51,51);">28,80%</span><=
+/p></td>
+<td style=3D"padding: 6px; text-align: center;border-bottom: 1px solid #eee=
+; font-size: 14px;"><p><span style=3D"color: rgb(51,51,51);">28,70%</span><=
+/p></td>
+<td style=3D"padding: 6px; text-align: center;border-bottom: 1px solid #eee=
+; font-size: 14px;"><p><span style=3D"color: rgb(51,51,51);">28,60%</span><=
+/p></td>
+<td style=3D"padding: 6px; text-align: center;border-bottom: 1px solid #eee=
+; font-size: 14px;"><p><span style=3D"color: rgb(51,51,51);">28,60%</span><=
+/p></td>
+<td style=3D"padding: 6px; text-align: center;border-bottom: 1px solid #eee=
+; font-size: 14px;"><p><span style=3D"color: rgb(51,51,51);">28,50%</span><=
+/p></td>
+<td style=3D"padding: 6px; text-align: center;border-bottom: 1px solid #eee=
+; font-size: 14px;"><p><span style=3D"color: rgb(51,51,51);">28,50%</span><=
+/p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><br></p>
+<div class=3D"rwui_expandable_item ">
+<button class=3D"rwui_expandable_item_title rwui_expand" role=3D"button" on=
+click=3D"RWUI.toggleExpandItem(this, event);" id=3D"rwui_expand-" data-hash=
+=3D"expand-" aria-expanded=3D"false">
+<div class=3D"rwui_item_icon rw_external_icon_plus"></div> =D0=A0=D0=90=D0=
+=A1=D0=A1=D0=A7=D0=98=D0=A2=D0=90=D0=A2=D0=AC =D0=9A=D0=A0=D0=95=D0=94=D0=
+=98=D0=A2 </button>
+<div class=3D"rwui_expandable_item_body rwui_body">
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<style type=3D"text/css" rel=3D"preload" id=3D"custom-styles">
+#calculator {  background: rgba(255, 255, 255, 0.2);  border-radius: 20px; =
+ padding: 25px;  backdrop-filter: blur(20px); box-shadow: 0 2px 20px rgba(0=
+, 0, 0, 0.1); display: flex;  flex-direction: column;  max-width: 400px;  w=
+idth: 100%;  gap: 20px;  font-family: 'Poppins', sans-serif;  color: #333; =
+ transition: all 0.3s ease;  box-sizing: border-box;  margin-top: -20px;  p=
+adding-bottom: 40px;  margin-left: 20px; transform: scale(0.95);   transfor=
+m-origin: top left; }.input-group {  display: flex;  flex-direction: column=
+;  gap: 10px;}.input-group label {  font-weight: 600;  color: #444;  font-s=
+ize: 14px;  display: inline-block;  margin-bottom: -6px;}.input-group input=
+[type=3D"text"] {  width: 100%;  background: rgba(255, 255, 255, 0.5);  bor=
+der: 1px solid #ccc;  padding: 12px;  border-radius: 12px;  box-shadow: ins=
+et 1px 1px 3px rgba(0, 0, 0, 0.1), inset -1px -1px 3px rgba(255, 255, 255, =
+0.8);  font-size: 16px;  color: #333;  outline: none;  transition: box-shad=
+ow 0.3s ease, background 0.3s ease;  box-sizing: border-box;  margin-bottom=
+: 10px;}.input-group input[type=3D"text"]:focus {  box-shadow: inset 2px 2p=
+x 5px rgba(0, 0, 0, 0.1), inset -2px -2px 5px rgba(255, 255, 255, 0.9);  ba=
+ckground: rgba(255, 255, 255, 0.8);}input[type=3D"range"] {  -webkit-appear=
+ance: none;  appearance: none;  width: 100%;  height: 12px;  background: rg=
+ba(255, 255, 255, 0.1);  backdrop-filter: blur(10px);  border-radius: 20px;=
+  border: 1px solid rgba(255, 255, 255, 0.3);  outline: none;  transition: =
+background 0.3s ease;  cursor: pointer;}input[type=3D"range"]::-webkit-slid=
+er-runnable-track {  background: linear-gradient(90deg, #4a90e2, #74ebd5); =
+ height: 100%;  border-radius: 20px;}input[type=3D"range"]::-moz-range-trac=
+k {  background: linear-gradient(90deg, #4a90e2, #74ebd5);  height: 100%;  =
+border-radius: 20px;}input[type=3D"range"]::-webkit-slider-thumb {  -webkit=
+-appearance: none;  appearance: none;  width: 28px;  height: 28px;  backgro=
+und: #ffffff;  border-radius: 50%;  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.=
+15), 0 0 10px rgba(74, 144, 226, 0.4);  transition: background 0.3s ease, t=
+ransform 0.2s ease;  cursor: pointer;}input[type=3D"range"]:hover::-webkit-=
+slider-thumb {  background: #4a90e2;  transform: scale(1.3);  box-shadow: 0=
+ 8px 16px rgba(0, 0, 0, 0.2), 0 0 12px rgba(74, 144, 226, 0.6);}input[type=
+=3D"range"]::-moz-range-thumb {  width: 28px;  height: 28px;  background: #=
+ffffff;  border-radius: 50%;  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0=
+ 0 10px rgba(74, 144, 226, 0.4);  transition: background 0.3s ease, transfo=
+rm 0.2s ease;  cursor: pointer;}input[type=3D"range"]:hover::-moz-range-thu=
+mb {  background: #4a90e2;  transform: scale(1.3);  box-shadow: 0 8px 16px =
+rgba(0, 0, 0, 0.2), 0 0 12px rgba(74, 144, 226, 0.6);}.months-buttons {  di=
+splay: grid;  grid-template-columns: repeat(7, 1fr);  gap: 10px;  margin-to=
+p: 10px;}.months-buttons button {  padding: 10px;  border-radius: 10px;  bo=
+rder: none;  background: linear-gradient(145deg, rgba(255, 255, 255, 0.15),=
+ rgba(255, 255, 255, 0.05));  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1), -=
+3px -3px 8px rgba(255, 255, 255, 0.8);  color: #333;  font-size: 14px;  fon=
+t-weight: 500;  cursor: pointer;  transition: background 0.3s ease, box-sha=
+dow 0.2s ease, transform 0.2s ease;}.months-buttons button.active {  backgr=
+ound-color: #4a90e2;  color: white;  transform: translateY(-2px);  box-shad=
+ow: 5px 5px 15px rgba(0, 0, 0, 0.12), -5px -5px 15px rgba(255, 255, 255, 1)=
+;}.months-buttons button:hover {  background-color: rgba(255, 255, 255, 0.8=
+);  transform: translateY(-3px);  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.=
+12), -5px -5px 15px rgba(255, 255, 255, 1);}.button {  width: 100%;  text-a=
+lign: center;  background: linear-gradient(135deg, #4a90e2, #357ab8);  colo=
+r: white;  padding: 16px;  border: none;  border-radius: 12px;  cursor: poi=
+nter;  font-size: 16px;  font-weight: 600;  transition: background 0.3s eas=
+e, transform 0.2s ease, box-shadow 0.2s ease;  box-shadow: 4px 4px 12px rgb=
+a(0, 0, 0, 0.1), -4px -4px 12px rgba(255, 255, 255, 0.9);}.results-containe=
+r {  background: rgba(255, 255, 255, 0.15);  padding: 20px;  border-radius:=
+ 12px;  box-shadow: inset 4px 4px 12px rgba(0, 0, 0, 0.1), inset -4px -4px =
+12px rgba(255, 255, 255, 0.8);  display: flex;  flex-direction: column;  ga=
+p: 15px;  margin-top: 20px;}.result-item {  display: flex;  justify-content=
+: space-between;  align-items: center;}.result-label {  color: #444;  font-=
+size: 14px;  font-weight: 600;}.result-value {  color: #333;  font-size: 18=
+px;  font-weight: 700;}.insurance-toggle {  display: flex;  justify-content=
+: space-between;  align-items: center;  padding-top: 10px;}    .range-slide=
+r {  margin-top: -10px;     }    .range-slider {      margin-bottom: 5px;  =
+  }    .input-group {      margin-bottom: 10px;     }.road-assistance-toggl=
+e {  display: flex;  justify-content: space-between;  align-items: center; =
+ padding-top: 10px;}.switch {  position: relative;  display: inline-block; =
+ width: 50px;  height: 26px;}.switch input {  opacity: 0;  width: 0;  heigh=
+t: 0;}.slider {  position: absolute;  cursor: pointer;  top: 0;  left: 0;  =
+right: 0;  bottom: 0;  background-color: #ccc;  transition: .4s;  border-ra=
+dius: 26px;}.slider:before {  position: absolute;  content: "";  height: 20=
+px;  width: 20px;  left: 3px;  bottom: 3px;  background-color: white;  tran=
+sition: .4s;  border-radius: 50%;}input:checked + .slider {  background-col=
+or: #4a90e2;}input:checked + .slider:before {  transform: translateX(24px);=
+}
+</style>
+<script>
+const header =3D $("#header");
+const fixedHeader =3D "fixed-header";
+$(window).on("scroll", () =3D> {=20
+     if(window.pageYOffset > header.outerHeight()){
+          if(!header.hasClass(fixedHeader)){
+               header.addClass(fixedHeader);=20
+          }
+     } else {=20
+          header.removeClass(fixedHeader);=20
+     }
+});
+</script><br>
+<meta charset=3D"UTF-8">
+<title>=D0=9A=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=BD=D1=8B=D0=B9 =D0=9A=D0=B0=
+=D0=BB=D1=8C=D0=BA=D1=83=D0=BB=D1=8F=D1=82=D0=BE=D1=80</title>
+<link rel=3D"stylesheet" href=3D"https://cdnjs.cloudflare.com/ajax/libs/noU=
+iSlider/15.6.1/nouislider.min.css">
+<style>
+
+  </style>
+<div class=3D"sectionMacroRow">
+<div id=3D"calculator" style=3D"display: none;">
+<div class=3D"input-group">
+<label for=3D"principal">=D0=A1=D1=83=D0=BC=D0=BC=D0=B0 =D0=90=D0=B2=D1=82=
+=D0=BE (=E2=82=B8):</label> <input type=3D"text" id=3D"principal" placehold=
+er=3D"=D0=92=D0=B2=D0=B5=D0=B4=D0=B8=D1=82=D0=B5 =D1=81=D1=83=D0=BC=D0=BC=
+=D1=83">
+<div id=3D"principalSlider" class=3D"range-slider"></div>
+</div>
+<div class=3D"input-group">
+<label for=3D"downpayment">=D0=9F=D0=B5=D1=80=D0=B2=D0=BE=D0=BD=D0=B0=D1=87=
+=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D0=B2=D0=B7=D0=BD=D0=BE=D1=81 (=E2=82=
+=B8):</label> <input type=3D"text" id=3D"downpayment" placeholder=3D"=D0=92=
+=D0=B2=D0=B5=D0=B4=D0=B8=D1=82=D0=B5 =D0=B2=D0=B7=D0=BD=D0=BE=D1=81">
+<div id=3D"downpaymentSlider" class=3D"range-slider"></div>
+</div>
+<div class=3D"input-group">
+<label for=3D"rate">=D0=93=D0=BE=D0=B4=D0=BE=D0=B2=D0=B0=D1=8F =D1=81=D1=82=
+=D0=B0=D0=B2=D0=BA=D0=B0 (%):</label> <input type=3D"text" id=3D"rate" plac=
+eholder=3D"=D0=92=D0=B2=D0=B5=D0=B4=D0=B8=D1=82=D0=B5 =D0=BF=D1=80=D0=BE=D1=
+=86=D0=B5=D0=BD=D1=82=D0=BD=D1=83=D1=8E =D1=81=D1=82=D0=B0=D0=B2=D0=BA=D1=
+=83">
+<div id=3D"rateSlider" class=3D"range-slider"></div>
+</div>
+<div class=3D"input-group">
+<label for=3D"months">=D0=A1=D1=80=D0=BE=D0=BA =D0=BA=D1=80=D0=B5=D0=B4=D0=
+=B8=D1=82=D0=B0 (=D0=B2 =D0=BC=D0=B5=D1=81=D1=8F=D1=86=D0=B0=D1=85):</label=
+> <input type=3D"text" id=3D"months" placeholder=3D"=D0=92=D0=B2=D0=B5=D0=
+=B4=D0=B8=D1=82=D0=B5 =D1=81=D1=80=D0=BE=D0=BA">
+<div id=3D"monthsSlider" class=3D"range-slider"></div>
+<div class=3D"months-buttons">
+<button onclick=3D"setMonths(12, this)">12</button> <button onclick=3D"setM=
+onths(24, this)">24</button> <button onclick=3D"setMonths(36, this)">36</bu=
+tton> <button onclick=3D"setMonths(48, this)">48</button> <button onclick=
+=3D"setMonths(60, this)">60</button> <button onclick=3D"setMonths(72, this)=
+">72</button> <button onclick=3D"setMonths(84, this)">84</button>
+</div>
+</div>
+<div class=3D"insurance-toggle">
+<label for=3D"insurance">=D0=A1 =D0=9A=D0=90=D0=A1=D0=9A=D0=9E</label> <lab=
+el class=3D"switch"> <input type=3D"checkbox" id=3D"insurance"> <span class=
+=3D"slider"></span> </label>
+</div>
+<div class=3D"results-container">
+<div class=3D"result-item">
+<div class=3D"result-label">
+=D0=A1=D1=83=D0=BC=D0=BC=D0=B0 =D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=B0:
+</div>
+<div id=3D"loanAmount" class=3D"result-value">
+0 =E2=82=B8
+</div>
+</div>
+<div class=3D"result-item">
+<div class=3D"result-label">
+=D0=95=D0=B6=D0=B5=D0=BC=D0=B5=D1=81=D1=8F=D1=87=D0=BD=D1=8B=D0=B9 =D0=BF=
+=D0=BB=D0=B0=D1=82=D0=B5=D0=B6:
+</div>
+<div id=3D"monthlyPayment" class=3D"result-value">
+0 =E2=82=B8
+</div>
+</div>
+<div class=3D"result-item">
+<div class=3D"result-label">
+=D0=9F=D0=B5=D1=80=D0=B5=D0=BF=D0=BB=D0=B0=D1=82=D0=B0:
+</div>
+<div id=3D"overpayment" class=3D"result-value">
+0 =E2=82=B8
+</div>
+</div>
+<div class=3D"result-item">
+<div class=3D"result-label">
+=D0=9E=D0=B1=D1=89=D0=B0=D1=8F =D1=81=D1=83=D0=BC=D0=BC=D0=B0 =D0=B2=D1=8B=
+=D0=BF=D0=BB=D0=B0=D1=82:
+</div>
+<div id=3D"totalPayment" class=3D"result-value">
+0 =E2=82=B8
+</div>
+</div>
+</div>
+</div>
+<script src=3D"https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.6.1/nou=
+islider.min.js"></script>
+<script src=3D"https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.2.0/wNumb.min=
+.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const allowedPages =3D ['229255959', '174299271', '174299271'];
+  const currentUrl =3D window.location.href;
+  const isAllowedPage =3D allowedPages.some(pageId =3D> currentUrl.includes=
+(`pageId=3D${pageId}`));
+
+  if (isAllowedPage) {
+    document.getElementById('calculator').style.display =3D 'block';
+
+    var principalSlider =3D document.getElementById('principalSlider');
+    var downpaymentSlider =3D document.getElementById('downpaymentSlider');
+    var rateSlider =3D document.getElementById('rateSlider');
+    var monthsSlider =3D document.getElementById('monthsSlider');
+    var loanAmountElement =3D document.getElementById('loanAmount');
+    var insuranceCheckbox =3D document.getElementById('insurance');
+    var userHasModifiedDownpayment =3D false;
+
+    noUiSlider.create(principalSlider, {
+      start: [50000],
+      connect: [true, false],
+      range: {
+        'min': 50000,
+        'max': 45000000
+      },
+      step: 50000,
+      format: wNumb({
+        decimals: 0,
+        thousand: ' '
+      })
+    });
+
+    noUiSlider.create(downpaymentSlider, {
+      start: [10000],
+      connect: [true, false],
+      range: {
+        'min': 0,
+        'max': 45000000
+      },
+      step: 50000,
+      format: wNumb({
+        decimals: 0,
+        thousand: ' ',
+        suffix: ' =E2=82=B8'
+      })
+    });
+
+    noUiSlider.create(rateSlider, {
+      start: [10],
+      connect: [true, false],
+      range: {
+        'min': 1,
+        'max': 30
+      },
+      step: 0.1,
+      format: wNumb({
+        decimals: 1
+      })
+    });
+
+    noUiSlider.create(monthsSlider, {
+      start: [12],
+      connect: [true, false],
+      range: {
+        'min': 6,
+        'max': 84
+      },
+      step: 1,
+      format: wNumb({
+        decimals: 0
+      })
+    });
+
+    function syncSliderWithInput(slider, input, callback) {
+      var userInput =3D false;
+
+      slider.noUiSlider.on('update', function(values, handle) {
+        if (!userInput) {
+          input.value =3D formatCurrency(values[handle]);
+          if (callback) callback();=20
+          calculate();
+        }
+      });
+
+      input.addEventListener('input', function() {
+        userInput =3D true;
+        this.value =3D formatCurrency(this.value.replace(/\s/g, ''));
+      });
+
+      input.addEventListener('change', function() {
+        var value =3D parseFloat(this.value.replace(/\s/g, '')) || 0;
+        slider.noUiSlider.set(value);
+        userInput =3D false;
+        calculate();
+      });
+    }
+
+    syncSliderWithInput(principalSlider, document.getElementById('principal=
+'), function() {
+      if (!userHasModifiedDownpayment) {
+        updateDownpayment(parseFloat(document.getElementById('principal').v=
+alue.replace(/\s/g, '')) || 0);
+      }
+    });
+    syncSliderWithInput(downpaymentSlider, document.getElementById('downpay=
+ment'));
+    syncSliderWithInput(rateSlider, document.getElementById('rate'));
+    syncSliderWithInput(monthsSlider, document.getElementById('months'));
+
+    function formatCurrency(value) {
+      return value.toString().replace(/\B(?=3D(\d{3})+(?!\d))/g, " ");
+    }
+
+    window.setMonths =3D function(months, button) {
+      monthsSlider.noUiSlider.set(months);
+      document.getElementById('months').value =3D months;
+
+      var buttons =3D document.querySelectorAll('.months-buttons button');
+      buttons.forEach(function(btn) {
+        btn.classList.remove('active');
+      });
+      button.classList.add('active');
+
+      calculate();
+    };
+
+    function updateDownpayment(principal) {
+      var downpayment =3D principal * 0.1;
+      document.getElementById('downpayment').value =3D formatCurrency(downp=
+ayment);
+      downpaymentSlider.noUiSlider.set(downpayment);
+    }
+
+    document.getElementById('downpayment').addEventListener('input', functi=
+on() {
+      userHasModifiedDownpayment =3D true;
+      this.value =3D formatCurrency(this.value.replace(/\s/g, ''));
+    });
+
+    document.getElementById('principal').addEventListener('change', functio=
+n() {
+      userHasModifiedDownpayment =3D false; =20
+      updateDownpayment(parseFloat(this.value.replace(/\s/g, '')));
+      calculate();
+    });
+
+    function calculate() {
+      var principal =3D parseFloat(document.getElementById('principal').val=
+ue.replace(/\s/g, '')) || 0;
+      var downpayment =3D parseFloat(document.getElementById('downpayment')=
+.value.replace(/\s/g, '')) || 0;
+      var rate =3D parseFloat(document.getElementById('rate').value) || 0;
+      var months =3D parseInt(document.getElementById('months').value) || 0=
+;
+      var monthlyRate =3D rate / 12 / 100;
+      var loanAmount =3D principal - downpayment;
+
+      if (insuranceCheckbox.checked) {
+        var insuranceMonths =3D Math.min(months, 60); =20
+        var insurance =3D loanAmount * (0.02 * insuranceMonths / 12);
+        loanAmount +=3D insurance;
+      }
+
+      loanAmountElement.textContent =3D formatCurrency(Math.round(loanAmoun=
+t)) + ' =E2=82=B8';
+
+      if (loanAmount > 0 && rate > 0 && months > 0) {
+        var monthlyPayment =3D loanAmount * monthlyRate / (1 - Math.pow(1 +=
+ monthlyRate, -months));
+        var totalPayment =3D monthlyPayment * months;
+        var overpayment =3D totalPayment - loanAmount;
+
+        document.getElementById('monthlyPayment').textContent =3D formatCur=
+rency(Math.round(monthlyPayment)) + ' =E2=82=B8';
+        document.getElementById('totalPayment').textContent =3D formatCurre=
+ncy(Math.round(totalPayment)) + ' =E2=82=B8';
+        document.getElementById('overpayment').textContent =3D formatCurren=
+cy(Math.round(overpayment)) + ' =E2=82=B8';
+      } else {
+        document.getElementById('monthlyPayment').textContent =3D '0 =E2=82=
+=B8';
+        document.getElementById('totalPayment').textContent =3D '0 =E2=82=
+=B8';
+        document.getElementById('overpayment').textContent =3D '0 =E2=82=B8=
+';
+      }
+    }
+
+    insuranceCheckbox.addEventListener('change', calculate);
+
+    calculate();=20
+  }
+});
+</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div hidden aria-labelledby=3D"tab-634f69fe-cd2f-4f1c-82d7-a52480f0e583" da=
+ta-aura-tab-id=3D"634f69fe-cd2f-4f1c-82d7-a52480f0e583" role=3D"tabpanel" i=
+d=3D"tabpanel-634f69fe-cd2f-4f1c-82d7-a52480f0e583" data-aura-tab-icon=3D""=
+ data-aura-tab-title=3D"=D0=9A=D0=90=D0=A1=D0=9A=D0=9E">
+<p></p>
+<div id=3D"addtab" class=3D"contentf aui-tabs horizontal-tabs">
+<ul class=3D"tabs-menu">
+</ul>
+<div id=3D"=D1=83=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F" data-pane-title=3D"=
+=D1=83=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F" class=3D"cfm tabs-pane ">
+<style>.aura-cards-859861364147dc7f.aura-cards-wrapper { margin: auto; disp=
+lay: grid; grid-template-columns: repeat(auto-fit, minmax(calc(100% / 5), 1=
+fr)); max-width: 100%;}@media only screen and (max-width: 600px) { .aura-ca=
+rds-859861364147dc7f.aura-cards-wrapper { grid-template-columns: 1fr; }}.au=
+ra-card-header { display: flex; width: 100%;}.aura-cards-859861364147dc7f .=
+aura-card-icon { display: flex; display: none; justify-content: center; ali=
+gn-items: center;}.aura-cards-859861364147dc7f .aura-card-image { display: =
+none; background-size: cover; background-position: center; background-image=
+: linear-gradient(45deg, #757575, #ececec); width: 100%;}aura-cards-8598613=
+64147dc7f .aura-card-body { display: block;}.aura-cards-859861364147dc7f .a=
+ura-card-header, .aura-cards-859861364147dc7f .aura-card-body { padding: 1.=
+5rem; box-sizing: border-box;}.aura-cards-859861364147dc7f .aura-card-heade=
+r { padding-bottom: 0;}.aura-cards-859861364147dc7f .aura-card-header-space=
+r { display: none; height: 0.5rem; width: 1.5rem;}.aura-cards-859861364147d=
+c7f .aura-card-content-wrapper { flex: 1; padding: calc(4px * 4) 0; transit=
+ion: padding 0.5s;}.aura-cards-859861364147dc7f .aura-card-body { font-size=
+: 14px; padding-top: 0;}.aura-cards-859861364147dc7f .aura-card-body-spacer=
+ { height: 1rem;} .aura-cards-859861364147dc7f .aura-card-body-spacer { bac=
+kground-color: none !important; opacity: 0; }.aura-cards-859861364147dc7f .=
+aura-card-header .aura-card-icon svg { width: 1.5rem; height: 1.5rem;}.aura=
+-cards-859861364147dc7f .aura-card-title { font-size: 18px; font-weight: bo=
+ld; word-break: break-word; margin-top: 0;}.aura-cards-859861364147dc7f .au=
+ra-card, .aura-cards-859861364147dc7f a.aura-card { box-sizing: border-box;=
+ margin: 10px; text-decoration: none; color: inherit; overflow: hidden;}.au=
+ra-cards-859861364147dc7f a[href=3D'#'].aura-card { cursor: default !import=
+ant;}.aura-cards-859861364147dc7f .aura-card, aura-cards-859861364147dc7f, =
+.aura-cards-859861364147dc7f .aura-card-preview-wrapper { transition: all 0=
+.5s; transform-origin: bottom center;}.aura-cards-859861364147dc7f .aura-ca=
+rd { transition: all 0.3s; transform-origin: center center;}.aura-cards-859=
+861364147dc7f .aura-card:hover { transform: scale(0.95);}.aura-cards-859861=
+364147dc7f.layout-icon-center .aura-card-header { flex-direction: column; j=
+ustify-content: center; align-items: center; text-align: center;}.aura-card=
+s-859861364147dc7f.layout-icon-center .aura-card-body { text-align: center;=
+ line-height: 1.4rem;}.aura-cards-859861364147dc7f.theme-fabric .aura-card =
+svg { height: 2rem; width: 2rem; margin: .5rem 0;}.aura-cards-859861364147d=
+c7f.theme-fabric .aura-card { box-shadow: 0 10px 10px -10px rgba(50, 50, 75=
+, 0.1), 0 0 20px rgba(50, 50, 75, 0.05);}.aura-cards-859861364147dc7f.theme=
+-fabric .aura-card-body { color: rgba(255, 255, 255, 0.75);}.aura-cards-859=
+861364147dc7f.theme-fabric .aura-card-title { color: #fff;}.aura-cards-8598=
+61364147dc7f.theme-fabric .aura-card-header .aura-card-icon { width: 3.5rem=
+; height: 3.5rem; min-width: 3.5rem; min-height: 3.5rem; border-radius: 3re=
+m;}</style>
+<div class=3D"aura-cards-859861364147dc7f aura-cards-wrapper theme-fabric l=
+ayout-icon-center">
+<div class=3D"aura-card" style=3D"background: #3498db;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1540979388789-6cee28a1cdc9?ixlib=3Drb-1.2.1&amp;ixid=
+=3DeyJhcHBfaWQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D934&amp;q=
+=3D100);" role=3D"img" data-background-image=3D"url(https://images.unsplash=
+.com/photo-1540979388789-6cee28a1cdc9?ixlib=3Drb-1.2.1&amp;ixid=3DeyJhcHBfa=
+WQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D934&amp;q=3D100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 576 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"ChargingStation">
+<path fill=3D"#fff" d=3D"M336 448H16c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 1=
+6 16 16h320c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zm208-320V80c0-8.8=
+4-7.16-16-16-16s-16 7.16-16 16v48h-32V80c0-8.84-7.16-16-16-16s-16 7.16-16 1=
+6v48h-16c-8.84 0-16 7.16-16 16v32c0 35.76 23.62 65.69 56 75.93v118.49c0 13.=
+95-9.5 26.92-23.26 29.19C431.22 402.5 416 388.99 416 372v-28c0-48.6-39.4-88=
+-88-88h-8V64c0-35.35-28.65-64-64-64H96C60.65 0 32 28.65 32 64v352h288V304h8=
+c22.09 0 40 17.91 40 40v24.61c0 39.67 28.92 75.16 68.41 79.01C481.71 452.05=
+ 520 416.41 520 372V251.93c32.38-10.24 56-40.17 56-75.93v-32c0-8.84-7.16-16=
+-16-16h-16zm-283.91 47.76l-93.7 139c-2.2 3.33-6.21 5.24-10.39 5.24-7.67 0-1=
+3.47-6.28-11.67-12.92L167.35 224H108c-7.25 0-12.85-5.59-11.89-11.89l16-107C=
+112.9 99.9 117.98 96 124 96h68c7.88 0 13.62 6.54 11.6 13.21L192 160h57.7c9.=
+24 0 15.01 8.78 10.39 15.76z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=A2=D0=B0=D1=80=D0=B8=D1=84 (=D0=B2 =D0=B3=
+=D0=BE=D0=B4)</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">2%</p>
+</div>
+</div>
+<div class=3D"aura-card" style=3D"background: #3498db;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1571254531817-83275b6b6411?ixlib=3Drb-1.2.1&amp;ixid=
+=3DeyJhcHBfaWQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D881&amp;q=
+=3D100);" role=3D"img" data-background-image=3D"url(https://images.unsplash=
+.com/photo-1571254531817-83275b6b6411?ixlib=3Drb-1.2.1&amp;ixid=3DeyJhcHBfa=
+WQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D881&amp;q=3D100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 640 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"UserClock">
+<path fill=3D"#fff" d=3D"M496 224c-79.6 0-144 64.4-144 144s64.4 144 144 144=
+ 144-64.4 144-144-64.4-144-144-144zm64 150.3c0 5.3-4.4 9.7-9.7 9.7h-60.6c-5=
+.3 0-9.7-4.4-9.7-9.7v-76.6c0-5.3 4.4-9.7 9.7-9.7h12.6c5.3 0 9.7 4.4 9.7 9.7=
+V352h38.3c5.3 0 9.7 4.4 9.7 9.7v12.6zM320 368c0-27.8 6.7-54.1 18.2-77.5-8-1=
+.5-16.2-2.5-24.6-2.5h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16=
+.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h347.1c-45.3-31.9-75.1-=
+84.5-75.1-144zm-96-112c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128=
+s57.3 128 128 128z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=A0=D0=B8=D1=81=D0=BA=D0=B8</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">- =D0=A3=D1=89=D0=B5=D1=80=D0=B1<br>
+ - =D0=9F=D0=BE=D0=BB=D0=BD=D0=B0=D1=8F =D0=B3=D0=B8=D0=B1=D0=B5=D0=BB=D1=
+=8C,<br>
+ - =D0=A3=D0=B3=D0=BE=D0=BD =D0=B8 =D1=85=D0=B8=D1=89=D0=B5=D0=BD=D0=B8=D0=
+=B5</p>
+</div>
+</div>
+<div class=3D"aura-card" style=3D"background: #3498db;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1473580044384-7ba9967e16a0?ixlib=3Drb-1.2.1&amp;ixid=
+=3DeyJhcHBfaWQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D1950&amp;q=
+=3D80);" role=3D"img" data-background-image=3D"url(https://images.unsplash.=
+com/photo-1473580044384-7ba9967e16a0?ixlib=3Drb-1.2.1&amp;ixid=3DeyJhcHBfaW=
+QiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D1950&amp;q=3D80)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"ListOl">
+<path fill=3D"#fff" d=3D"M61.77 401l17.5-20.15a19.92 19.92 0 0 0 5.07-14.19=
+v-3.31C84.34 356 80.5 352 73 352H16a8 8 0 0 0-8 8v16a8 8 0 0 0 8 8h22.83a15=
+7.41 157.41 0 0 0-11 12.31l-5.61 7c-4 5.07-5.25 10.13-2.8 14.88l1.05 1.93c3=
+ 5.76 6.29 7.88 12.25 7.88h4.73c10.33 0 15.94 2.44 15.94 9.09 0 4.72-4.2 8.=
+22-14.36 8.22a41.54 41.54 0 0 1-15.47-3.12c-6.49-3.88-11.74-3.5-15.6 3.12l-=
+5.59 9.31c-3.72 6.13-3.19 11.72 2.63 15.94 7.71 4.69 20.38 9.44 37 9.44 34.=
+16 0 48.5-22.75 48.5-44.12-.03-14.38-9.12-29.76-28.73-34.88zM496 224H176a16=
+ 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-=
+16-16zm0-160H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-=
+16V80a16 16 0 0 0-16-16zm0 320H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h3=
+20a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zM16 160h64a8 8 0 0 0 8-8v-16a8 8=
+ 0 0 0-8-8H64V40a8 8 0 0 0-8-8H32a8 8 0 0 0-7.14 4.42l-8 16A8 8 0 0 0 24 64=
+h8v64H16a8 8 0 0 0-8 8v16a8 8 0 0 0 8 8zm-3.91 160H80a8 8 0 0 0 8-8v-16a8 8=
+ 0 0 0-8-8H41.32c3.29-10.29 48.34-18.68 48.34-56.44 0-29.06-25-39.56-44.47-=
+39.56-21.36 0-33.8 10-40.46 18.75-4.37 5.59-3 10.84 2.8 15.37l8.58 6.88c5.6=
+1 4.56 11 2.47 16.12-2.44a13.44 13.44 0 0 1 9.46-3.84c3.33 0 9.28 1.56 9.28=
+ 8.75C51 248.19 0 257.31 0 304.59v4C0 316 5.08 320 12.09 320z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=A4=D1=80=D0=B0=D0=BD=D1=88=D0=B8=D0=B7=D0=
+=B0</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=9F=D0=BE =D1=83=D1=89=D0=B5=D1=80=D0=B1=D1=
+=83 - 3% =D0=BE=D1=82 =D1=81=D1=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=D0=BE=D0=
+=B9 =D1=81=D1=83=D0=BC=D0=BC=D1=8B.<br><br>
+ =D0=9F=D1=80=D0=B8 =D0=BF=D0=BE=D0=BB=D0=BD=D0=BE=D0=B9 =D0=B3=D0=B8=D0=B1=
+=D0=B5=D0=BB=D0=B8, =D1=83=D0=B3=D0=BE=D0=BD=D1=83/=D1=85=D0=B8=D1=89=D0=B5=
+=D0=BD=D0=B8=D0=B8 - 10% =D0=BE=D1=82 =D1=81=D1=82=D1=80=D0=B0=D1=85=D0=BE=
+=D0=B2=D0=BE=D0=B9 =D1=81=D1=83=D0=BC=D0=BC=D1=8B</p>
+</div>
+</div>
+<div class=3D"aura-card" style=3D"background: #3498db;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1520242279429-1f64b18816ef?ixid=3DMnwxMjA3fDB8MHxwaG90=
+by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=3Drb-1.2.1&amp;auto=3Dformat&amp;fit=3Dc=
+rop&amp;w=3D1650&amp;q=3D80);" role=3D"img" data-background-image=3D"url(ht=
+tps://images.unsplash.com/photo-1520242279429-1f64b18816ef?ixid=3DMnwxMjA3f=
+DB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=3Drb-1.2.1&amp;auto=3Dformat&=
+amp;fit=3Dcrop&amp;w=3D1650&amp;q=3D80)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"Donate">
+<path fill=3D"#fff" d=3D"M256 416c114.9 0 208-93.1 208-208S370.9 0 256 0 48=
+ 93.1 48 208s93.1 208 208 208zM233.8 97.4V80.6c0-9.2 7.4-16.6 16.6-16.6h11.=
+1c9.2 0 16.6 7.4 16.6 16.6v17c15.5.8 30.5 6.1 43 15.4 5.6 4.1 6.2 12.3 1.2 =
+17.1L306 145.6c-3.8 3.7-9.5 3.8-14 1-5.4-3.4-11.4-5.1-17.8-5.1h-38.9c-9 0-1=
+6.3 8.2-16.3 18.3 0 8.2 5 15.5 12.1 17.6l62.3 18.7c25.7 7.7 43.7 32.4 43.7 =
+60.1 0 34-26.4 61.5-59.1 62.4v16.8c0 9.2-7.4 16.6-16.6 16.6h-11.1c-9.2 0-16=
+.6-7.4-16.6-16.6v-17c-15.5-.8-30.5-6.1-43-15.4-5.6-4.1-6.2-12.3-1.2-17.1l16=
+.3-15.5c3.8-3.7 9.5-3.8 14-1 5.4 3.4 11.4 5.1 17.8 5.1h38.9c9 0 16.3-8.2 16=
+.3-18.3 0-8.2-5-15.5-12.1-17.6l-62.3-18.7c-25.7-7.7-43.7-32.4-43.7-60.1.1-3=
+4 26.4-61.5 59.1-62.4zM480 352h-32.5c-19.6 26-44.6 47.7-73 64h63.8c5.3 0 9.=
+6 3.6 9.6 8v16c0 4.4-4.3 8-9.6 8H73.6c-5.3 0-9.6-3.6-9.6-8v-16c0-4.4 4.3-8 =
+9.6-8h63.8c-28.4-16.3-53.3-38-73-64H32c-17.7 0-32 14.3-32 32v96c0 17.7 14.3=
+ 32 32 32h448c17.7 0 32-14.3 32-32v-96c0-17.7-14.3-32-32-32z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=A1=D1=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=D0=
+=B0=D1=8F =D0=B7=D0=B0=D1=89=D0=B8=D1=82=D0=B0</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=9A=D0=B0=D0=B6=D0=B4=D1=8B=D0=B9 =D0=B3=D0=
+=BE=D0=B4 =D0=B4=D0=BE =D0=BF=D0=B5=D1=80=D0=B2=D0=BE=D0=B3=D0=BE =D1=81=D1=
+=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=D0=BE=D0=B3=D0=BE =D1=81=D0=BB=D1=83=D1=
+=87=D0=B0=D1=8F.<br><br>
+ =D0=A1=D1=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=D0=B0=D1=8F =D1=81=D1=83=D0=BC=
+=D0=BC=D0=B0 =D0=BA=D0=B0=D0=B6=D0=B4=D1=8B=D0=B9 =D0=B3=D0=BE=D0=B4 =D0=B2=
+=D0=BE=D0=B7=D0=BE=D0=B1=D0=BD=D0=BE=D0=B2=D0=BB=D1=8F=D0=B5=D1=82=D1=81=D1=
+=8F.</p>
+</div>
+</div>
+<div class=3D"aura-card" style=3D"background: #3498db;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1520242279429-1f64b18816ef?ixid=3DMnwxMjA3fDB8MHxwaG90=
+by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=3Drb-1.2.1&amp;auto=3Dformat&amp;fit=3Dc=
+rop&amp;w=3D1650&amp;q=3D80);" role=3D"img" data-background-image=3D"url(ht=
+tps://images.unsplash.com/photo-1520242279429-1f64b18816ef?ixid=3DMnwxMjA3f=
+DB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=3Drb-1.2.1&amp;auto=3Dformat&=
+amp;fit=3Dcrop&amp;w=3D1650&amp;q=3D80)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#fff" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L=
+121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.=
+9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3=
+-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=A1=D1=80=D0=BE=D0=BA =D0=BA=D1=80=D0=B5=
+=D0=B4=D0=B8=D1=82=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=A1=D1=80=D0=BE=D0=BA =D0=BA=D1=80=D0=B5=D0=
+=B4=D0=B8=D1=82=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F, =D0=BD=D0=BE =D0=BD=D0=
+=B5 =D0=B1=D0=BE=D0=BB=D0=B5=D0=B5 60 =D0=BC=D0=B5=D1=81</p>
+</div>
+</div>
+</div>
+<div>
+<style>
+    .innerCell .aura-panel-302a686851ce58f4, .sectionMacro .aura-panel-302a=
+686851ce58f4 {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-302a686851ce58f4 {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-302a686851ce58f4 .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-302a686851ce58f4 a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-302a686851ce58f4 a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-302a686851ce58f4 .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-302a686851ce58f4 .aura-headline svg {
+            margin-right: 0.5em;
+          }
+
+    .aura-panel-302a686851ce58f4 .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-302a686851ce58f4" style=3D"min-height: 360px;box-s=
+hadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.2), 0px 12px 4px -10px rgba(0, 0, 0,=
+ 0.4);border-radius: 4.0px;background-color: #ffffff;">
+<div class=3D"aura-header" style=3D"" href=3D"$href" target=3D"$hrefTarget"=
+>
+<div role=3D"heading" aria-level=3D"2" id=3D"aura-panel-302a686851ce58f4" c=
+lass=3D"aura-headline" style=3D"color: #152A29 !important;font-weight: bold=
+;text-align: left;font-size: 26.0px;display: flex;justify-content: center;"=
+>
+<svg version=3D"1.1" width=3D"26" height=3D"26" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"ShieldAlt">
+<path fill=3D"#152A29" d=3D"M466.5 83.7l-192-80a48.15 48.15 0 0 0-36.9 0l-1=
+92 80C27.7 91.1 16 108.6 16 128c0 198.5 114.5 335.7 221.5 380.3 11.8 4.9 25=
+.1 4.9 36.9 0C360.1 472.6 496 349.3 496 128c0-19.4-11.7-36.9-29.5-44.3zM256=
+.1 446.3l-.1-381 175.9 73.3c-3.3 151.4-82.1 261.1-175.8 307.7z">
+</path>
+</svg><span>=D0=A1=D1=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=D0=BE=D0=B5 =D0=BF=
+=D0=BE=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=B5</span>
+</div>
+</div>
+<div class=3D"aura-body" style=3D"">
+<h3 id=3D"id-=D0=90=D0=B2=D1=82=D0=BE=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=
+=D1=81=D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC=D0=BE=D1=82=D1=84=D0=
+=B8=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85=D0=BB=D0=B8=D1=86-=D0=
+=A3=D1=89=D0=B5=D1=80=D0=B1=D0=B2=D1=80=D0=B5=D0=B7=D1=83=D0=BB=D1=8C=D1=82=
+=D0=B0=D1=82=D0=B5:"><strong>:tick:&nbsp; =D0=A3=D1=89=D0=B5=D1=80=D0=B1 =
+=D0=B2 =D1=80=D0=B5=D0=B7=D1=83=D0=BB=D1=8C=D1=82=D0=B0=D1=82=D0=B5:</stron=
+g></h3>
+<ul>
+<li>=D0=94=D0=A2=D0=9F=20
+<hr></li>
+<li>=D0=9F=D0=B0=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F =D0=B8=D0=BB=D0=B8 =D0=BF=D0=
+=BE=D0=BF=D0=B0=D0=B4=D0=B0=D0=BD=D0=B8=D1=8F =D0=BD=D0=B0 =D0=A2=D0=A1 =D0=
+=B8=D0=BD=D0=BE=D1=80=D0=BE=D0=B4=D0=BD=D0=BE=D0=B3=D0=BE =D0=BE=D0=B1=D1=
+=8A=D0=B5=D0=BA=D1=82=D0=B0 =D0=B8=D0=BB=D0=B8 =D0=BF=D1=80=D0=B5=D0=B4=D0=
+=BC=D0=B5=D1=82=D0=B0=20
+<hr></li>
+<li>=D0=9F=D0=BE=D0=B6=D0=B0=D1=80=D0=B0, =D0=B2=D0=B7=D1=80=D1=8B=D0=B2=D0=
+=B0=20
+<hr></li>
+<li>=D0=A3=D0=B4=D0=B0=D1=80=D0=B0 =D0=BC=D0=BE=D0=BB=D0=BD=D0=B8=D0=B8, =
+=D1=81=D1=82=D0=B8=D1=85=D0=B8=D0=B9=D0=BD=D1=8B=D1=85 =D0=B1=D0=B5=D0=B4=
+=D1=81=D1=82=D0=B2=D0=B8=D0=B9=20
+<hr></li>
+<li>=D0=9F=D1=80=D0=BE=D1=82=D0=B8=D0=B2=D0=BE=D0=BF=D1=80=D0=B0=D0=B2=D0=
+=BD=D1=8B=D1=85 =D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=B8=D0=B9 =D1=82=D1=
+=80=D0=B5=D1=82=D1=8C=D0=B8=D1=85 =D0=BB=D0=B8=D1=86 (=D0=BA=D1=80=D0=BE=D0=
+=BC=D0=B5 =D1=83=D0=B3=D0=BE=D0=BD=D0=B0 =D0=B8 =D1=85=D0=B8=D1=89=D0=B5=D0=
+=BD=D0=B8=D1=8F)=20
+<hr></li>
+<li>=D0=94=D1=80=D1=83=D0=B3=D0=B8=D1=85 =D1=81=D0=BE=D0=B1=D1=8B=D1=82=D0=
+=B8=D0=B9, =D1=81=D0=B2=D1=8F=D0=B7=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D1=81 =
+=D0=B2=D0=BB=D0=B0=D0=B4=D0=B5=D0=BD=D0=B8=D0=B5=D0=BC =D0=A2=D0=A1, =D0=BA=
+=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =D0=BD=D0=B0=D1=81=D1=82=D1=83=D0=BF=
+=D0=B0=D1=8E=D1=82 =D0=BD=D0=B5=D0=BE=D0=B6=D0=B8=D0=B4=D0=B0=D0=BD=D0=BD=
+=D0=BE =D0=B8 =D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D1=83=D1=8E=D1=82 =D0=B8=
+=D0=B7=D0=B2=D0=BD=D0=B5.=20
+<hr></li>
+</ul>
+<h3 id=3D"id-=D0=90=D0=B2=D1=82=D0=BE=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=
+=D1=81=D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC=D0=BE=D1=82=D1=84=D0=
+=B8=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85=D0=BB=D0=B8=D1=86-=D0=
+=9F=D0=BE=D0=BB=D0=BD=D0=B0=D1=8F=D0=B3=D0=B8=D0=B1=D0=B5=D0=BB=D1=8C:"><st=
+rong>:tick:&nbsp; =D0=9F=D0=BE=D0=BB=D0=BD=D0=B0=D1=8F =D0=B3=D0=B8=D0=B1=
+=D0=B5=D0=BB=D1=8C:<br></strong></h3>
+<ul>
+<li>=D0=94=D0=A2=D0=9F=20
+<hr></li>
+<li>=D0=9F=D0=B0=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F =D0=B8=D0=BB=D0=B8 =D0=BF=D0=
+=BE=D0=BF=D0=B0=D0=B4=D0=B0=D0=BD=D0=B8=D1=8F =D0=BD=D0=B0 =D0=A2=D0=A1 =D0=
+=B8=D0=BD=D0=BE=D1=80=D0=BE=D0=B4=D0=BD=D0=BE=D0=B3=D0=BE =D0=BE=D0=B1=D1=
+=8A=D0=B5=D0=BA=D1=82=D0=B0 =D0=B8=D0=BB=D0=B8 =D0=BF=D1=80=D0=B5=D0=B4=D0=
+=BC=D0=B5=D1=82=D0=B0=20
+<hr></li>
+<li>=D0=9F=D0=BE=D0=B6=D0=B0=D1=80=D0=B0, =D0=B2=D0=B7=D1=80=D1=8B=D0=B2=D0=
+=B0=20
+<hr></li>
+<li>=D0=A3=D0=B4=D0=B0=D1=80=D0=B0 =D0=BC=D0=BE=D0=BB=D0=BD=D0=B8=D0=B8, =
+=D1=81=D1=82=D0=B8=D1=85=D0=B8=D0=B9=D0=BD=D1=8B=D1=85 =D0=B1=D0=B5=D0=B4=
+=D1=81=D1=82=D0=B2=D0=B8=D0=B9=20
+<hr></li>
+<li>=D0=9F=D1=80=D0=BE=D1=82=D0=B8=D0=B2=D0=BE=D0=BF=D1=80=D0=B0=D0=B2=D0=
+=BD=D1=8B=D1=85 =D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=B8=D0=B9 =D1=82=D1=
+=80=D0=B5=D1=82=D1=8C=D0=B8=D1=85 =D0=BB=D0=B8=D1=86 (=D0=BA=D1=80=D0=BE=D0=
+=BC=D0=B5 =D1=83=D0=B3=D0=BE=D0=BD=D0=B0 =D0=B8 =D1=85=D0=B8=D1=89=D0=B5=D0=
+=BD=D0=B8=D1=8F)=20
+<hr></li>
+<li>=D0=94=D1=80=D1=83=D0=B3=D0=B8=D1=85 =D1=81=D0=BE=D0=B1=D1=8B=D1=82=D0=
+=B8=D0=B9, =D1=81=D0=B2=D1=8F=D0=B7=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D1=81 =
+=D0=B2=D0=BB=D0=B0=D0=B4=D0=B5=D0=BD=D0=B8=D0=B5=D0=BC =D0=A2=D0=A1, =D0=BA=
+=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =D0=BD=D0=B0=D1=81=D1=82=D1=83=D0=BF=
+=D0=B0=D1=8E=D1=82 =D0=BD=D0=B5=D0=BE=D0=B6=D0=B8=D0=B4=D0=B0=D0=BD=D0=BD=
+=D0=BE =D0=B8 =D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D1=83=D1=8E=D1=82 =D0=B8=
+=D0=B7=D0=B2=D0=BD=D0=B5.=20
+<hr></li>
+</ul>
+<h3 id=3D"id-=D0=90=D0=B2=D1=82=D0=BE=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=
+=D1=81=D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC=D0=BE=D1=82=D1=84=D0=
+=B8=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85=D0=BB=D0=B8=D1=86-=D0=
+=A3=D0=B3=D0=BE=D0=BD=D0=B8=D1=85=D0=B8=D1=89=D0=B5=D0=BD=D0=B8=D0=B5."><st=
+rong>:tick:&nbsp; =D0=A3=D0=B3=D0=BE=D0=BD =D0=B8 =D1=85=D0=B8=D1=89=D0=B5=
+=D0=BD=D0=B8=D0=B5.<br></strong></h3>
+</div>
+</div>
+</div>
+<p style=3D"text-align: left;"><em><strong>=D0=9F=D0=BE=D0=BB=D0=BD=D0=B0=
+=D1=8F =D0=B3=D0=B8=D0=B1=D0=B5=D0=BB=D1=8C</strong> - =D1=81=D1=82=D0=BE=
+=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D1=8C =D0=B2=D0=BE=D1=81=D1=81=D1=82=D0=B0=
+=D0=BD=D0=BE=D0=B2=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE=D0=B3=D0=BE =
+=D1=80=D0=B5=D0=BC=D0=BE=D0=BD=D1=82=D0=B0 =D1=81=D0=BE=D1=81=D1=82=D0=B0=
+=D0=B2=D0=B8=D1=82 =D0=B1=D0=BE=D0=BB=D0=B5=D0=B5 70% =D0=BE=D1=82 =D0=B4=
+=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE=D0=
+=B9 =D1=81=D1=82=D0=BE=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=B8 =D0=A2=D0=A1 =D0=
+=BD=D0=B0 =D0=B4=D0=B0=D1=82=D1=83 =D0=BD=D0=B0=D1=81=D1=82=D1=83=D0=BF=D0=
+=BB=D0=B5=D0=BD=D0=B8=D1=8F =D1=81=D1=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=D0=
+=BE=D0=B3=D0=BE =D1=81=D0=BB=D1=83=D1=87=D0=B0=D1=8F.</em></p>
+</div>
+<div id=3D"=D0=BF=D0=BE=D1=80=D1=8F=D0=B4=D0=BE=D0=BA=D0=B2=D1=8B=D0=BF=D0=
+=BB=D0=B0=D1=82=D1=8B" data-pane-title=3D"=D0=BF=D0=BE=D1=80=D1=8F=D0=B4=D0=
+=BE=D0=BA =D0=B2=D1=8B=D0=BF=D0=BB=D0=B0=D1=82=D1=8B" class=3D"cfm tabs-pan=
+e ">
+<p></p>
+<div>
+<style>
+    .innerCell .aura-panel-64e626f65295fad3, .sectionMacro .aura-panel-64e6=
+26f65295fad3 {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-64e626f65295fad3 {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-64e626f65295fad3 .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-64e626f65295fad3 a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-64e626f65295fad3 a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-64e626f65295fad3 .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-64e626f65295fad3 .aura-headline svg {
+            margin-right: 0.5em;
+          }
+
+    .aura-panel-64e626f65295fad3 .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-64e626f65295fad3" style=3D"box-shadow: 0px 1px 6px=
+ 0px rgba(0, 0, 0, 0.2), 0px 12px 4px -10px rgba(0, 0, 0, 0.4);border-radiu=
+s: 4.0px;background-color: #ffffff;">
+<div class=3D"aura-header" style=3D"" href=3D"$href" target=3D"$hrefTarget"=
+>
+<div role=3D"heading" aria-level=3D"2" id=3D"aura-panel-64e626f65295fad3" c=
+lass=3D"aura-headline" style=3D"color: #152A29 !important;font-weight: norm=
+al;text-align: left;font-size: 26.0px;display: flex;justify-content: center=
+;">
+<span>=D0=9F=D0=BE=D1=80=D1=8F=D0=B4=D0=BE=D0=BA =D0=BE=D1=81=D1=83=D1=89=
+=D0=B5=D1=81=D1=82=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D1=81=D1=82=D1=80=
+=D0=B0=D1=85=D0=BE=D0=B2=D0=BE=D0=B9 =D0=B2=D1=8B=D0=BF=D0=BB=D0=B0=D1=82=
+=D1=8B.</span>
+</div>
+</div>
+<div class=3D"aura-body" style=3D"">
+<div>
+<style>
+    .innerCell .aura-panel-916fb29a097aa828, .sectionMacro .aura-panel-916f=
+b29a097aa828 {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-916fb29a097aa828 {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-916fb29a097aa828 .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-916fb29a097aa828 a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-916fb29a097aa828 a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-916fb29a097aa828 .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-916fb29a097aa828 .aura-headline svg {
+          }
+
+    .aura-panel-916fb29a097aa828 .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-916fb29a097aa828" style=3D"border-radius: 8.0px;ba=
+ckground-color: #ecf0f1;">
+<div class=3D"aura-body" style=3D"">
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:3%;min-width:3%;max-width:3%;">
+<p><span class=3D"button-macro-entry" data-macroid=3D"_8pYzt-qZ7KiKpqJ6rMAG=
+" data-config=3D"eyJidXR0b25UeXBlIjoiaWNvbl9vbmx5IiwiYnV0dG9uU2l6ZSI6Imxhcm=
+dlIiwiYnV0dG9uVGV4dCI6IldhdGNoIG5vdyIsImJ1dHRvblJhZGl1cyI6MjQsImJ1dHRvbldpZ=
+HRoIjoyMCwiYnV0dG9uQ29sb3IiOiIjMzQ5OGRiZmYiLCJidXR0b25Gb250Q29sb3IiOiIjZmZm=
+ZmZmZmYiLCJidXR0b25Cb3JkZXJDb2xvciI6IiMzNDk4ZGJmZiIsImJ1dHRvbkxpbmsiOiJcIlw=
+iIiwiYnV0dG9uTmV3VGFiIjoiZmFsc2UiLCJidXR0b25OZXdMaW5rIjoiIiwiYnV0dG9uSWNvbi=
+I6ImF0bGFza2l0L0NhbGVuZGFySWNvbiIsImJ1dHRvbkhvdmVyQ29sb3IiOiIjZmZmZmZmZmYiL=
+CJidXR0b25Cb3JkZXJIb3ZlckNvbG9yIjoiIzM0OThkYmZmIiwiYnV0dG9uRm9udEhvdmVyQ29s=
+b3IiOiIjMzQ5OGRiZmYiLCJidXR0b25JY29uSG92ZXJDb2xvciI6IiMzNDk4ZGJmZiIsImlzQnV=
+0dG9uU2hhZG93T24iOnRydWUsImJ1dHRvbkljb25Db2xvciI6IiNmZmZmZmYiLCJidXR0b25XaW=
+R0aERldGVjdGlvbiI6NjAsImVtb2ppRW5hYmxlZCI6ZmFsc2UsImVtb2ppIjoie30ifQ=3D=3D"=
+ style=3D"display: inline-block"></span></p>
+</div>
+<div class=3D"columnMacro">
+<p><span style=3D"color: rgb(52,73,94);"><br>
+ =D0=92 =D1=82=D0=B5=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 15 =D1=80=D0=B0=D0=B1=D0=
+=BE=D1=87=D0=B8=D1=85 =D0=B4=D0=BD=D0=B5=D0=B9 =D0=BF=D0=BE =D1=81=D1=82=D1=
+=80=D0=B0=D1=85=D0=BE=D0=B2=D1=8B=D0=BC =D1=81=D0=BB=D1=83=D1=87=D0=B0=D1=
+=8F=D0=BC =C2=AB=D0=A3=D1=89=D0=B5=D1=80=D0=B1=C2=BB, =C2=AB=D0=9F=D0=BE=D0=
+=BB=D0=BD=D0=B0=D1=8F =D0=B3=D0=B8=D0=B1=D0=B5=D0=BB=D1=8C=C2=BB, =D0=B2 =
+=D1=82=D0=B5=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 30 =D1=80=D0=B0=D0=B1=D0=BE=D1=
+=87=D0=B8=D1=85 =D0=B4=D0=BD=D0=B5=D0=B9 =D0=BF=D0=BE =D1=81=D1=82=D1=80=D0=
+=B0=D1=85=D0=BE=D0=B2=D0=BE=D0=BC=D1=83 =D1=81=D0=BB=D1=83=D1=87=D0=B0=D1=
+=8E =C2=AB=D0=A3=D0=B3=D0=BE=D0=BD =D0=B8=D0=BB=D0=B8 =D0=A5=D0=B8=D1=89=D0=
+=B5=D0=BD=D0=B8=D0=B5=C2=BB =D0=BF=D0=BE=D1=81=D0=BB=D0=B5 =D0=BF=D1=80=D0=
+=B5=D0=B4=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D0=
+=B2=D1=81=D0=B5=D1=85 =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=
+=BC=D1=8B=D1=85 =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=BE=D0=
+=B2.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<style>
+    .innerCell .aura-panel-916fb29a097aa828, .sectionMacro .aura-panel-916f=
+b29a097aa828 {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-916fb29a097aa828 {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-916fb29a097aa828 .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-916fb29a097aa828 a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-916fb29a097aa828 a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-916fb29a097aa828 .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-916fb29a097aa828 .aura-headline svg {
+          }
+
+    .aura-panel-916fb29a097aa828 .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-916fb29a097aa828" style=3D"border-radius: 8.0px;ba=
+ckground-color: #ecf0f1;">
+<div class=3D"aura-body" style=3D"">
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:3%;min-width:3%;max-width:3%;">
+<p><span class=3D"button-macro-entry" data-macroid=3D"_8pYzt-qZ7KiKpqJ6rMAG=
+" data-config=3D"eyJidXR0b25UeXBlIjoiaWNvbl9vbmx5IiwiYnV0dG9uU2l6ZSI6Imxhcm=
+dlIiwiYnV0dG9uVGV4dCI6IldhdGNoIG5vdyIsImJ1dHRvblJhZGl1cyI6MjQsImJ1dHRvbldpZ=
+HRoIjoyMCwiYnV0dG9uQ29sb3IiOiIjMzQ5OGRiZmYiLCJidXR0b25Gb250Q29sb3IiOiIjZmZm=
+ZmZmZmYiLCJidXR0b25Cb3JkZXJDb2xvciI6IiMzNDk4ZGJmZiIsImJ1dHRvbkxpbmsiOiJcIlw=
+iIiwiYnV0dG9uTmV3VGFiIjoiZmFsc2UiLCJidXR0b25OZXdMaW5rIjoiIiwiYnV0dG9uSWNvbi=
+I6ImZvbnQtYXdlc29tZS9Nb25leUJpbGxBbHQiLCJidXR0b25Ib3ZlckNvbG9yIjoiI2ZmZmZmZ=
+mZmIiwiYnV0dG9uQm9yZGVySG92ZXJDb2xvciI6IiMzNDk4ZGJmZiIsImJ1dHRvbkZvbnRIb3Zl=
+ckNvbG9yIjoiIzM0OThkYmZmIiwiYnV0dG9uSWNvbkhvdmVyQ29sb3IiOiIjMzQ5OGRiZmYiLCJ=
+pc0J1dHRvblNoYWRvd09uIjp0cnVlLCJidXR0b25JY29uQ29sb3IiOiIjZmZmZmZmIiwiYnV0dG=
+9uV2lkdGhEZXRlY3Rpb24iOjYwLCJlbW9qaUVuYWJsZWQiOmZhbHNlLCJlbW9qaSI6Int9In0=
+=3D" style=3D"display: inline-block"></span></p>
+</div>
+<div class=3D"columnMacro">
+<p><span style=3D"color: rgb(52,73,94);"><br>
+ =D0=92 =D1=80=D0=B0=D0=B7=D0=BC=D0=B5=D1=80=D0=B5 =D1=80=D0=B5=D0=B0=D0=BB=
+=D1=8C=D0=BD=D0=BE=D0=B3=D0=BE =D1=83=D1=89=D0=B5=D1=80=D0=B1=D0=B0, =D0=BF=
+=D1=80=D0=B8=D1=87=D0=B8=D0=BD=D0=B5=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D0=B0=
+=D0=B2=D1=82=D0=BE=D1=82=D1=80=D0=B0=D0=BD=D1=81=D0=BF=D0=BE=D1=80=D1=82=D1=
+=83, =D0=B7=D0=B0 =D0=B2=D1=8B=D1=87=D0=B5=D1=82=D0=BE=D0=BC =D1=84=D1=80=
+=D0=B0=D0=BD=D1=88=D0=B8=D0=B7=D1=8B, =D0=BD=D0=BE =D0=BD=D0=B5 =D0=B1=D0=
+=BE=D0=BB=D0=B5=D0=B5 =D1=81=D1=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=D0=BE=D0=
+=B9 =D1=81=D1=83=D0=BC=D0=BC=D1=8B, =D0=B8 =D0=BD=D0=B5 =D0=BF=D1=80=D0=B5=
+=D0=B2=D1=8B=D1=88=D0=B0=D1=8E=D1=89=D0=B8=D0=B9 =D1=81=D1=83=D0=BC=D0=BC=
+=D1=83 =D0=9E=D0=94 =D0=BD=D0=B0 =D0=B4=D0=B0=D1=82=D1=83 =D0=BE=D1=81=D1=
+=83=D1=89=D0=B5=D1=81=D1=82=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D0=B2=D1=
+=8B=D0=BF=D0=BB=D0=B0=D1=82=D1=8B.<br></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<style>
+    .innerCell .aura-panel-916fb29a097aa828, .sectionMacro .aura-panel-916f=
+b29a097aa828 {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-916fb29a097aa828 {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-916fb29a097aa828 .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-916fb29a097aa828 a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-916fb29a097aa828 a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-916fb29a097aa828 .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-916fb29a097aa828 .aura-headline svg {
+          }
+
+    .aura-panel-916fb29a097aa828 .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-916fb29a097aa828" style=3D"border-radius: 8.0px;ba=
+ckground-color: #ecf0f1;">
+<div class=3D"aura-body" style=3D"">
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:3%;min-width:3%;max-width:3%;">
+<p><span class=3D"button-macro-entry" data-macroid=3D"_8pYzt-qZ7KiKpqJ6rMAG=
+" data-config=3D"eyJidXR0b25UeXBlIjoiaWNvbl9vbmx5IiwiYnV0dG9uU2l6ZSI6Imxhcm=
+dlIiwiYnV0dG9uVGV4dCI6IldhdGNoIG5vdyIsImJ1dHRvblJhZGl1cyI6MjQsImJ1dHRvbldpZ=
+HRoIjoyMCwiYnV0dG9uQ29sb3IiOiIjMzQ5OGRiZmYiLCJidXR0b25Gb250Q29sb3IiOiIjZmZm=
+ZmZmZmYiLCJidXR0b25Cb3JkZXJDb2xvciI6IiMzNDk4ZGJmZiIsImJ1dHRvbkxpbmsiOiJcIlw=
+iIiwiYnV0dG9uTmV3VGFiIjoiZmFsc2UiLCJidXR0b25OZXdMaW5rIjoiIiwiYnV0dG9uSWNvbi=
+I6Im1hdGVyaWFsLWRlc2lnbi9Eb2N1bWVudFNjYW5uZXIiLCJidXR0b25Ib3ZlckNvbG9yIjoiI=
+2ZmZmZmZmZmIiwiYnV0dG9uQm9yZGVySG92ZXJDb2xvciI6IiMzNDk4ZGJmZiIsImJ1dHRvbkZv=
+bnRIb3ZlckNvbG9yIjoiIzM0OThkYmZmIiwiYnV0dG9uSWNvbkhvdmVyQ29sb3IiOiIjMzQ5OGR=
+iZmYiLCJpc0J1dHRvblNoYWRvd09uIjp0cnVlLCJidXR0b25JY29uQ29sb3IiOiIjZmZmZmZmIi=
+wiYnV0dG9uV2lkdGhEZXRlY3Rpb24iOjYwLCJlbW9qaUVuYWJsZWQiOmZhbHNlLCJlbW9qaSI6I=
+nt9In0=3D" style=3D"display: inline-block"></span></p>
+</div>
+<div class=3D"columnMacro">
+<p><span style=3D"color: rgb(52,73,94);"><br>
+ =D0=9D=D0=B0 =D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B8 =D0=BF=
+=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=BD=D1=8B=D1=
+=85 =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=BE=D0=B2, =D0=B8=D1=
+=81=D1=85=D0=BE=D0=B4=D1=8F =D0=B8=D0=B7 =D1=80=D0=B0=D1=81=D1=87=D0=B5=D1=
+=82=D0=B0 =D1=81=D1=82=D0=BE=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=B8 =D0=B2=D0=
+=BE=D1=81=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F=
+, =D0=BF=D0=BE=D0=B2=D1=80=D0=B5=D0=B6=D0=B4=D0=B5=D0=BD=D0=BD=D0=BE=D0=B3=
+=D0=BE =D0=B0=D0=B2=D1=82=D0=BE=D1=82=D1=80=D0=B0=D0=BD=D1=81=D0=BF=D0=BE=
+=D1=80=D1=82=D0=B0 =D1=81 =D1=83=D1=87=D0=B5=D1=82=D0=BE=D0=BC =D0=B0=D0=BC=
+=D0=BE=D1=80=D1=82=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=D0=B8.<br></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<style>
+    .innerCell .aura-panel-916fb29a097aa828, .sectionMacro .aura-panel-916f=
+b29a097aa828 {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-916fb29a097aa828 {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-916fb29a097aa828 .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-916fb29a097aa828 a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-916fb29a097aa828 a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-916fb29a097aa828 .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-916fb29a097aa828 .aura-headline svg {
+          }
+
+    .aura-panel-916fb29a097aa828 .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-916fb29a097aa828" style=3D"border-radius: 8.0px;ba=
+ckground-color: #ecf0f1;">
+<div class=3D"aura-body" style=3D"">
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:3%;min-width:3%;max-width:3%;">
+<p><span class=3D"button-macro-entry" data-macroid=3D"_8pYzt-qZ7KiKpqJ6rMAG=
+" data-config=3D"eyJidXR0b25UeXBlIjoiaWNvbl9vbmx5IiwiYnV0dG9uU2l6ZSI6Imxhcm=
+dlIiwiYnV0dG9uVGV4dCI6IldhdGNoIG5vdyIsImJ1dHRvblJhZGl1cyI6MjQsImJ1dHRvbldpZ=
+HRoIjoyMCwiYnV0dG9uQ29sb3IiOiIjMzQ5OGRiZmYiLCJidXR0b25Gb250Q29sb3IiOiIjZmZm=
+ZmZmZmYiLCJidXR0b25Cb3JkZXJDb2xvciI6IiMzNDk4ZGJmZiIsImJ1dHRvbkxpbmsiOiJcIlw=
+iIiwiYnV0dG9uTmV3VGFiIjoiZmFsc2UiLCJidXR0b25OZXdMaW5rIjoiIiwiYnV0dG9uSWNvbi=
+I6Im1hdGVyaWFsLWRlc2lnbi9Mb2NhbFBvc3RPZmZpY2UiLCJidXR0b25Ib3ZlckNvbG9yIjoiI=
+2ZmZmZmZmZmIiwiYnV0dG9uQm9yZGVySG92ZXJDb2xvciI6IiMzNDk4ZGJmZiIsImJ1dHRvbkZv=
+bnRIb3ZlckNvbG9yIjoiIzM0OThkYmZmIiwiYnV0dG9uSWNvbkhvdmVyQ29sb3IiOiIjMzQ5OGR=
+iZmYiLCJpc0J1dHRvblNoYWRvd09uIjp0cnVlLCJidXR0b25JY29uQ29sb3IiOiIjZmZmZmZmIi=
+wiYnV0dG9uV2lkdGhEZXRlY3Rpb24iOjYwLCJlbW9qaUVuYWJsZWQiOmZhbHNlLCJlbW9qaSI6I=
+nt9In0=3D" style=3D"display: inline-block"></span></p>
+</div>
+<div class=3D"columnMacro">
+<p><br></p>
+<p>=D0=A0=D0=B5=D1=88=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BE=D0=B1 =D0=BE=D1=82=D0=
+=BA=D0=B0=D0=B7=D0=B5 =D0=B2 =D0=BE=D1=81=D1=83=D1=89=D0=B5=D1=81=D1=82=D0=
+=B2=D0=BB=D0=B5=D0=BD=D0=B8=D0=B8 =D1=81=D1=82=D1=80=D0=B0=D1=85=D0=BE=D0=
+=B2=D0=BE=D0=B9 =D0=B2=D1=8B=D0=BF=D0=BB=D0=B0=D1=82=D1=8B =D0=BD=D0=B0=D0=
+=BF=D1=80=D0=B0=D0=B2=D0=BB=D1=8F=D0=B5=D1=82=D1=81=D1=8F =D0=A1=D1=82=D1=
+=80=D0=B0=D1=85=D0=BE=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=D1=8E =D0=B2 =D0=BF=D0=
+=B8=D1=81=D1=8C=D0=BC=D0=B5=D0=BD=D0=BD=D0=BE=D0=B9 =D1=84=D0=BE=D1=80=D0=
+=BC=D0=B5 =D1=81 =D0=BE=D0=B1=D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD=D0=
+=B8=D0=B5=D0=BC =D0=BF=D1=80=D0=B8=D1=87=D0=B8=D0=BD=D1=8B.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p><br></p>
+</div>
+</div>
+</div>
+<p></p>
+</div>
+<div id=3D"=D1=81=D1=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=D0=BE=D0=B9=D1=81=D0=
+=BB=D1=83=D1=87=D0=B0=D0=B9" data-pane-title=3D"=D1=81=D1=82=D1=80=D0=B0=D1=
+=85=D0=BE=D0=B2=D0=BE=D0=B9 =D1=81=D0=BB=D1=83=D1=87=D0=B0=D0=B9" class=3D"=
+cfm tabs-pane ">
+<p></p>
+<div>
+<style>
+    .innerCell .aura-panel-29e1696ca863cd9a, .sectionMacro .aura-panel-29e1=
+696ca863cd9a {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-29e1696ca863cd9a {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-29e1696ca863cd9a .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-29e1696ca863cd9a a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-29e1696ca863cd9a a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-29e1696ca863cd9a .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-29e1696ca863cd9a .aura-headline svg {
+            margin-right: 0.5em;
+          }
+
+    .aura-panel-29e1696ca863cd9a .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-29e1696ca863cd9a" style=3D"box-shadow: 0px 1px 6px=
+ 0px rgba(0, 0, 0, 0.2), 0px 12px 4px -10px rgba(0, 0, 0, 0.4);border-radiu=
+s: 4.0px;background-color: #ffffff;">
+<div class=3D"aura-header" style=3D"" href=3D"$href" target=3D"$hrefTarget"=
+>
+<div role=3D"heading" aria-level=3D"2" id=3D"aura-panel-29e1696ca863cd9a" c=
+lass=3D"aura-headline" style=3D"color: #152A29 !important;font-weight: norm=
+al;text-align: left;font-size: 26.0px;display: flex;justify-content: center=
+;">
+<svg version=3D"1.1" width=3D"26" height=3D"26" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"Phone">
+<path fill=3D"#ee5253" d=3D"M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.=
+9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.=
+2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24=
+ 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-1=
+8.6-23.4z">
+</path>
+</svg><span>=D0=9F=D1=80=D0=B8 =D0=BD=D0=B0=D1=81=D1=82=D1=83=D0=BF=D0=BB=
+=D0=B5=D0=BD=D0=B8=D0=B8 =D1=81=D1=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=D0=BE=
+=D0=B3=D0=BE =D1=81=D0=BB=D1=83=D1=87=D0=B0=D1=8F =D0=BD=D0=B5=D0=BE=D0=B1=
+=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE =D0=BF=D0=BE=D0=B7=D0=B2=D0=BE=D0=BD=
+=D0=B8=D1=82=D1=8C =D0=B2 =D0=9A=D0=BE=D0=BB=D0=BB =D0=A6=D0=B5=D0=BD=D1=82=
+=D1=80 =D0=BF=D0=BE =D0=BD=D0=BE=D0=BC=D0=B5=D1=80=D1=83 2040</span>
+</div>
+</div>
+<div class=3D"aura-body" style=3D"">
+<p><style>.aura-cards-a087b38bd9866f2f.aura-cards-wrapper { margin: auto; d=
+isplay: grid; grid-template-columns: repeat(auto-fit, minmax(calc(100% / 3)=
+, 1fr)); max-width: 100%;}@media only screen and (max-width: 600px) { .aura=
+-cards-a087b38bd9866f2f.aura-cards-wrapper { grid-template-columns: 1fr; }}=
+.aura-card-header { display: flex; width: 100%;}.aura-cards-a087b38bd9866f2=
+f .aura-card-icon { display: flex; display: none; justify-content: center; =
+align-items: center;}.aura-cards-a087b38bd9866f2f .aura-card-image { displa=
+y: none; background-size: cover; background-position: center; background-im=
+age: linear-gradient(45deg, #757575, #ececec); width: 100%;}aura-cards-a087=
+b38bd9866f2f .aura-card-body { display: block;}.aura-cards-a087b38bd9866f2f=
+ .aura-card-header, .aura-cards-a087b38bd9866f2f .aura-card-body { padding:=
+ 1.5rem; box-sizing: border-box;}.aura-cards-a087b38bd9866f2f .aura-card-he=
+ader { padding-bottom: 0;}.aura-cards-a087b38bd9866f2f .aura-card-header-sp=
+acer { display: none; height: 0.5rem; width: 1.5rem;}.aura-cards-a087b38bd9=
+866f2f .aura-card-content-wrapper { flex: 1; padding: calc(4px * 4) 0; tran=
+sition: padding 0.5s;}.aura-cards-a087b38bd9866f2f .aura-card-body { font-s=
+ize: 14px; padding-top: 0;}.aura-cards-a087b38bd9866f2f .aura-card-body-spa=
+cer { height: 1rem;} .aura-cards-a087b38bd9866f2f .aura-card-body-spacer { =
+background-color: none !important; opacity: 0; }.aura-cards-a087b38bd9866f2=
+f .aura-card-header .aura-card-icon svg { width: 1.5rem; height: 1.5rem;}.a=
+ura-cards-a087b38bd9866f2f .aura-card-title { font-size: 18px; font-weight:=
+ bold; word-break: break-word; margin-top: 0;}.aura-cards-a087b38bd9866f2f =
+.aura-card, .aura-cards-a087b38bd9866f2f a.aura-card { box-sizing: border-b=
+ox; margin: 10px; text-decoration: none; color: inherit; overflow: hidden;}=
+.aura-cards-a087b38bd9866f2f a[href=3D'#'].aura-card { cursor: default !imp=
+ortant;}.aura-cards-a087b38bd9866f2f .aura-card, aura-cards-a087b38bd9866f2=
+f, .aura-cards-a087b38bd9866f2f .aura-card-preview-wrapper { transition: al=
+l 0.5s; transform-origin: bottom center;}.aura-cards-a087b38bd9866f2f .aura=
+-card { transition: all 0.5s; transform-origin: bottom center;}.aura-cards-=
+a087b38bd9866f2f .aura-card:hover { position: relative; z-index: 1; transfo=
+rm: scale(1.05);}.aura-cards-a087b38bd9866f2f.layout-icon-center .aura-card=
+-header { flex-direction: column; justify-content: center; align-items: cen=
+ter; text-align: center;}.aura-cards-a087b38bd9866f2f.layout-icon-center .a=
+ura-card-body { text-align: center; line-height: 1.4rem;}.aura-cards-a087b3=
+8bd9866f2f.theme-fabric .aura-card svg { height: 2rem; width: 2rem; margin:=
+ .5rem 0;}.aura-cards-a087b38bd9866f2f.theme-fabric .aura-card { box-shadow=
+: 0 10px 10px -10px rgba(50, 50, 75, 0.1), 0 0 20px rgba(50, 50, 75, 0.05);=
+}.aura-cards-a087b38bd9866f2f.theme-fabric .aura-card-body { color: rgba(25=
+5, 255, 255, 0.75);}.aura-cards-a087b38bd9866f2f.theme-fabric .aura-card-ti=
+tle { color: #fff;}.aura-cards-a087b38bd9866f2f.theme-fabric .aura-card-hea=
+der .aura-card-icon { width: 3.5rem; height: 3.5rem; min-width: 3.5rem; min=
+-height: 3.5rem; border-radius: 3rem;}</style></p>
+<div class=3D"aura-cards-a087b38bd9866f2f aura-cards-wrapper theme-fabric l=
+ayout-icon-center">
+<div class=3D"aura-card" style=3D"background: #3498db;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1540979388789-6cee28a1cdc9?ixlib=3Drb-1.2.1&amp;ixid=
+=3DeyJhcHBfaWQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D934&amp;q=
+=3D100);" role=3D"img" data-background-image=3D"url(https://images.unsplash=
+.com/photo-1540979388789-6cee28a1cdc9?ixlib=3Drb-1.2.1&amp;ixid=3DeyJhcHBfa=
+WQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D934&amp;q=3D100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#fff" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L=
+121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.=
+9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3=
+-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=A8=D0=B0=D0=B3 1</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=9E=D0=BF=D0=B5=D1=80=D0=B0=D1=82=D0=BE=D1=
+=80 =D0=BF=D1=80=D0=BE=D0=BA=D0=BE=D0=BD=D1=81=D1=83=D0=BB=D1=8C=D1=82=D0=
+=B8=D1=80=D1=83=D0=B5=D1=82 =D0=BE =D0=BF=D0=BE=D1=80=D1=8F=D0=B4=D0=BA=D0=
+=B5 =D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=B8=D0=B9, =D0=B8 =D1=80=D0=B0=
+=D1=81=D1=81=D0=BA=D0=B0=D0=B6=D0=B5=D1=82 =D0=BA=D0=B0=D0=BA=D0=B8=D0=B5 =
+=D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D1=8B =D0=BD=D0=B5=D0=BE=
+=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D1=8B.</p>
+</div>
+</div>
+<div class=3D"aura-card" style=3D"background: #3498db;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1571254531817-83275b6b6411?ixlib=3Drb-1.2.1&amp;ixid=
+=3DeyJhcHBfaWQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D881&amp;q=
+=3D100);" role=3D"img" data-background-image=3D"url(https://images.unsplash=
+.com/photo-1571254531817-83275b6b6411?ixlib=3Drb-1.2.1&amp;ixid=3DeyJhcHBfa=
+WQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D881&amp;q=3D100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#fff" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L=
+121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.=
+9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3=
+-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=A8=D0=B0=D0=B3 2</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=9D=D0=B0=D0=BF=D0=B8=D1=81=D0=B0=D1=82=D1=
+=8C =D0=B7=D0=B0=D1=8F=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B2 =D1=81=D1=
+=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=D1=83=D1=8E =D0=BA=D0=BE=D0=BC=D0=BF=D0=
+=BF=D0=B0=D0=BD=D0=B8=D1=8E</p>
+</div>
+</div>
+<div class=3D"aura-card" style=3D"background: #3498db;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=3Drb-1.2.1&amp;auto=
+=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D100);" role=3D"img" data-backg=
+round-image=3D"url(https://images.unsplash.com/photo-1483683804023-6ccdb62f=
+86ef?ixlib=3Drb-1.2.1&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D=
+100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#fff" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L=
+121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.=
+9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3=
+-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=A8=D0=B0=D0=B3 3</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=A1=D0=BE=D0=B1=D1=80=D0=B0=D1=82=D1=8C =D0=
+=B8 =D0=BF=D1=80=D0=B5=D0=B4=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=B8=D1=82=D1=
+=8C =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D1=8B=D0=B5 =D0=
+=B4=D0=BB=D1=8F =D0=B2=D1=8B=D0=BF=D0=BB=D0=B0=D1=82=D1=8B =D0=B4=D0=BE=D0=
+=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D1=8B</p>
+</div>
+</div>
+</div>
+<p></p>
+</div>
+</div>
+</div>
+<p></p>
+</div>
+<div id=3D"=D0=B4=D0=BE=D1=81=D1=80=D0=BE=D1=87=D0=BD=D0=BE=D0=B5=D1=80=D0=
+=B0=D1=81=D1=82=D0=BE=D1=80=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5=D1=81=D1=82=D1=80=
+=D0=B0=D1=85=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F" data-pane-title=3D"=D0=B4=
+=D0=BE=D1=81=D1=80=D0=BE=D1=87=D0=BD=D0=BE=D0=B5 =D1=80=D0=B0=D1=81=D1=82=
+=D0=BE=D1=80=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5 =D1=81=D1=82=D1=80=D0=B0=D1=85=
+=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F" class=3D"cfm tabs-pane ">
+<p></p>
+<div class=3D"contentLayout2">
+<div class=3D"columnLayout two-equal" data-layout=3D"two-equal">
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<div>
+<style>
+    .innerCell .aura-panel-a773a9428dd56f2d, .sectionMacro .aura-panel-a773=
+a9428dd56f2d {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-a773a9428dd56f2d {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-a773a9428dd56f2d .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-a773a9428dd56f2d a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-a773a9428dd56f2d a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-a773a9428dd56f2d .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-a773a9428dd56f2d .aura-headline svg {
+            margin-right: 0.5em;
+          }
+
+    .aura-panel-a773a9428dd56f2d .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-a773a9428dd56f2d" style=3D"box-shadow: 0px 1px 6px=
+ 0px rgba(0, 0, 0, 0.2), 0px 12px 4px -10px rgba(0, 0, 0, 0.4);border-radiu=
+s: 8.0px;background-color: #ffffff;">
+<div class=3D"aura-header" style=3D"" href=3D"$href" target=3D"$hrefTarget"=
+>
+<div role=3D"heading" aria-level=3D"2" id=3D"aura-panel-a773a9428dd56f2d" c=
+lass=3D"aura-headline" style=3D"color: #152A29 !important;font-weight: bold=
+;text-align: left;font-size: 18.0px;display: flex;justify-content: center;"=
+>
+<span>=D0=94=D0=BE=D1=81=D1=80=D0=BE=D1=87=D0=BD=D0=BE=D0=B5 =D1=80=D0=B0=
+=D1=81=D1=82=D0=BE=D1=80=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B4=D0=BE=D0=B3=
+=D0=BE=D0=B2=D0=BE=D1=80=D0=B0 =D1=81=D1=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=
+=D0=B0=D0=BD=D0=B8=D1=8F</span>
+</div>
+</div>
+<div class=3D"aura-body" style=3D"">
+<div>
+<style>
+    .innerCell .aura-panel-ae7c552f565e5916, .sectionMacro .aura-panel-ae7c=
+552f565e5916 {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-ae7c552f565e5916 {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-ae7c552f565e5916 .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-ae7c552f565e5916 a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-ae7c552f565e5916 a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-ae7c552f565e5916 .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-ae7c552f565e5916 .aura-headline svg {
+          }
+
+    .aura-panel-ae7c552f565e5916 .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-ae7c552f565e5916" style=3D"border-left: 4px solid =
+#0065ff;border-radius: 8.0px;background-color: #f3f3f3;">
+<div class=3D"aura-body" style=3D"">
+<h4 id=3D"id-=D0=90=D0=B2=D1=82=D0=BE=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=
+=D1=81=D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC=D0=BE=D1=82=D1=84=D0=
+=B8=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85=D0=BB=D0=B8=D1=86-=D0=
+=9F=D1=80=D0=B8=D0=B4=D0=BE=D1=81=D1=80=D0=BE=D1=87=D0=BD=D0=BE=D0=BC=D0=BF=
+=D0=BE=D0=B3=D0=B0=D1=88=D0=B5=D0=BD=D0=B8=D0=B8=D0=B7=D0=B0=D0=B9=D0=BC=D0=
+=B0,=D0=B7=D0=B0=D0=BD=D0=B5=D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=
+=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D0=B9=D1=81=D1=80=D0=BE=D0=BA=D0=B2=D0=BE=
+=D0=B7=D0=B2=D1=80=D0=B0=D1=89=D0=B0=D0=B5=D1=82=D1=81=D1=8F90%=D0=BE=D1=82=
+=D0=BE=D1=81=D1=82=D0=B0=D1=82=D0=BA=D0=B0=D1=81=D1=82=D1=80=D0=B0=D1=85=D0=
+=BE=D0=B2=D0=BE=D0=B9=D0=BF=D1=80=D0=B5=D0=BC=D0=B8=D0=B8.=D0=9F=D1=80=D0=
+=B8=D0=BC=D0=B5=D1=80:">=D0=9F=D1=80=D0=B8 =D0=B4=D0=BE=D1=81=D1=80=D0=BE=
+=D1=87=D0=BD=D0=BE=D0=BC =D0=BF=D0=BE=D0=B3=D0=B0=D1=88=D0=B5=D0=BD=D0=B8=
+=D0=B8 =D0=B7=D0=B0=D0=B9=D0=BC=D0=B0, =D0=B7=D0=B0 =D0=BD=D0=B5 =D0=B8=D1=
+=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D0=B9=
+ =D1=81=D1=80=D0=BE=D0=BA =D0=B2=D0=BE=D0=B7=D0=B2=D1=80=D0=B0=D1=89=D0=B0=
+=D0=B5=D1=82=D1=81=D1=8F 90% =D0=BE=D1=82 =D0=BE=D1=81=D1=82=D0=B0=D1=82=D0=
+=BA=D0=B0 =D1=81=D1=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=D0=BE=D0=B9 =D0=BF=D1=
+=80=D0=B5=D0=BC=D0=B8=D0=B8.<br><br><strong>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=
+=D1=80:</strong></h4>
+<p>=D0=A1=D1=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=D0=B0=D1=8F =D0=BF=D1=80=D0=
+=B5=D0=BC=D0=B8=D1=8F =3D 100 000 =D1=82=D0=B5=D0=BD=D0=B3=D0=B5,</p>
+<p>=D0=A1=D1=80=D0=BE=D0=BA =D1=81=D1=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=D0=
+=B0=D0=BD=D0=B8=D1=8F: 01.01.2021 =E2=80=93 31.12.2021 (365 =D0=B4=D0=BD=D0=
+=B5=D0=B9)</p>
+<p>=D0=94=D0=B0=D1=82=D0=B0 =D1=80=D0=B0=D1=81=D1=82=D0=BE=D1=80=D0=B6=D0=
+=B5=D0=BD=D0=B8=D1=8F: 16.06.2021</p>
+<p>=D0=9E=D1=81=D1=82=D0=B0=D0=B2=D1=88=D0=B8=D0=B9=D1=81=D1=8F =D1=81=D1=
+=80=D0=BE=D0=BA: 198 =D0=B4=D0=BD=D0=B5=D0=B9</p>
+<p><strong>=D0=A0=D0=B0=D1=81=D1=87=D0=B5=D1=82:</strong>&nbsp;(100 000 =E2=
+=80=93 10% * 100 000) / 365 * 198 =3D 48 822 =D1=82=D0=B5=D0=BD=D0=B3=D0=B5=
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p><em>=D0=94=D0=BB=D1=8F =D1=80=D0=B0=D1=81=D1=82=D0=BE=D1=80=D0=B6=D0=B5=
+=D0=BD=D0=B8=D1=8F =D0=B4=D0=BE=D0=B3=D0=BE=D0=B2=D0=BE=D1=80=D0=B0 =D1=81=
+=D1=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=BD=D0=B5=
+=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE =D0=BF=D0=BE=D0=B7=D0=B2=
+=D0=BE=D0=BD=D0=B8=D1=82=D1=8C =D0=B2 =D0=9A=D0=BE=D0=BB=D0=BB-=D0=A6=D0=B5=
+=D0=BD=D1=82=D1=80&nbsp;<strong>2040</strong></em></p>
+</div>
+</div>
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<style type=3D"text/css" rel=3D"preload" id=3D"custom-styles">
+
+</style>
+<script>
+const header =3D $("#header");
+const fixedHeader =3D "fixed-header";
+$(window).on("scroll", () =3D> {=20
+     if(window.pageYOffset > header.outerHeight()){
+          if(!header.hasClass(fixedHeader)){
+               header.addClass(fixedHeader);=20
+          }
+     } else {=20
+          header.removeClass(fixedHeader);=20
+     }
+});
+</script>
+<div class=3D"sectionMacroRow">
+<div id=3D"calculator-container"></div>
+<script>
+const allowedPages =3D ['230720545', '174299271', '174299271'];
+  const currentUrl =3D window.location.href;
+  const isAllowedPage =3D allowedPages.some(pageId =3D> currentUrl.includes=
+(`pageId=3D${pageId}`));
+  if (isAllowedPage) {
+    const container =3D document.getElementById('calculator-container');
+    const shadowRoot =3D container.attachShadow({ mode: 'open' });
+    const calculatorHTML =3D `
+      <div id=3D"insurance-calculator">
+        <h1>=D0=9A=D0=B0=D0=BB=D1=8C=D0=BA=D1=83=D0=BB=D1=8F=D1=82=D0=BE=D1=
+=80 =D0=B2=D0=BE=D0=B7=D0=B2=D1=80=D0=B0=D1=82=D0=B0 =D1=81=D1=82=D1=80=D0=
+=B0=D1=85=D0=BE=D0=B2=D0=BA=D0=B8 =D0=9A=D0=90=D0=A1=D0=9A=D0=9E</h1>
+        <div class=3D"input-group">
+          <label for=3D"premium">=D0=A1=D1=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=
+=D0=B0=D1=8F =D0=BF=D1=80=D0=B5=D0=BC=D0=B8=D1=8F (=E2=82=B8):</label>
+          <input type=3D"text" id=3D"premium" placeholder=3D"=D0=92=D0=B2=
+=D0=B5=D0=B4=D0=B8=D1=82=D0=B5 =D1=81=D1=83=D0=BC=D0=BC=D1=83 =D1=81=D1=82=
+=D1=80=D0=B0=D1=85=D0=BE=D0=B2=D0=BE=D0=B9 =D0=BF=D1=80=D0=B5=D0=BC=D0=B8=
+=D0=B8">
+        </div>
+        <div class=3D"input-group">
+          <label for=3D"startDate">=D0=9D=D0=B0=D1=87=D0=B0=D0=BB=D1=8C=D0=
+=BD=D0=B0=D1=8F =D0=B4=D0=B0=D1=82=D0=B0 =D0=BF=D0=B5=D1=80=D0=B8=D0=BE=D0=
+=B4=D0=B0 =D1=81=D1=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=
+=8F:</label>
+          <input type=3D"date" id=3D"startDate" onchange=3D"autoCalculateDa=
+tes()">
+        </div>
+        <div class=3D"input-group">
+          <label for=3D"endDate">=D0=9A=D0=BE=D0=BD=D0=B5=D1=87=D0=BD=D0=B0=
+=D1=8F =D0=B4=D0=B0=D1=82=D0=B0 =D0=BF=D0=B5=D1=80=D0=B8=D0=BE=D0=B4=D0=B0 =
+=D1=81=D1=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F:</label>
+          <input type=3D"date" id=3D"endDate" onchange=3D"autoCalculateDate=
+s()">
+        </div>
+        <div class=3D"input-group">
+          <label for=3D"terminationDate">=D0=94=D0=B0=D1=82=D0=B0 =D1=80=D0=
+=B0=D1=81=D1=82=D0=BE=D1=80=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F:</label>
+          <input type=3D"date" id=3D"terminationDate" onchange=3D"autoCalcu=
+lateRemainingDays()">
+        </div>
+        <div class=3D"input-group">
+          <label for=3D"contractDays">=D0=A1=D1=80=D0=BE=D0=BA =D0=B4=D0=B5=
+=D0=B9=D1=81=D1=82=D0=B2=D0=B8=D1=8F =D0=B4=D0=BE=D0=B3=D0=BE=D0=B2=D0=BE=
+=D1=80=D0=B0 (=D0=B2 =D0=B4=D0=BD=D1=8F=D1=85):</label>
+          <input type=3D"number" id=3D"contractDays" readonly>
+        </div>
+        <div class=3D"input-group">
+          <label for=3D"remainingDays">=D0=9E=D1=81=D1=82=D0=B0=D0=B2=D1=88=
+=D0=B8=D0=B9=D1=81=D1=8F =D1=81=D1=80=D0=BE=D0=BA =D0=B4=D0=B5=D0=B9=D1=81=
+=D1=82=D0=B2=D0=B8=D1=8F (=D0=B2 =D0=B4=D0=BD=D1=8F=D1=85):</label>
+          <input type=3D"number" id=3D"remainingDays" readonly>
+        </div>
+        <button id=3D"calculate-button">=D0=A0=D0=B0=D1=81=D1=81=D1=87=D0=
+=B8=D1=82=D0=B0=D1=82=D1=8C =D0=B2=D0=BE=D0=B7=D0=B2=D1=80=D0=B0=D1=82</but=
+ton>
+        <div class=3D"result" id=3D"result">
+          =D0=A1=D1=83=D0=BC=D0=BC=D0=B0 =D0=BA =D0=B2=D0=BE=D0=B7=D0=B2=D1=
+=80=D0=B0=D1=82=D1=83: 0 =E2=82=B8
+        </div>
+      </div>
+    `;
+    const calculatorStyles =3D `
+      #insurance-calculator {
+        font-family: 'Poppins', sans-serif;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+        padding: 45px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 350px;
+        gap: 15px;
+        color: #333;
+        margin: 0 auto;
+      }
+
+      #insurance-calculator h1 {
+        text-align: center;
+        font-size: 20px;
+        color: #444;
+        margin-bottom: 15px;
+        margin-top: 5px;
+        font-weight: bold;
+      }
+
+      #insurance-calculator .input-group {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      #insurance-calculator .input-group label {
+        font-weight: 600;
+        color: #555;
+        font-size: 13px;
+      }
+
+      #insurance-calculator .input-group input[type=3D"text"],=20
+      #insurance-calculator .input-group input[type=3D"date"],=20
+      #insurance-calculator .input-group input[type=3D"number"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        background: rgba(255, 255, 255, 0.7);
+        box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.1), inset -1px -1px 4=
+px rgba(255, 255, 255, 0.8);
+        font-size: 14px;
+        outline: none;
+        transition: box-shadow 0.3s ease, background 0.3s ease;
+      }
+
+      #insurance-calculator .input-group input[type=3D"text"]:focus,=20
+      #insurance-calculator .input-group input[type=3D"date"]:focus,=20
+      #insurance-calculator .input-group input[type=3D"number"]:focus {
+        box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1), inset -2px -2px 5=
+px rgba(255, 255, 255, 0.9);
+        background: rgba(255, 255, 255, 0.85);
+      }
+
+      #insurance-calculator button {
+        width: 100%;
+        padding: 12px;
+        text-align: center;
+        background: linear-gradient(135deg, #4a90e2, #357ab8);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.3s ease, transform 0.2s ease, box-shadow 0=
+.2s ease;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1), -3px -3px 10px rgba(25=
+5, 255, 255, 0.9);
+      }
+
+      #insurance-calculator button:hover {
+        background: linear-gradient(135deg, #357ab8, #4a90e2);
+        transform: translateY(-2px);
+        box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15), -4px -4px 12px rgba(2=
+55, 255, 255, 1);
+      }
+
+      #insurance-calculator .result {
+        margin-top: 15px;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.1), inset -3px -3px =
+10px rgba(255, 255, 255, 0.8);
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        color: #333;
+      }
+
+      #insurance-calculator .result div {
+        font-size: 18px;
+        color: #2c3e50;
+      }
+    `;
+
+    shadowRoot.innerHTML =3D `
+      <style>${calculatorStyles}</style>
+      ${calculatorHTML}
+    `;
+
+    shadowRoot.querySelector('#premium').addEventListener('input', function=
+() {
+      this.value =3D this.value.replace(/\D/g, '').replace(/\B(?=3D(\d{3})+=
+(?!\d))/g, ' ');
+    });
+
+    function calculateDays(startDate, endDate) {
+      const timeDifference =3D endDate - startDate;
+      return Math.ceil(timeDifference / (1000 * 60 * 60 * 24) + 1);
+    }
+
+    function autoCalculateDates() {
+      const startDate =3D new Date(shadowRoot.querySelector('#startDate').v=
+alue);
+      const endDate =3D new Date(shadowRoot.querySelector('#endDate').value=
+);
+
+      if (startDate && endDate && startDate <=3D endDate) {
+        const totalDays =3D calculateDays(startDate, endDate);
+        shadowRoot.querySelector('#contractDays').value =3D totalDays;
+        autoCalculateRemainingDays();
+      } else {
+        shadowRoot.querySelector('#contractDays').value =3D 0;
+        shadowRoot.querySelector('#remainingDays').value =3D 0;
+      }
+    }
+
+    function autoCalculateRemainingDays() {
+      const terminationDate =3D new Date(shadowRoot.querySelector('#termina=
+tionDate').value);
+      const endDate =3D new Date(shadowRoot.querySelector('#endDate').value=
+);
+
+      if (terminationDate && endDate && terminationDate <=3D endDate) {
+        const remainingDays =3D calculateDays(terminationDate, endDate) - 1=
+;
+        shadowRoot.querySelector('#remainingDays').value =3D remainingDays;
+      } else {
+        shadowRoot.querySelector('#remainingDays').value =3D 0;
+      }
+    }
+
+    shadowRoot.querySelector('#calculate-button').addEventListener('click',=
+ function() {
+      const premium =3D parseFloat(shadowRoot.querySelector('#premium').val=
+ue.replace(/\s/g, '')) || 0;
+      const totalDays =3D parseFloat(shadowRoot.querySelector('#contractDay=
+s').value);
+      const remainingDays =3D parseFloat(shadowRoot.querySelector('#remaini=
+ngDays').value);
+
+      const deductionPercent =3D 10;
+      const deductionAmount =3D (deductionPercent / 100) * premium;
+
+      const refundableAmount =3D ((premium - deductionAmount) / totalDays) =
+* remainingDays;
+      const formattedRefund =3D Math.round(refundableAmount).toString().rep=
+lace(/\B(?=3D(\d{3})+(?!\d))/g, ' ');
+
+      shadowRoot.querySelector('#result').innerHTML =3D `<div>=D0=A1=D1=83=
+=D0=BC=D0=BC=D0=B0 =D0=BA =D0=B2=D0=BE=D0=B7=D0=B2=D1=80=D0=B0=D1=82=D1=83:=
+ ${formattedRefund} =E2=82=B8</div>`;
+    });
+  }
+</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p></p>
+</div>
+</div>
+<p><br></p>
+<p></p>
+</div>
+</div>
+</div>
+<p></p>
+</div>
+<div id=3D"=D0=98=D0=BD=D1=81=D1=82=D1=80=D1=83=D0=BA=D1=86=D0=B8=D0=B8" da=
+ta-pane-title=3D"=D0=98=D0=BD=D1=81=D1=82=D1=80=D1=83=D0=BA=D1=86=D0=B8=D0=
+=B8" class=3D"cfm tabs-pane ">
+<div>
+<style>
+    .innerCell .aura-panel-d4ae871e838fee9a, .sectionMacro .aura-panel-d4ae=
+871e838fee9a {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-d4ae871e838fee9a {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-d4ae871e838fee9a .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-d4ae871e838fee9a a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-d4ae871e838fee9a a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-d4ae871e838fee9a .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-d4ae871e838fee9a .aura-headline svg {
+          }
+
+    .aura-panel-d4ae871e838fee9a .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-d4ae871e838fee9a" style=3D"box-shadow: 0px 1px 6px=
+ 0px rgba(0, 0, 0, 0.2), 0px 12px 4px -10px rgba(0, 0, 0, 0.4);border-top: =
+1px solid #999;border-right: 1px solid #999;border-bottom: 1px solid #999;b=
+order-left: 1px solid #999;border-radius: 4.0px;">
+<div class=3D"aura-body" style=3D"">
+<p><script>
+    (function (arr) {
+        arr.forEach(function (item) {
+            if (item.hasOwnProperty('remove')) {
+                return;
+            }
+            Object.defineProperty(item, 'remove', {
+                configurable: true,
+                enumerable: true,
+                writable: true,
+                value: function remove() {
+                    if (this.parentNode =3D=3D=3D null) {
+                        return;
+                    }
+                    this.parentNode.removeChild(this);
+                }
+            });
+        });
+    })([Element.prototype, CharacterData.prototype, DocumentType.prototype]=
+);
+</script></p>
+<div>
+<style>
+    @keyframes sa-macro-spinner-keyframes {
+        0% {
+            transform: rotate(50deg);
+        }
+        100% {
+            transform: rotate(230deg);
+        }
+    }
+
+    @keyframes sa-macro-spinner-stroke-line-keyframes {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .sa-macro-spinner {
+        display: flex;
+        height: 96px;
+        width: 96px;
+        animation: 1s ease-in-out 0s 1 normal forwards running sa-macro-spi=
+nner-keyframes;
+        color: rgb(52, 69, 99);
+    }
+
+    .sa-macro-spinner-stroke-line {
+        fill: none;
+        stroke: rgb(66, 82, 110);
+        stroke-dasharray: 270.177px;
+        stroke-dashoffset: 216.142px;
+        stroke-linecap: round;
+        stroke-width: 10px;
+        transform-origin: center center;
+        animation: 0.86s cubic-bezier(0.4, 0.15, 0.6, 0.85) 0s infinite nor=
+mal none running sa-macro-spinner-stroke-line-keyframes;
+    }
+
+    .sa-macro-spinner-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<div class=3D"sa-macro-spinner-wrapper" style=3D"height: 500px;">
+<span class=3D"sa-macro-spinner" size=3D"96">
+<svg class=3D"sa-macro-spinner-stroke-line" focusable=3D"false" height=3D"9=
+6" size=3D"96" viewbox=3D"0 0 96 96" width=3D"96" xmlns=3D"http://www.w3.or=
+g/2000/svg">
+<circle cx=3D"48" cy=3D"48" r=3D"43"></circle>
+</svg></span>
+</div>
+<script>
+        function smartAttachmentsOnFrameLoad(frame) {
+            frame.parentNode.querySelector('.sa-macro-spinner-wrapper').rem=
+ove();
+            frame.style.display =3D "block";
+        }
+    </script>
+<div id=3D"sa-dataparams" data-license-trial=3D"false"></div><iframe style=
+=3D"min-width: 500px; display: none;" onload=3D"smartAttachmentsOnFrameLoad=
+(this)" src=3D"https://kb.apps.bcc.kz/plugins/smart-attachments/macro/folde=
+r.action?folderId=3D230727747&amp;navigation=3Dtrue&amp;uploading=3Dtrue&am=
+p;actions=3Dfalse" height=3D"500px" width=3D"100%" frameborder=3D"0"></ifra=
+me>
+</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+<div id=3D"=D0=9D=D0=BE=D0=B2=D0=BE=D1=81=D1=82=D0=B8=D0=B8=D0=90=D0=BA=D1=
+=86=D0=B8=D0=B8" data-pane-title=3D"=D0=9D=D0=BE=D0=B2=D0=BE=D1=81=D1=82=D0=
+=B8 =D0=B8 =D0=90=D0=BA=D1=86=D0=B8=D0=B8" class=3D"cfm tabs-pane ">
+<div class=3D"cover-stories-container date author spacename categories soci=
+al use-hover excerpt-on-hover" data-macro-sources=3D"%5B%7B%22newsSourceTyp=
+e%22%3A%22space-label%22%2C%22newsSectionId%22%3A%5B%5D%2C%22spaceKey%22%3A=
+%5B%22EBZ%22%5D%2C%22label%22%3A%5B%5D%2C%22contentId%22%3A%22%22%2C%22news=
+Categories%22%3A%22%22%7D%2C%7B%22newsSourceType%22%3A%22space-label%22%2C%=
+22newsSectionId%22%3A%5B%5D%2C%22spaceKey%22%3A%5B%22EBZ%22%5D%2C%22label%2=
+2%3A%5B%5D%2C%22contentId%22%3A%22%22%2C%22newsCategories%22%3A%22%22%7D%2C=
+%7B%22newsSourceType%22%3A%22space-label%22%2C%22newsSectionId%22%3A%5B%5D%=
+2C%22spaceKey%22%3A%5B%22EBZ%22%5D%2C%22label%22%3A%5B%5D%2C%22contentId%22=
+%3A%22%22%2C%22newsCategories%22%3A%22%22%7D%2C%7B%22newsSourceType%22%3A%2=
+2space-label%22%2C%22newsSectionId%22%3A%5B%5D%2C%22spaceKey%22%3A%5B%22EBZ=
+%22%5D%2C%22label%22%3A%5B%5D%2C%22contentId%22%3A%22%22%2C%22newsCategorie=
+s%22%3A%22%22%7D%5D" data-macro-layout=3D"layout6" data-macro-slides=3D"1" =
+data-metadata-visibility=3D"%7B%22image%22%3Atrue%2C%22author%22%3Atrue%2C%=
+22date%22%3Atrue%2C%22space%22%3Atrue%2C%22category%22%3Atrue%2C%22social%2=
+2%3Atrue%2C%22excerpt%22%3Atrue%2C%22teaserData%22%3Atrue%7D" data-autoplay=
+-enabled=3D"false" data-autoplay-interval=3D"0" data-has-edit-permission=3D=
+"false" data-tile-height=3D"400" data-param-space-labels=3D"" style=3D"heig=
+ht: 400px"></div>
+</div>
+<div id=3D"=D0=9E=D0=B1=D1=80=D0=B0=D1=82=D0=BD=D0=B0=D1=8F=D1=81=D0=B2=D1=
+=8F=D0=B7=D1=8C=D0=BE=D1=82=D0=91=D0=92" data-pane-title=3D"=D0=9E=D0=B1=D1=
+=80=D0=B0=D1=82=D0=BD=D0=B0=D1=8F =D1=81=D0=B2=D1=8F=D0=B7=D1=8C =D0=BE=D1=
+=82 =D0=91=D0=92" class=3D"cfm tabs-pane ">
+<div class=3D"contentLayout2">
+<div class=3D"columnLayout single" data-layout=3D"single">
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<div class=3D"rwui_expandable_item ">
+<button class=3D"rwui_expandable_item_title rwui_expand" role=3D"button" on=
+click=3D"RWUI.toggleExpandItem(this, event);" id=3D"rwui_expand-" data-hash=
+=3D"expand-" aria-expanded=3D"false">
+<div class=3D"rwui_item_icon rw_external_icon_plus"></div> =D0=9E=D1=82=D0=
+=BF=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D1=8C =D0=BF=D0=BE=D0=B2=D1=82=D0=BE=D1=
+=80=D0=BD=D0=BE=D0=B5 =D0=BD=D0=B0=D0=BF=D0=BE=D0=BC=D0=B8=D0=BD=D0=B0=D0=
+=BD=D0=B8=D0=B5 </button>
+<div class=3D"rwui_expandable_item_body rwui_body">
+<p></p>
+<div class=3D"contentLayout2">
+<div class=3D"columnLayout two-left-sidebar" data-layout=3D"two-left-sideba=
+r">
+<div class=3D"cell aside" data-type=3D"aside">
+<div class=3D"innerCell">
+<div>
+<div style=3D"margin-top: 5px">
+<style type=3D"text/css">
+  .confiFormsFormBorder {
+    border: 1px solid #ccc; border-radius: 3px;margin: 10px 0 20px 0;
+    /*max-width: 720px;*/
+    /*min-width: 720px;*/
+  }
+  .confiFormsFormContent {
+    padding: 20px;
+  }
+  .confiFormsFormTitle {
+    padding: 10px;
+  }
+  .confiFormsFormFooter {
+    background-color: var(--ds-background-accent-gray-subtlest, #f0f0f0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .confiFormsFormContent .copy-heading-link-container {
+    display:none;
+  }
+</style>
+<div id=3D"i_confiform_registration_panel_3e9dedf1b2598cfea9566357a6246918"=
+ style=3D"display: none;mso-hide:all;" class=3D"cf_bell ">
+</div><button class=3D"aui-button aui-button-primary cf_bell " type=3D"butt=
+on" style=3D"margin-left: 0;" title=3D"=F0=9F=94=94" id=3D"i_confiform_add_=
+new_button_3e9dedf1b2598cfea9566357a6246918">=F0=9F=94=94</button>
+</div>
+</div>
+<p><br></p>
+</div>
+</div>
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<ul>
+<li><span style=3D"color: rgb(122,134,154);">=D0=92=D1=8B =D0=BD=D0=B5 =D0=
+=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D0=BB=D0=B8 =D0=BE=D1=82=D0=B2=D0=B5=D1=
+=82 =D0=BE=D1=82 =D0=BE=D1=83=D0=BD=D0=B5=D1=80=D0=B0?</span></li>
+<li><span style=3D"color: rgb(122,134,154);">=D0=BD=D0=B0=D0=B6=D0=BC=D0=B8=
+=D1=82=D0=B5 =D0=BD=D0=B0 "=D0=BA=D0=BE=D0=BB=D0=BE=D0=BA=D0=BE=D0=BB=D1=8C=
+=D1=87=D0=B8=D0=BA" =D1=87=D1=82=D0=BE=D0=B1=D1=8B =D0=BD=D0=B0=D0=BF=D0=BE=
+=D0=BC=D0=BD=D0=B8=D1=82=D1=8C =D0=BE=D1=83=D0=BD=D0=B5=D1=80=D1=83 =D0=BE =
+=D0=BD=D0=B5 =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=BD=D0=BE=D0=BC =
+=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D0=B5 =D0=BD=D0=B0 =D1=81=D0=B2=D0=BE=D0=B9 =
+=D0=B2=D0=BE=D0=BF=D1=80=D0=BE=D1=81&nbsp;</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"columnLayout single" data-layout=3D"single">
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<div id=3D"i_confiform_registration_panel_3d0f3040f7c6c228ead1596e213318d4"=
+ style=3D"display: none; mso-hide:all;"></div>
+<p><br></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id=3D"=D0=9D=D0=B5=D0=B4=D0=B0=D0=B2=D0=BD=D0=BE=D0=BE=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE" data-pane-title=3D"=D0=9D=D0=B5=D0=B4=D0=
+=B0=D0=B2=D0=BD=D0=BE =D0=BE=D0=B1=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=
+=BE" class=3D"cfm tabs-pane ">
+<div class=3D"recently-updated recently-updated-concise">
+<h2 id=3D"recently-updated-macro">=D0=9D=D0=B5=D0=B4=D0=B0=D0=B2=D0=BD=D0=
+=BE =D0=BE=D0=B1=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE</h2>
+<div class=3D"hidden parameters">
+<input type=3D"hidden" id=3D"changesUrl" value=3D"/plugins/recently-updated=
+/changes.action?theme=3Dconcise&amp;labels=3D%D0%B0%D0%B2%D1%82%D0%BE%D0%BA=
+%D1%80%D0%B5%D0%B4%D0%B8%D1%82-%D1%81-%D0%BF%D1%80%D0%BE%D0%B1%D0%B5%D0%B3%=
+D0%BE%D0%BC-%D0%BE%D1%82-%D1%84%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D=
+0%B8%D1%85-%D0%BB%D0%B8%D1%86%2C+%D0%BE%D0%B1%D1%89%D0%B8%D0%B5-%D1%83%D1%8=
+1%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F-%D0%B0%D0%B2%D1%82%D0%BE-%D1%81-%D0%BF%D1%8=
+0%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC-%D0%BE%D1%82-%D1%84%D0%BB%2C+%D1%83%D=
+1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F-%D0%B0%D0%B2%D1%82%D0%BE-%D1%81-%D0%BF%D=
+1%80%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC-%D0%BE%D1%82-%D1%84%D0%BB%2C+%D1%8=
+3%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F-%D0%BA%D1%80%D0%B5%D0%B4%D0%B8%D1%82%=
+D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B0%D0%B2%D1%82%D0%BE-%D1%81-%D0%BF%=
+D1%80%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC-%D0%BE%D1%82-%D1%84%D0%BB%2C+%D1%=
+82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%B7%D0%B=
+0%D0%B5%D0%BC%D1%89%D0%B8%D0%BA%D0%B0%D0%BC-%D0%B0%D0%B2%D1%82%D0%BE-%D1%81=
+-%D0%BF%D1%80%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC-%D0%BE%D1%82-%D1%84%D0%BB=
+%2C+%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8-%D0%B0%D0%B2%D1%82%D0%BE-%D1%81-%D=
+0%BF%D1%80%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC-%D0%BE%D1%82-%D1%84%D0%BB%2C=
++%D0%BA%D0%B0%D1%81%D0%BA%D0%BE-%D0%B0%D0%B2%D1%82%D0%BE-%D1%81-%D0%BF%D1%8=
+0%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC-%D0%BE%D1%82-%D1%84%D0%BB%2C+%D1%83%D=
+1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F-%D0%BA%D0%B0%D1%81%D0%BA%D0%BE-%D0%B0%D0=
+%B2%D1%82%D0%BE-%D1%81-%D0%BF%D1%80%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC-%D0=
+%BE%D1%82-%D1%84%D0%BB%2C+%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BE%D0%BA-%D0%B2=
+%D1%8B%D0%BF%D0%BB%D0%B0%D1%82%D1%8B-%D0%B0%D0%B2%D1%82%D0%BE-%D1%81-%D0%BF=
+%D1%80%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC-%D0%BE%D1%82-%D1%84%D0%BB%2C+%D1=
+%81%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%BE%D0%B9-%D1%81%D0%BB%D1%83%D1%8=
+7%D0%B0%D0%B9-%D0%B0%D0%B2%D1%82%D0%BE-%D1%81-%D0%BF%D1%80%D0%BE%D0%B1%D0%B=
+5%D0%B3%D0%BE%D0%BC-%D0%BE%D1%82-%D1%84%D0%BB%2C+%D0%B4%D0%BE%D1%81%D1%80%D=
+0%BE%D1%87%D0%BD%D0%BE%D0%B5-%D1%80%D0%B0%D1%81%D1%82%D0%BE%D1%80%D0%B6%D0%=
+B5%D0%BD%D0%B8%D0%B5-%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D0%BD=
+%D0%B8%D1%8F-%D0%B0%D0%B2%D1%82%D0%BE-%D1%81-%D0%BF%D1%80%D0%BE%D0%B1%D0%B5=
+%D0%B3%D0%BE%D0%BC-%D0%BE%D1%82-%D1%84%D0%BB%2C+%D0%B8%D0%BD%D1%84-%D1%80%D=
+0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B-%D0%B0%D0%B2%D1%82%D0%BE-%D1%81-%D0%BF%D=
+1%80%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC-%D0%BE%D1%82-%D1%84%D0%BB&amp;spac=
+eKeys=3DEBZ&amp;contentType=3D,page,comment,blogpost,attachment,userinfo,sp=
+acedesc,personalspacedesc,space,draft,custom">
+</div>
+<div class=3D"results-container">
+<ul>
+<li class=3D"update-item">
+<div class=3D"update-item-icon">
+<span class=3D"aui-icon content-type-page"></span>
+</div>
+<div class=3D"update-item-content">
+<a href=3D"/pages/viewpage.action?pageId=3D230727220" title=3D"=D0=95=D0=91=
+=D0=97 =D0=91=D0=A0=D0=91">=D1=83=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F =D0=
+=B0=D0=B2=D1=82=D0=BE =D1=81 =D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=
+=BC =D0=BE=D1=82 =D0=A4=D0=9B</a>
+<div class=3D"update-item-meta">
+17.04.2026<span class=3D"separator"> =E2=80=A2 </span>=D0=BE=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE <a class=3D"url fn" data-username=3D"ABIL=
+AKIK" href=3D"/display/~ABILAKIK">=D3=98=D0=B1=D1=96=D0=BB=D3=99=D0=BA=D1=
+=96=D0=BC =D0=9A=D0=B0=D0=BC=D0=B8=D0=BB=D0=B0 =D0=95=D1=80=D0=BB=D0=B0=D0=
+=BD=D2=9B=D1=8B=D0=B7=D1=8B</a><span class=3D"separator"> =E2=80=A2 </span>=
+<a class=3D"changes-link" href=3D"/pages/diffpagesbyversion.action?pageId=
+=3D230727220&amp;selectedPageVersions=3D5&amp;selectedPageVersions=3D4">=D0=
+=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F</a>
+</div>
+</div></li>
+<li class=3D"update-item">
+<div class=3D"update-item-icon">
+<span class=3D"aui-icon content-type-page"></span>
+</div>
+<div class=3D"update-item-content">
+<a href=3D"/pages/viewpage.action?pageId=3D174299267" title=3D"=D0=95=D0=91=
+=D0=97 =D0=91=D0=A0=D0=91">=D0=90=D0=B2=D1=82=D0=BE=D0=BA=D1=80=D0=B5=D0=B4=
+=D0=B8=D1=82 =D1=81 =D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC =D0=BE=
+=D1=82 =D1=84=D0=B8=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85 =D0=BB=
+=D0=B8=D1=86</a>
+<div class=3D"update-item-meta">
+29.10.2025<span class=3D"separator"> =E2=80=A2 </span>=D0=BE=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE <a class=3D"url fn" data-username=3D"ABIL=
+AKIK" href=3D"/display/~ABILAKIK">=D3=98=D0=B1=D1=96=D0=BB=D3=99=D0=BA=D1=
+=96=D0=BC =D0=9A=D0=B0=D0=BC=D0=B8=D0=BB=D0=B0 =D0=95=D1=80=D0=BB=D0=B0=D0=
+=BD=D2=9B=D1=8B=D0=B7=D1=8B</a><span class=3D"separator"> =E2=80=A2 </span>=
+<a class=3D"changes-link" href=3D"/pages/diffpagesbyversion.action?pageId=
+=3D174299267&amp;selectedPageVersions=3D30&amp;selectedPageVersions=3D29">=
+=D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F</a>
+</div>
+</div></li>
+<li class=3D"update-item">
+<div class=3D"update-item-icon">
+<span class=3D"aui-icon content-type-page"></span>
+</div>
+<div class=3D"update-item-content">
+<a href=3D"/pages/viewpage.action?pageId=3D174299267" title=3D"=D0=95=D0=91=
+=D0=97 =D0=91=D0=A0=D0=91">=D0=90=D0=B2=D1=82=D0=BE=D0=BA=D1=80=D0=B5=D0=B4=
+=D0=B8=D1=82 =D1=81 =D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC =D0=BE=
+=D1=82 =D1=84=D0=B8=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85 =D0=BB=
+=D0=B8=D1=86</a>
+<div class=3D"update-item-meta">
+04.04.2025<span class=3D"separator"> =E2=80=A2 </span>=D0=BE=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE <a class=3D"url fn" data-username=3D"ALDA=
+SHOA" href=3D"/display/~ALDASHOA">=D0=90=D0=BB=D0=B4=D0=B0=D1=88=D0=BE=D0=
+=B2 =D0=90=D0=BB=D0=B8=D0=B1=D0=B5=D0=BA =D0=A1=D0=B5=D1=80=D0=B8=D0=BA=D0=
+=B1=D0=B0=D0=B5=D0=B2=D0=B8=D1=87</a><span class=3D"separator"> =E2=80=A2 <=
+/span><a class=3D"changes-link" href=3D"/pages/diffpagesbyversion.action?pa=
+geId=3D174299267&amp;selectedPageVersions=3D28&amp;selectedPageVersions=3D2=
+7">=D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F</a>
+</div>
+</div></li>
+<li class=3D"update-item">
+<div class=3D"update-item-icon">
+<span class=3D"aui-icon content-type-page"></span>
+</div>
+<div class=3D"update-item-content">
+<a href=3D"/pages/viewpage.action?pageId=3D230727212" title=3D"=D0=95=D0=91=
+=D0=97 =D0=91=D0=A0=D0=91">=D1=81=D1=82=D0=B0=D0=B2=D0=BA=D0=B8 =D0=B0=D0=
+=B2=D1=82=D0=BE =D1=81 =D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC =D0=
+=BE=D1=82 =D0=A4=D0=9B*</a>
+<div class=3D"update-item-meta">
+03.02.2025<span class=3D"separator"> =E2=80=A2 </span>=D0=BE=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE <a class=3D"url fn" data-username=3D"ABIL=
+AKIK" href=3D"/display/~ABILAKIK">=D3=98=D0=B1=D1=96=D0=BB=D3=99=D0=BA=D1=
+=96=D0=BC =D0=9A=D0=B0=D0=BC=D0=B8=D0=BB=D0=B0 =D0=95=D1=80=D0=BB=D0=B0=D0=
+=BD=D2=9B=D1=8B=D0=B7=D1=8B</a><span class=3D"separator"> =E2=80=A2 </span>=
+<a class=3D"changes-link" href=3D"/pages/diffpagesbyversion.action?pageId=
+=3D230727212&amp;selectedPageVersions=3D20&amp;selectedPageVersions=3D19">=
+=D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F</a>
+</div>
+</div></li>
+<li class=3D"update-item">
+<div class=3D"update-item-icon">
+<span class=3D"aui-icon content-type-page"></span>
+</div>
+<div class=3D"update-item-content">
+<a href=3D"/pages/viewpage.action?pageId=3D174299267" title=3D"=D0=95=D0=91=
+=D0=97 =D0=91=D0=A0=D0=91">=D0=90=D0=B2=D1=82=D0=BE=D0=BA=D1=80=D0=B5=D0=B4=
+=D0=B8=D1=82 =D1=81 =D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC =D0=BE=
+=D1=82 =D1=84=D0=B8=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85 =D0=BB=
+=D0=B8=D1=86</a>
+<div class=3D"update-item-meta">
+24.01.2025<span class=3D"separator"> =E2=80=A2 </span>=D0=BE=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE <a class=3D"url fn" data-username=3D"BELS=
+ARIK" href=3D"/display/~BELSARIK">=D0=91=D0=B5=D0=BB=D1=81=D0=B0=D1=80=D0=
+=B8=D0=B5=D0=B2 =D0=9A=D1=83=D0=B0=D0=BD=D1=8B=D1=88 =D0=A2=D1=83=D1=80=D1=
+=81=D1=8B=D0=BD=D0=B1=D0=B5=D0=BA=D1=83=D0=BB=D1=8B</a><span class=3D"separ=
+ator"> =E2=80=A2 </span><a class=3D"changes-link" href=3D"/pages/diffpagesb=
+yversion.action?pageId=3D174299267&amp;selectedPageVersions=3D23&amp;select=
+edPageVersions=3D22">=D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F=
+</a>
+</div>
+</div></li>
+<li class=3D"update-item">
+<div class=3D"update-item-icon">
+<span class=3D"aui-icon content-type-page"></span>
+</div>
+<div class=3D"update-item-content">
+<a href=3D"/pages/viewpage.action?pageId=3D174299267" title=3D"=D0=95=D0=91=
+=D0=97 =D0=91=D0=A0=D0=91">=D0=90=D0=B2=D1=82=D0=BE=D0=BA=D1=80=D0=B5=D0=B4=
+=D0=B8=D1=82 =D1=81 =D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC =D0=BE=
+=D1=82 =D1=84=D0=B8=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85 =D0=BB=
+=D0=B8=D1=86</a>
+<div class=3D"update-item-meta">
+24.01.2025<span class=3D"separator"> =E2=80=A2 </span>=D0=BE=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE <a class=3D"url fn" data-username=3D"KARB=
+OZOT" href=3D"/display/~KARBOZOT">=D0=9A=D0=B0=D1=80=D0=B1=D0=BE=D0=B7=D0=
+=BE=D0=B2 =D0=A2=D0=B8=D0=BC=D1=83=D1=80 =D0=A1=D0=B5=D1=80=D0=B8=D0=BA=D0=
+=BA=D0=B0=D0=B7=D0=B8=D0=B5=D0=B2=D0=B8=D1=87</a><span class=3D"separator">=
+ =E2=80=A2 </span><a class=3D"changes-link" href=3D"/pages/diffpagesbyversi=
+on.action?pageId=3D174299267&amp;selectedPageVersions=3D21&amp;selectedPage=
+Versions=3D20">=D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F</a>
+</div>
+</div></li>
+<li class=3D"update-item">
+<div class=3D"update-item-icon">
+<span class=3D"aui-icon content-type-page"></span>
+</div>
+<div class=3D"update-item-content">
+<a href=3D"/pages/viewpage.action?pageId=3D230727217" title=3D"=D0=95=D0=91=
+=D0=97 =D0=91=D0=A0=D0=91">=D0=BA=D0=B0=D1=81=D0=BA=D0=BE =D0=B0=D0=B2=D1=
+=82=D0=BE =D1=81 =D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC =D0=BE=D1=
+=82 =D0=A4=D0=9B</a>
+<div class=3D"update-item-meta">
+23.01.2025<span class=3D"separator"> =E2=80=A2 </span>=D0=BE=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE <a class=3D"url fn" data-username=3D"ALDA=
+SHOA" href=3D"/display/~ALDASHOA">=D0=90=D0=BB=D0=B4=D0=B0=D1=88=D0=BE=D0=
+=B2 =D0=90=D0=BB=D0=B8=D0=B1=D0=B5=D0=BA =D0=A1=D0=B5=D1=80=D0=B8=D0=BA=D0=
+=B1=D0=B0=D0=B5=D0=B2=D0=B8=D1=87</a><span class=3D"separator"> =E2=80=A2 <=
+/span><a class=3D"changes-link" href=3D"/pages/diffpagesbyversion.action?pa=
+geId=3D230727217&amp;selectedPageVersions=3D4&amp;selectedPageVersions=3D3"=
+>=D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F</a>
+</div>
+</div></li>
+<li class=3D"update-item">
+<div class=3D"update-item-icon">
+<span class=3D"aui-icon content-type-page"></span>
+</div>
+<div class=3D"update-item-content">
+<a href=3D"/pages/viewpage.action?pageId=3D230727209" title=3D"=D0=95=D0=91=
+=D0=97 =D0=91=D0=A0=D0=91">=D0=BE=D0=B1=D1=89=D0=B8=D0=B5 =D1=83=D1=81=D0=
+=BB=D0=BE=D0=B2=D0=B8=D1=8F =D0=B0=D0=B2=D1=82=D0=BE =D1=81 =D0=BF=D1=80=D0=
+=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC =D0=BE=D1=82 =D0=A4=D0=9B</a>
+<div class=3D"update-item-meta">
+23.01.2025<span class=3D"separator"> =E2=80=A2 </span>=D0=BE=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE <a class=3D"url fn" data-username=3D"ALDA=
+SHOA" href=3D"/display/~ALDASHOA">=D0=90=D0=BB=D0=B4=D0=B0=D1=88=D0=BE=D0=
+=B2 =D0=90=D0=BB=D0=B8=D0=B1=D0=B5=D0=BA =D0=A1=D0=B5=D1=80=D0=B8=D0=BA=D0=
+=B1=D0=B0=D0=B5=D0=B2=D0=B8=D1=87</a><span class=3D"separator"> =E2=80=A2 <=
+/span><a class=3D"changes-link" href=3D"/pages/diffpagesbyversion.action?pa=
+geId=3D230727209&amp;selectedPageVersions=3D3&amp;selectedPageVersions=3D2"=
+>=D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F</a>
+</div>
+</div></li>
+<li class=3D"update-item">
+<div class=3D"update-item-icon">
+<span class=3D"aui-icon content-type-page"></span>
+</div>
+<div class=3D"update-item-content">
+<a href=3D"/pages/viewpage.action?pageId=3D230727212" title=3D"=D0=95=D0=91=
+=D0=97 =D0=91=D0=A0=D0=91">=D1=81=D1=82=D0=B0=D0=B2=D0=BA=D0=B8 =D0=B0=D0=
+=B2=D1=82=D0=BE =D1=81 =D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC =D0=
+=BE=D1=82 =D0=A4=D0=9B*</a>
+<div class=3D"update-item-meta">
+09.12.2024<span class=3D"separator"> =E2=80=A2 </span>=D0=BE=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE <a class=3D"url fn" data-username=3D"zham=
+anal1" href=3D"/display/~zhamanal1">=D0=96=D0=B0=D0=BC=D0=B0=D0=BD=D1=85=D0=
+=B0=D0=BD =D0=90=D0=BB=D0=B8=D1=85=D0=B0=D0=BD =D0=96=D0=B0=D1=81=D0=B1=D0=
+=BE=D0=BB=D0=B0=D1=82=D0=BE=D0=B2=D0=B8=D1=87</a><span class=3D"separator">=
+ =E2=80=A2 </span><a class=3D"changes-link" href=3D"/pages/diffpagesbyversi=
+on.action?pageId=3D230727212&amp;selectedPageVersions=3D19&amp;selectedPage=
+Versions=3D18">=D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F</a>
+</div>
+</div></li>
+<li class=3D"update-item">
+<div class=3D"update-item-icon">
+<span class=3D"aui-icon content-type-page"></span>
+</div>
+<div class=3D"update-item-content">
+<a href=3D"/pages/viewpage.action?pageId=3D230727223" title=3D"=D0=95=D0=91=
+=D0=97 =D0=91=D0=A0=D0=91">=D1=83=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F =D0=
+=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=
+=B0=D0=B2=D1=82=D0=BE =D1=81 =D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=
+=BC =D0=BE=D1=82 =D0=A4=D0=9B*</a>
+<div class=3D"update-item-meta">
+09.12.2024<span class=3D"separator"> =E2=80=A2 </span>=D0=BE=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE <a class=3D"url fn" data-username=3D"zham=
+anal1" href=3D"/display/~zhamanal1">=D0=96=D0=B0=D0=BC=D0=B0=D0=BD=D1=85=D0=
+=B0=D0=BD =D0=90=D0=BB=D0=B8=D1=85=D0=B0=D0=BD =D0=96=D0=B0=D1=81=D0=B1=D0=
+=BE=D0=BB=D0=B0=D1=82=D0=BE=D0=B2=D0=B8=D1=87</a><span class=3D"separator">=
+ =E2=80=A2 </span><a class=3D"changes-link" href=3D"/pages/diffpagesbyversi=
+on.action?pageId=3D230727223&amp;selectedPageVersions=3D3&amp;selectedPageV=
+ersions=3D2">=D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F</a>
+</div>
+</div></li>
+<li class=3D"update-item">
+<div class=3D"update-item-icon">
+<span class=3D"aui-icon content-type-page"></span>
+</div>
+<div class=3D"update-item-content">
+<a href=3D"/pages/viewpage.action?pageId=3D230727716" title=3D"=D0=95=D0=91=
+=D0=97 =D0=91=D0=A0=D0=91">=D0=B4=D0=BE=D1=81=D1=80=D0=BE=D1=87=D0=BD=D0=BE=
+=D0=B5 =D1=80=D0=B0=D1=81=D1=82=D0=BE=D1=80=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5 =
+=D1=81=D1=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=B0=
+=D0=B2=D1=82=D0=BE =D1=81 =D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC =
+=D0=BE=D1=82 =D0=A4=D0=9B</a>
+<div class=3D"update-item-meta">
+28.10.2024<span class=3D"separator"> =E2=80=A2 </span>=D0=BE=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE <a class=3D"url fn" data-username=3D"ABIL=
+AKIK" href=3D"/display/~ABILAKIK">=D3=98=D0=B1=D1=96=D0=BB=D3=99=D0=BA=D1=
+=96=D0=BC =D0=9A=D0=B0=D0=BC=D0=B8=D0=BB=D0=B0 =D0=95=D1=80=D0=BB=D0=B0=D0=
+=BD=D2=9B=D1=8B=D0=B7=D1=8B</a><span class=3D"separator"> =E2=80=A2 </span>=
+<a class=3D"changes-link" href=3D"/pages/diffpagesbyversion.action?pageId=
+=3D230727716&amp;selectedPageVersions=3D2&amp;selectedPageVersions=3D1">=D0=
+=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F</a>
+</div>
+</div></li>
+<li class=3D"update-item">
+<div class=3D"update-item-icon">
+<span class=3D"aui-icon content-type-page"></span>
+</div>
+<div class=3D"update-item-content">
+<a href=3D"/pages/viewpage.action?pageId=3D230727714" title=3D"=D0=95=D0=91=
+=D0=97 =D0=91=D0=A0=D0=91">=D1=81=D1=82=D1=80=D0=B0=D1=85=D0=BE=D0=B2=D0=BE=
+=D0=B9 =D1=81=D0=BB=D1=83=D1=87=D0=B0=D0=B9 =D0=B0=D0=B2=D1=82=D0=BE =D1=81=
+ =D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC =D0=BE=D1=82 =D0=A4=D0=9B=
+</a>
+<div class=3D"update-item-meta">
+28.10.2024<span class=3D"separator"> =E2=80=A2 </span>=D0=BE=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE <a class=3D"url fn" data-username=3D"ABIL=
+AKIK" href=3D"/display/~ABILAKIK">=D3=98=D0=B1=D1=96=D0=BB=D3=99=D0=BA=D1=
+=96=D0=BC =D0=9A=D0=B0=D0=BC=D0=B8=D0=BB=D0=B0 =D0=95=D1=80=D0=BB=D0=B0=D0=
+=BD=D2=9B=D1=8B=D0=B7=D1=8B</a><span class=3D"separator"> =E2=80=A2 </span>=
+<a class=3D"changes-link" href=3D"/pages/diffpagesbyversion.action?pageId=
+=3D230727714&amp;selectedPageVersions=3D2&amp;selectedPageVersions=3D1">=D0=
+=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F</a>
+</div>
+</div></li>
+<li class=3D"update-item">
+<div class=3D"update-item-icon">
+<span class=3D"aui-icon content-type-page"></span>
+</div>
+<div class=3D"update-item-content">
+<a href=3D"/pages/viewpage.action?pageId=3D230727709" title=3D"=D0=95=D0=91=
+=D0=97 =D0=91=D0=A0=D0=91">=D0=BF=D0=BE=D1=80=D1=8F=D0=B4=D0=BE=D0=BA =D0=
+=B2=D1=8B=D0=BF=D0=BB=D0=B0=D1=82=D1=8B =D0=B0=D0=B2=D1=82=D0=BE =D1=81 =D0=
+=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC =D0=BE=D1=82 =D0=A4=D0=9B</a>
+<div class=3D"update-item-meta">
+28.10.2024<span class=3D"separator"> =E2=80=A2 </span>=D0=BE=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE <a class=3D"url fn" data-username=3D"ABIL=
+AKIK" href=3D"/display/~ABILAKIK">=D3=98=D0=B1=D1=96=D0=BB=D3=99=D0=BA=D1=
+=96=D0=BC =D0=9A=D0=B0=D0=BC=D0=B8=D0=BB=D0=B0 =D0=95=D1=80=D0=BB=D0=B0=D0=
+=BD=D2=9B=D1=8B=D0=B7=D1=8B</a><span class=3D"separator"> =E2=80=A2 </span>=
+<a class=3D"changes-link" href=3D"/pages/diffpagesbyversion.action?pageId=
+=3D230727709&amp;selectedPageVersions=3D3&amp;selectedPageVersions=3D2">=D0=
+=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F</a>
+</div>
+</div></li>
+<li class=3D"update-item">
+<div class=3D"update-item-icon">
+<span class=3D"aui-icon content-type-page"></span>
+</div>
+<div class=3D"update-item-content">
+<a href=3D"/pages/viewpage.action?pageId=3D230727702" title=3D"=D0=95=D0=91=
+=D0=97 =D0=91=D0=A0=D0=91">=D1=83=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F =D0=
+=BA=D0=B0=D1=81=D0=BA=D0=BE =D0=B0=D0=B2=D1=82=D0=BE =D1=81 =D0=BF=D1=80=D0=
+=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC =D0=BE=D1=82 =D0=A4=D0=9B</a>
+<div class=3D"update-item-meta">
+28.10.2024<span class=3D"separator"> =E2=80=A2 </span>=D0=BE=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE <a class=3D"url fn" data-username=3D"ABIL=
+AKIK" href=3D"/display/~ABILAKIK">=D3=98=D0=B1=D1=96=D0=BB=D3=99=D0=BA=D1=
+=96=D0=BC =D0=9A=D0=B0=D0=BC=D0=B8=D0=BB=D0=B0 =D0=95=D1=80=D0=BB=D0=B0=D0=
+=BD=D2=9B=D1=8B=D0=B7=D1=8B</a><span class=3D"separator"> =E2=80=A2 </span>=
+<a class=3D"changes-link" href=3D"/pages/diffpagesbyversion.action?pageId=
+=3D230727702&amp;selectedPageVersions=3D2&amp;selectedPageVersions=3D1">=D0=
+=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F</a>
+</div>
+</div></li>
+<li class=3D"update-item">
+<div class=3D"update-item-icon">
+<span class=3D"aui-icon content-type-page"></span>
+</div>
+<div class=3D"update-item-content">
+<a href=3D"/pages/viewpage.action?pageId=3D230727217" title=3D"=D0=95=D0=91=
+=D0=97 =D0=91=D0=A0=D0=91">=D0=BA=D0=B0=D1=81=D0=BA=D0=BE =D0=B0=D0=B2=D1=
+=82=D0=BE =D1=81 =D0=BF=D1=80=D0=BE=D0=B1=D0=B5=D0=B3=D0=BE=D0=BC =D0=BE=D1=
+=82 =D0=A4=D0=9B</a>
+<div class=3D"update-item-meta">
+28.10.2024<span class=3D"separator"> =E2=80=A2 </span>=D0=BE=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE <a class=3D"url fn" data-username=3D"ABIL=
+AKIK" href=3D"/display/~ABILAKIK">=D3=98=D0=B1=D1=96=D0=BB=D3=99=D0=BA=D1=
+=96=D0=BC =D0=9A=D0=B0=D0=BC=D0=B8=D0=BB=D0=B0 =D0=95=D1=80=D0=BB=D0=B0=D0=
+=BD=D2=9B=D1=8B=D0=B7=D1=8B</a><span class=3D"separator"> =E2=80=A2 </span>=
+<a class=3D"changes-link" href=3D"/pages/diffpagesbyversion.action?pageId=
+=3D230727217&amp;selectedPageVersions=3D3&amp;selectedPageVersions=3D2">=D0=
+=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F</a>
+</div>
+</div></li>
+</ul>
+<div class=3D"more-link-container">
+<a class=3D"more-link" href=3D"/plugins/recently-updated/changes.action?the=
+me=3Dconcise&amp;startIndex=3D15&amp;searchToken=3D4204288&amp;labels=3D%D0=
+%B0%D0%B2%D1%82%D0%BE%D0%BA%D1%80%D0%B5%D0%B4%D0%B8%D1%82-%D1%81-%D0%BF%D1%=
+80%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC-%D0%BE%D1%82-%D1%84%D0%B8%D0%B7%D0%B=
+8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85-%D0%BB%D0%B8%D1%86%2C+%D0%BE%D0%B1%D1=
+%89%D0%B8%D0%B5-%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F-%D0%B0%D0%B2%D1%=
+82%D0%BE-%D1%81-%D0%BF%D1%80%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC-%D0%BE%D1%=
+82-%D1%84%D0%BB%2C+%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F-%D0%B0%D0%B2%=
+D1%82%D0%BE-%D1%81-%D0%BF%D1%80%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC-%D0%BE%=
+D1%82-%D1%84%D0%BB%2C+%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F-%D0%BA%D1%=
+80%D0%B5%D0%B4%D0%B8%D1%82%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B0%D0%B2=
+%D1%82%D0%BE-%D1%81-%D0%BF%D1%80%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC-%D0%BE=
+%D1%82-%D1%84%D0%BB%2C+%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%=
+B8%D1%8F-%D0%BA-%D0%B7%D0%B0%D0%B5%D0%BC%D1%89%D0%B8%D0%BA%D0%B0%D0%BC-%D0%=
+B0%D0%B2%D1%82%D0%BE-%D1%81-%D0%BF%D1%80%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%B=
+C-%D0%BE%D1%82-%D1%84%D0%BB%2C+%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8-%D0%B0%=
+D0%B2%D1%82%D0%BE-%D1%81-%D0%BF%D1%80%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC-%=
+D0%BE%D1%82-%D1%84%D0%BB%2C+%D0%BA%D0%B0%D1%81%D0%BA%D0%BE-%D0%B0%D0%B2%D1%=
+82%D0%BE-%D1%81-%D0%BF%D1%80%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC-%D0%BE%D1%=
+82-%D1%84%D0%BB%2C+%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F-%D0%BA%D0%B0%=
+D1%81%D0%BA%D0%BE-%D0%B0%D0%B2%D1%82%D0%BE-%D1%81-%D0%BF%D1%80%D0%BE%D0%B1%=
+D0%B5%D0%B3%D0%BE%D0%BC-%D0%BE%D1%82-%D1%84%D0%BB%2C+%D0%BF%D0%BE%D1%80%D1%=
+8F%D0%B4%D0%BE%D0%BA-%D0%B2%D1%8B%D0%BF%D0%BB%D0%B0%D1%82%D1%8B-%D0%B0%D0%B=
+2%D1%82%D0%BE-%D1%81-%D0%BF%D1%80%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC-%D0%B=
+E%D1%82-%D1%84%D0%BB%2C+%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%BE%D0=
+%B9-%D1%81%D0%BB%D1%83%D1%87%D0%B0%D0%B9-%D0%B0%D0%B2%D1%82%D0%BE-%D1%81-%D=
+0%BF%D1%80%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC-%D0%BE%D1%82-%D1%84%D0%BB%2C=
++%D0%B4%D0%BE%D1%81%D1%80%D0%BE%D1%87%D0%BD%D0%BE%D0%B5-%D1%80%D0%B0%D1%81%=
+D1%82%D0%BE%D1%80%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D1%82%D1%80%D0%B0%D1=
+%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B0%D0%B2%D1%82%D0%BE-%D1%81-%D0=
+%BF%D1%80%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC-%D0%BE%D1%82-%D1%84%D0%BB%2C+=
+%D0%B8%D0%BD%D1%84-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B-%D0%B0%D0%B2%=
+D1%82%D0%BE-%D1%81-%D0%BF%D1%80%D0%BE%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC-%D0%BE%=
+D1%82-%D1%84%D0%BB&amp;spaceKeys=3DEBZ&amp;contentType=3D,page,comment,blog=
+post,attachment,userinfo,spacedesc,personalspacedesc,space,draft,custom">=
+=D0=9F=D0=BE=D0=BA=D0=B0=D0=B7=D0=B0=D1=82=D1=8C =D0=B1=D0=BE=D0=BB=D1=8C=
+=D1=88=D0=B5</a> <img class=3D"waiting-image" alt=3D"=D0=9F=D0=BE=D0=B6=D0=
+=B0=D0=BB=D1=83=D0=B9=D1=81=D1=82=D0=B0, =D0=BF=D0=BE=D0=B4=D0=BE=D0=B6=D0=
+=B4=D0=B8=D1=82=D0=B5" src=3D"280f7c7b308e918ed55ca30e8d0d7c68" width=3D"16=
+" height=3D"16">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_134998_1405116173.1779963321277
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/280f7c7b308e918ed55ca30e8d0d7c68
+
+R0lGODlhEAAQAMQAAP///+7u7t3d3bu7u6qqqpmZmYiIiHd3d2ZmZlVVVURERDMzMyIiIhEREQAR
+AAAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05F
+VFNDQVBFMi4wAwEAAAAh+QQFBwAQACwAAAAAEAAQAAAFdyAkQgGJJOWoQgIjBM8jkKsoPEzgyMGs
+CjPDw7ADpkQBxRDmSCRetpRA6Rj4kFBkgLC4IlUGhbNQIwXOYYWCXDufzYPDMaoKGBoKb886OjAK
+dgZAAgQkfCwzAgsDBAUCgl8jAQkHEAVkAoA1AgczlyIDczUDA2UhACH5BAUHABAALAAAAAAPABAA
+AAVjICSO0IGIATkqIiMKDaGKC8Q49jPMYsE0hQdrlABCGgvT45FKiRKQhWA0mPKGPAgBcTjsspBC
+AoH4gl+FmXNEUEBVAYHToJAVZK/XWoQQDAgBZioHaX8igigFKYYQVlkCjiMhACH5BAUHABAALAAA
+AAAQAA8AAAVgICSOUGGQqIiIChMESyo6CdQGdRqUENESI8FAdFgAFwqDISYwPB4CVSMnEhSej+Fo
+gNhtHyfRQFmIol5owmEta/fcKITB6y4choMBmk7yGgSAEAJ8JAVDgQFmKUCCZnwhACH5BAUHABAA
+LAAAAAAQABAAAAViICSOYkGe4hFAiSImAwotB+si6Co2QxvjAYHIgBAqDoWCK2Bq6A40iA4yYMgg
+NZKwGFgVCAQZotFwwJIF4QnxaC9IsZNgLtAJDKbraJCGzPVSIgEDXVNXA0JdgH6ChoCKKCEAIfkE
+BQcAEAAsAAAAABAADgAABUkgJI7QcZComIjPw6bs2kINLB5uW9Bo0gyQx8LkKgVHiccKVdyRlqjF
+SAApOKOtR810StVeU9RAmLqOxi0qRG3LptikAVQEh4UAACH5BAUHABAALAAAAAAQABAAAAVxICSO
+0DCQKBQQonGIh5AGB2sYkMHIqYAIN0EDRxoQZIaC6bAoMRSiwMAwCIwCggRkwRMJWKSAomBVCc5l
+UiGRUBjO6FSBwWggwijBooDCdiFfIlBRAlYBZQ0PWRANaSkED1oQYHgjDA8nM3kPfCmejiEAIfkE
+BQcAEAAsAAAAABAAEAAABWAgJI6QIJCoOIhFwabsSbiFAotGMEMKgZoB3cBUQIgURpFgmEI0EqjA
+CYXwiYJBGAGBgGIDWsVicbiNEgSsGbKCIMCwA4IBCRgXt8bDACkvYQF6U1OADg8mDlaACQtwJCEA
+IfkEBQcAEAAsAAABABAADwAABV4gJEKCOAwiMa4Q2qIDwq4wiriBmItCCREHUsIwCgh2q8MiyEKO
+DK7ZbHCoqqSjWGKI1d2kRp+RAWGyHg+DQUEmKliGx4HBKECIMwG61AgssAQPKA19EAxRKz4QCVIh
+ACH5BAUHABAALAAAAAAQABAAAAVjICSOUBCQqHhCgiAOKyqcLVvEZOC2geGiK5NpQBAZCilgAYFM
+ogo/J0lgqEpHgoO2+GIMUL6p4vFojhQNg8rxWLgYBQJCASkwEKLC17hYFJtRIwwBfRAJDk4Obwsi
+dEkrWkkhACH5BAUHABAALAAAAQAQAA8AAAVcICSOUGAGAqmKpjis6vmuqSrUxQyPhDEEtpUOgmgY
+ETCCcrB4OBWwQsGHEhQatVFhB/mNAojFVsQgBhgKpSHRTRxEhGwhoRg0CCXYAkKHHPZCZRAKUERZ
+MAYGMCEAIfkEBQcAEAAsAAABABAADwAABV0gJI4kFJToGAilwKLCST6PUcrB8A70844CXenwILRk
+IoYyBRk4BQlHo3FIOQmvAEGBMpYSop/IgPBCFpCqIuEsIESHgkgoJxwQAjSzwb1DClwwgQhgAVVM
+IgVyKCEAIfkECQcAEAAsAAAAABAAEAAABWQgJI5kSQ6NYK7Dw6xr8hCw+ELC85hCIAq3Am0U6JUK
+jkHJNzIsFAqDqShQHRhY6bKqgvgGCZOSFDhAUiWCYQwJSxGHKqGAE/5EqIHBjOgyRQELCBB7EAQH
+fySDhGYQdDWGQyUhADs=
+------=_Part_134998_1405116173.1779963321277--

@@ -1,0 +1,483 @@
+Date: Thu, 28 May 2026 14:56:30 +0500 (UZT)
+Message-ID: <1739512994.134709.1779962190229@confluence-srv.bank.corp.centercredit.kz>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_134708_1407897282.1779962190228"
+
+------=_Part_134708_1407897282.1779962190228
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=D1=80=D0=B0=D1=81=D1=81=D1=80=D0=BE=D1=87=D0=BA=D0=B0 #=D0=BA=
+=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=D1=80=D0=B0=D1=81=D1=81=D1=80=D0=BE=D1=87=D0=BA=D0=B0 #=D0=BA=D0=
+=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0</h1>
+    <div class=3D"Section1">
+        <div>
+<style>
+    .innerCell .aura-panel-e3be6c02518e7465, .sectionMacro .aura-panel-e3be=
+6c02518e7465 {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-e3be6c02518e7465 {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-e3be6c02518e7465 .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-e3be6c02518e7465 a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-e3be6c02518e7465 a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-e3be6c02518e7465 .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-e3be6c02518e7465 .aura-headline svg {
+            margin-right: 0.5em;
+          }
+
+    .aura-panel-e3be6c02518e7465 .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-e3be6c02518e7465" style=3D"min-height: 300px;borde=
+r-top: 1px solid #999999;border-right: 1px solid #999999;border-bottom: 1px=
+ solid #999999;border-left: 1px solid #999999;border-radius: 4.0px;">
+<div class=3D"aura-header" style=3D"" href=3D"$href" target=3D"$hrefTarget"=
+>
+<div role=3D"heading" aria-level=3D"2" id=3D"aura-panel-e3be6c02518e7465" c=
+lass=3D"aura-headline" style=3D"color: #152A29 !important;font-weight: norm=
+al;text-align: left;font-size: 14.0px;border-bottom: 1px solid #999999;">
+<svg version=3D"1.1" width=3D"18" height=3D"18" viewbox=3D"0 0 384 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"FileInvoice">
+<path fill=3D"#152A29" d=3D"M288 256H96v64h192v-64zm89-151L279.1 7c-4.5-4.5=
+-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-153 31V0H24C10.7 0 0 =
+10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0=
+-24-10.8-24-24zM64 72c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16c0 4.42-3.58=
+ 8-8 8H72c-4.42 0-8-3.58-8-8V72zm0 64c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 =
+8v16c0 4.42-3.58 8-8 8H72c-4.42 0-8-3.58-8-8v-16zm256 304c0 4.42-3.58 8-8 8=
+h-80c-4.42 0-8-3.58-8-8v-16c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16zm0-20=
+0v96c0 8.84-7.16 16-16 16H80c-8.84 0-16-7.16-16-16v-96c0-8.84 7.16-16 16-16=
+h224c8.84 0 16 7.16 16 16z">
+</path>
+</svg><span>=D0=A3=D0=A1=D0=9B=D0=9E=D0=92=D0=98=D0=AF</span>
+</div>
+</div>
+<div class=3D"aura-body" style=3D"">
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:30%;min-width:30%;max-width:30%;"=
+>
+<h4 id=3D"id-=D1=80=D0=B0=D1=81=D1=81=D1=80=D0=BE=D1=87=D0=BA=D0=B0=D0=BA=
+=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9C=D0=B8=D0=BD=
+=D0=B8=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D0=B0=D1=8F=D1=81=D1=83=D0=BC=D0=BC=D0=
+=B0=D1=80=D0=B0=D1=81=D1=81=D1=80=D0=BE=D1=87=D0=BA=D0=B8"><span style=3D"c=
+olor: rgb(122,134,154);">=D0=9C=D0=B8=D0=BD=D0=B8=D0=BC=D0=B0=D0=BB=D1=8C=
+=D0=BD=D0=B0=D1=8F =D1=81=D1=83=D0=BC=D0=BC=D0=B0 =D1=80=D0=B0=D1=81=D1=81=
+=D1=80=D0=BE=D1=87=D0=BA=D0=B8</span></h4>
+</div>
+<div class=3D"columnMacro">
+<ul>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">=
+=D0=9B=D1=8E=D0=B1=D0=B0=D1=8F =D1=81=D1=83=D0=BC=D0=BC=D0=B0 =D0=B7=D0=B0 =
+=D1=81=D1=87=D0=B5=D1=82<em> </em>=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=
+=BD=D0=BE=D0=B3=D0=BE =D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D0=B0</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:30%;min-width:30%;max-width:30%;"=
+>
+<h4 id=3D"id-=D1=80=D0=B0=D1=81=D1=81=D1=80=D0=BE=D1=87=D0=BA=D0=B0=D0=BA=
+=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=A1=D1=80=D0=BE=
+=D0=BA"><span style=3D"color: rgb(122,134,154);">=D0=A1=D1=80=D0=BE=D0=BA</=
+span></h4>
+</div>
+<div class=3D"columnMacro">
+<ul>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">=
+=D0=92 =D1=81=D0=B5=D1=82=D0=B8&nbsp;=D0=BF=D0=B0=D1=80=D1=82=D0=BD=D0=B5=
+=D1=80=D0=BE=D0=B2 3, 6 =D0=B8=D0=BB=D0=B8 12 =D0=BC=D0=B5=D1=81=D1=8F=D1=
+=86=D0=B5=D0=B2</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:30%;min-width:30%;max-width:30%;"=
+>
+<h4 id=3D"id-=D1=80=D0=B0=D1=81=D1=81=D1=80=D0=BE=D1=87=D0=BA=D0=B0=D0=BA=
+=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9A=D0=BE=D0=BC=
+=D0=B8=D1=81=D1=81=D0=B8=D1=8F"><span style=3D"color: rgb(122,134,154);">=
+=D0=9A=D0=BE=D0=BC=D0=B8=D1=81=D1=81=D0=B8=D1=8F</span></h4>
+</div>
+<div class=3D"columnMacro">
+<ul>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">=
+=D0=92 =D1=81=D0=B5=D1=82=D0=B8&nbsp;=D0=BF=D0=B0=D1=80=D1=82=D0=BD=D0=B5=
+=D1=80=D0=BE=D0=B2 0%</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:30%;min-width:30%;max-width:30%;"=
+>
+<h4 id=3D"id-=D1=80=D0=B0=D1=81=D1=81=D1=80=D0=BE=D1=87=D0=BA=D0=B0=D0=BA=
+=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=94=D0=B0=D1=82=
+=D0=B0=D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=B6=D0=B0"><span style=3D"color: rgb=
+(122,134,154);">=D0=94=D0=B0=D1=82=D0=B0 =D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=
+=B6=D0=B0&nbsp;</span></h4>
+</div>
+<div class=3D"columnMacro">
+<ul>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">2=
+5&nbsp;=D1=87=D0=B8=D1=81=D0=BB=D0=BE =D1=81=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=
+=D1=89=D0=B5=D0=B3=D0=BE =D0=BC=D0=B5=D1=81=D1=8F=D1=86=D0=B0</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:30%;min-width:30%;max-width:30%;"=
+>
+<h4 id=3D"id-=D1=80=D0=B0=D1=81=D1=81=D1=80=D0=BE=D1=87=D0=BA=D0=B0=D0=BA=
+=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9A=D0=B0=D0=BA=
+=D0=B2=D0=BA=D0=BB=D1=8E=D1=87=D0=B8=D1=82=D1=8C=D1=80=D0=B5=D0=B6=D0=B8=D0=
+=BC=D1=80=D0=B0=D1=81=D1=81=D1=80=D0=BE=D1=87=D0=BA=D0=B8?"><span style=3D"=
+color: rgb(122,134,154);">=D0=9A=D0=B0=D0=BA =D0=B2=D0=BA=D0=BB=D1=8E=D1=87=
+=D0=B8=D1=82=D1=8C =D1=80=D0=B5=D0=B6=D0=B8=D0=BC =D1=80=D0=B0=D1=81=D1=81=
+=D1=80=D0=BE=D1=87=D0=BA=D0=B8?</span></h4>
+</div>
+<div class=3D"columnMacro">
+<ul>
+<li><p><span style=3D"color: rgb(51,51,51);">=D0=92=D1=8B=D0=B1=D0=B5=D1=80=
+=D0=B8=D1=82=D0=B5 #=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0 =D0=B8=D0=B7 =D1=81=D0=BF=D0=B8=D1=81=D0=BA=D0=B0 =D0=B2=D0=B0=D1=88=
+=D0=B8=D1=85 =D0=B4=D0=BE=D1=81=D1=82=D1=83=D0=BF=D0=BD=D1=8B=D1=85 =D1=81=
+=D1=87=D0=B5=D1=82=D0=BE=D0=B2.</span></p></li>
+<li><p><span>=D0=9D=D0=B0=D0=B6=D0=BC=D0=B8=D1=82=D0=B5 =D0=BD=D0=B0 =D0=BA=
+=D0=BD=D0=BE=D0=BF=D0=BA=D1=83&nbsp;=E2=80=9C=D0=A0=D0=B0=D1=81=D1=81=D1=80=
+=D0=BE=D1=87=D0=BA=D0=B0=E2=80=9D. =D0=92 =D0=BE=D0=B1=D1=8B=D1=87=D0=BD=D0=
+=BE=D0=BC =D1=81=D0=BE=D1=81=D1=82=D0=BE=D1=8F=D0=BD=D0=B8=D0=B8 =D1=80=D0=
+=B5=D0=B6=D0=B8=D0=BC =D1=80=D0=B0=D1=81=D1=81=D1=80=D0=BE=D1=87=D0=BA=D0=
+=B8 =D0=B2=D1=8B=D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=BD, =D1=87=D1=82=D0=BE =
+=D0=B8 =D0=BF=D0=BE=D0=BA=D0=B0=D0=B7=D1=8B=D0=B2=D0=B0=D0=B5=D1=82 =D1=81=
+=D1=82=D0=B0=D1=82=D1=83=D1=81&nbsp;=E2=80=9COff=E2=80=9D.</span></p></li>
+<li><p><span>=D0=92=D0=BA=D0=BB=D1=8E=D1=87=D0=B8=D1=82=D0=B5 =D1=80=D0=B5=
+=D0=B6=D0=B8=D0=BC =D1=80=D0=B0=D1=81=D1=81=D1=80=D0=BE=D1=87=D0=BA=D0=B8,&=
+nbsp;=D1=81=D0=B4=D0=B2=D0=B8=D0=BD=D1=83=D0=B2 =D0=BF=D0=BE=D0=BB=D0=B7=D1=
+=83=D0=BD=D0=BE=D0=BA =D0=BD=D0=B0=D0=BF=D1=80=D0=B0=D0=B2=D0=BE.</span></p=
+></li>
+<li><p><span>=D0=A1 =D0=B2=D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=D0=BD=D1=8B=
+=D0=BC =D1=80=D0=B5=D0=B6=D0=B8=D0=BC=D0=BE=D0=BC =D1=80=D0=B0=D1=81=D1=81=
+=D1=80=D0=BE=D1=87=D0=BA=D0=B8 =D0=B2=D1=81=D0=B5 =D0=B2=D0=B0=D1=88=D0=B8 =
+=D0=BF=D0=BE=D0=BA=D1=83=D0=BF=D0=BA=D0=B8 =D0=BF=D0=BE #=D0=BA=D0=B0=D1=80=
+=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0 =D0=B7=D0=B0 =D1=81=D1=87=D0=B5=
+=D1=82 =D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=BD=D0=BE=D0=B3=D0=BE =D0=BB=
+=D0=B8=D0=BC=D0=B8=D1=82=D0=B0 =D0=B1=D1=83=D0=B4=D1=83=D1=82 =D0=B4=D0=B5=
+=D0=BB=D0=B8=D1=82=D1=8C=D1=81=D1=8F =D0=BD=D0=B0 =D1=80=D0=B0=D0=B2=D0=BD=
+=D1=8B=D0=B5 =D1=87=D0=B0=D1=81=D1=82=D0=B8 =D0=B1=D0=B5=D0=B7 =D0=BA=D0=BE=
+=D0=BC=D0=B8=D1=81=D1=81=D0=B8=D0=B9 =D0=B2 =D1=81=D0=B5=D1=82=D0=B8 =D0=BF=
+=D0=B0=D1=80=D1=82=D0=BD=D0=B5=D1=80=D0=BE=D0=B2.</span></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p><span style=3D"display: inline-block;"><style> .aura-button-20af00b6f899=
+1640 { background: #ddd; text-decoration: none !important; color: #4f5058 !=
+important; box-sizing: border-box; cursor: pointer; display: inline-flex; a=
+lign-items: center; justify-content: center; word-break: break-word; transi=
+tion: background 0.5s; padding: 8px 14px; flex-direction: row; border-radiu=
+s: 10px; font-size: 12px; border: 2px solid #4f5058; background: transparen=
+t; color: #4f5058 !important; } .aura-button-20af00b6f8991640:hover{ backgr=
+ound: #4f5058; color: #FFFFFF !important; } .aura-button-20af00b6f8991640:h=
+over svg path { fill: #FFFFFF !important; } .aura-button-20af00b6f8991640 s=
+vg, .aura-button-20af00b6f8991640 img { margin-right: 10px; height: 12px !i=
+mportant; width: 12px !important; } .aura-button-20af00b6f8991640 svg path =
+{ fill: #4f5058 !important; }</style><a href=3D"https://club.bcc.kz/" class=
+=3D"aura-button-20af00b6f8991640" target=3D"" data-aura-link=3D"link" data-=
+linked-resource-id=3D"https://club.bcc.kz/">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 640 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"HandsHelping">
+<path fill=3D"#FFFFFF" d=3D"M488 192H336v56c0 39.7-32.3 72-72 72s-72-32.3-7=
+2-72V126.4l-64.9 39C107.8 176.9 96 197.8 96 220.2v47.3l-80 46.2C.7 322.5-4.=
+6 342.1 4.3 357.4l80 138.6c8.8 15.3 28.4 20.5 43.7 11.7L231.4 448H368c35.3 =
+0 64-28.7 64-64h16c17.7 0 32-14.3 32-32v-64h8c13.3 0 24-10.7 24-24v-48c0-13=
+.3-10.7-24-24-24zm147.7-37.4L555.7 16C546.9.7 527.3-4.5 512 4.3L408.6 64H30=
+6.4c-12 0-23.7 3.4-33.9 9.7L239 94.6c-9.4 5.8-15 16.1-15 27.1V248c0 22.1 17=
+.9 40 40 40s40-17.9 40-40v-88h184c30.9 0 56 25.1 56 56v28.5l80-46.2c15.3-8.=
+9 20.5-28.4 11.7-43.7z">
+</path>
+</svg><span>=D0=9F=D0=B0=D1=80=D1=82=D0=BD=D0=B5=D1=80=D1=8B</span> </a></s=
+pan></p>
+    </div>
+</body>
+</html>
+------=_Part_134708_1407897282.1779962190228--

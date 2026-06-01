@@ -1,0 +1,451 @@
+Date: Thu, 28 May 2026 14:57:06 +0500 (UZT)
+Message-ID: <190319275.134721.1779962226478@confluence-srv.bank.corp.centercredit.kz>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_134720_1072874033.1779962226478"
+
+------=_Part_134720_1072874033.1779962226478
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=D0=9E=D0=A1 owner =D0=9A=D0=9A =D0=A0=D0=91*</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=D0=9E=D0=A1 owner =D0=9A=D0=9A =D0=A0=D0=91*</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">
+<div class=3D"columnLayout single" data-layout=3D"single">
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<div class=3D"rwui_expandable_item ">
+<button class=3D"rwui_expandable_item_title rwui_expand" role=3D"button" on=
+click=3D"RWUI.toggleExpandItem(this, event);" id=3D"rwui_expand-" data-hash=
+=3D"expand-" aria-expanded=3D"false">
+<div class=3D"rwui_item_icon rw_external_icon_plus"></div> =D0=9E=D1=82=D0=
+=BF=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D1=8C =D0=BF=D0=BE=D0=B2=D1=82=D0=BE=D1=
+=80=D0=BD=D0=BE=D0=B5 =D0=BD=D0=B0=D0=BF=D0=BE=D0=BC=D0=B8=D0=BD=D0=B0=D0=
+=BD=D0=B8=D0=B5 </button>
+<div class=3D"rwui_expandable_item_body rwui_body">
+<p></p>
+<div class=3D"contentLayout2">
+<div class=3D"columnLayout two-left-sidebar" data-layout=3D"two-left-sideba=
+r">
+<div class=3D"cell aside" data-type=3D"aside">
+<div class=3D"innerCell">
+<div>
+<div class=3D"noprint" style=3D"display: none">
+</div><span id=3D"cf_messages" style=3D"padding-bottom: 5px;"></span>
+<script type=3D"text/javascript">
+    var cfRowHL =3D false;
+
+        AJS.toInit(function () {
+      if (!cfRowHL) {
+        cfHandleHL('3b23f21c034a90d8435cf8e434db9861');
+      }
+           =20
+          });
+
+        </script>
+<div style=3D"margin-top: 5px">
+<style type=3D"text/css">
+  .confiFormsFormBorder {
+    border: 1px solid #ccc; border-radius: 3px;margin: 10px 0 20px 0;
+    /*max-width: 720px;*/
+    /*min-width: 720px;*/
+  }
+  .confiFormsFormContent {
+    padding: 20px;
+  }
+  .confiFormsFormTitle {
+    padding: 10px;
+  }
+  .confiFormsFormFooter {
+    background-color: var(--ds-background-accent-gray-subtlest, #f0f0f0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .confiFormsFormContent .copy-heading-link-container {
+    display:none;
+  }
+</style>
+<div id=3D"i_confiform_registration_panel_c2912192e7cba49a66e7fdcebd75b791"=
+ style=3D"display: none;mso-hide:all;" class=3D"cf_bell ">
+</div><button class=3D"aui-button aui-button-primary cf_bell " type=3D"butt=
+on" style=3D"margin-left: 0;" title=3D"=F0=9F=94=94" id=3D"i_confiform_add_=
+new_button_c2912192e7cba49a66e7fdcebd75b791">=F0=9F=94=94</button>
+</div>
+</div>
+<p><br></p>
+</div>
+</div>
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<ul>
+<li><span style=3D"color: rgb(122,134,154);">=D0=92=D1=8B =D0=BD=D0=B5 =D0=
+=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D0=BB=D0=B8 =D0=BE=D1=82=D0=B2=D0=B5=D1=
+=82 =D0=BE=D1=82 =D0=BE=D1=83=D0=BD=D0=B5=D1=80=D0=B0?</span></li>
+<li><span style=3D"color: rgb(122,134,154);">=D0=BD=D0=B0=D0=B6=D0=BC=D0=B8=
+=D1=82=D0=B5 =D0=BD=D0=B0 "=D0=BA=D0=BE=D0=BB=D0=BE=D0=BA=D0=BE=D0=BB=D1=8C=
+=D1=87=D0=B8=D0=BA" =D1=87=D1=82=D0=BE=D0=B1=D1=8B =D0=BD=D0=B0=D0=BF=D0=BE=
+=D0=BC=D0=BD=D0=B8=D1=82=D1=8C =D0=BE=D1=83=D0=BD=D0=B5=D1=80=D1=83 =D0=BE =
+=D0=BD=D0=B5 =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=BD=D0=BE=D0=BC =
+=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D0=B5 =D0=BD=D0=B0 =D1=81=D0=B2=D0=BE=D0=B9 =
+=D0=B2=D0=BE=D0=BF=D1=80=D0=BE=D1=81&nbsp;</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"columnLayout single" data-layout=3D"single">
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<div id=3D"i_confiform_registration_panel_f9de68062c39782288e4895059c05274"=
+ style=3D"display: none; mso-hide:all;"></div>
+<table class=3D"aui cf_perevod_table confiforms-table  cf_view_container cf=
+-table" style=3D"margin-top:0;min-width: 100%;" id=3D"f9de68062c39782288e48=
+95059c05274_table" data-cf-macro=3D"table" data-cf-form=3D"perevod" data-cf=
+-storage=3D"174299133" data-view-macro-id=3D"ef91adbe-33dd-463d-bfab-10b731=
+c7f61f">
+<thead>
+<tr>
+<th class=3D"cf_p1_tr" id=3D"cf_p1_tr" data-column=3D"0" style=3D" max-widt=
+h:100px" unselectable=3D"on"><p>=D0=92=D0=BE=D0=BF=D1=80=D0=BE=D1=81</p></t=
+h>
+<th class=3D"cf_p2_tr" id=3D"cf_p2_tr" data-column=3D"1" style=3D" max-widt=
+h:100px" unselectable=3D"on"><p>=D0=9E=D1=82=D0=B2=D0=B5=D1=82</p></th>
+<th class=3D"cf_id_tr" id=3D"cf_id_tr" data-column=3D"2" style=3D" min-widt=
+h:60px;width:60px;text-align: center;" unselectable=3D"on"><p>=D0=98=D1=81=
+=D1=82=D0=BE=D1=80=D0=B8=D1=8F</p></th>
+</tr>
+</thead>
+<tbody>
+<tr id=3D"i_confiform_entry_477c977a-bf97-435e-8f01-63fb47f81dd5" class=3D"=
+i_confiform_entry_477c977a-bf97-435e-8f01-63fb47f81dd5 tableItem cf-entry-c=
+ontainer" confi-data-id=3D"477c977a-bf97-435e-8f01-63fb47f81dd5">
+<td class=3D"cf_p1" cf-field=3D"p1" style=3D"max-width:100px"><span style=
+=3D"max-width:100px" cf-field=3D"p1" id=3D"i_sel_p1">=D0=9F=D0=BE=D1=87=D0=
+=B5=D0=BC=D1=83 =D0=B4=D0=B0=D0=BD=D0=BD=D0=B0=D1=8F =D0=BA=D0=B0=D1=80=D1=
+=82=D0=B0 =D0=BD=D0=B0=D0=B7=D1=8B=D0=B2=D0=B0=D0=B5=D1=82=D1=81=D1=8F "=D0=
+=9A=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0"</span></td>
+<td class=3D"cf_p2" cf-field=3D"p2" style=3D"max-width:100px"></td>
+<td class=3D"cf_id" cf-field=3D"id" style=3D"min-width:60px;width:60px;text=
+-align: center"><span id=3D"i_holdingrow_id"><span id=3D"cf_entry_view_cont=
+rols_477c977a-bf97-435e-8f01-63fb47f81dd5" class=3D"cf-view-controls"> <but=
+ton class=3D"aui-button" type=3D"button" id=3D"i_confiform_view_button_477c=
+977a-bf97-435e-8f01-63fb47f81dd5" style=3D"" data-readonly=3D"true" name=3D=
+"formz_view_button_477c977a-bf97-435e-8f01-63fb47f81dd5" onclick=3D"cfEntry=
+ViewDialog('477c977a-bf97-435e-8f01-63fb47f81dd5', 245184195, 174299133, 'p=
+erevod', '5ade1b70b53fb25c7044ffb78963bcdc', 'ef91adbe-33dd-463d-bfab-10b73=
+1c7f61f', false, (AJS.$(this).attr('data-readonly') =3D=3D=3D 'true'), 0, 7=
+00, 'fd6fd4cab8107896f4466e3e34595cc8', 'table', function (data, entryId, i=
+sReadOnly, givenHeight, givenWidth) {showEntryEditDialogf9de68062c39782288e=
+4895059c05274(data, entryId, isReadOnly, givenHeight, givenWidth, '');})">=
+=D0=98=D1=81=D1=82=D0=BE=D1=80=D0=B8=D1=8F</button> </span></span></td>
+</tr>
+<tr id=3D"i_confiform_entry_d1703e79-c0f8-455d-bb20-4c01de0756bc" class=3D"=
+i_confiform_entry_d1703e79-c0f8-455d-bb20-4c01de0756bc tableItem cf-entry-c=
+ontainer" confi-data-id=3D"d1703e79-c0f8-455d-bb20-4c01de0756bc">
+<td class=3D"cf_p1" cf-field=3D"p1" style=3D"max-width:100px"><span style=
+=3D"max-width:100px" cf-field=3D"p1" id=3D"i_sel_p1">=D0=95=D1=81=D0=BB=D0=
+=B8 =D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82 =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=
+=BE=D0=B4=D0=B8=D1=82 =D0=BB=D0=B8=D1=87=D0=BD=D1=8B=D0=B5 =D0=B4=D0=B5=D0=
+=BD=D1=8C=D0=B3=D0=B8 =D1=81 =D0=9A=D0=B0=D1=80=D1=82=D1=8B=D0=BA=D0=B0=D1=
+=80=D1=82=D1=8B =D1=87=D0=B5=D1=80=D0=B5=D0=B7 =D0=BF=D1=80=D0=B8=D0=BB=D0=
+=BE=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B4=D1=80=D1=83=D0=B3=D0=BE=D0=B3=D0=
+=BE =D0=B1=D0=B0=D0=BD=D0=BA=D0=B0, =D0=B5=D1=81=D1=82=D1=8C =D0=BA=D0=BE=
+=D0=BC=D0=B8=D1=81=D1=81=D0=B8=D1=8F?</span></td>
+<td class=3D"cf_p2" cf-field=3D"p2" style=3D"max-width:100px"><span style=
+=3D"max-width:100px" cf-field=3D"p2" id=3D"i_sel_p2">=D0=9F=D1=80=D0=B8 =D0=
+=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4=D0=B5 =D0=BB=D0=B8=D1=87=D0=BD=D1=
+=8B=D1=85 =D0=B4=D0=B5=D0=BD=D0=B5=D0=B3 =D1=81 =D0=BA=D0=B0=D1=80=D1=82=D0=
+=B0=D0=BA=D0=B0=D1=80=D1=82=D1=8B =D0=B2 =D0=B4=D1=80=D1=83=D0=B3=D0=BE=D0=
+=B9 =D0=B1=D0=B0=D0=BD=D0=BA =D0=A0=D0=9A =D0=BF=D0=BE=D1=81=D1=80=D0=B5=D0=
+=B4=D1=81=D1=82=D0=B2=D0=BE=D0=BC =D0=B8=D0=BD=D1=8B=D1=85 =D0=BA=D0=B0=D0=
+=BD=D0=B0=D0=BB=D0=BE=D0=B2(=D0=BF=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=
+=BD=D0=B8=D1=8F =D0=B4=D1=80=D1=83=D0=B3=D0=B8=D1=85 =D0=B1=D0=B0=D0=BD=D0=
+=BA=D0=BE=D0=B2), =D0=BA=D0=BE=D0=BC=D0=B8=D1=81=D1=81=D0=B8=D1=8F =D1=81=
+=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D1=8F=D0=B5=D1=82: 4%.</span></td>
+<td class=3D"cf_id" cf-field=3D"id" style=3D"min-width:60px;width:60px;text=
+-align: center"><span id=3D"i_holdingrow_id"><span id=3D"cf_entry_view_cont=
+rols_d1703e79-c0f8-455d-bb20-4c01de0756bc" class=3D"cf-view-controls"> <but=
+ton class=3D"aui-button" type=3D"button" id=3D"i_confiform_view_button_d170=
+3e79-c0f8-455d-bb20-4c01de0756bc" style=3D"" data-readonly=3D"true" name=3D=
+"formz_view_button_d1703e79-c0f8-455d-bb20-4c01de0756bc" onclick=3D"cfEntry=
+ViewDialog('d1703e79-c0f8-455d-bb20-4c01de0756bc', 245184195, 174299133, 'p=
+erevod', '5ade1b70b53fb25c7044ffb78963bcdc', 'ef91adbe-33dd-463d-bfab-10b73=
+1c7f61f', false, (AJS.$(this).attr('data-readonly') =3D=3D=3D 'true'), 0, 7=
+00, 'fd6fd4cab8107896f4466e3e34595cc8', 'table', function (data, entryId, i=
+sReadOnly, givenHeight, givenWidth) {showEntryEditDialogf9de68062c39782288e=
+4895059c05274(data, entryId, isReadOnly, givenHeight, givenWidth, '');})">=
+=D0=98=D1=81=D1=82=D0=BE=D1=80=D0=B8=D1=8F</button> </span></span></td>
+</tr>
+</tbody>
+</table>
+<script type=3D"text/javascript">
+        AJS.toInit(function () {
+          AJS.$('#f9de68062c39782288e4895059c05274_table').find('tr[class^=
+=3D"i_confiform_entry_"]').each(function () {
+            cfBindActionButtonEvents(AJS.$(this), 245184195, 174299133, 'pe=
+revod', 'f9de68062c39782288e4895059c05274', '989398e896e0e8ef92d1c80175b2dd=
+37', 'table');
+          });
+        });
+      </script>
+<script type=3D"text/javascript">
+            AJS.toInit(function () {
+                                  AJS.$("#i_confiform_add_new_button_f9de68=
+062c39782288e4895059c05274").click(function () {
+                    showEntryEditDialogf9de68062c39782288e4895059c05274(AJS=
+.$("#i_confiform_registration_panel_f9de68062c39782288e4895059c05274").html=
+(), '', false, 0, 700, '');
+                  });
+               =20
+              cfInitViewLocalSearch('f9de68062c39782288e4895059c05274', "ta=
+ble[id=3D'f9de68062c39782288e4895059c05274_table'] tr[class^=3D'i_confiform=
+_entry_']");
+
+              AJS.$("#i_confiform_search_btn_f9de68062c39782288e4895059c052=
+74").click(function () {
+                remoteFilterRows('perevod', AJS.$("#i_confiform_search_f9de=
+68062c39782288e4895059c05274").val(), '', '245184195', '174299133', '989398=
+e896e0e8ef92d1c80175b2dd37', 'f9de68062c39782288e4895059c05274', 'table');
+              });
+            });
+          </script>
+<p><br></p>
+</div>
+</div>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_134720_1072874033.1779962226478--

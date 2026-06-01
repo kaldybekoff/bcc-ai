@@ -1,0 +1,864 @@
+Date: Thu, 28 May 2026 14:56:36 +0500 (UZT)
+Message-ID: <1106269985.134711.1779962196310@confluence-srv.bank.corp.centercredit.kz>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_134710_1742915395.1779962196310"
+
+------=_Part_134710_1742915395.1779962196310
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=BD=D1=8B=D0=B9 =D0=BB=D0=
+=B8=D0=BC=D0=B8=D1=82 #=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=
+=82=D0=B0</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=BD=D1=8B=D0=B9 =D0=BB=D0=B8=
+=D0=BC=D0=B8=D1=82 #=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0</h1>
+    <div class=3D"Section1">
+        <div id=3D"addtab" class=3D"contentf aui-tabs horizontal-tabs">
+<ul class=3D"tabs-menu">
+</ul>
+<div id=3D"=D1=83=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F" data-pane-title=3D"=
+=D1=83=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F" class=3D"cfm tabs-pane ">
+<div>
+<style>
+    .innerCell .aura-panel-140734bd4d2584ec, .sectionMacro .aura-panel-1407=
+34bd4d2584ec {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-140734bd4d2584ec {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-140734bd4d2584ec .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-140734bd4d2584ec a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-140734bd4d2584ec a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-140734bd4d2584ec .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-140734bd4d2584ec .aura-headline svg {
+            margin-right: 0.5em;
+          }
+
+    .aura-panel-140734bd4d2584ec .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-140734bd4d2584ec" style=3D"border-top: 1px solid #=
+999999;border-right: 1px solid #999999;border-bottom: 1px solid #999999;bor=
+der-left: 1px solid #999999;border-radius: 4.0px;">
+<div class=3D"aura-header" style=3D"" href=3D"$href" target=3D"$hrefTarget"=
+>
+<div role=3D"heading" aria-level=3D"2" id=3D"aura-panel-140734bd4d2584ec" c=
+lass=3D"aura-headline" style=3D"color: #152A29 !important;font-weight: norm=
+al;text-align: left;font-size: 14.0px;border-bottom: 1px solid #999999;">
+<svg version=3D"1.1" width=3D"18" height=3D"18" viewbox=3D"0 0 576 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"CreditCard">
+<path fill=3D"#152A29" d=3D"M0 432c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 =
+48-48V256H0v176zm192-68c0-6.6 5.4-12 12-12h136c6.6 0 12 5.4 12 12v40c0 6.6-=
+5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-40zm-128 0c0-6.6 5.4-12 12-12h72c6.6 =
+0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM576 80v48H=
+0V80c0-26.5 21.5-48 48-48h480c26.5 0 48 21.5 48 48z">
+</path>
+</svg><span>=D0=9A=D0=A0=D0=95=D0=94=D0=98=D0=A2=D0=9D=D0=AB=D0=99 =D0=9B=
+=D0=98=D0=9C=D0=98=D0=A2</span>
+</div>
+</div>
+<div class=3D"aura-body" style=3D"">
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:30%;min-width:30%;max-width:30%;"=
+>
+<h4 id=3D"id-=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=BD=D1=8B=D0=B9=D0=BB=
+=D0=B8=D0=BC=D0=B8=D1=82=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=
+=82=D0=B0-=D0=A1=D1=83=D0=BC=D0=BC=D0=B0=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=
+=82=D0=BD=D0=BE=D0=B3=D0=BE=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D0=B0"><span styl=
+e=3D"color: rgb(122,134,154);">=D0=A1=D1=83=D0=BC=D0=BC=D0=B0 =D0=BA=D1=80=
+=D0=B5=D0=B4=D0=B8=D1=82=D0=BD=D0=BE=D0=B3=D0=BE =D0=BB=D0=B8=D0=BC=D0=B8=
+=D1=82=D0=B0</span></h4>
+</div>
+<div class=3D"columnMacro">
+<ul style=3D"text-align: left;">
+<li>=D0=94=D0=BE 3 000 000 =D1=82=D0=B5=D0=BD=D0=B3=D0=B5 =D0=B4=D0=BB=D1=
+=8F =D1=81=D1=82=D0=B0=D0=BD=D0=B4=D0=B0=D1=80=D1=82=D0=BD=D1=8B=D1=85 =D0=
+=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D0=BE=D0=B2</li>
+<li>=D0=94=D0=BE 7 000 000 =D1=82=D0=B5=D0=BD=D0=B3=D0=B5 =D0=B4=D0=BB=D1=
+=8F VIP-=D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D0=BE=D0=B2</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:30%;min-width:30%;max-width:30%;"=
+>
+<h4 id=3D"id-=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=BD=D1=8B=D0=B9=D0=BB=
+=D0=B8=D0=BC=D0=B8=D1=82=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=
+=82=D0=B0-=D0=9B=D1=8C=D0=B3=D0=BE=D1=82=D0=BD=D1=8B=D0=B9=D0=BF=D0=BB=D0=
+=B0=D1=82=D0=B5=D0=B6"><span style=3D"color: rgb(122,134,154);">=D0=9B=D1=
+=8C=D0=B3=D0=BE=D1=82=D0=BD=D1=8B=D0=B9 </span><span style=3D"color: rgb(12=
+2,134,154);">=D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=B6</span></h4>
+</div>
+<div class=3D"columnMacro">
+<p><span style=3D"color: rgb(51,51,51);">100%&nbsp;=D0=B7=D0=B0=D0=B4=D0=BE=
+=D0=BB=D0=B6=D0=B5=D0=BD=D0=BD=D0=BE=D1=81=D1=82=D0=B8&nbsp;=D0=B1=D0=B5=D0=
+=B7 =D1=80=D0=B0=D1=81=D1=81=D1=80=D0=BE=D1=87=D0=BA=D0=B8 + =D0=BF=D0=BB=
+=D0=B0=D0=BD=D0=BE=D0=B2=D1=8B=D0=B9 =D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=B6 =
+=D0=BF=D0=BE =D1=80=D0=B0=D1=81=D1=81=D1=80=D0=BE=D1=87=D0=BA=D0=B0=D0=BC</=
+span></p>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:30%;min-width:30%;max-width:30%;"=
+>
+<h4 id=3D"id-=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=BD=D1=8B=D0=B9=D0=BB=
+=D0=B8=D0=BC=D0=B8=D1=82=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=
+=82=D0=B0-=D0=9B=D1=8C=D0=B3=D0=BE=D1=82=D0=BD=D1=8B=D0=B9=D0=BF=D0=B5=D1=
+=80=D0=B8=D0=BE=D0=B4"><span style=3D"color: rgb(122,134,154);">=D0=9B=D1=
+=8C=D0=B3=D0=BE=D1=82=D0=BD=D1=8B=D0=B9 =D0=BF=D0=B5=D1=80=D0=B8=D0=BE=D0=
+=B4</span></h4>
+</div>
+<div class=3D"columnMacro">
+<p><span style=3D"color: rgb(51,51,51);">=D0=B4=D0=BE 25 =D1=87=D0=B8=D1=81=
+=D0=BB=D0=B0 =D1=81=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=89=D0=B5=D0=B3=D0=BE =
+=D0=BC=D0=B5=D1=81=D1=8F=D1=86=D0=B0</span></p>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:30%;min-width:30%;max-width:30%;"=
+>
+<h4 id=3D"id-=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=BD=D1=8B=D0=B9=D0=BB=
+=D0=B8=D0=BC=D0=B8=D1=82=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=
+=82=D0=B0-=D0=9F=D1=80=D0=BE=D1=86=D0=B5=D0=BD=D1=82=D0=B2=D0=BB=D1=8C=D0=
+=B3=D0=BE=D1=82=D0=BD=D1=8B=D0=B9=D0=BF=D0=B5=D1=80=D0=B8=D0=BE=D0=B4"><spa=
+n style=3D"color: rgb(122,134,154);">=D0=9F=D1=80=D0=BE=D1=86=D0=B5=D0=BD=
+=D1=82 =D0=B2 =D0=BB=D1=8C=D0=B3=D0=BE=D1=82=D0=BD=D1=8B=D0=B9 =D0=BF=D0=B5=
+=D1=80=D0=B8=D0=BE=D0=B4</span></h4>
+</div>
+<div class=3D"columnMacro">
+<p><span style=3D"color: rgb(51,51,51);">0 %</span></p>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:30%;min-width:30%;max-width:30%;"=
+>
+<h4 id=3D"id-=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=BD=D1=8B=D0=B9=D0=BB=
+=D0=B8=D0=BC=D0=B8=D1=82=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=
+=82=D0=B0-=D0=9F=D1=80=D0=BE=D1=86=D0=B5=D0=BD=D1=82=D0=B2=D0=BD=D0=B5=D0=
+=BB=D1=8C=D0=B3=D0=BE=D1=82=D0=BD=D0=BE=D0=B3=D0=BE=D0=BF=D0=B5=D1=80=D0=B8=
+=D0=BE=D0=B4=D0=B0"><span style=3D"color: rgb(122,134,154);">=D0=9F=D1=80=
+=D0=BE=D1=86=D0=B5=D0=BD=D1=82 =D0=B2=D0=BD=D0=B5 =D0=BB=D1=8C=D0=B3=D0=BE=
+=D1=82=D0=BD=D0=BE=D0=B3=D0=BE =D0=BF=D0=B5=D1=80=D0=B8=D0=BE=D0=B4=D0=B0</=
+span></h4>
+</div>
+<div class=3D"columnMacro">
+<ul>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">&=
+nbsp;=D0=94=D0=BB=D1=8F =D0=97=D0=9F =D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=82=
+=D0=B0 -&nbsp;24,99%</span></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">&=
+nbsp;=D0=A1=D1=82=D0=B0=D0=BD=D0=B4=D0=B0=D1=80=D1=82=D0=BD=D0=B0=D1=8F -&n=
+bsp;26,99%</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:30%;min-width:30%;max-width:30%;"=
+>
+<h4 id=3D"id-=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=BD=D1=8B=D0=B9=D0=BB=
+=D0=B8=D0=BC=D0=B8=D1=82=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=
+=82=D0=B0-=D0=9C=D0=B8=D0=BD=D0=B8=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=
+=B9=D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=B6"><span style=3D"color: rgb(122,134,=
+154);">=D0=9C=D0=B8=D0=BD=D0=B8=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =
+=D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=B6</span></h4>
+</div>
+<div class=3D"columnMacro">
+<p><span style=3D"color: rgb(51,51,51);">5%&nbsp;=D0=B4=D0=BE=D0=BB=D0=B3=
+=D0=B0 =D0=B1=D0=B5=D0=B7 =D1=80=D0=B0=D1=81=D1=81=D1=80=D0=BE=D1=87=D0=BA=
+=D0=B8 + =D1=80=D0=B5=D0=B3=D1=83=D0=BB=D1=8F=D1=80=D0=BD=D1=8B=D0=B9 =D0=
+=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=B6 =D0=BF=D0=BE =D1=80=D0=B0=D1=81=D1=81=D1=
+=80=D0=BE=D1=87=D0=BA=D0=B0=D0=BC&nbsp;</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id=3D"=D0=BB=D1=8C=D0=B3=D0=BE=D1=82=D0=BD=D1=8B=D0=B9=D0=BF=D0=B5=D1=
+=80=D0=B8=D0=BE=D0=B4*" data-pane-title=3D"=D0=BB=D1=8C=D0=B3=D0=BE=D1=82=
+=D0=BD=D1=8B=D0=B9 =D0=BF=D0=B5=D1=80=D0=B8=D0=BE=D0=B4*" class=3D"cfm tabs=
+-pane ">
+<p><br></p>
+<p><img src=3D"https://kb.apps.bcc.kz/download/attachments/193589288/image2=
+020-7-14_14-47-43%20%282%29%20%281%29.png?version=3D1&amp;modificationDate=
+=3D1713154310281&amp;api=3Dv2" alt=3D"=D0=9B=D1=8C=D0=B3=D0=BE=D1=82=D0=BD=
+=D1=8B=D0=B9 =D0=BF=D0=B5=D1=80=D0=B8=D0=BE=D0=B4"></p>
+</div>
+<div id=3D"=D0=BF=D1=80=D0=BE=D1=86=D0=B5=D0=BD=D1=82=D1=8B*" data-pane-tit=
+le=3D"=D0=BF=D1=80=D0=BE=D1=86=D0=B5=D0=BD=D1=82=D1=8B*" class=3D"cfm tabs-=
+pane ">
+<p><br></p>
+<p><img src=3D"https://kb.apps.bcc.kz/download/attachments/205692825/image2=
+020-7-14_14-48-25.png?version=3D1&amp;modificationDate=3D1712834125665&amp;=
+api=3Dv2" alt=3D"=D0=9F=D1=80=D0=BE=D1=86=D0=B5=D0=BD=D1=82=D1=8B"></p>
+</div>
+<div id=3D"=D0=BF=D1=80=D0=BE=D1=81=D1=80=D0=BE=D1=87=D0=BA=D0=B0*" data-pa=
+ne-title=3D"=D0=BF=D1=80=D0=BE=D1=81=D1=80=D0=BE=D1=87=D0=BA=D0=B0*" class=
+=3D"cfm tabs-pane ">
+<p><br></p>
+<p><img src=3D"https://kb.apps.bcc.kz/download/attachments/205692825/image2=
+020-7-14_14-49-12.png?version=3D1&amp;modificationDate=3D1712834166470&amp;=
+api=3Dv2" alt=3D"=D0=9F=D1=80=D0=BE=D1=81=D1=80=D0=BE=D1=87=D0=BA=D0=B0"></=
+p>
+</div>
+<div id=3D"=D0=B2=D1=8B=D0=BD=D0=BE=D1=81=D0=BD=D0=B0=D0=BA=D1=80=D0=B5=D0=
+=B4=D0=B8=D1=82=D0=BD=D1=8B=D0=B9=D0=BA=D0=BE=D0=BC=D0=B8=D1=82=D0=B5=D1=82=
+*" data-pane-title=3D"=D0=B2=D1=8B=D0=BD=D0=BE=D1=81 =D0=BD=D0=B0 =D0=BA=D1=
+=80=D0=B5=D0=B4=D0=B8=D1=82=D0=BD=D1=8B=D0=B9 =D0=BA=D0=BE=D0=BC=D0=B8=D1=
+=82=D0=B5=D1=82*" class=3D"cfm tabs-pane ">
+<p></p>
+<div>
+<style>
+    .innerCell .aura-panel-8062f17df7e43776, .sectionMacro .aura-panel-8062=
+f17df7e43776 {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-8062f17df7e43776 {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-8062f17df7e43776 .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-8062f17df7e43776 a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-8062f17df7e43776 a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-8062f17df7e43776 .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-8062f17df7e43776 .aura-headline svg {
+            margin-right: 0.5em;
+          }
+
+    .aura-panel-8062f17df7e43776 .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-8062f17df7e43776" style=3D"border-top: 1px solid #=
+999999;border-right: 1px solid #999999;border-bottom: 1px solid #999999;bor=
+der-left: 1px solid #999999;border-radius: 4.0px;">
+<div class=3D"aura-header" style=3D"" href=3D"$href" target=3D"$hrefTarget"=
+>
+<div role=3D"heading" aria-level=3D"2" id=3D"aura-panel-8062f17df7e43776" c=
+lass=3D"aura-headline" style=3D"color: #152A29 !important;font-weight: norm=
+al;text-align: left;font-size: 14.0px;border-bottom: 1px solid #999999;">
+<svg version=3D"1.1" width=3D"18" height=3D"18" viewbox=3D"0 0 576 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"CreditCard">
+<path fill=3D"#152A29" d=3D"M0 432c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 =
+48-48V256H0v176zm192-68c0-6.6 5.4-12 12-12h136c6.6 0 12 5.4 12 12v40c0 6.6-=
+5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-40zm-128 0c0-6.6 5.4-12 12-12h72c6.6 =
+0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM576 80v48H=
+0V80c0-26.5 21.5-48 48-48h480c26.5 0 48 21.5 48 48z">
+</path>
+</svg><span>=D0=98=D0=9D=D0=A1=D0=A2=D0=A0=D0=A3=D0=9A=D0=A6=D0=98=D0=AF =
+=D0=94=D0=9B=D0=AF =D0=A0=D0=90=D0=A1=D0=A1=D0=9C=D0=9E=D0=A2=D0=A0=D0=95=
+=D0=9D=D0=98=D0=AF =D0=92=D0=9E=D0=9F=D0=A0=D0=9E=D0=A1=D0=90 =D0=9D=D0=90 =
+=D0=92=D0=AB=D0=9D=D0=9E=D0=A1 =D0=9D=D0=90 =D0=9A=D0=A0=D0=95=D0=94=D0=98=
+=D0=A2=D0=9D=D0=AB=D0=99 =D0=9A=D0=9E=D0=9C=D0=98=D0=A2=D0=95=D0=A2</span>
+</div>
+</div>
+<div class=3D"aura-body" style=3D"">
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:30%;min-width:30%;max-width:30%;"=
+>
+<h4 id=3D"id-=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=BD=D1=8B=D0=B9=D0=BB=
+=D0=B8=D0=BC=D0=B8=D1=82=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=
+=82=D0=B0-=D0=9F=D1=80=D0=BE=D0=B4=D1=83=D0=BA=D1=82"><span style=3D"color:=
+ rgb(51,51,51);">=D0=9F=D1=80=D0=BE=D0=B4=D1=83=D0=BA=D1=82</span></h4>
+</div>
+<div class=3D"columnMacro">
+<p><span class=3D"TextRun SCXW41755676 BCX0" style=3D"color: rgb(51,51,51);=
+"><span class=3D"NormalTextRun SpellingErrorV2Themed SCXW41755676 BCX0">=D0=
+=9A=D0=B0=D1=80=D1=82=D0=B0=D0=9A=D0=B0=D1=80=D1=82=D0=B0</span><span class=
+=3D"NormalTextRun SCXW41755676 BCX0"> =E2=80=94 =D1=83=D0=B2=D0=B5=D0=BB=D0=
+=B8=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=
+=BD=D0=BE=D0=B3=D0=BE =D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D0=B0 <strong>(=D0=BE=
+=D1=82 3 =D0=BC=D0=BB=D0=BD =D0=B4=D0=BE 7 =D0=BC=D0=BB=D0=BD =D1=82=D0=B5=
+=D0=BD=D0=B3=D0=B5)</strong></span></span><strong><span class=3D"EOP SCXW41=
+755676 BCX0">&nbsp;</span></strong></p>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:30%;min-width:30%;max-width:30%;"=
+>
+<h4 id=3D"id-=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=BD=D1=8B=D0=B9=D0=BB=
+=D0=B8=D0=BC=D0=B8=D1=82=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=
+=82=D0=B0-=D0=A3=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F"><span style=3D"color:=
+ rgb(51,51,51);">=D0=A3=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F</span></h4>
+</div>
+<div class=3D"columnMacro">
+<ul>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">=
+=D0=A5=D0=BE=D0=B4=D0=B0=D1=82=D0=B0=D0=B9=D1=81=D1=82=D0=B2=D0=BE =D0=BE=
+=D1=82 =D1=84=D0=B8=D0=BB=D0=B8=D0=B0=D0=BB=D0=B0 =D0=B8=D0=BB=D0=B8 =D0=BF=
+=D0=B5=D1=80=D1=81=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=B3=D0=BE =
+=D0=BC=D0=B5=D0=BD=D0=B5=D0=B4=D0=B6=D0=B5=D1=80=D0=B0</span></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">=
+=D0=9A=D0=BB=D0=B8=D0=B5=D0=BD=D1=82 =D0=B4=D0=BE=D0=BB=D0=B6=D0=B5=D0=BD =
+=D1=81=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=B2=D0=BE=D0=B2=D0=
+=B0=D1=82=D1=8C =D0=BE=D0=B4=D0=BD=D0=BE=D0=BC=D1=83 =D0=B8=D0=B7 =D0=BA=D1=
+=80=D0=B8=D1=82=D0=B5=D1=80=D0=B8=D0=B5=D0=B2 =D1=87=D0=B5=D0=BA-=D0=BB=D0=
+=B8=D1=81=D1=82=D0=B0</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:30%;min-width:30%;max-width:30%;"=
+>
+<h4 id=3D"id-=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=BD=D1=8B=D0=B9=D0=BB=
+=D0=B8=D0=BC=D0=B8=D1=82=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=
+=82=D0=B0-=D0=A7=D0=B5=D0=BA-=D0=BB=D0=B8=D1=81=D1=82=D0=B4=D0=BB=D1=8F=D1=
+=80=D0=B0=D1=81=D1=81=D0=BC=D0=BE=D1=82=D1=80=D0=B5=D0=BD=D0=B8=D1=8F"><spa=
+n style=3D"color: rgb(51,51,51);">=D0=A7=D0=B5=D0=BA-=D0=BB=D0=B8=D1=81=D1=
+=82 =D0=B4=D0=BB=D1=8F =D1=80=D0=B0=D1=81=D1=81=D0=BC=D0=BE=D1=82=D1=80=D0=
+=B5=D0=BD=D0=B8=D1=8F</span></h4>
+</div>
+<div class=3D"columnMacro">
+<ol>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">=
+=D0=9A=D0=BB=D0=B8=D0=B5=D0=BD=D1=82 =E2=80=94 =D0=B4=D0=B5=D0=B9=D1=81=D1=
+=82=D0=B2=D1=83=D1=8E=D1=89=D0=B8=D0=B9 =D0=B7=D0=B0=D0=B5=D0=BC=D1=89=D0=
+=B8=D0=BA =D0=BA=D0=B0=D1=82=D0=B5=D0=B3=D0=BE=D1=80=D0=B8=D0=B8 <strong>VI=
+P</strong> <em>(=D1=81=D0=BE=D0=B3=D0=BB=D0=B0=D1=81=D0=BD=D0=BE =D0=BE=D1=
+=82=D0=BC=D0=B5=D1=82=D0=BA=D0=B5 =D0=B2 =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=
+=BC=D0=B5 Colvir)</em></span></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">=
+=D0=A1=D1=82=D1=80=D0=B0=D1=82=D0=B5=D0=B3=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=
+=B8 =D0=B2=D0=B0=D0=B6=D0=BD=D1=8B=D0=B9 =D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=
+=82 <em>(=D0=BF=D1=80=D0=B8 =D0=BF=D1=80=D0=B8=D0=B2=D0=BB=D0=B5=D1=87=D0=
+=B5=D0=BD=D0=B8=D0=B8/=D1=83=D0=B4=D0=B5=D1=80=D0=B6=D0=B0=D0=BD=D0=B8=D0=
+=B8 =D0=B7=D0=B0=D1=80=D0=BF=D0=BB=D0=B0=D1=82=D0=BD=D0=BE=D0=B3=D0=BE =D0=
+=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=82=D0=B0)</em> =E2=80=94 =D0=B4=D0=BE=D0=BB=
+=D0=B6=D0=B5=D0=BD =D1=81=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=
+=D0=B2=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D0=BE=D0=B4=D0=BD=D0=BE=D0=BC=D1=83 =
+=D0=B8=D0=B7 =D1=81=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=89=D0=B8=D1=85 =D0=BA=
+=D1=80=D0=B8=D1=82=D0=B5=D1=80=D0=B8=D0=B5=D0=B2:&nbsp;</span><br>
+<ul>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">=
+=D0=97=D0=B0=D1=80=D0=BF=D0=BB=D0=B0=D1=82=D0=BD=D1=8B=D0=B5 =D0=BF=D1=80=
+=D0=BE=D0=B5=D0=BA=D1=82=D1=8B =D0=BF=D0=BE =D0=B3=D1=80=D1=83=D0=BF=D0=BF=
+=D0=B0=D0=BC =D1=84=D0=B8=D0=BB=D0=B8=D0=B0=D0=BB=D0=BE=D0=B2:&nbsp;</span>=
+<br>
+<ul>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">=
+=D0=93=D1=80=D1=83=D0=BF=D0=BF=D0=B0 =D0=90 (=D0=90=D0=BB=D0=BC=D0=B0=D1=82=
+=D1=8B, =D0=90=D1=81=D1=82=D0=B0=D0=BD=D0=B0, =D0=A8=D1=8B=D0=BC=D0=BA=D0=
+=B5=D0=BD=D1=82): =D1=88=D1=82=D0=B0=D1=82 <strong>=D0=BD=D0=B5 =D0=BC=D0=
+=B5=D0=BD=D0=B5=D0=B5 500</strong> =D1=81=D0=BE=D1=82=D1=80=D1=83=D0=B4=D0=
+=BD=D0=B8=D0=BA=D0=BE=D0=B2</span></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">=
+=D0=93=D1=80=D1=83=D0=BF=D0=BF=D0=B0 =D0=91 (=D0=B4=D1=80=D1=83=D0=B3=D0=B8=
+=D0=B5 =D1=84=D0=B8=D0=BB=D0=B8=D0=B0=D0=BB=D1=8B): =D1=88=D1=82=D0=B0=D1=
+=82 <strong>=D0=BD=D0=B5 =D0=BC=D0=B5=D0=BD=D0=B5=D0=B5 200</strong> =D1=81=
+=D0=BE=D1=82=D1=80=D1=83=D0=B4=D0=BD=D0=B8=D0=BA=D0=BE=D0=B2</span></li>
+</ul></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">=
+=D0=9E=D1=81=D1=82=D0=B0=D1=82=D0=BA=D0=B8 =D0=BD=D0=B0 =D1=82=D0=B5=D0=BA=
+=D1=83=D1=89=D0=B8=D1=85 =D1=81=D1=87=D0=B5=D1=82=D0=B0=D1=85 =E2=80=94 <st=
+rong>=D0=BD=D0=B5 =D0=BC=D0=B5=D0=BD=D0=B5=D0=B5 1 =D0=BC=D0=BB=D0=BD =D0=
+=B4=D0=BE=D0=BB=D0=BB=D0=B0=D1=80=D0=BE=D0=B2 =D0=A1=D0=A8=D0=90</strong> (=
+=D0=B8=D0=BB=D0=B8 =D1=8D=D0=BA=D0=B2=D0=B8=D0=B2=D0=B0=D0=BB=D0=B5=D0=BD=
+=D1=82 =D0=B2 =D1=82=D0=B5=D0=BD=D0=B3=D0=B5)&nbsp;</span></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">=
+=D0=9E=D0=B1=D0=BE=D1=80=D0=BE=D1=82=D1=8B =D0=BF=D0=BE =D0=A0=D0=9A=D0=9E =
+=D0=B2 =D0=91=D0=B0=D0=BD=D0=BA=D0=B5 =E2=80=94 <strong>=D0=BD=D0=B5 =D0=BC=
+=D0=B5=D0=BD=D0=B5=D0=B5 2 =D0=BC=D0=BB=D1=80=D0=B4 =E2=82=B8</strong> =D0=
+=B2 =D0=B3=D0=BE=D0=B4=D0=BE=D0=B2=D0=BE=D0=BC =D1=8D=D0=BA=D0=B2=D0=B8=D0=
+=B2=D0=B0=D0=BB=D0=B5=D0=BD=D1=82=D0=B5</span></li>
+</ul></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">=
+=D0=97=D0=B0=D0=B5=D0=BC=D1=89=D0=B8=D0=BA =E2=80=94 =D0=BA=D0=BB=D1=8E=D1=
+=87=D0=B5=D0=B2=D0=BE=D0=B5 =D0=BB=D0=B8=D1=86=D0=BE =D0=BA=D0=BE=D0=BC=D0=
+=BF=D0=B0=D0=BD=D0=B8=D0=B8:</span>
+<ul>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">=
+=D0=A3=D1=87=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=B5=D0=BB=D1=8C</span></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">=
+=D0=93=D0=B5=D0=BD=D0=B5=D1=80=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D0=B4=
+=D0=B8=D1=80=D0=B5=D0=BA=D1=82=D0=BE=D1=80</span></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">=
+=D0=A4=D0=B8=D0=BD=D0=B0=D0=BD=D1=81=D0=BE=D0=B2=D1=8B=D0=B9 =D0=B4=D0=B8=
+=D1=80=D0=B5=D0=BA=D1=82=D0=BE=D1=80</span></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">=
+=D0=93=D0=BB=D0=B0=D0=B2=D0=BD=D1=8B=D0=B9 =D0=B1=D1=83=D1=85=D0=B3=D0=B0=
+=D0=BB=D1=82=D0=B5=D1=80</span></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);">=
+=D0=91=D0=BB=D0=B8=D0=B7=D0=BA=D0=B8=D0=B5 =D1=80=D0=BE=D0=B4=D1=81=D1=82=
+=D0=B2=D0=B5=D0=BD=D0=BD=D0=B8=D0=BA=D0=B8 =D0=B2=D1=8B=D1=88=D0=B5=D1=83=
+=D0=BA=D0=B0=D0=B7=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=BB=D0=B8=D1=86 <em>(=
+=D0=BC=D0=B0=D1=82=D1=8C, =D0=BE=D1=82=D0=B5=D1=86, =D0=B1=D1=80=D0=B0=D1=
+=82, =D1=81=D0=B5=D1=81=D1=82=D1=80=D0=B0, =D1=81=D1=83=D0=BF=D1=80=D1=83=
+=D0=B3(=D0=B0), =D0=B4=D0=B5=D1=82=D0=B8)</em></span></li>
+</ul></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:30%;min-width:30%;max-width:30%;"=
+>
+<h4 id=3D"id-=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=BD=D1=8B=D0=B9=D0=BB=
+=D0=B8=D0=BC=D0=B8=D1=82=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=
+=82=D0=B0-=D0=9E=D1=81=D0=BE=D0=B1=D1=8B=D0=B5=D1=83=D1=81=D0=BB=D0=BE=D0=
+=B2=D0=B8=D1=8F"><span style=3D"color: rgb(51,51,51);">=D0=9E=D1=81=D0=BE=
+=D0=B1=D1=8B=D0=B5 =D1=83=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F</span></h4>
+</div>
+<div class=3D"columnMacro">
+<p><span style=3D"color: rgb(51,51,51);">=D0=95=D1=81=D0=BB=D0=B8 =D0=BF=D1=
+=80=D0=B8=D0=BC=D0=B5=D0=BD=D1=8F=D0=B5=D1=82=D1=81=D1=8F =D0=BF=D1=80=D0=
+=BE=D0=B4=D1=83=D0=BA=D1=82 =D0=B1=D0=B5=D0=B7 =D1=84=D0=B8=D0=BD=D0=B0=D0=
+=BD=D1=81=D0=BE=D0=B2=D0=BE=D0=B3=D0=BE =D0=B0=D0=BD=D0=B0=D0=BB=D0=B8=D0=
+=B7=D0=B0 =D1=81 =D1=81=D0=BE=D0=B1=D0=BB=D1=8E=D0=B4=D0=B5=D0=BD=D0=B8=D0=
+=B5=D0=BC LTV 50%, =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=
+=D0=BE =D0=BA=D0=BE=D1=81=D0=B2=D0=B5=D0=BD=D0=BD=D0=BE =D0=BF=D0=BE=D0=B4=
+=D1=82=D0=B2=D0=B5=D1=80=D0=B4=D0=B8=D1=82=D1=8C =D0=B4=D0=BE=D1=85=D0=BE=
+=D0=B4 =E2=80=94 =D1=81 =D0=BF=D1=80=D0=B5=D0=B4=D0=BE=D1=81=D1=82=D0=B0=D0=
+=B2=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5=D0=BC =D1=81=D0=BE=D0=BE=D1=82=D0=B2=D0=
+=B5=D1=82=D1=81=D1=82=D0=B2=D1=83=D1=8E=D1=89=D0=B8=D1=85 =D0=B4=D0=BE=D0=
+=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=BE=D0=B2</span></p>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:30%;min-width:30%;max-width:30%;"=
+>
+<h4 id=3D"id-=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=BD=D1=8B=D0=B9=D0=BB=
+=D0=B8=D0=BC=D0=B8=D1=82=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=
+=82=D0=B0-=D0=95=D1=81=D0=BB=D0=B8=D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D0=
+=BD=D0=B5=D1=81=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=B2=D1=83=
+=D0=B5=D1=82=D1=87=D0=B5=D0=BA-=D0=BB=D0=B8=D1=81=D1=82=D1=83"><span style=
+=3D"color: rgb(51,51,51);">=D0=95=D1=81=D0=BB=D0=B8 =D0=BA=D0=BB=D0=B8=D0=
+=B5=D0=BD=D1=82 =D0=BD=D0=B5 =D1=81=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=
+=81=D1=82=D0=B2=D1=83=D0=B5=D1=82 =D1=87=D0=B5=D0=BA-=D0=BB=D0=B8=D1=81=D1=
+=82=D1=83</span></h4>
+</div>
+<div class=3D"columnMacro">
+<p><span style=3D"color: rgb(51,51,51);">=D0=9E=D0=B1=D1=8F=D0=B7=D0=B0=D1=
+=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D1=
+=82=D1=8C =D1=81=D0=BE=D0=B3=D0=BB=D0=B0=D1=81=D0=B8=D0=B5 =D0=92=D0=B8=D1=
+=86=D0=B5-=D0=BF=D1=80=D0=B5=D0=B7=D0=B8=D0=B4=D0=B5=D0=BD=D1=82=D0=B0 =D0=
+=91=D0=A0=D0=91</span></p>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:30%;min-width:30%;max-width:30%;"=
+>
+<h4 id=3D"id-=D0=BA=D1=80=D0=B5=D0=B4=D0=B8=D1=82=D0=BD=D1=8B=D0=B9=D0=BB=
+=D0=B8=D0=BC=D0=B8=D1=82=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=
+=82=D0=B0-=D0=9F=D0=B5=D1=80=D0=B5=D1=87=D0=B5=D0=BD=D1=8C=D0=B4=D0=BE=D0=
+=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=BE=D0=B2=D0=B4=D0=BB=D1=8F=D0=BF=D1=80=
+=D0=B5=D0=B4=D0=B2=D0=B0=D1=80=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE=D0=
+=B3=D0=BE=D0=B0=D0=BD=D0=B0=D0=BB=D0=B8=D0=B7=D0=B0"><span style=3D"color: =
+rgb(51,51,51);">=D0=9F=D0=B5=D1=80=D0=B5=D1=87=D0=B5=D0=BD=D1=8C =D0=B4=D0=
+=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=BE=D0=B2 =D0=B4=D0=BB=D1=8F =D0=
+=BF=D1=80=D0=B5=D0=B4=D0=B2=D0=B0=D1=80=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=
+=D0=BE=D0=B3=D0=BE =D0=B0=D0=BD=D0=B0=D0=BB=D0=B8=D0=B7=D0=B0</span></h4>
+</div>
+<div class=3D"columnMacro">
+<ul>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);"><=
+span>=D0=A3=D0=B4=D0=BE=D1=81=D1=82=D0=BE=D0=B2=D0=B5=D1=80=D0=B5=D0=BD=D0=
+=B8=D0=B5 =D0=BB=D0=B8=D1=87=D0=BD=D0=BE=D1=81=D1=82=D0=B8</span></span></l=
+i>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);"><=
+span>=D0=90=D0=B4=D1=80=D0=B5=D1=81 =D0=BF=D1=80=D0=BE=D0=B6=D0=B8=D0=B2=D0=
+=B0=D0=BD=D0=B8=D1=8F</span><span>&nbsp;</span></span></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);"><=
+span>=D0=9D=D0=BE=D0=BC=D0=B5=D1=80 =D0=BC=D0=BE=D0=B1=D0=B8=D0=BB=D1=8C=D0=
+=BD=D0=BE=D0=B3=D0=BE =D1=82=D0=B5=D0=BB=D0=B5=D1=84=D0=BE=D0=BD=D0=B0</spa=
+n><span>&nbsp;</span></span></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);"><=
+span>=D0=A1=D0=B5=D0=BC=D0=B5=D0=B9=D0=BD=D0=BE=D0=B5 =D0=BF=D0=BE=D0=BB=D0=
+=BE=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5 <em>(=D1=81 =D1=83=D0=BA=D0=B0=D0=B7=D0=
+=B0=D0=BD=D0=B8=D0=B5=D0=BC =D0=A4=D0=98=D0=9E =D0=B8 =D0=B4=D0=B0=D1=82=D1=
+=8B =D1=80=D0=BE=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F =D0=BD=D0=B5=D1=81=D0=
+=BE=D0=B2=D0=B5=D1=80=D1=88=D0=B5=D0=BD=D0=BD=D0=BE=D0=BB=D0=B5=D1=82=D0=BD=
+=D0=B8=D1=85 =D0=B4=D0=B5=D1=82=D0=B5=D0=B9)</em></span><em><span>&nbsp;</s=
+pan></em></span></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);"><=
+span>=D0=98=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8F =D0=BE =
+=D1=82=D1=80=D1=83=D0=B4=D0=BE=D0=B2=D0=BE=D0=B9 =D0=B4=D0=B5=D1=8F=D1=82=
+=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE=D1=81=D1=82=D0=B8 <em>(=D1=81=D1=82=D0=B0=D0=
+=B6)</em></span><span>&nbsp;</span></span></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);"><=
+span>=D0=92=D1=8B=D0=BF=D0=B8=D1=81=D0=BA=D0=B0 =D0=BF=D0=BE =D0=B1=D0=B0=
+=D0=BD=D0=BA=D0=BE=D0=B2=D1=81=D0=BA=D0=B8=D0=BC =D1=81=D1=87=D0=B5=D1=82=
+=D0=B0=D0=BC =D0=B7=D0=B0 =D0=BF=D0=BE=D1=81=D0=BB=D0=B5=D0=B4=D0=BD=D0=B8=
+=D0=B5 6 =D0=B8=D0=BB=D0=B8 12 =D0=BC=D0=B5=D1=81=D1=8F=D1=86=D0=B5=D0=B2 <=
+em>(=D0=B2=D0=BA=D0=BB=D1=8E=D1=87=D0=B0=D1=8F =D1=81=D1=87=D0=B5=D1=82=D0=
+=B0 =D0=B2 =D0=B4=D1=80=D1=83=D0=B3=D0=B8=D1=85 =D0=B1=D0=B0=D0=BD=D0=BA=D0=
+=B0=D1=85)</em></span><em><span>&nbsp;</span></em></span></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);"><=
+span>=D0=98=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8F =D0=BE=D0=
+=B1 =D0=BE=D0=B1=D1=81=D0=BB=D1=83=D0=B6=D0=B8=D0=B2=D0=B0=D0=BD=D0=B8=D0=
+=B8 =D0=BE=D1=80=D0=B3=D0=B0=D0=BD=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=D0=B8 =D0=
+=B2 =D0=91=D0=B0=D0=BD=D0=BA=D0=B5 <em>(=D0=BD=D0=B5 =D1=82=D0=BE=D0=BB=D1=
+=8C=D0=BA=D0=BE =D0=BF=D0=BE =D0=B7=D0=B0=D1=80=D0=BF=D0=BB=D0=B0=D1=82=D0=
+=BD=D0=BE=D0=BC=D1=83 =D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=82=D1=83)</em></spa=
+n></span></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);"><=
+span>=D0=9D=D0=B5=D0=BF=D1=80=D0=BE=D1=86=D0=B5=D0=BD=D1=82=D0=BD=D1=8B=D0=
+=B9 =D0=B4=D0=BE=D1=85=D0=BE=D0=B4</span><span>&nbsp;</span></span></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);"><=
+span>=D0=93=D0=BE=D0=B4=D0=BE=D0=B2=D1=8B=D0=B5 =D0=BE=D0=B1=D0=BE=D1=80=D0=
+=BE=D1=82=D1=8B</span><span>&nbsp;</span></span></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);"><=
+span>=D0=90=D0=BA=D1=82=D1=83=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D1=81=D0=
+=BF=D0=B8=D1=81=D0=BE=D0=BA =D0=BF=D0=BE =D0=B7=D0=B0=D1=80=D0=BF=D0=BB=D0=
+=B0=D1=82=D0=BD=D1=8B=D0=BC =D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BC</span><spa=
+n>&nbsp;</span></span></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);"><=
+span>=D0=9D=D0=B0=D0=BB=D0=B8=D1=87=D0=B8=D0=B5 =D0=B4=D0=B5=D0=BF=D0=BE=D0=
+=B7=D0=B8=D1=82=D0=B0, Iron =D0=B8=D0=BB=D0=B8 Travel =D0=BA=D0=B0=D1=80=D1=
+=82=D1=8B</span><span>&nbsp;</span></span></li>
+<li style=3D"color: rgb(51,51,51);"><span style=3D"color: rgb(51,51,51);"><=
+span>=D0=A1=D0=BA=D1=80=D0=B8=D0=BD =D1=81=D1=82=D0=B0=D1=82=D1=83=D1=81=D0=
+=B0=E2=80=AFVIP =D0=B8=D0=B7 =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC=D1=8B <em=
+>(=D0=BF=D1=80=D0=B8 =D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=B8=D0=B8)=E2=80=AF</=
+em></span><em><span>&nbsp;</span></em></span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p></p>
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_134710_1742915395.1779962196310--

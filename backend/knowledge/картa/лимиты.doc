@@ -1,0 +1,2615 @@
+Date: Thu, 28 May 2026 14:56:50 +0500 (UZT)
+Message-ID: <1846112765.134713.1779962210164@confluence-srv.bank.corp.centercredit.kz>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_134712_1249054203.1779962210163"
+
+------=_Part_134712_1249054203.1779962210163
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B #=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B #=D0=BA=D0=B0=D1=80=D1=82=D0=
+=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0</h1>
+    <div class=3D"Section1">
+        <div id=3D"addtab" class=3D"contentf aui-tabs horizontal-tabs">
+<ul class=3D"tabs-menu">
+</ul>
+<div id=3D"#=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0" d=
+ata-pane-title=3D"#=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0" class=3D"cfm tabs-pane ">
+<div id=3D"verticaltabs" class=3D"contentf aui-tabs vertical-tabs" title=3D=
+"=D0=9B=D0=B8=D0=BC=D0=B8=D1=82=D1=8B">
+<ul class=3D"tabs-menu">
+</ul>
+<div id=3D"=D0=A1=D0=BD=D1=8F=D1=82=D0=B8=D0=B5=D0=BD=D0=B0=D0=BB=D0=B8=D1=
+=87=D0=BD=D1=8B=D1=85=D0=B2=D0=B1=D0=B0=D0=BD=D0=BA=D0=BE=D0=BC=D0=B0=D1=82=
+=D0=B0=D1=85" data-pane-title=3D"=D0=A1=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D0=
+=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=BD=D1=8B=D1=85 =D0=B2 =D0=B1=D0=B0=D0=BD=D0=
+=BA=D0=BE=D0=BC=D0=B0=D1=82=D0=B0=D1=85" class=3D"cfm tabs-pane unique">
+<style>.aura-cards-54e0bf241c9106dd.aura-cards-wrapper { margin: auto; disp=
+lay: grid; grid-template-columns: repeat(auto-fit, minmax(calc(100% / 2), 1=
+fr)); max-width: 100%;}@media only screen and (max-width: 600px) { .aura-ca=
+rds-54e0bf241c9106dd.aura-cards-wrapper { grid-template-columns: 1fr; }}.au=
+ra-card-header { display: flex; width: 100%;}.aura-cards-54e0bf241c9106dd .=
+aura-card-icon { display: flex; display: none; justify-content: center; ali=
+gn-items: center;}.aura-cards-54e0bf241c9106dd .aura-card-image { display: =
+none; background-size: cover; background-position: center; background-image=
+: linear-gradient(45deg, #757575, #ececec); width: 100%;}aura-cards-54e0bf2=
+41c9106dd .aura-card-body { display: block;}.aura-cards-54e0bf241c9106dd .a=
+ura-card-header, .aura-cards-54e0bf241c9106dd .aura-card-body { padding: 1.=
+5rem; box-sizing: border-box;}.aura-cards-54e0bf241c9106dd .aura-card-heade=
+r { padding-bottom: 0;}.aura-cards-54e0bf241c9106dd .aura-card-header-space=
+r { display: none; height: 0.5rem; width: 1.5rem;}.aura-cards-54e0bf241c910=
+6dd .aura-card-content-wrapper { flex: 1; padding: calc(3px * 4) 0; transit=
+ion: padding 0.5s;}.aura-cards-54e0bf241c9106dd .aura-card-body { font-size=
+: 14px; padding-top: 0;}.aura-cards-54e0bf241c9106dd .aura-card-body-spacer=
+ { height: 1rem;} .aura-cards-54e0bf241c9106dd .aura-card-body-spacer { bac=
+kground-color: none !important; opacity: 0; }.aura-cards-54e0bf241c9106dd .=
+aura-card-header .aura-card-icon svg { width: 1.5rem; height: 1.5rem;}.aura=
+-cards-54e0bf241c9106dd .aura-card-title { font-size: 18px; font-weight: bo=
+ld; word-break: break-word; margin-top: 0;}.aura-cards-54e0bf241c9106dd .au=
+ra-card, .aura-cards-54e0bf241c9106dd a.aura-card { box-sizing: border-box;=
+ margin: 6px; text-decoration: none; color: inherit; overflow: hidden;}.aur=
+a-cards-54e0bf241c9106dd a[href=3D'#'].aura-card { cursor: default !importa=
+nt;}.aura-cards-54e0bf241c9106dd .aura-card, aura-cards-54e0bf241c9106dd, .=
+aura-cards-54e0bf241c9106dd .aura-card-preview-wrapper { transition: all 0.=
+5s; transform-origin: bottom center;}.aura-cards-54e0bf241c9106dd.layout-ic=
+on-left .aura-card-header { flex-direction: row; justify-content: flex-star=
+t; align-items: center; text-align: left;}.aura-cards-54e0bf241c9106dd.layo=
+ut-icon-left .aura-card-body { text-align: left; line-height: 1.4rem;}.aura=
+-cards-54e0bf241c9106dd.layout-icon-left .aura-card-title { margin: 0;}.aur=
+a-cards-54e0bf241c9106dd.theme-aura .aura-card svg { height: 2rem; width: 2=
+rem; margin: .5rem 0;}.aura-cards-54e0bf241c9106dd.theme-aura .aura-card { =
+box-shadow: 0 10px 10px -10px rgba(50, 50, 75, 0.15), 0 0 20px rgba(50, 50,=
+ 75, 0.05);}.aura-cards-54e0bf241c9106dd.theme-aura { color: #aaa;}.aura-ca=
+rds-54e0bf241c9106dd.theme-aura .aura-card-title { color: rgb(9, 30, 66);}<=
+/style>
+<div class=3D"aura-cards-54e0bf241c9106dd aura-cards-wrapper theme-aura lay=
+out-icon-left">
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=3Drb-1.2.1&amp;auto=
+=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D100);" role=3D"img" data-backg=
+round-image=3D"url(https://images.unsplash.com/photo-1483683804023-6ccdb62f=
+86ef?ixlib=3Drb-1.2.1&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D=
+100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#dfe1e61f" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 =
+43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.=
+5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 =
+493.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=92 =D0=A0=D0=B5=D1=81=D0=BF=D1=83=D0=B1=
+=D0=BB=D0=B8=D0=BA=D0=B5 =D0=9A=D0=B0=D0=B7=D0=B0=D1=85=D1=81=D1=82=D0=B0=
+=D0=BD</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=94=D0=B5=D0=BD=D1=8C: 4 500 USD<br><br>
+ =D0=92=D1=8B =D0=BC=D0=BE=D0=B6=D0=B5=D1=82=D0=B5 =D0=B8=D0=B7=D0=BC=D0=B5=
+=D0=BD=D0=B8=D1=82=D1=8C =D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B =D0=BF=D0=BE =
+=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D0=B5 :<br>
+ - =D1=81=D0=B0=D0=BC=D0=BE=D1=81=D1=82=D0=BE=D1=8F=D1=82=D0=B5=D0=BB=D1=8C=
+=D0=BD=D0=BE =D0=B2 =D0=BC=D0=BE=D0=B1=D0=B8=D0=BB=D1=8C=D0=BD=D0=BE=D0=BC =
+=D0=BF=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D0=B8 bcc.kz: =D0=9A=
+=D0=BB=D0=B8=D0=BA=D0=BD=D0=B8=D1=82=D0=B5 =D0=BD=D0=B0 =D0=BA=D0=B0=D1=80=
+=D1=82=D1=83 =E2=86=92 =D0=9D=D0=B0=D1=81=D1=82=D1=80=D0=BE=D0=B9=D0=BA=D0=
+=B8 =E2=86=92=D0=9B=D0=B8=D0=BC=D0=B8=D1=82=D1=8B =D0=BF=D0=BE =D0=BA=D0=B0=
+=D1=80=D1=82=D0=B5<br>
+ - =D0=BE=D0=B1=D1=80=D0=B0=D1=82=D0=B8=D0=B2=D1=88=D0=B8=D1=81=D1=8C =D0=
+=BF=D0=BE =D0=BD=D0=BE=D0=BC=D0=B5=D1=80=D0=B0=D0=BC 505 (=D0=B2=D0=BD=D1=
+=83=D1=82=D1=80=D0=B8 =D0=9A=D0=B0=D0=B7=D0=B0=D1=85=D1=81=D1=82=D0=B0=D0=
+=BD=D0=B0), +7-(727)-244-7777<br></p>
+</div>
+</div>
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1571254531817-83275b6b6411?ixlib=3Drb-1.2.1&amp;ixid=
+=3DeyJhcHBfaWQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D881&amp;q=
+=3D100);" role=3D"img" data-background-image=3D"url(https://images.unsplash=
+.com/photo-1571254531817-83275b6b6411?ixlib=3Drb-1.2.1&amp;ixid=3DeyJhcHBfa=
+WQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D881&amp;q=3D100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#BF9A06" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43=
+.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 =
+32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 49=
+3.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=97=D0=B0 =D0=BF=D1=80=D0=B5=D0=B4=D0=B5=
+=D0=BB=D0=B0=D0=BC=D0=B8 =D0=A0=D0=B5=D1=81=D0=BF=D1=83=D0=B1=D0=BB=D0=B8=
+=D0=BA=D0=B8 =D0=9A=D0=B0=D0=B7=D0=B0=D1=85=D1=81=D1=82=D0=B0=D0=BD*</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=94=D0=B5=D0=BD=D1=8C: 2 000 USD<br>
+ =D0=9C=D0=B5=D1=81=D1=8F=D1=86: 60 000 USD</p>
+</div>
+</div>
+</div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+&nbsp;
+</div>
+<div id=3D"=D0=9F=D0=BE=D0=BA=D1=83=D0=BF=D0=BA=D0=B8,=D1=81=D0=BD=D1=8F=D1=
+=82=D0=B8=D0=B5=D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=BD=D1=8B=D1=85=D0=B2=D0=BA=
+=D0=B0=D1=81=D1=81=D0=B0=D1=85=D0=B1=D0=B0=D0=BD=D0=BA=D0=BE=D0=B2,=D0=BE=
+=D0=BF=D0=BB=D0=B0=D1=82=D0=B0=D0=B2=D0=B8=D0=BD=D1=82=D0=B5=D1=80=D0=BD=D0=
+=B5=D1=82=D0=B5" data-pane-title=3D"=D0=9F=D0=BE=D0=BA=D1=83=D0=BF=D0=BA=D0=
+=B8, =D1=81=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=
+=BD=D1=8B=D1=85 =D0=B2 =D0=BA=D0=B0=D1=81=D1=81=D0=B0=D1=85 =D0=B1=D0=B0=D0=
+=BD=D0=BA=D0=BE=D0=B2, =D0=BE=D0=BF=D0=BB=D0=B0=D1=82=D0=B0 =D0=B2 =D0=B8=
+=D0=BD=D1=82=D0=B5=D1=80=D0=BD=D0=B5=D1=82=D0=B5" class=3D"cfm tabs-pane ">
+<style>.aura-cards-b10491401324e5ee.aura-cards-wrapper { margin: auto; disp=
+lay: grid; grid-template-columns: repeat(auto-fit, minmax(calc(100% / 3), 1=
+fr)); max-width: 100%;}@media only screen and (max-width: 600px) { .aura-ca=
+rds-b10491401324e5ee.aura-cards-wrapper { grid-template-columns: 1fr; }}.au=
+ra-card-header { display: flex; width: 100%;}.aura-cards-b10491401324e5ee .=
+aura-card-icon { display: flex; display: none; justify-content: center; ali=
+gn-items: center;}.aura-cards-b10491401324e5ee .aura-card-image { display: =
+none; background-size: cover; background-position: center; background-image=
+: linear-gradient(45deg, #757575, #ececec); width: 100%;}aura-cards-b104914=
+01324e5ee .aura-card-body { display: block;}.aura-cards-b10491401324e5ee .a=
+ura-card-header, .aura-cards-b10491401324e5ee .aura-card-body { padding: 1.=
+5rem; box-sizing: border-box;}.aura-cards-b10491401324e5ee .aura-card-heade=
+r { padding-bottom: 0;}.aura-cards-b10491401324e5ee .aura-card-header-space=
+r { display: none; height: 0.5rem; width: 1.5rem;}.aura-cards-b10491401324e=
+5ee .aura-card-content-wrapper { flex: 1; padding: calc(4px * 4) 0; transit=
+ion: padding 0.5s;}.aura-cards-b10491401324e5ee .aura-card-body { font-size=
+: 14px; padding-top: 0;}.aura-cards-b10491401324e5ee .aura-card-body-spacer=
+ { height: 1rem;} .aura-cards-b10491401324e5ee .aura-card-body-spacer { bac=
+kground-color: none !important; opacity: 0; }.aura-cards-b10491401324e5ee .=
+aura-card-header .aura-card-icon svg { width: 1.5rem; height: 1.5rem;}.aura=
+-cards-b10491401324e5ee .aura-card-title { font-size: 18px; font-weight: bo=
+ld; word-break: break-word; margin-top: 0;}.aura-cards-b10491401324e5ee .au=
+ra-card, .aura-cards-b10491401324e5ee a.aura-card { box-sizing: border-box;=
+ margin: 8px; text-decoration: none; color: inherit; overflow: hidden;}.aur=
+a-cards-b10491401324e5ee a[href=3D'#'].aura-card { cursor: default !importa=
+nt;}.aura-cards-b10491401324e5ee .aura-card, aura-cards-b10491401324e5ee, .=
+aura-cards-b10491401324e5ee .aura-card-preview-wrapper { transition: all 0.=
+5s; transform-origin: bottom center;}.aura-cards-b10491401324e5ee.layout-ic=
+on-left .aura-card-header { flex-direction: row; justify-content: flex-star=
+t; align-items: center; text-align: left;}.aura-cards-b10491401324e5ee.layo=
+ut-icon-left .aura-card-body { text-align: left; line-height: 1.4rem;}.aura=
+-cards-b10491401324e5ee.layout-icon-left .aura-card-title { margin: 0;}.aur=
+a-cards-b10491401324e5ee.theme-aura .aura-card svg { height: 2rem; width: 2=
+rem; margin: .5rem 0;}.aura-cards-b10491401324e5ee.theme-aura .aura-card { =
+box-shadow: 0 10px 10px -10px rgba(50, 50, 75, 0.15), 0 0 20px rgba(50, 50,=
+ 75, 0.05);}.aura-cards-b10491401324e5ee.theme-aura { color: #aaa;}.aura-ca=
+rds-b10491401324e5ee.theme-aura .aura-card-title { color: rgb(9, 30, 66);}<=
+/style>
+<div class=3D"aura-cards-b10491401324e5ee aura-cards-wrapper theme-aura lay=
+out-icon-left">
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=3Drb-1.2.1&amp;auto=
+=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D100);" role=3D"img" data-backg=
+round-image=3D"url(https://images.unsplash.com/photo-1483683804023-6ccdb62f=
+86ef?ixlib=3Drb-1.2.1&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D=
+100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#dfe1e61f" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 =
+43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.=
+5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 =
+493.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=9F=D0=BE=D0=BA=D1=83=D0=BF=D0=BA=D0=B8</h=
+3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=94=D0=B5=D0=BD=D1=8C: 76 000 USD</p>
+</div>
+</div>
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1571254531817-83275b6b6411?ixlib=3Drb-1.2.1&amp;ixid=
+=3DeyJhcHBfaWQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D881&amp;q=
+=3D100);" role=3D"img" data-background-image=3D"url(https://images.unsplash=
+.com/photo-1571254531817-83275b6b6411?ixlib=3Drb-1.2.1&amp;ixid=3DeyJhcHBfa=
+WQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D881&amp;q=3D100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#BF9A06" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43=
+.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 =
+32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 49=
+3.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=A1=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D0=B2 =
+=D0=BA=D0=B0=D1=81=D1=81=D0=B5</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=94=D0=B5=D0=BD=D1=8C: 5 000 USD<br></p>
+</div>
+</div>
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=3Drb-1.2.1&amp;auto=
+=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D100);" role=3D"img" data-backg=
+round-image=3D"url(https://images.unsplash.com/photo-1483683804023-6ccdb62f=
+86ef?ixlib=3Drb-1.2.1&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D=
+100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#02B4C1" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43=
+.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 =
+32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 49=
+3.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=9E=D0=BF=D0=BB=D0=B0=D1=82=D0=B0 =D0=B2 =
+=D0=B8=D0=BD=D1=82=D0=B5=D1=80=D0=BD=D0=B5=D1=82=D0=B5</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=94=D0=B5=D0=BD=D1=8C: 1 500 USD<br></p>
+</div>
+</div>
+</div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+</div>
+<div id=3D"=D0=9F=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4=D1=8B=D1=81=D0=BA=D0=
+=B0=D1=80=D1=82=D1=8B=D0=BD=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D1=83(P2P)" data-=
+pane-title=3D"=D0=9F=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4=D1=8B =D1=81 =D0=
+=BA=D0=B0=D1=80=D1=82=D1=8B =D0=BD=D0=B0 =D0=BA=D0=B0=D1=80=D1=82=D1=83 (P2=
+P)" class=3D"cfm tabs-pane ">
+<style>.aura-cards-70480b89c801529e.aura-cards-wrapper { margin: auto; disp=
+lay: grid; grid-template-columns: repeat(auto-fit, minmax(calc(100% / 3), 1=
+fr)); max-width: 100%;}@media only screen and (max-width: 600px) { .aura-ca=
+rds-70480b89c801529e.aura-cards-wrapper { grid-template-columns: 1fr; }}.au=
+ra-card-header { display: flex; width: 100%;}.aura-cards-70480b89c801529e .=
+aura-card-icon { display: flex; display: none; justify-content: center; ali=
+gn-items: center;}.aura-cards-70480b89c801529e .aura-card-image { display: =
+none; background-size: cover; background-position: center; background-image=
+: linear-gradient(45deg, #757575, #ececec); width: 100%;}aura-cards-70480b8=
+9c801529e .aura-card-body { display: block;}.aura-cards-70480b89c801529e .a=
+ura-card-header, .aura-cards-70480b89c801529e .aura-card-body { padding: 1.=
+5rem; box-sizing: border-box;}.aura-cards-70480b89c801529e .aura-card-heade=
+r { padding-bottom: 0;}.aura-cards-70480b89c801529e .aura-card-header-space=
+r { display: none; height: 0.5rem; width: 1.5rem;}.aura-cards-70480b89c8015=
+29e .aura-card-content-wrapper { flex: 1; padding: calc(4px * 4) 0; transit=
+ion: padding 0.5s;}.aura-cards-70480b89c801529e .aura-card-body { font-size=
+: 14px; padding-top: 0;}.aura-cards-70480b89c801529e .aura-card-body-spacer=
+ { height: 1rem;} .aura-cards-70480b89c801529e .aura-card-body-spacer { bac=
+kground-color: none !important; opacity: 0; }.aura-cards-70480b89c801529e .=
+aura-card-header .aura-card-icon svg { width: 1.5rem; height: 1.5rem;}.aura=
+-cards-70480b89c801529e .aura-card-title { font-size: 18px; font-weight: bo=
+ld; word-break: break-word; margin-top: 0;}.aura-cards-70480b89c801529e .au=
+ra-card, .aura-cards-70480b89c801529e a.aura-card { box-sizing: border-box;=
+ margin: 8px; text-decoration: none; color: inherit; overflow: hidden;}.aur=
+a-cards-70480b89c801529e a[href=3D'#'].aura-card { cursor: default !importa=
+nt;}.aura-cards-70480b89c801529e .aura-card, aura-cards-70480b89c801529e, .=
+aura-cards-70480b89c801529e .aura-card-preview-wrapper { transition: all 0.=
+5s; transform-origin: bottom center;}.aura-cards-70480b89c801529e.layout-ic=
+on-left .aura-card-header { flex-direction: row; justify-content: flex-star=
+t; align-items: center; text-align: left;}.aura-cards-70480b89c801529e.layo=
+ut-icon-left .aura-card-body { text-align: left; line-height: 1.4rem;}.aura=
+-cards-70480b89c801529e.layout-icon-left .aura-card-title { margin: 0;}.aur=
+a-cards-70480b89c801529e.theme-aura .aura-card svg { height: 2rem; width: 2=
+rem; margin: .5rem 0;}.aura-cards-70480b89c801529e.theme-aura .aura-card { =
+box-shadow: 0 10px 10px -10px rgba(50, 50, 75, 0.15), 0 0 20px rgba(50, 50,=
+ 75, 0.05);}.aura-cards-70480b89c801529e.theme-aura { color: #aaa;}.aura-ca=
+rds-70480b89c801529e.theme-aura .aura-card-title { color: rgb(9, 30, 66);}<=
+/style>
+<div class=3D"aura-cards-70480b89c801529e aura-cards-wrapper theme-aura lay=
+out-icon-left">
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=3Drb-1.2.1&amp;auto=
+=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D100);" role=3D"img" data-backg=
+round-image=3D"url(https://images.unsplash.com/photo-1483683804023-6ccdb62f=
+86ef?ixlib=3Drb-1.2.1&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D=
+100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#0065ff" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43=
+.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 =
+32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 49=
+3.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">1 =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4<=
+/h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">850 000 KZT<br></p>
+</div>
+</div>
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1571254531817-83275b6b6411?ixlib=3Drb-1.2.1&amp;ixid=
+=3DeyJhcHBfaWQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D881&amp;q=
+=3D100);" role=3D"img" data-background-image=3D"url(https://images.unsplash=
+.com/photo-1571254531817-83275b6b6411?ixlib=3Drb-1.2.1&amp;ixid=3DeyJhcHBfa=
+WQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D881&amp;q=3D100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#BF9A06" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43=
+.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 =
+32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 49=
+3.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=94=D0=B5=D0=BD=D1=8C</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">2 500 000 KZT<br></p>
+</div>
+</div>
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=3Drb-1.2.1&amp;auto=
+=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D100);" role=3D"img" data-backg=
+round-image=3D"url(https://images.unsplash.com/photo-1483683804023-6ccdb62f=
+86ef?ixlib=3Drb-1.2.1&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D=
+100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#02B4C1" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43=
+.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 =
+32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 49=
+3.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=9C=D0=B5=D1=81=D1=8F=D1=86</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">3 900 000 KZT<br></p>
+</div>
+</div>
+</div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+</div>
+<div id=3D"BCC.KZ" data-pane-title=3D"BCC.KZ" class=3D"cfm tabs-pane ">
+<style>.aura-cards-ce0212c7ea1e4574.aura-cards-wrapper { margin: auto; disp=
+lay: grid; grid-template-columns: repeat(auto-fit, minmax(calc(1200px / 3),=
+ 1fr)); max-width: 1200px;}@media only screen and (max-width: 600px) { .aur=
+a-cards-ce0212c7ea1e4574.aura-cards-wrapper { grid-template-columns: 1fr; }=
+}.aura-card-header { display: flex; width: 100%;}.aura-cards-ce0212c7ea1e45=
+74 .aura-card-icon { display: flex; display: none; justify-content: center;=
+ align-items: center;}.aura-cards-ce0212c7ea1e4574 .aura-card-image { displ=
+ay: none; background-size: cover; background-position: center; background-i=
+mage: linear-gradient(45deg, #757575, #ececec); width: 100%;}aura-cards-ce0=
+212c7ea1e4574 .aura-card-body { display: block;}.aura-cards-ce0212c7ea1e457=
+4 .aura-card-header, .aura-cards-ce0212c7ea1e4574 .aura-card-body { padding=
+: 1.5rem; box-sizing: border-box;}.aura-cards-ce0212c7ea1e4574 .aura-card-h=
+eader { padding-bottom: 0;}.aura-cards-ce0212c7ea1e4574 .aura-card-header-s=
+pacer { display: none; height: 0.5rem; width: 1.5rem;}.aura-cards-ce0212c7e=
+a1e4574 .aura-card-content-wrapper { flex: 1; padding: calc(4px * 4) 0; tra=
+nsition: padding 0.5s;}.aura-cards-ce0212c7ea1e4574 .aura-card-body { font-=
+size: 14px; padding-top: 0;}.aura-cards-ce0212c7ea1e4574 .aura-card-body-sp=
+acer { height: 1rem;} .aura-cards-ce0212c7ea1e4574 .aura-card-body-spacer {=
+ background-color: none !important; opacity: 0; }.aura-cards-ce0212c7ea1e45=
+74 .aura-card-header .aura-card-icon svg { width: 1.5rem; height: 1.5rem;}.=
+aura-cards-ce0212c7ea1e4574 .aura-card-title { font-size: 18px; font-weight=
+: bold; word-break: break-word; margin-top: 0;}.aura-cards-ce0212c7ea1e4574=
+ .aura-card, .aura-cards-ce0212c7ea1e4574 a.aura-card { box-sizing: border-=
+box; margin: 8px; text-decoration: none; color: inherit; overflow: hidden;}=
+.aura-cards-ce0212c7ea1e4574 a[href=3D'#'].aura-card { cursor: default !imp=
+ortant;}.aura-cards-ce0212c7ea1e4574 .aura-card, aura-cards-ce0212c7ea1e457=
+4, .aura-cards-ce0212c7ea1e4574 .aura-card-preview-wrapper { transition: al=
+l 0.5s; transform-origin: bottom center;}.aura-cards-ce0212c7ea1e4574.layou=
+t-icon-left .aura-card-header { flex-direction: row; justify-content: flex-=
+start; align-items: center; text-align: left;}.aura-cards-ce0212c7ea1e4574.=
+layout-icon-left .aura-card-body { text-align: left; line-height: 1.4rem;}.=
+aura-cards-ce0212c7ea1e4574.layout-icon-left .aura-card-title { margin: 0;}=
+.aura-cards-ce0212c7ea1e4574.theme-aura .aura-card svg { height: 2rem; widt=
+h: 2rem; margin: .5rem 0;}.aura-cards-ce0212c7ea1e4574.theme-aura .aura-car=
+d { box-shadow: 0 10px 10px -10px rgba(50, 50, 75, 0.15), 0 0 20px rgba(50,=
+ 50, 75, 0.05);}.aura-cards-ce0212c7ea1e4574.theme-aura { color: #aaa;}.aur=
+a-cards-ce0212c7ea1e4574.theme-aura .aura-card-title { color: rgb(9, 30, 66=
+);}</style>
+<div class=3D"aura-cards-ce0212c7ea1e4574 aura-cards-wrapper theme-aura lay=
+out-icon-left">
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=3Drb-1.2.1&amp;auto=
+=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D100);" role=3D"img" data-backg=
+round-image=3D"url(https://images.unsplash.com/photo-1483683804023-6ccdb62f=
+86ef?ixlib=3Drb-1.2.1&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D=
+100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#0065ff" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43=
+.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 =
+32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 49=
+3.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">QIWI =D0=BA=D0=BE=D1=88=D0=B5=D0=BB=D0=B5=D0=
+=BA (=D0=BF=D0=BE=D0=BA=D1=83=D0=BF=D0=BA=D0=B8)</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=94=D0=B5=D0=BD=D1=8C: 10 000 KZT <br>
+ =D0=9C=D0=B5=D1=81=D1=8F=D1=86: 300 000 KZT</p>
+</div>
+</div>
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1571254531817-83275b6b6411?ixlib=3Drb-1.2.1&amp;ixid=
+=3DeyJhcHBfaWQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D881&amp;q=
+=3D100);" role=3D"img" data-background-image=3D"url(https://images.unsplash=
+.com/photo-1571254531817-83275b6b6411?ixlib=3Drb-1.2.1&amp;ixid=3DeyJhcHBfa=
+WQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D881&amp;q=3D100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#BF9A06" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43=
+.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 =
+32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 49=
+3.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">STEAM (=D0=B8=D0=B3=D1=80=D1=8B)</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=A0=D0=B0=D0=B7=D0=BE=D0=B2=D1=8B=D0=B9: 10 =
+000 KZT <br>
+ =D0=94=D0=B5=D0=BD=D1=8C: 30 000 KZT <br>
+ =D0=9C=D0=B5=D1=81=D1=8F=D1=86: 50 000 KZT</p>
+</div>
+</div>
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=3Drb-1.2.1&amp;auto=
+=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D100);" role=3D"img" data-backg=
+round-image=3D"url(https://images.unsplash.com/photo-1483683804023-6ccdb62f=
+86ef?ixlib=3Drb-1.2.1&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D=
+100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#02B4C1" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43=
+.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 =
+32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 49=
+3.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">Western Union (=D0=BE=D0=BF=D0=BB=D0=B0=D1=82=
+=D0=B0)</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=A0=D0=B0=D0=B7=D0=BE=D0=B2=D1=8B=D0=B9: 10 =
+000 USD</p>
+</div>
+</div>
+</div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp;=20
+<style>.aura-cards-e7226c61cc296181.aura-cards-wrapper { margin: auto; disp=
+lay: grid; grid-template-columns: repeat(auto-fit, minmax(calc(100% / 2), 1=
+fr)); max-width: 100%;}@media only screen and (max-width: 600px) { .aura-ca=
+rds-e7226c61cc296181.aura-cards-wrapper { grid-template-columns: 1fr; }}.au=
+ra-card-header { display: flex; width: 100%;}.aura-cards-e7226c61cc296181 .=
+aura-card-icon { display: flex; display: none; justify-content: center; ali=
+gn-items: center;}.aura-cards-e7226c61cc296181 .aura-card-image { display: =
+none; background-size: cover; background-position: center; background-image=
+: linear-gradient(45deg, #757575, #ececec); width: 100%;}aura-cards-e7226c6=
+1cc296181 .aura-card-body { display: block;}.aura-cards-e7226c61cc296181 .a=
+ura-card-header, .aura-cards-e7226c61cc296181 .aura-card-body { padding: 1.=
+5rem; box-sizing: border-box;}.aura-cards-e7226c61cc296181 .aura-card-heade=
+r { padding-bottom: 0;}.aura-cards-e7226c61cc296181 .aura-card-header-space=
+r { display: none; height: 0.5rem; width: 1.5rem;}.aura-cards-e7226c61cc296=
+181 .aura-card-content-wrapper { flex: 1; padding: calc(4px * 4) 0; transit=
+ion: padding 0.5s;}.aura-cards-e7226c61cc296181 .aura-card-body { font-size=
+: 14px; padding-top: 0;}.aura-cards-e7226c61cc296181 .aura-card-body-spacer=
+ { height: 1rem;} .aura-cards-e7226c61cc296181 .aura-card-body-spacer { bac=
+kground-color: none !important; opacity: 0; }.aura-cards-e7226c61cc296181 .=
+aura-card-header .aura-card-icon svg { width: 1.5rem; height: 1.5rem;}.aura=
+-cards-e7226c61cc296181 .aura-card-title { font-size: 18px; font-weight: bo=
+ld; word-break: break-word; margin-top: 0;}.aura-cards-e7226c61cc296181 .au=
+ra-card, .aura-cards-e7226c61cc296181 a.aura-card { box-sizing: border-box;=
+ margin: 8px; text-decoration: none; color: inherit; overflow: hidden;}.aur=
+a-cards-e7226c61cc296181 a[href=3D'#'].aura-card { cursor: default !importa=
+nt;}.aura-cards-e7226c61cc296181 .aura-card, aura-cards-e7226c61cc296181, .=
+aura-cards-e7226c61cc296181 .aura-card-preview-wrapper { transition: all 0.=
+5s; transform-origin: bottom center;}.aura-cards-e7226c61cc296181.layout-ic=
+on-left .aura-card-header { flex-direction: row; justify-content: flex-star=
+t; align-items: center; text-align: left;}.aura-cards-e7226c61cc296181.layo=
+ut-icon-left .aura-card-body { text-align: left; line-height: 1.4rem;}.aura=
+-cards-e7226c61cc296181.layout-icon-left .aura-card-title { margin: 0;}.aur=
+a-cards-e7226c61cc296181.theme-aura .aura-card svg { height: 2rem; width: 2=
+rem; margin: .5rem 0;}.aura-cards-e7226c61cc296181.theme-aura .aura-card { =
+box-shadow: 0 10px 10px -10px rgba(50, 50, 75, 0.15), 0 0 20px rgba(50, 50,=
+ 75, 0.05);}.aura-cards-e7226c61cc296181.theme-aura { color: #aaa;}.aura-ca=
+rds-e7226c61cc296181.theme-aura .aura-card-title { color: rgb(9, 30, 66);}<=
+/style>
+<div class=3D"aura-cards-e7226c61cc296181 aura-cards-wrapper theme-aura lay=
+out-icon-left">
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1473580044384-7ba9967e16a0?ixlib=3Drb-1.2.1&amp;ixid=
+=3DeyJhcHBfaWQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D1950&amp;q=
+=3D80);" role=3D"img" data-background-image=3D"url(https://images.unsplash.=
+com/photo-1473580044384-7ba9967e16a0?ixlib=3Drb-1.2.1&amp;ixid=3DeyJhcHBfaW=
+QiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D1950&amp;q=3D80)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#C08D5A" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43=
+.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 =
+32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 49=
+3.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=9C=D0=BE=D0=B1=D0=B8=D0=BB=D1=8C=D0=BD=D1=
+=8B=D0=B9 =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=82=D0=BE=D1=80 Beeline</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=94=D0=B5=D0=BD=D1=8C: 10 000 KZT <br>
+ =D0=9C=D0=B5=D1=81=D1=8F=D1=86: 30 000 KZT</p>
+</div>
+</div>
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1476231682828-37e571bc172f?ixid=3DMnwxMjA3fDB8MHxwaG90=
+by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=3Drb-1.2.1&amp;auto=3Dformat&amp;fit=3Dc=
+rop&amp;w=3D1567&amp;q=3D80);" role=3D"img" data-background-image=3D"url(ht=
+tps://images.unsplash.com/photo-1476231682828-37e571bc172f?ixid=3DMnwxMjA3f=
+DB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=3Drb-1.2.1&amp;auto=3Dformat&=
+amp;fit=3Dcrop&amp;w=3D1567&amp;q=3D80)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#20493C" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43=
+.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 =
+32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 49=
+3.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=94=D1=80=D1=83=D0=B3=D0=B8=D0=B5 =D0=BC=
+=D0=BE=D0=B1=D0=B8=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D0=BE=D0=BF=D0=B5=D1=80=
+=D0=B0=D1=82=D0=BE=D1=80=D1=8B</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=94=D0=B5=D0=BD=D1=8C: 50 000 KZT <br>
+ =D0=9C=D0=B5=D1=81=D1=8F=D1=86: 50 000 KZT</p>
+</div>
+</div>
+</div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+</div>
+<div id=3D"=D0=A1=D1=82=D1=80=D0=B0=D0=BD=D1=8B=D0=B8=D1=81=D0=BA=D0=BB=D1=
+=8E=D1=87=D0=B5=D0=BD=D0=B8=D1=8F*" data-pane-title=3D"=D0=A1=D1=82=D1=80=
+=D0=B0=D0=BD=D1=8B =D0=B8=D1=81=D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=D0=B8=
+=D1=8F*" class=3D"cfm tabs-pane ">
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:50%;min-width:50%;max-width:50%;"=
+>
+<div>
+<style>
+    .innerCell .aura-panel-f0fffdeb5f08ca7d, .sectionMacro .aura-panel-f0ff=
+fdeb5f08ca7d {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-f0fffdeb5f08ca7d {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-f0fffdeb5f08ca7d .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-f0fffdeb5f08ca7d a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-f0fffdeb5f08ca7d a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-f0fffdeb5f08ca7d .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-f0fffdeb5f08ca7d .aura-headline svg {
+          }
+
+    .aura-panel-f0fffdeb5f08ca7d .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-f0fffdeb5f08ca7d" style=3D"min-height: 550px;borde=
+r-top: 1px solid #d0d0d0;border-right: 1px solid #d0d0d0;border-bottom: 1px=
+ solid #d0d0d0;border-left: 1px solid #d0d0d0;border-radius: 8.0px;backgrou=
+nd-color: #dfe1e61f;">
+<div class=3D"aura-body" style=3D"">
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro">
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=91=D0=BE=D0=BB=D0=B3=D0=B0=D1=80=
+=D0=B8=D1=8F35=D0=91=D0=BE=D0=BB=D0=B3=D0=B0=D1=80=D0=B8=D1=8F20=D0=91=D0=
+=BE=D0=BB=D0=B3=D0=B0=D1=80=D0=B8=D1=8F"><sub> <img src=3D"https://upload.w=
+ikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg" alt=3D"=D0=91=D0=
+=BE=D0=BB=D0=B3=D0=B0=D1=80=D0=B8=D1=8F" width=3D"35" title=3D"=D0=91=D0=BE=
+=D0=BB=D0=B3=D0=B0=D1=80=D0=B8=D1=8F" height=3D"20"> </sub> =D0=91=D0=BE=D0=
+=BB=D0=B3=D0=B0=D1=80=D0=B8=D1=8F</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9B=D0=B0=D0=BE=D1=8135=D0=9B=D0=B0=
+=D0=BE=D1=8120=D0=9B=D0=B0=D0=BE=D1=81"><sub> <img src=3D"https://upload.wi=
+kimedia.org/wikipedia/commons/5/56/Flag_of_Laos.svg" alt=3D"=D0=9B=D0=B0=D0=
+=BE=D1=81" width=3D"35" title=3D"=D0=9B=D0=B0=D0=BE=D1=81" height=3D"20"> <=
+/sub> =D0=9B=D0=B0=D0=BE=D1=81</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9F=D0=B5=D1=80=D1=8335=D0=9F=D0=B5=
+=D1=80=D1=8320=D0=9F=D0=B5=D1=80=D1=83"><sub> <img src=3D"https://upload.wi=
+kimedia.org/wikipedia/commons/d/df/Flag_of_Peru_%28state%29.svg" alt=3D"=D0=
+=9F=D0=B5=D1=80=D1=83" width=3D"35" title=3D"=D0=9F=D0=B5=D1=80=D1=83" heig=
+ht=3D"20"> </sub> =D0=9F=D0=B5=D1=80=D1=83</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=91=D0=BE=D0=BB=D0=B8=D0=B2=D0=B8=
+=D1=8F35=D0=91=D0=BE=D0=BB=D0=B8=D0=B2=D0=B8=D1=8F20=D0=91=D0=BE=D0=BB=D0=
+=B8=D0=B2=D0=B8=D1=8F"><sub> <img src=3D"https://upload.wikimedia.org/wikip=
+edia/commons/b/b3/Bandera_de_Bolivia_%28Estado%29.svg" alt=3D"=D0=91=D0=BE=
+=D0=BB=D0=B8=D0=B2=D0=B8=D1=8F" width=3D"35" title=3D"=D0=91=D0=BE=D0=BB=D0=
+=B8=D0=B2=D0=B8=D1=8F" height=3D"20"> </sub> =D0=91=D0=BE=D0=BB=D0=B8=D0=B2=
+=D0=B8=D1=8F</h4>
+</div>
+<div class=3D"columnMacro">
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9A=D0=B0=D0=BC=D0=B5=D1=80=D1=83=
+=D0=BD35=D0=9A=D0=B0=D0=BC=D0=B5=D1=80=D1=83=D0=BD20=D0=9A=D0=B0=D0=BC=D0=
+=B5=D1=80=D1=83=D0=BD"><sub> <img src=3D"https://upload.wikimedia.org/wikip=
+edia/commons/4/4f/Flag_of_Cameroon.svg" alt=3D"=D0=9A=D0=B0=D0=BC=D0=B5=D1=
+=80=D1=83=D0=BD" width=3D"35" title=3D"=D0=9A=D0=B0=D0=BC=D0=B5=D1=80=D1=83=
+=D0=BD" height=3D"20"> </sub> =D0=9A=D0=B0=D0=BC=D0=B5=D1=80=D1=83=D0=BD</h=
+4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=98=D0=BE=D1=80=D0=B4=D0=B0=D0=BD=
+=D0=B8=D1=8F35=D0=98=D0=BE=D1=80=D0=B4=D0=B0=D0=BD=D0=B8=D1=8F20=D0=98=D0=
+=BE=D1=80=D0=B4=D0=B0=D0=BD=D0=B8=D1=8F"><sub> <img src=3D"https://upload.w=
+ikimedia.org/wikipedia/commons/c/c0/Flag_of_Jordan.svg" alt=3D"=D0=98=D0=BE=
+=D1=80=D0=B4=D0=B0=D0=BD=D0=B8=D1=8F" width=3D"35" title=3D"=D0=98=D0=BE=D1=
+=80=D0=B4=D0=B0=D0=BD=D0=B8=D1=8F" height=3D"20"> </sub> =D0=98=D0=BE=D1=80=
+=D0=B4=D0=B0=D0=BD=D0=B8=D1=8F</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9C=D0=BE=D0=B7=D0=B0=D0=BC=D0=B1=
+=D0=B8=D0=BA35=D0=9C=D0=BE=D0=B7=D0=B0=D0=BC=D0=B1=D0=B8=D0=BA20=D0=9C=D0=
+=BE=D0=B7=D0=B0=D0=BC=D0=B1=D0=B8=D0=BA"><sub> <img src=3D"https://upload.w=
+ikimedia.org/wikipedia/commons/d/d0/Flag_of_Mozambique.svg" alt=3D"=D0=9C=
+=D0=BE=D0=B7=D0=B0=D0=BC=D0=B1=D0=B8=D0=BA" width=3D"35" title=3D"=D0=9C=D0=
+=BE=D0=B7=D0=B0=D0=BC=D0=B1=D0=B8=D0=BA" height=3D"20"> </sub> =D0=9C=D0=BE=
+=D0=B7=D0=B0=D0=BC=D0=B1=D0=B8=D0=BA</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=92=D0=B5=D0=BD=D0=B5=D1=81=D1=83=
+=D1=8D=D0=BB=D0=B035=D0=92=D0=B5=D0=BD=D0=B5=D1=81=D1=83=D1=8D=D0=BB=D0=B02=
+0=D0=92=D0=B5=D0=BD=D0=B5=D1=81=D1=83=D1=8D=D0=BB=D0=B0"><sub> <img src=3D"=
+https://upload.wikimedia.org/wikipedia/commons/7/7b/Flag_of_Venezuela_%28st=
+ate%29.svg" alt=3D"=D0=92=D0=B5=D0=BD=D0=B5=D1=81=D1=83=D1=8D=D0=BB=D0=B0" =
+width=3D"35" title=3D"=D0=92=D0=B5=D0=BD=D0=B5=D1=81=D1=83=D1=8D=D0=BB=D0=
+=B0" height=3D"20"> </sub> =D0=92=D0=B5=D0=BD=D0=B5=D1=81=D1=83=D1=8D=D0=BB=
+=D0=B0</h4>
+</div>
+<div class=3D"columnMacro">
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=AD=D1=84=D0=B8=D0=BE=D0=BF=D0=B8=
+=D1=8F35=D0=AD=D1=84=D0=B8=D0=BE=D0=BF=D0=B8=D1=8F20=D0=AD=D1=84=D0=B8=D0=
+=BE=D0=BF=D0=B8=D1=8F"><sub> <img src=3D"https://upload.wikimedia.org/wikip=
+edia/commons/7/71/Flag_of_Ethiopia.svg" alt=3D"=D0=AD=D1=84=D0=B8=D0=BE=D0=
+=BF=D0=B8=D1=8F" width=3D"35" title=3D"=D0=AD=D1=84=D0=B8=D0=BE=D0=BF=D0=B8=
+=D1=8F" height=3D"20"> </sub> =D0=AD=D1=84=D0=B8=D0=BE=D0=BF=D0=B8=D1=8F</h=
+4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9A=D0=B5=D0=BD=D0=B8=D1=8F35=D0=9A=
+=D0=B5=D0=BD=D0=B8=D1=8F20=D0=9A=D0=B5=D0=BD=D0=B8=D1=8F"><sub> <img src=3D=
+"https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Kenya.svg" alt=
+=3D"=D0=9A=D0=B5=D0=BD=D0=B8=D1=8F" width=3D"35" title=3D"=D0=9A=D0=B5=D0=
+=BD=D0=B8=D1=8F" height=3D"20"> </sub> =D0=9A=D0=B5=D0=BD=D0=B8=D1=8F</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9C=D0=BE=D0=BB=D0=B4=D0=BE=D0=B2=
+=D0=B035=D0=9C=D0=BE=D0=BB=D0=B4=D0=BE=D0=B2=D0=B020=D0=9C=D0=BE=D0=BB=D0=
+=B4=D0=BE=D0=B2=D0=B0"><sub> <img src=3D"https://upload.wikimedia.org/wikip=
+edia/commons/2/27/Flag_of_Moldova.svg" alt=3D"=D0=9C=D0=BE=D0=BB=D0=B4=D0=
+=BE=D0=B2=D0=B0" width=3D"35" title=3D"=D0=9C=D0=BE=D0=BB=D0=B4=D0=BE=D0=B2=
+=D0=B0" height=3D"20"> </sub> =D0=9C=D0=BE=D0=BB=D0=B4=D0=BE=D0=B2=D0=B0</h=
+4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9A=D0=BE=D0=BB=D1=83=D0=BC=D0=B1=
+=D0=B8=D1=8F35=D0=9A=D0=BE=D0=BB=D1=83=D0=BC=D0=B1=D0=B8=D1=8F20=D0=9A=D0=
+=BE=D0=BB=D1=83=D0=BC=D0=B1=D0=B8=D1=8F"><sub> <img src=3D"https://upload.w=
+ikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/1920px-Flag_=
+of_Colombia.svg.png" alt=3D"=D0=9A=D0=BE=D0=BB=D1=83=D0=BC=D0=B1=D0=B8=D1=
+=8F" width=3D"35" title=3D"=D0=9A=D0=BE=D0=BB=D1=83=D0=BC=D0=B1=D0=B8=D1=8F=
+" height=3D"20"> </sub> =D0=9A=D0=BE=D0=BB=D1=83=D0=BC=D0=B1=D0=B8=D1=8F</h=
+4>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=A1=D0=BD=D1=8F=D1=82=D0=B8=D0=B5=
+=D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=BD=D1=8B=D1=85=D0=B2=D0=B1=D0=B0=D0=BD=D0=
+=BA=D0=BE=D0=BC=D0=B0=D1=82=D0=B0=D1=85"><strong>=D0=A1=D0=BD=D1=8F=D1=82=
+=D0=B8=D0=B5 =D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=BD=D1=8B=D1=85 =D0=B2 =D0=B1=
+=D0=B0=D0=BD=D0=BA=D0=BE=D0=BC=D0=B0=D1=82=D0=B0=D1=85&nbsp;</strong></h4>
+<p>=D0=94=D0=B5=D0=BD=D1=8C: 1 000 USD<br>
+ =D0=9C=D0=B5=D1=81=D1=8F=D1=86: 10 000 USD&nbsp;</p>
+<p><strong>=D0=9F=D0=BE=D0=BA=D1=83=D0=BF=D0=BA=D0=B8</strong><strong>&nbsp=
+;</strong><br>
+ =D0=94=D0=B5=D0=BD=D1=8C:&nbsp;76=E2=80=AF000&nbsp;USD&nbsp;<br><br><stron=
+g>=D0=A1=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D1=81 =D0=BA=D0=B0=D1=81=D1=81=D1=
+=8B</strong><strong>&nbsp;</strong><br>
+ =D0=94=D0=B5=D0=BD=D1=8C: 1 000 USD&nbsp;</p>
+<p><strong>=D0=9E=D0=BF=D0=BB=D0=B0=D1=82=D0=B0 =D0=B2 =D0=B8=D0=BD=D1=82=
+=D0=B5=D1=80=D0=BD=D0=B5=D1=82=D0=B5</strong><strong>&nbsp;</strong><br>
+ =D0=94=D0=B5=D0=BD=D1=8C: 150&nbsp;USD&nbsp;</p>
+<p><strong>=D0=9F=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4=D1=8B =D1=81 =D0=BA=
+=D0=B0=D1=80=D1=82=D1=8B =D0=BD=D0=B0 =D0=BA=D0=B0=D1=80=D1=82=D1=83 (</str=
+ong><strong>P2P)</strong>&nbsp;<br>
+ =D0=94=D0=B5=D0=BD=D1=8C: 450 000 KZT ( =D0=BD=D0=B5 =D0=B1=D0=BE=D0=BB=D0=
+=B5=D0=B5 4 =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4=D0=BE=D0=B2 =D0=B2 =
+=D0=B4=D0=B5=D0=BD=D1=8C )<br>
+ =D0=9C=D0=B5=D1=81=D1=8F=D1=86: 4 500 000 KZT ( =D0=BD=D0=B5 =D0=B1=D0=BE=
+=D0=BB=D0=B5=D0=B5 10 =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4=D0=BE=D0=
+=B2 =D0=B2 =D0=BC=D0=B5=D1=81=D1=8F=D1=86 ).</p>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"columnMacro" style=3D"width:50%;min-width:50%;max-width:50%;"=
+>
+<div>
+<style>
+    .innerCell .aura-panel-f0fffdeb5f08ca7d, .sectionMacro .aura-panel-f0ff=
+fdeb5f08ca7d {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-f0fffdeb5f08ca7d {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-f0fffdeb5f08ca7d .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-f0fffdeb5f08ca7d a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-f0fffdeb5f08ca7d a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-f0fffdeb5f08ca7d .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-f0fffdeb5f08ca7d .aura-headline svg {
+          }
+
+    .aura-panel-f0fffdeb5f08ca7d .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-f0fffdeb5f08ca7d" style=3D"min-height: 550px;borde=
+r-top: 1px solid #d0d0d0;border-right: 1px solid #d0d0d0;border-bottom: 1px=
+ solid #d0d0d0;border-left: 1px solid #d0d0d0;border-radius: 8.0px;backgrou=
+nd-color: #dfe1e61f;">
+<div class=3D"aura-body" style=3D"">
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:30%;min-width:30%;max-width:30%;"=
+>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=90=D1=84=D0=B3=D0=B0=D0=BD=D0=B8=
+=D1=81=D1=82=D0=B0=D0=BD35=D0=90=D1=84=D0=B3=D0=B0=D0=BD=D0=B8=D1=81=D1=82=
+=D0=B0=D0=BD20=D0=90=D1=84=D0=B3=D0=B0=D0=BD=D0=B8=D1=81=D1=82=D0=B0=D0=BD"=
+><sub> <img src=3D"https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag=
+_of_the_Taliban.svg" alt=3D"=D0=90=D1=84=D0=B3=D0=B0=D0=BD=D0=B8=D1=81=D1=
+=82=D0=B0=D0=BD" width=3D"35" title=3D"=D0=90=D1=84=D0=B3=D0=B0=D0=BD=D0=B8=
+=D1=81=D1=82=D0=B0=D0=BD" height=3D"20"> </sub> <span style=3D"color: rgb(0=
+,0,0);">=D0=90=D1=84=D0=B3=D0=B0=D0=BD=D0=B8=D1=81=D1=82=D0=B0=D0=BD</span>=
+</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=A1=D0=B8=D1=80=D0=B8=D1=8F35=D0=A1=
+=D0=B8=D1=80=D0=B8=D1=8F20=D0=A1=D0=B8=D1=80=D0=B8=D1=8F"><sub> <img src=3D=
+"https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Flag_of_Syria_%2=
+82025-%29.svg/800px-Flag_of_Syria_%282025-%29.svg.png" alt=3D"=D0=A1=D0=B8=
+=D1=80=D0=B8=D1=8F" width=3D"35" title=3D"=D0=A1=D0=B8=D1=80=D0=B8=D1=8F" h=
+eight=3D"20"> </sub> <span style=3D"color: rgb(0,0,0);">=D0=A1=D0=B8=D1=80=
+=D0=B8=D1=8F</span></h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=98=D1=80=D0=B0=D0=BA35=D0=98=D1=80=
+=D0=B0=D0=BA20=D0=98=D1=80=D0=B0=D0=BA"><sub> <img src=3D"https://upload.wi=
+kimedia.org/wikipedia/commons/f/f6/Flag_of_Iraq.svg" alt=3D"=D0=98=D1=80=D0=
+=B0=D0=BA" width=3D"35" title=3D"=D0=98=D1=80=D0=B0=D0=BA" height=3D"20"> <=
+/sub> =D0=98=D1=80=D0=B0=D0=BA</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9D=D0=B8=D0=B3=D0=B5=D1=8035=D0=9D=
+=D0=B8=D0=B3=D0=B5=D1=8020=D0=9D=D0=B8=D0=B3=D0=B5=D1=80"><sub> <img src=3D=
+"https://upload.wikimedia.org/wikipedia/commons/f/f4/Flag_of_Niger.svg" alt=
+=3D"=D0=9D=D0=B8=D0=B3=D0=B5=D1=80" width=3D"35" title=3D"=D0=9D=D0=B8=D0=
+=B3=D0=B5=D1=80" height=3D"20"> </sub> =D0=9D=D0=B8=D0=B3=D0=B5=D1=80</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=A2=D0=BE=D0=B3=D0=BE35=D0=A2=D0=BE=
+=D0=B3=D0=BE20=D0=A2=D0=BE=D0=B3=D0=BE"><sub> <img src=3D"https://upload.wi=
+kimedia.org/wikipedia/commons/6/68/Flag_of_Togo.svg" alt=3D"=D0=A2=D0=BE=D0=
+=B3=D0=BE" width=3D"35" title=3D"=D0=A2=D0=BE=D0=B3=D0=BE" height=3D"20"> <=
+/sub> =D0=A2=D0=BE=D0=B3=D0=BE</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9C=D0=B0=D0=BB=D0=B835=D0=9C=D0=B0=
+=D0=BB=D0=B820=D0=9C=D0=B0=D0=BB=D0=B8"><sub> <img src=3D"https://upload.wi=
+kimedia.org/wikipedia/commons/9/92/Flag_of_Mali.svg" alt=3D"=D0=9C=D0=B0=D0=
+=BB=D0=B8" width=3D"35" title=3D"=D0=9C=D0=B0=D0=BB=D0=B8" height=3D"20"> <=
+/sub> =D0=9C=D0=B0=D0=BB=D0=B8</h4>
+</div>
+<div class=3D"columnMacro">
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=A7=D0=B0=D0=B435=D0=A7=D0=B0=D0=B4=
+20=D0=A7=D0=B0=D0=B4"><sub> <img src=3D"https://upload.wikimedia.org/wikipe=
+dia/commons/4/4b/Flag_of_Chad.svg" alt=3D"=D0=A7=D0=B0=D0=B4" width=3D"35" =
+title=3D"=D0=A7=D0=B0=D0=B4" height=3D"20"> </sub> =D0=A7=D0=B0=D0=B4</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9D=D0=B8=D0=B3=D0=B5=D1=80=D0=B8=
+=D1=8F35=D0=9D=D0=B8=D0=B3=D0=B5=D1=80=D0=B8=D1=8F20=D0=9D=D0=B8=D0=B3=D0=
+=B5=D1=80=D0=B8=D1=8F"><sub> <img src=3D"https://upload.wikimedia.org/wikip=
+edia/commons/7/79/Flag_of_Nigeria.svg" alt=3D"=D0=9D=D0=B8=D0=B3=D0=B5=D1=
+=80=D0=B8=D1=8F" width=3D"35" title=3D"=D0=9D=D0=B8=D0=B3=D0=B5=D1=80=D0=B8=
+=D1=8F" height=3D"20"> </sub> =D0=9D=D0=B8=D0=B3=D0=B5=D1=80=D0=B8=D1=8F</h=
+4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=A1=D0=BE=D0=BC=D0=B0=D0=BB=D0=B835=
+=D0=A1=D0=BE=D0=BC=D0=B0=D0=BB=D0=B820=D0=A1=D0=BE=D0=BC=D0=B0=D0=BB=D0=B8"=
+><sub> <img src=3D"https://upload.wikimedia.org/wikipedia/commons/a/a0/Flag=
+_of_Somalia.svg" alt=3D"=D0=A1=D0=BE=D0=BC=D0=B0=D0=BB=D0=B8" width=3D"35" =
+title=3D"=D0=A1=D0=BE=D0=BC=D0=B0=D0=BB=D0=B8" height=3D"20"> </sub> =D0=A1=
+=D0=BE=D0=BC=D0=B0=D0=BB=D0=B8</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9F=D0=B0=D0=BB=D0=B5=D1=81=D1=82=
+=D0=B8=D0=BD=D0=B035=D0=9F=D0=B0=D0=BB=D0=B5=D1=81=D1=82=D0=B8=D0=BD=D0=B02=
+0=D0=9F=D0=B0=D0=BB=D0=B5=D1=81=D1=82=D0=B8=D0=BD=D0=B0(=D0=B2=D0=BA=D0=BB=
+=D1=8E=D1=87=D0=B0=D1=8F=D0=A1=D0=B5=D0=BA=D1=82=D0=BE=D1=80=D0=93=D0=B0=D0=
+=B7=D0=B0)"><sub> <img src=3D"https://upload.wikimedia.org/wikipedia/common=
+s/0/00/Flag_of_Palestine.svg" alt=3D"=D0=9F=D0=B0=D0=BB=D0=B5=D1=81=D1=82=
+=D0=B8=D0=BD=D0=B0 " width=3D"35" title=3D"=D0=9F=D0=B0=D0=BB=D0=B5=D1=81=
+=D1=82=D0=B8=D0=BD=D0=B0 " height=3D"20"> </sub> =D0=9F=D0=B0=D0=BB=D0=B5=
+=D1=81=D1=82=D0=B8=D0=BD=D0=B0 (=D0=B2=D0=BA=D0=BB=D1=8E=D1=87=D0=B0=D1=8F =
+=D0=A1=D0=B5=D0=BA=D1=82=D0=BE=D1=80 =D0=93=D0=B0=D0=B7=D0=B0)</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=91=D1=83=D1=80=D0=BA=D0=B8=D0=BD=
+=D0=B0-=D0=A4=D0=B0=D1=81=D0=BE35=D0=91=D1=83=D1=80=D0=BA=D0=B8=D0=BD=D0=B0=
+-=D0=A4=D0=B0=D1=81=D0=BE20=D0=91=D1=83=D1=80=D0=BA=D0=B8=D0=BD=D0=B0-=D0=
+=A4=D0=B0=D1=81=D0=BE"><sub> <img src=3D"https://upload.wikimedia.org/wikip=
+edia/commons/3/31/Flag_of_Burkina_Faso.svg" alt=3D"=D0=91=D1=83=D1=80=D0=BA=
+=D0=B8=D0=BD=D0=B0-=D0=A4=D0=B0=D1=81=D0=BE" width=3D"35" title=3D"=D0=91=
+=D1=83=D1=80=D0=BA=D0=B8=D0=BD=D0=B0-=D0=A4=D0=B0=D1=81=D0=BE" height=3D"20=
+"> </sub> =D0=91=D1=83=D1=80=D0=BA=D0=B8=D0=BD=D0=B0-=D0=A4=D0=B0=D1=81=D0=
+=BE</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9B=D0=B8=D0=B2=D0=B0=D0=BD35=D0=9B=
+=D0=B8=D0=B2=D0=B0=D0=BD20=D0=9B=D0=B8=D0=B2=D0=B0=D0=BD"><sub> <img src=3D=
+"https://upload.wikimedia.org/wikipedia/commons/5/59/Flag_of_Lebanon.svg" a=
+lt=3D"=D0=9B=D0=B8=D0=B2=D0=B0=D0=BD" width=3D"35" title=3D"=D0=9B=D0=B8=D0=
+=B2=D0=B0=D0=BD" height=3D"20"> </sub> =D0=9B=D0=B8=D0=B2=D0=B0=D0=BD</h4>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<p><strong>=D0=A1=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D0=BD=D0=B0=D0=BB=D0=B8=D1=
+=87=D0=BD=D1=8B=D1=85 =D0=B2 =D0=B1=D0=B0=D0=BD=D0=BA=D0=BE=D0=BC=D0=B0=D1=
+=82=D0=B0=D1=85, =D1=81=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D1=81 =D0=BA=D0=B0=
+=D1=81=D1=81=D1=8B, =D0=BE=D0=BF=D0=BB=D0=B0=D1=82=D0=B0 =D0=B2 =D0=B8=D0=
+=BD=D1=82=D0=B5=D1=80=D0=BD=D0=B5=D1=82=D0=B5,&nbsp;=D0=BF=D0=B5=D1=80=D0=
+=B5=D0=B2=D0=BE=D0=B4=D1=8B =D1=81 =D0=BA=D0=B0=D1=80=D1=82=D1=8B =D0=BD=D0=
+=B0 =D0=BA=D0=B0=D1=80=D1=82=D1=83 (P2P)&nbsp;</strong><br>
+ =D0=97=D0=B0=D0=BF=D1=80=D0=B5=D1=82&nbsp;</p>
+<p><strong>=D0=9F=D0=BE=D0=BA=D1=83=D0=BF=D0=BA=D0=B8</strong>&nbsp;<br>
+ =D0=94=D0=B5=D0=BD=D1=8C:&nbsp;100&nbsp;USD&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:50%;min-width:50%;max-width:50%;"=
+>
+<div>
+<style>
+    .innerCell .aura-panel-f484190abbfe1c69, .sectionMacro .aura-panel-f484=
+190abbfe1c69 {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-f484190abbfe1c69 {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-f484190abbfe1c69 .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-f484190abbfe1c69 a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-f484190abbfe1c69 a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-f484190abbfe1c69 .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-f484190abbfe1c69 .aura-headline svg {
+          }
+
+    .aura-panel-f484190abbfe1c69 .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-f484190abbfe1c69" style=3D"min-height: 160px;borde=
+r-top: 1px solid #d0d0d0;border-right: 1px solid #d0d0d0;border-bottom: 1px=
+ solid #d0d0d0;border-left: 1px solid #d0d0d0;border-radius: 8.0px;backgrou=
+nd-color: #dfe1e61f;">
+<div class=3D"aura-body" style=3D"">
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=98=D1=80=D0=B0=D0=BD35=D0=98=D1=80=
+=D0=B0=D0=BD20=D0=98=D1=80=D0=B0=D0=BD"><sub> <img src=3D"https://upload.wi=
+kimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg" alt=3D"=D0=98=D1=80=D0=
+=B0=D0=BD" width=3D"35" title=3D"=D0=98=D1=80=D0=B0=D0=BD" height=3D"20"> <=
+/sub> =D0=98=D1=80=D0=B0=D0=BD&nbsp;</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=A1=D0=B5=D0=B2=D0=B5=D1=80=D0=BD=
+=D0=B0=D1=8F=D0=9A=D0=BE=D1=80=D0=B5=D1=8F35=D0=A1=D0=B5=D0=B2=D0=B5=D1=80=
+=D0=BD=D0=B0=D1=8F=D0=9A=D0=BE=D1=80=D0=B5=D1=8F20=D0=A1=D0=B5=D0=B2=D0=B5=
+=D1=80=D0=BD=D0=B0=D1=8F=D0=9A=D0=BE=D1=80=D0=B5=D1=8F"><sub> <img src=3D"h=
+ttps://upload.wikimedia.org/wikipedia/commons/5/51/Flag_of_North_Korea.svg"=
+ alt=3D"=D0=A1=D0=B5=D0=B2=D0=B5=D1=80=D0=BD=D0=B0=D1=8F =D0=9A=D0=BE=D1=80=
+=D0=B5=D1=8F" width=3D"35" title=3D"=D0=A1=D0=B5=D0=B2=D0=B5=D1=80=D0=BD=D0=
+=B0=D1=8F =D0=9A=D0=BE=D1=80=D0=B5=D1=8F" height=3D"20"> </sub> =D0=A1=D0=
+=B5=D0=B2=D0=B5=D1=80=D0=BD=D0=B0=D1=8F =D0=9A=D0=BE=D1=80=D0=B5=D1=8F</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9C=D1=8C=D1=8F=D0=BD=D0=BC=D0=B035=
+=D0=9C=D1=8C=D1=8F=D0=BD=D0=BC=D0=B020=D0=9C=D1=8C=D1=8F=D0=BD=D0=BC=D0=B0(=
+=D0=91=D0=B8=D1=80=D0=BC=D0=B0)"><sub> <img src=3D"https://upload.wikimedia=
+.org/wikipedia/commons/8/8c/Flag_of_Myanmar.svg" alt=3D"=D0=9C=D1=8C=D1=8F=
+=D0=BD=D0=BC=D0=B0 " width=3D"35" title=3D"=D0=9C=D1=8C=D1=8F=D0=BD=D0=BC=
+=D0=B0 " height=3D"20"> </sub> =D0=9C=D1=8C=D1=8F=D0=BD=D0=BC=D0=B0 (=D0=91=
+=D0=B8=D1=80=D0=BC=D0=B0)</h4>
+<hr>
+<p><span style=3D"color: rgb(28,28,30);">=D0=97=D0=B0=D0=BF=D1=80=D0=B5=D1=
+=82</span></p>
+</div>
+</div>
+</div>
+<div>
+<style>
+    .innerCell .aura-panel-f484190abbfe1c69, .sectionMacro .aura-panel-f484=
+190abbfe1c69 {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-f484190abbfe1c69 {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-f484190abbfe1c69 .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-f484190abbfe1c69 a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-f484190abbfe1c69 a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-f484190abbfe1c69 .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-f484190abbfe1c69 .aura-headline svg {
+          }
+
+    .aura-panel-f484190abbfe1c69 .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-f484190abbfe1c69" style=3D"min-height: 160px;borde=
+r-top: 1px solid #d0d0d0;border-right: 1px solid #d0d0d0;border-bottom: 1px=
+ solid #d0d0d0;border-left: 1px solid #d0d0d0;border-radius: 8.0px;backgrou=
+nd-color: #dfe1e61f;">
+<div class=3D"aura-body" style=3D"">
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9F=D0=B0=D0=BA=D0=B8=D1=81=D1=82=
+=D0=B0=D0=BD35=D0=9F=D0=B0=D0=BA=D0=B8=D1=81=D1=82=D0=B0=D0=BD20=D0=9F=D0=
+=B0=D0=BA=D0=B8=D1=81=D1=82=D0=B0=D0=BD"><sub> <img src=3D"https://upload.w=
+ikimedia.org/wikipedia/commons/4/44/Flag_of_Muslim_League.svg" alt=3D"=D0=
+=9F=D0=B0=D0=BA=D0=B8=D1=81=D1=82=D0=B0=D0=BD" width=3D"35" title=3D"=D0=9F=
+=D0=B0=D0=BA=D0=B8=D1=81=D1=82=D0=B0=D0=BD" height=3D"20"> </sub> =D0=9F=D0=
+=B0=D0=BA=D0=B8=D1=81=D1=82=D0=B0=D0=BD</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=99=D0=B5=D0=BC=D0=B5=D0=BD35=D0=99=
+=D0=B5=D0=BC=D0=B5=D0=BD20=D0=99=D0=B5=D0=BC=D0=B5=D0=BD"><span style=3D"co=
+lor: rgb(51,51,51);"><sub> <img src=3D"https://upload.wikimedia.org/wikiped=
+ia/commons/8/89/Flag_of_Yemen.svg" alt=3D"=D0=99=D0=B5=D0=BC=D0=B5=D0=BD" w=
+idth=3D"35" title=3D"=D0=99=D0=B5=D0=BC=D0=B5=D0=BD" height=3D"20"> </sub> =
+<span style=3D"color: rgb(0,51,102);">=D0=99=D0=B5=D0=BC=D0=B5=D0=BD</span>=
+</span></h4>
+<hr>
+<p><strong>=D0=A1=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D0=BD=D0=B0=D0=BB=D0=B8=D1=
+=87=D0=BD=D1=8B=D1=85 =D0=B2 =D0=B1=D0=B0=D0=BD=D0=BA=D0=BE=D0=BC=D0=B0=D1=
+=82=D0=B0=D1=85 =D0=B8 =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4=D1=8B =D1=
+=81 =D0=BA=D0=B0=D1=80=D1=82=D1=8B =D0=BD=D0=B0 =D0=BA=D0=B0=D1=80=D1=82=D1=
+=83 (P2P)<br></strong><span style=3D"color: rgb(28,28,30);">=D0=97=D0=B0=D0=
+=BF=D1=80=D0=B5=D1=82</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"columnMacro" style=3D"width:50%;min-width:50%;max-width:50%;"=
+>
+<div>
+<style>
+    .innerCell .aura-panel-e8f3a525ed1b0856, .sectionMacro .aura-panel-e8f3=
+a525ed1b0856 {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-e8f3a525ed1b0856 {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-e8f3a525ed1b0856 .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-e8f3a525ed1b0856 a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-e8f3a525ed1b0856 a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-e8f3a525ed1b0856 .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-e8f3a525ed1b0856 .aura-headline svg {
+          }
+
+    .aura-panel-e8f3a525ed1b0856 .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-e8f3a525ed1b0856" style=3D"min-height: 340px;borde=
+r-top: 1px solid #d0d0d0;border-right: 1px solid #d0d0d0;border-bottom: 1px=
+ solid #d0d0d0;border-left: 1px solid #d0d0d0;border-radius: 8.0px;backgrou=
+nd-color: #dfe1e61f;">
+<div class=3D"aura-body" style=3D"">
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=A7=D0=B5=D1=80=D0=BD=D0=BE=D0=B3=
+=D0=BE=D1=80=D0=B8=D1=8F35=D0=A7=D0=B5=D1=80=D0=BD=D0=BE=D0=B3=D0=BE=D1=80=
+=D0=B8=D1=8F20=D0=A7=D0=B5=D1=80=D0=BD=D0=BE=D0=B3=D0=BE=D1=80=D0=B8=D1=8F"=
+><sub> <img src=3D"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6=
+4/Flag_of_Montenegro.svg/1920px-Flag_of_Montenegro.svg.png" alt=3D"=D0=A7=
+=D0=B5=D1=80=D0=BD=D0=BE=D0=B3=D0=BE=D1=80=D0=B8=D1=8F" width=3D"35" title=
+=3D"=D0=A7=D0=B5=D1=80=D0=BD=D0=BE=D0=B3=D0=BE=D1=80=D0=B8=D1=8F" height=3D=
+"20"> </sub> =D0=A7=D0=B5=D1=80=D0=BD=D0=BE=D0=B3=D0=BE=D1=80=D0=B8=D1=8F</=
+h4>
+<hr>
+<p><strong>=D0=A1=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D0=BD=D0=B0=D0=BB=D0=B8=D1=
+=87=D0=BD=D1=8B=D1=85 =D0=B2 =D0=B1=D0=B0=D0=BD=D0=BA=D0=BE=D0=BC=D0=B0=D1=
+=82=D0=B0=D1=85</strong><strong>&nbsp;</strong><br>
+ =D0=94=D0=B5=D0=BD=D1=8C: 2 000 USD<br>
+ =D0=9C=D0=B5=D1=81=D1=8F=D1=86: 30 000 USD&nbsp;</p>
+<p><strong>=D0=9F=D0=BE=D0=BA=D1=83=D0=BF=D0=BA=D0=B8</strong><strong>&nbsp=
+;</strong><br>
+ =D0=94=D0=B5=D0=BD=D1=8C: 5&nbsp;=E2=80=AF000&nbsp;USD&nbsp;<br><br><stron=
+g>=D0=A1=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D1=81 =D0=BA=D0=B0=D1=81=D1=81=D1=
+=8B</strong><strong>&nbsp;</strong><br>
+ =D0=94=D0=B5=D0=BD=D1=8C: 5 000 USD&nbsp;</p>
+<p><strong>=D0=9E=D0=BF=D0=BB=D0=B0=D1=82=D0=B0 =D0=B2 =D0=B8=D0=BD=D1=82=
+=D0=B5=D1=80=D0=BD=D0=B5=D1=82=D0=B5</strong><strong>&nbsp;</strong><br>
+ =D0=94=D0=B5=D0=BD=D1=8C: =D0=BD=D0=B5 =D0=B1=D0=BE=D0=BB=D0=B5=D0=B5 5 00=
+0&nbsp;USD</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id=3D"#=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0(vi=
+rtual)" data-pane-title=3D"#=D0=BA=D0=B0=D1=80=D1=82=D0=B0=D0=BA=D0=B0=D1=
+=80=D1=82=D0=B0 (virtual)" class=3D"cfm tabs-pane ">
+<p></p>
+<div id=3D"verticaltabs" class=3D"contentf aui-tabs vertical-tabs" title=3D=
+"=D0=9B=D0=B8=D0=BC=D0=B8=D1=82=D1=8B">
+<ul class=3D"tabs-menu">
+</ul>
+<div id=3D"=D0=A1=D0=BD=D1=8F=D1=82=D0=B8=D0=B5=D0=BD=D0=B0=D0=BB=D0=B8=D1=
+=87=D0=BD=D1=8B=D1=85=D0=B2=D0=B1=D0=B0=D0=BD=D0=BA=D0=BE=D0=BC=D0=B0=D1=82=
+=D0=B0=D1=85" data-pane-title=3D"=D0=A1=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D0=
+=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=BD=D1=8B=D1=85 =D0=B2 =D0=B1=D0=B0=D0=BD=D0=
+=BA=D0=BE=D0=BC=D0=B0=D1=82=D0=B0=D1=85" class=3D"cfm tabs-pane unique">
+<style>.aura-cards-3a90fe16de1b0b9f.aura-cards-wrapper { margin: auto; disp=
+lay: grid; grid-template-columns: repeat(auto-fit, minmax(calc(1200px / 2),=
+ 1fr)); max-width: 1200px;}@media only screen and (max-width: 600px) { .aur=
+a-cards-3a90fe16de1b0b9f.aura-cards-wrapper { grid-template-columns: 1fr; }=
+}.aura-card-header { display: flex; width: 100%;}.aura-cards-3a90fe16de1b0b=
+9f .aura-card-icon { display: flex; display: none; justify-content: center;=
+ align-items: center;}.aura-cards-3a90fe16de1b0b9f .aura-card-image { displ=
+ay: none; background-size: cover; background-position: center; background-i=
+mage: linear-gradient(45deg, #757575, #ececec); width: 100%;}aura-cards-3a9=
+0fe16de1b0b9f .aura-card-body { display: block;}.aura-cards-3a90fe16de1b0b9=
+f .aura-card-header, .aura-cards-3a90fe16de1b0b9f .aura-card-body { padding=
+: 1.5rem; box-sizing: border-box;}.aura-cards-3a90fe16de1b0b9f .aura-card-h=
+eader { padding-bottom: 0;}.aura-cards-3a90fe16de1b0b9f .aura-card-header-s=
+pacer { display: none; height: 0.5rem; width: 1.5rem;}.aura-cards-3a90fe16d=
+e1b0b9f .aura-card-content-wrapper { flex: 1; padding: calc(6px * 4) 0; tra=
+nsition: padding 0.5s;}.aura-cards-3a90fe16de1b0b9f .aura-card-body { font-=
+size: 14px; padding-top: 0;}.aura-cards-3a90fe16de1b0b9f .aura-card-body-sp=
+acer { height: 1rem;} .aura-cards-3a90fe16de1b0b9f .aura-card-body-spacer {=
+ background-color: none !important; opacity: 0; }.aura-cards-3a90fe16de1b0b=
+9f .aura-card-header .aura-card-icon svg { width: 1.5rem; height: 1.5rem;}.=
+aura-cards-3a90fe16de1b0b9f .aura-card-title { font-size: 18px; font-weight=
+: bold; word-break: break-word; margin-top: 0;}.aura-cards-3a90fe16de1b0b9f=
+ .aura-card, .aura-cards-3a90fe16de1b0b9f a.aura-card { box-sizing: border-=
+box; margin: 8px; text-decoration: none; color: inherit; overflow: hidden;}=
+.aura-cards-3a90fe16de1b0b9f a[href=3D'#'].aura-card { cursor: default !imp=
+ortant;}.aura-cards-3a90fe16de1b0b9f .aura-card, aura-cards-3a90fe16de1b0b9=
+f, .aura-cards-3a90fe16de1b0b9f .aura-card-preview-wrapper { transition: al=
+l 0.5s; transform-origin: bottom center;}.aura-cards-3a90fe16de1b0b9f .aura=
+-card { transition: all 0.3s; transform-origin: center center;}.aura-cards-=
+3a90fe16de1b0b9f .aura-card:hover { transform: scale(0.95);}.aura-cards-3a9=
+0fe16de1b0b9f.layout-icon-left .aura-card-header { flex-direction: row; jus=
+tify-content: flex-start; align-items: center; text-align: left;}.aura-card=
+s-3a90fe16de1b0b9f.layout-icon-left .aura-card-body { text-align: left; lin=
+e-height: 1.4rem;}.aura-cards-3a90fe16de1b0b9f.layout-icon-left .aura-card-=
+title { margin: 0;}.aura-cards-3a90fe16de1b0b9f.theme-aura .aura-card svg {=
+ height: 2rem; width: 2rem; margin: .5rem 0;}.aura-cards-3a90fe16de1b0b9f.t=
+heme-aura .aura-card { box-shadow: 0 10px 10px -10px rgba(50, 50, 75, 0.15)=
+, 0 0 20px rgba(50, 50, 75, 0.05);}.aura-cards-3a90fe16de1b0b9f.theme-aura =
+{ color: #aaa;}.aura-cards-3a90fe16de1b0b9f.theme-aura .aura-card-title { c=
+olor: rgb(9, 30, 66);}</style>
+<div class=3D"aura-cards-3a90fe16de1b0b9f aura-cards-wrapper theme-aura lay=
+out-icon-left">
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=3Drb-1.2.1&amp;auto=
+=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D100);" role=3D"img" data-backg=
+round-image=3D"url(https://images.unsplash.com/photo-1483683804023-6ccdb62f=
+86ef?ixlib=3Drb-1.2.1&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D=
+100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#dfe1e61f" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 =
+43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.=
+5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 =
+493.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=A1=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D0=BD=
+=D0=B0=D0=BB=D0=B8=D1=87=D0=BD=D1=8B=D1=85 =D0=B2 =D0=B1=D0=B0=D0=BD=D0=BA=
+=D0=BE=D0=BC=D0=B0=D1=82=D0=B0=D1=85</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=94=D0=B5=D0=BD=D1=8C: 1 000 USD</p>
+</div>
+</div>
+</div>
+</div>
+<div id=3D"=D0=9F=D0=BE=D0=BA=D1=83=D0=BF=D0=BA=D0=B8,=D1=81=D0=BD=D1=8F=D1=
+=82=D0=B8=D0=B5=D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=BD=D1=8B=D1=85=D0=B2=D0=BA=
+=D0=B0=D1=81=D1=81=D0=B0=D1=85=D0=B1=D0=B0=D0=BD=D0=BA=D0=BE=D0=B2,=D0=BE=
+=D0=BF=D0=BB=D0=B0=D1=82=D0=B0=D0=B2=D0=B8=D0=BD=D1=82=D0=B5=D1=80=D0=BD=D0=
+=B5=D1=82=D0=B5" data-pane-title=3D"=D0=9F=D0=BE=D0=BA=D1=83=D0=BF=D0=BA=D0=
+=B8, =D1=81=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=
+=BD=D1=8B=D1=85 =D0=B2 =D0=BA=D0=B0=D1=81=D1=81=D0=B0=D1=85 =D0=B1=D0=B0=D0=
+=BD=D0=BA=D0=BE=D0=B2, =D0=BE=D0=BF=D0=BB=D0=B0=D1=82=D0=B0 =D0=B2 =D0=B8=
+=D0=BD=D1=82=D0=B5=D1=80=D0=BD=D0=B5=D1=82=D0=B5" class=3D"cfm tabs-pane ">
+<style>.aura-cards-b59a034344c4405f.aura-cards-wrapper { margin: auto; disp=
+lay: grid; grid-template-columns: repeat(auto-fit, minmax(calc(100% / 3), 1=
+fr)); max-width: 100%;}@media only screen and (max-width: 600px) { .aura-ca=
+rds-b59a034344c4405f.aura-cards-wrapper { grid-template-columns: 1fr; }}.au=
+ra-card-header { display: flex; width: 100%;}.aura-cards-b59a034344c4405f .=
+aura-card-icon { display: flex; display: none; justify-content: center; ali=
+gn-items: center;}.aura-cards-b59a034344c4405f .aura-card-image { display: =
+none; background-size: cover; background-position: center; background-image=
+: linear-gradient(45deg, #757575, #ececec); width: 100%;}aura-cards-b59a034=
+344c4405f .aura-card-body { display: block;}.aura-cards-b59a034344c4405f .a=
+ura-card-header, .aura-cards-b59a034344c4405f .aura-card-body { padding: 1.=
+5rem; box-sizing: border-box;}.aura-cards-b59a034344c4405f .aura-card-heade=
+r { padding-bottom: 0;}.aura-cards-b59a034344c4405f .aura-card-header-space=
+r { display: none; height: 0.5rem; width: 1.5rem;}.aura-cards-b59a034344c44=
+05f .aura-card-content-wrapper { flex: 1; padding: calc(6px * 4) 0; transit=
+ion: padding 0.5s;}.aura-cards-b59a034344c4405f .aura-card-body { font-size=
+: 14px; padding-top: 0;}.aura-cards-b59a034344c4405f .aura-card-body-spacer=
+ { height: 1rem;} .aura-cards-b59a034344c4405f .aura-card-body-spacer { bac=
+kground-color: none !important; opacity: 0; }.aura-cards-b59a034344c4405f .=
+aura-card-header .aura-card-icon svg { width: 1.5rem; height: 1.5rem;}.aura=
+-cards-b59a034344c4405f .aura-card-title { font-size: 18px; font-weight: bo=
+ld; word-break: break-word; margin-top: 0;}.aura-cards-b59a034344c4405f .au=
+ra-card, .aura-cards-b59a034344c4405f a.aura-card { box-sizing: border-box;=
+ margin: 8px; text-decoration: none; color: inherit; overflow: hidden;}.aur=
+a-cards-b59a034344c4405f a[href=3D'#'].aura-card { cursor: default !importa=
+nt;}.aura-cards-b59a034344c4405f .aura-card, aura-cards-b59a034344c4405f, .=
+aura-cards-b59a034344c4405f .aura-card-preview-wrapper { transition: all 0.=
+5s; transform-origin: bottom center;}.aura-cards-b59a034344c4405f .aura-car=
+d { transition: all 0.3s; transform-origin: center center;}.aura-cards-b59a=
+034344c4405f .aura-card:hover { transform: scale(0.95);}.aura-cards-b59a034=
+344c4405f.layout-icon-left .aura-card-header { flex-direction: row; justify=
+-content: flex-start; align-items: center; text-align: left;}.aura-cards-b5=
+9a034344c4405f.layout-icon-left .aura-card-body { text-align: left; line-he=
+ight: 1.4rem;}.aura-cards-b59a034344c4405f.layout-icon-left .aura-card-titl=
+e { margin: 0;}.aura-cards-b59a034344c4405f.theme-aura .aura-card svg { hei=
+ght: 2rem; width: 2rem; margin: .5rem 0;}.aura-cards-b59a034344c4405f.theme=
+-aura .aura-card { box-shadow: 0 10px 10px -10px rgba(50, 50, 75, 0.15), 0 =
+0 20px rgba(50, 50, 75, 0.05);}.aura-cards-b59a034344c4405f.theme-aura { co=
+lor: #aaa;}.aura-cards-b59a034344c4405f.theme-aura .aura-card-title { color=
+: rgb(9, 30, 66);}</style>
+<div class=3D"aura-cards-b59a034344c4405f aura-cards-wrapper theme-aura lay=
+out-icon-left">
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=3Drb-1.2.1&amp;auto=
+=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D100);" role=3D"img" data-backg=
+round-image=3D"url(https://images.unsplash.com/photo-1483683804023-6ccdb62f=
+86ef?ixlib=3Drb-1.2.1&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D=
+100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#dfe1e61f" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 =
+43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.=
+5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 =
+493.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=9F=D0=BE=D0=BA=D1=83=D0=BF=D0=BA=D0=B8</h=
+3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=94=D0=B5=D0=BD=D1=8C: 76 000 USD</p>
+</div>
+</div>
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1571254531817-83275b6b6411?ixlib=3Drb-1.2.1&amp;ixid=
+=3DeyJhcHBfaWQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D881&amp;q=
+=3D100);" role=3D"img" data-background-image=3D"url(https://images.unsplash=
+.com/photo-1571254531817-83275b6b6411?ixlib=3Drb-1.2.1&amp;ixid=3DeyJhcHBfa=
+WQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D881&amp;q=3D100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#BF9A06" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43=
+.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 =
+32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 49=
+3.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=A1=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D0=B2 =
+=D0=BA=D0=B0=D1=81=D1=81=D0=B5</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=94=D0=B5=D0=BD=D1=8C: 5 000 USD</p>
+</div>
+</div>
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=3Drb-1.2.1&amp;auto=
+=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D100);" role=3D"img" data-backg=
+round-image=3D"url(https://images.unsplash.com/photo-1483683804023-6ccdb62f=
+86ef?ixlib=3Drb-1.2.1&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D=
+100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#02B4C1" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43=
+.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 =
+32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 49=
+3.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=9E=D0=BF=D0=BB=D0=B0=D1=82=D0=B0 =D0=B2 =
+=D0=B8=D0=BD=D1=82=D0=B5=D1=80=D0=BD=D0=B5=D1=82=D0=B5</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">=D0=94=D0=B5=D0=BD=D1=8C: 150 USD</p>
+</div>
+</div>
+</div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+</div>
+<div id=3D"=D0=9F=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4=D1=8B=D1=81=D0=BA=D0=
+=B0=D1=80=D1=82=D1=8B=D0=BD=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D1=83(P2P)" data-=
+pane-title=3D"=D0=9F=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4=D1=8B =D1=81 =D0=
+=BA=D0=B0=D1=80=D1=82=D1=8B =D0=BD=D0=B0 =D0=BA=D0=B0=D1=80=D1=82=D1=83 (P2=
+P)" class=3D"cfm tabs-pane ">
+<style>.aura-cards-2f38221e96715535.aura-cards-wrapper { margin: auto; disp=
+lay: grid; grid-template-columns: repeat(auto-fit, minmax(calc(100% / 3), 1=
+fr)); max-width: 100%;}@media only screen and (max-width: 600px) { .aura-ca=
+rds-2f38221e96715535.aura-cards-wrapper { grid-template-columns: 1fr; }}.au=
+ra-card-header { display: flex; width: 100%;}.aura-cards-2f38221e96715535 .=
+aura-card-icon { display: flex; display: none; justify-content: center; ali=
+gn-items: center;}.aura-cards-2f38221e96715535 .aura-card-image { display: =
+none; background-size: cover; background-position: center; background-image=
+: linear-gradient(45deg, #757575, #ececec); width: 100%;}aura-cards-2f38221=
+e96715535 .aura-card-body { display: block;}.aura-cards-2f38221e96715535 .a=
+ura-card-header, .aura-cards-2f38221e96715535 .aura-card-body { padding: 1.=
+5rem; box-sizing: border-box;}.aura-cards-2f38221e96715535 .aura-card-heade=
+r { padding-bottom: 0;}.aura-cards-2f38221e96715535 .aura-card-header-space=
+r { display: none; height: 0.5rem; width: 1.5rem;}.aura-cards-2f38221e96715=
+535 .aura-card-content-wrapper { flex: 1; padding: calc(6px * 4) 0; transit=
+ion: padding 0.5s;}.aura-cards-2f38221e96715535 .aura-card-body { font-size=
+: 14px; padding-top: 0;}.aura-cards-2f38221e96715535 .aura-card-body-spacer=
+ { height: 1rem;} .aura-cards-2f38221e96715535 .aura-card-body-spacer { bac=
+kground-color: none !important; opacity: 0; }.aura-cards-2f38221e96715535 .=
+aura-card-header .aura-card-icon svg { width: 1.5rem; height: 1.5rem;}.aura=
+-cards-2f38221e96715535 .aura-card-title { font-size: 18px; font-weight: bo=
+ld; word-break: break-word; margin-top: 0;}.aura-cards-2f38221e96715535 .au=
+ra-card, .aura-cards-2f38221e96715535 a.aura-card { box-sizing: border-box;=
+ margin: 8px; text-decoration: none; color: inherit; overflow: hidden;}.aur=
+a-cards-2f38221e96715535 a[href=3D'#'].aura-card { cursor: default !importa=
+nt;}.aura-cards-2f38221e96715535 .aura-card, aura-cards-2f38221e96715535, .=
+aura-cards-2f38221e96715535 .aura-card-preview-wrapper { transition: all 0.=
+5s; transform-origin: bottom center;}.aura-cards-2f38221e96715535 .aura-car=
+d { transition: all 0.3s; transform-origin: center center;}.aura-cards-2f38=
+221e96715535 .aura-card:hover { transform: scale(0.95);}.aura-cards-2f38221=
+e96715535.layout-icon-left .aura-card-header { flex-direction: row; justify=
+-content: flex-start; align-items: center; text-align: left;}.aura-cards-2f=
+38221e96715535.layout-icon-left .aura-card-body { text-align: left; line-he=
+ight: 1.4rem;}.aura-cards-2f38221e96715535.layout-icon-left .aura-card-titl=
+e { margin: 0;}.aura-cards-2f38221e96715535.theme-aura .aura-card svg { hei=
+ght: 2rem; width: 2rem; margin: .5rem 0;}.aura-cards-2f38221e96715535.theme=
+-aura .aura-card { box-shadow: 0 10px 10px -10px rgba(50, 50, 75, 0.15), 0 =
+0 20px rgba(50, 50, 75, 0.05);}.aura-cards-2f38221e96715535.theme-aura { co=
+lor: #aaa;}.aura-cards-2f38221e96715535.theme-aura .aura-card-title { color=
+: rgb(9, 30, 66);}</style>
+<div class=3D"aura-cards-2f38221e96715535 aura-cards-wrapper theme-aura lay=
+out-icon-left">
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=3Drb-1.2.1&amp;auto=
+=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D100);" role=3D"img" data-backg=
+round-image=3D"url(https://images.unsplash.com/photo-1483683804023-6ccdb62f=
+86ef?ixlib=3Drb-1.2.1&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D=
+100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#0065ff" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43=
+.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 =
+32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 49=
+3.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">1 =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4<=
+/h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">1 =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4: 8=
+50 000 KZT</p>
+</div>
+</div>
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1571254531817-83275b6b6411?ixlib=3Drb-1.2.1&amp;ixid=
+=3DeyJhcHBfaWQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D881&amp;q=
+=3D100);" role=3D"img" data-background-image=3D"url(https://images.unsplash=
+.com/photo-1571254531817-83275b6b6411?ixlib=3Drb-1.2.1&amp;ixid=3DeyJhcHBfa=
+WQiOjEyMDd9&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D881&amp;q=3D100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#BF9A06" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43=
+.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 =
+32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 49=
+3.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=94=D0=B5=D0=BD=D1=8C</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">2 500 000 KZT</p>
+</div>
+</div>
+<div class=3D"aura-card" style=3D"background: #fff;">
+<div class=3D"aura-card-image" style=3D"background-image: url(https://image=
+s.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=3Drb-1.2.1&amp;auto=
+=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D100);" role=3D"img" data-backg=
+round-image=3D"url(https://images.unsplash.com/photo-1483683804023-6ccdb62f=
+86ef?ixlib=3Drb-1.2.1&amp;auto=3Dformat&amp;fit=3Dcrop&amp;w=3D975&amp;q=3D=
+100)">
+<span role=3D"img" aria-label=3D"background image of card"> </span>
+</div>
+<div class=3D"aura-card-content-wrapper">
+<div class=3D"aura-card-header">
+<div class=3D"aura-card-icon" style=3D"">
+<svg version=3D"1.1" width=3D"14" height=3D"14" viewbox=3D"0 0 512 512" xml=
+ns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999/xli=
+nk" role=3D"img" aria-label=3D"PaperPlane">
+<path fill=3D"#02B4C1" d=3D"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43=
+.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 =
+32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 49=
+3.3-6.8 476 3.2z">
+</path>
+</svg>
+</div>
+<div class=3D"aura-card-header-spacer" role=3D"presentation"></div>
+<h3 class=3D"aura-card-title">=D0=9C=D0=B5=D1=81=D1=8F=D1=86</h3>
+</div>
+<div class=3D"aura-card-body-spacer" role=3D"presentation"></div>
+<p class=3D"aura-card-body">3 900 000 KZT</p>
+</div>
+</div>
+</div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+</div>
+<div id=3D"=D0=A1=D1=82=D1=80=D0=B0=D0=BD=D1=8B=D0=B8=D1=81=D0=BA=D0=BB=D1=
+=8E=D1=87=D0=B5=D0=BD=D0=B8=D1=8F*" data-pane-title=3D"=D0=A1=D1=82=D1=80=
+=D0=B0=D0=BD=D1=8B =D0=B8=D1=81=D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=D0=B8=
+=D1=8F*" class=3D"cfm tabs-pane ">
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:50%;min-width:50%;max-width:50%;"=
+>
+<div>
+<style>
+    .innerCell .aura-panel-92c12e534e7ddf7e, .sectionMacro .aura-panel-92c1=
+2e534e7ddf7e {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-92c12e534e7ddf7e {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-92c12e534e7ddf7e .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-92c12e534e7ddf7e a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-92c12e534e7ddf7e a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-92c12e534e7ddf7e .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-92c12e534e7ddf7e .aura-headline svg {
+          }
+
+    .aura-panel-92c12e534e7ddf7e .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-92c12e534e7ddf7e" style=3D"min-height: 550px;borde=
+r-top: 1px solid #d0d0d0;border-right: 1px solid #d0d0d0;border-bottom: 1px=
+ solid #d0d0d0;border-left: 1px solid #d0d0d0;border-radius: 8.0px;">
+<div class=3D"aura-body" style=3D"">
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro">
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=91=D0=BE=D0=BB=D0=B3=D0=B0=D1=80=
+=D0=B8=D1=8F35=D0=91=D0=BE=D0=BB=D0=B3=D0=B0=D1=80=D0=B8=D1=8F20=D0=91=D0=
+=BE=D0=BB=D0=B3=D0=B0=D1=80=D0=B8=D1=8F.1"><sub> <img src=3D"https://upload=
+.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg" alt=3D"=D0=91=
+=D0=BE=D0=BB=D0=B3=D0=B0=D1=80=D0=B8=D1=8F" width=3D"35" title=3D"=D0=91=D0=
+=BE=D0=BB=D0=B3=D0=B0=D1=80=D0=B8=D1=8F" height=3D"20"> </sub> =D0=91=D0=BE=
+=D0=BB=D0=B3=D0=B0=D1=80=D0=B8=D1=8F</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9B=D0=B0=D0=BE=D1=8135=D0=9B=D0=B0=
+=D0=BE=D1=8120=D0=9B=D0=B0=D0=BE=D1=81.1"><sub> <img src=3D"https://upload.=
+wikimedia.org/wikipedia/commons/5/56/Flag_of_Laos.svg" alt=3D"=D0=9B=D0=B0=
+=D0=BE=D1=81" width=3D"35" title=3D"=D0=9B=D0=B0=D0=BE=D1=81" height=3D"20"=
+> </sub> =D0=9B=D0=B0=D0=BE=D1=81</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9F=D0=B5=D1=80=D1=8335=D0=9F=D0=B5=
+=D1=80=D1=8320=D0=9F=D0=B5=D1=80=D1=83.1"><sub> <img src=3D"https://upload.=
+wikimedia.org/wikipedia/commons/d/df/Flag_of_Peru_%28state%29.svg" alt=3D"=
+=D0=9F=D0=B5=D1=80=D1=83" width=3D"35" title=3D"=D0=9F=D0=B5=D1=80=D1=83" h=
+eight=3D"20"> </sub> =D0=9F=D0=B5=D1=80=D1=83</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=91=D0=BE=D0=BB=D0=B8=D0=B2=D0=B8=
+=D1=8F35=D0=91=D0=BE=D0=BB=D0=B8=D0=B2=D0=B8=D1=8F20=D0=91=D0=BE=D0=BB=D0=
+=B8=D0=B2=D0=B8=D1=8F.1"><sub> <img src=3D"https://upload.wikimedia.org/wik=
+ipedia/commons/b/b3/Bandera_de_Bolivia_%28Estado%29.svg" alt=3D"=D0=91=D0=
+=BE=D0=BB=D0=B8=D0=B2=D0=B8=D1=8F" width=3D"35" title=3D"=D0=91=D0=BE=D0=BB=
+=D0=B8=D0=B2=D0=B8=D1=8F" height=3D"20"> </sub> =D0=91=D0=BE=D0=BB=D0=B8=D0=
+=B2=D0=B8=D1=8F</h4>
+</div>
+<div class=3D"columnMacro">
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9A=D0=B0=D0=BC=D0=B5=D1=80=D1=83=
+=D0=BD35=D0=9A=D0=B0=D0=BC=D0=B5=D1=80=D1=83=D0=BD20=D0=9A=D0=B0=D0=BC=D0=
+=B5=D1=80=D1=83=D0=BD.1"><sub> <img src=3D"https://upload.wikimedia.org/wik=
+ipedia/commons/4/4f/Flag_of_Cameroon.svg" alt=3D"=D0=9A=D0=B0=D0=BC=D0=B5=
+=D1=80=D1=83=D0=BD" width=3D"35" title=3D"=D0=9A=D0=B0=D0=BC=D0=B5=D1=80=D1=
+=83=D0=BD" height=3D"20"> </sub> =D0=9A=D0=B0=D0=BC=D0=B5=D1=80=D1=83=D0=BD=
+</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=98=D0=BE=D1=80=D0=B4=D0=B0=D0=BD=
+=D0=B8=D1=8F35=D0=98=D0=BE=D1=80=D0=B4=D0=B0=D0=BD=D0=B8=D1=8F20=D0=98=D0=
+=BE=D1=80=D0=B4=D0=B0=D0=BD=D0=B8=D1=8F.1"><sub> <img src=3D"https://upload=
+.wikimedia.org/wikipedia/commons/c/c0/Flag_of_Jordan.svg" alt=3D"=D0=98=D0=
+=BE=D1=80=D0=B4=D0=B0=D0=BD=D0=B8=D1=8F" width=3D"35" title=3D"=D0=98=D0=BE=
+=D1=80=D0=B4=D0=B0=D0=BD=D0=B8=D1=8F" height=3D"20"> </sub> =D0=98=D0=BE=D1=
+=80=D0=B4=D0=B0=D0=BD=D0=B8=D1=8F</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9C=D0=BE=D0=B7=D0=B0=D0=BC=D0=B1=
+=D0=B8=D0=BA35=D0=9C=D0=BE=D0=B7=D0=B0=D0=BC=D0=B1=D0=B8=D0=BA20=D0=9C=D0=
+=BE=D0=B7=D0=B0=D0=BC=D0=B1=D0=B8=D0=BA.1"><sub> <img src=3D"https://upload=
+.wikimedia.org/wikipedia/commons/d/d0/Flag_of_Mozambique.svg" alt=3D"=D0=9C=
+=D0=BE=D0=B7=D0=B0=D0=BC=D0=B1=D0=B8=D0=BA" width=3D"35" title=3D"=D0=9C=D0=
+=BE=D0=B7=D0=B0=D0=BC=D0=B1=D0=B8=D0=BA" height=3D"20"> </sub> =D0=9C=D0=BE=
+=D0=B7=D0=B0=D0=BC=D0=B1=D0=B8=D0=BA</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=92=D0=B5=D0=BD=D0=B5=D1=81=D1=83=
+=D1=8D=D0=BB=D0=B035=D0=92=D0=B5=D0=BD=D0=B5=D1=81=D1=83=D1=8D=D0=BB=D0=B02=
+0=D0=92=D0=B5=D0=BD=D0=B5=D1=81=D1=83=D1=8D=D0=BB=D0=B0.1"><sub> <img src=
+=3D"https://upload.wikimedia.org/wikipedia/commons/7/7b/Flag_of_Venezuela_%=
+28state%29.svg" alt=3D"=D0=92=D0=B5=D0=BD=D0=B5=D1=81=D1=83=D1=8D=D0=BB=D0=
+=B0" width=3D"35" title=3D"=D0=92=D0=B5=D0=BD=D0=B5=D1=81=D1=83=D1=8D=D0=BB=
+=D0=B0" height=3D"20"> </sub> =D0=92=D0=B5=D0=BD=D0=B5=D1=81=D1=83=D1=8D=D0=
+=BB=D0=B0</h4>
+</div>
+<div class=3D"columnMacro">
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=AD=D1=84=D0=B8=D0=BE=D0=BF=D0=B8=
+=D1=8F35=D0=AD=D1=84=D0=B8=D0=BE=D0=BF=D0=B8=D1=8F20=D0=AD=D1=84=D0=B8=D0=
+=BE=D0=BF=D0=B8=D1=8F.1"><sub> <img src=3D"https://upload.wikimedia.org/wik=
+ipedia/commons/7/71/Flag_of_Ethiopia.svg" alt=3D"=D0=AD=D1=84=D0=B8=D0=BE=
+=D0=BF=D0=B8=D1=8F" width=3D"35" title=3D"=D0=AD=D1=84=D0=B8=D0=BE=D0=BF=D0=
+=B8=D1=8F" height=3D"20"> </sub> =D0=AD=D1=84=D0=B8=D0=BE=D0=BF=D0=B8=D1=8F=
+</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9A=D0=B5=D0=BD=D0=B8=D1=8F35=D0=9A=
+=D0=B5=D0=BD=D0=B8=D1=8F20=D0=9A=D0=B5=D0=BD=D0=B8=D1=8F.1"><sub> <img src=
+=3D"https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Kenya.svg" =
+alt=3D"=D0=9A=D0=B5=D0=BD=D0=B8=D1=8F" width=3D"35" title=3D"=D0=9A=D0=B5=
+=D0=BD=D0=B8=D1=8F" height=3D"20"> </sub> =D0=9A=D0=B5=D0=BD=D0=B8=D1=8F</h=
+4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9C=D0=BE=D0=BB=D0=B4=D0=BE=D0=B2=
+=D0=B035=D0=9C=D0=BE=D0=BB=D0=B4=D0=BE=D0=B2=D0=B020=D0=9C=D0=BE=D0=BB=D0=
+=B4=D0=BE=D0=B2=D0=B0.1"><sub> <img src=3D"https://upload.wikimedia.org/wik=
+ipedia/commons/2/27/Flag_of_Moldova.svg" alt=3D"=D0=9C=D0=BE=D0=BB=D0=B4=D0=
+=BE=D0=B2=D0=B0" width=3D"35" title=3D"=D0=9C=D0=BE=D0=BB=D0=B4=D0=BE=D0=B2=
+=D0=B0" height=3D"20"> </sub> =D0=9C=D0=BE=D0=BB=D0=B4=D0=BE=D0=B2=D0=B0</h=
+4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9A=D0=BE=D0=BB=D1=83=D0=BC=D0=B1=
+=D0=B8=D1=8F35=D0=9A=D0=BE=D0=BB=D1=83=D0=BC=D0=B1=D0=B8=D1=8F20=D0=9A=D0=
+=BE=D0=BB=D1=83=D0=BC=D0=B1=D0=B8=D1=8F.1"><sub> <img src=3D"https://upload=
+.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/1920px-Fla=
+g_of_Colombia.svg.png" alt=3D"=D0=9A=D0=BE=D0=BB=D1=83=D0=BC=D0=B1=D0=B8=D1=
+=8F" width=3D"35" title=3D"=D0=9A=D0=BE=D0=BB=D1=83=D0=BC=D0=B1=D0=B8=D1=8F=
+" height=3D"20"> </sub> =D0=9A=D0=BE=D0=BB=D1=83=D0=BC=D0=B1=D0=B8=D1=8F</h=
+4>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=A1=D0=BD=D1=8F=D1=82=D0=B8=D0=B5=
+=D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=BD=D1=8B=D1=85=D0=B2=D0=B1=D0=B0=D0=BD=D0=
+=BA=D0=BE=D0=BC=D0=B0=D1=82=D0=B0=D1=85.1"><strong>=D0=A1=D0=BD=D1=8F=D1=82=
+=D0=B8=D0=B5 =D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=BD=D1=8B=D1=85 =D0=B2 =D0=B1=
+=D0=B0=D0=BD=D0=BA=D0=BE=D0=BC=D0=B0=D1=82=D0=B0=D1=85&nbsp;</strong></h4>
+<p><span style=3D"color: rgb(122,134,154);">=D0=94=D0=B5=D0=BD=D1=8C: 1 000=
+ USD</span><br><span style=3D"color: rgb(122,134,154);">=D0=9C=D0=B5=D1=81=
+=D1=8F=D1=86: 10 000 USD&nbsp;</span></p>
+<p><strong>=D0=9F=D0=BE=D0=BA=D1=83=D0=BF=D0=BA=D0=B8</strong><strong>&nbsp=
+;</strong><br><span style=3D"color: rgb(122,134,154);">=D0=94=D0=B5=D0=BD=
+=D1=8C:&nbsp;76=E2=80=AF000&nbsp;USD&nbsp;</span><br><br><strong>=D0=A1=D0=
+=BD=D1=8F=D1=82=D0=B8=D0=B5 =D1=81 =D0=BA=D0=B0=D1=81=D1=81=D1=8B</strong><=
+strong>&nbsp;</strong><br><span style=3D"color: rgb(122,134,154);">=D0=94=
+=D0=B5=D0=BD=D1=8C: 1 000 USD&nbsp;</span></p>
+<p><strong>=D0=9E=D0=BF=D0=BB=D0=B0=D1=82=D0=B0 =D0=B2 =D0=B8=D0=BD=D1=82=
+=D0=B5=D1=80=D0=BD=D0=B5=D1=82=D0=B5</strong><strong>&nbsp;</strong><br><sp=
+an style=3D"color: rgb(122,134,154);">=D0=94=D0=B5=D0=BD=D1=8C: 150&nbsp;US=
+D&nbsp;</span></p>
+<p><strong>=D0=9F=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4=D1=8B =D1=81 =D0=BA=
+=D0=B0=D1=80=D1=82=D1=8B =D0=BD=D0=B0 =D0=BA=D0=B0=D1=80=D1=82=D1=83 (</str=
+ong><strong>P2P)</strong>&nbsp;<br><span style=3D"color: rgb(122,134,154);"=
+>=D0=94=D0=B5=D0=BD=D1=8C: 450 000 KZT ( =D0=BD=D0=B5 =D0=B1=D0=BE=D0=BB=D0=
+=B5=D0=B5 4 =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4=D0=BE=D0=B2 =D0=B2 =
+=D0=B4=D0=B5=D0=BD=D1=8C )</span><br><span style=3D"color: rgb(122,134,154)=
+;">=D0=9C=D0=B5=D1=81=D1=8F=D1=86: 4 500 000 KZT ( =D0=BD=D0=B5 =D0=B1=D0=
+=BE=D0=BB=D0=B5=D0=B5 10 =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4=D0=BE=
+=D0=B2 =D0=B2 =D0=BC=D0=B5=D1=81=D1=8F=D1=86 ).</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"columnMacro" style=3D"width:50%;min-width:50%;max-width:50%;"=
+>
+<div>
+<style>
+    .innerCell .aura-panel-92c12e534e7ddf7e, .sectionMacro .aura-panel-92c1=
+2e534e7ddf7e {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-92c12e534e7ddf7e {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-92c12e534e7ddf7e .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-92c12e534e7ddf7e a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-92c12e534e7ddf7e a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-92c12e534e7ddf7e .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-92c12e534e7ddf7e .aura-headline svg {
+          }
+
+    .aura-panel-92c12e534e7ddf7e .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-92c12e534e7ddf7e" style=3D"min-height: 550px;borde=
+r-top: 1px solid #d0d0d0;border-right: 1px solid #d0d0d0;border-bottom: 1px=
+ solid #d0d0d0;border-left: 1px solid #d0d0d0;border-radius: 8.0px;">
+<div class=3D"aura-body" style=3D"">
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:30%;min-width:30%;max-width:30%;"=
+>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=90=D1=84=D0=B3=D0=B0=D0=BD=D0=B8=
+=D1=81=D1=82=D0=B0=D0=BD35=D0=90=D1=84=D0=B3=D0=B0=D0=BD=D0=B8=D1=81=D1=82=
+=D0=B0=D0=BD20=D0=90=D1=84=D0=B3=D0=B0=D0=BD=D0=B8=D1=81=D1=82=D0=B0=D0=BD.=
+1"><sub> <img src=3D"https://upload.wikimedia.org/wikipedia/commons/5/5c/Fl=
+ag_of_the_Taliban.svg" alt=3D"=D0=90=D1=84=D0=B3=D0=B0=D0=BD=D0=B8=D1=81=D1=
+=82=D0=B0=D0=BD" width=3D"35" title=3D"=D0=90=D1=84=D0=B3=D0=B0=D0=BD=D0=B8=
+=D1=81=D1=82=D0=B0=D0=BD" height=3D"20"> </sub> <span style=3D"color: rgb(0=
+,0,0);">=D0=90=D1=84=D0=B3=D0=B0=D0=BD=D0=B8=D1=81=D1=82=D0=B0=D0=BD</span>=
+</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=A1=D0=B8=D1=80=D0=B8=D1=8F35=D0=A1=
+=D0=B8=D1=80=D0=B8=D1=8F20=D0=A1=D0=B8=D1=80=D0=B8=D1=8F.1"><sub> <img src=
+=3D"https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Flag_of_the_S=
+yrian_revolution.svg/250px-Flag_of_the_Syrian_revolution.svg.png" alt=3D"=
+=D0=A1=D0=B8=D1=80=D0=B8=D1=8F" width=3D"35" title=3D"=D0=A1=D0=B8=D1=80=D0=
+=B8=D1=8F" height=3D"20"> </sub> <span style=3D"color: rgb(0,0,0);">=D0=A1=
+=D0=B8=D1=80=D0=B8=D1=8F</span></h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=98=D1=80=D0=B0=D0=BA35=D0=98=D1=80=
+=D0=B0=D0=BA20=D0=98=D1=80=D0=B0=D0=BA.1"><sub> <img src=3D"https://upload.=
+wikimedia.org/wikipedia/commons/f/f6/Flag_of_Iraq.svg" alt=3D"=D0=98=D1=80=
+=D0=B0=D0=BA" width=3D"35" title=3D"=D0=98=D1=80=D0=B0=D0=BA" height=3D"20"=
+> </sub> =D0=98=D1=80=D0=B0=D0=BA</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9D=D0=B8=D0=B3=D0=B5=D1=8035=D0=9D=
+=D0=B8=D0=B3=D0=B5=D1=8020=D0=9D=D0=B8=D0=B3=D0=B5=D1=80.1"><sub> <img src=
+=3D"https://upload.wikimedia.org/wikipedia/commons/f/f4/Flag_of_Niger.svg" =
+alt=3D"=D0=9D=D0=B8=D0=B3=D0=B5=D1=80" width=3D"35" title=3D"=D0=9D=D0=B8=
+=D0=B3=D0=B5=D1=80" height=3D"20"> </sub> =D0=9D=D0=B8=D0=B3=D0=B5=D1=80</h=
+4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=A2=D0=BE=D0=B3=D0=BE35=D0=A2=D0=BE=
+=D0=B3=D0=BE20=D0=A2=D0=BE=D0=B3=D0=BE.1"><sub> <img src=3D"https://upload.=
+wikimedia.org/wikipedia/commons/6/68/Flag_of_Togo.svg" alt=3D"=D0=A2=D0=BE=
+=D0=B3=D0=BE" width=3D"35" title=3D"=D0=A2=D0=BE=D0=B3=D0=BE" height=3D"20"=
+> </sub> =D0=A2=D0=BE=D0=B3=D0=BE</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9C=D0=B0=D0=BB=D0=B835=D0=9C=D0=B0=
+=D0=BB=D0=B820=D0=9C=D0=B0=D0=BB=D0=B8.1"><sub> <img src=3D"https://upload.=
+wikimedia.org/wikipedia/commons/9/92/Flag_of_Mali.svg" alt=3D"=D0=9C=D0=B0=
+=D0=BB=D0=B8" width=3D"35" title=3D"=D0=9C=D0=B0=D0=BB=D0=B8" height=3D"20"=
+> </sub> =D0=9C=D0=B0=D0=BB=D0=B8</h4>
+</div>
+<div class=3D"columnMacro">
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=A7=D0=B0=D0=B435=D0=A7=D0=B0=D0=B4=
+20=D0=A7=D0=B0=D0=B4.1"><sub> <img src=3D"https://upload.wikimedia.org/wiki=
+pedia/commons/4/4b/Flag_of_Chad.svg" alt=3D"=D0=A7=D0=B0=D0=B4" width=3D"35=
+" title=3D"=D0=A7=D0=B0=D0=B4" height=3D"20"> </sub> =D0=A7=D0=B0=D0=B4</h4=
+>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9D=D0=B8=D0=B3=D0=B5=D1=80=D0=B8=
+=D1=8F35=D0=9D=D0=B8=D0=B3=D0=B5=D1=80=D0=B8=D1=8F20=D0=9D=D0=B8=D0=B3=D0=
+=B5=D1=80=D0=B8=D1=8F.1"><sub> <img src=3D"https://upload.wikimedia.org/wik=
+ipedia/commons/7/79/Flag_of_Nigeria.svg" alt=3D"=D0=9D=D0=B8=D0=B3=D0=B5=D1=
+=80=D0=B8=D1=8F" width=3D"35" title=3D"=D0=9D=D0=B8=D0=B3=D0=B5=D1=80=D0=B8=
+=D1=8F" height=3D"20"> </sub> =D0=9D=D0=B8=D0=B3=D0=B5=D1=80=D0=B8=D1=8F</h=
+4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=A1=D0=BE=D0=BC=D0=B0=D0=BB=D0=B835=
+=D0=A1=D0=BE=D0=BC=D0=B0=D0=BB=D0=B820=D0=A1=D0=BE=D0=BC=D0=B0=D0=BB=D0=B8.=
+1"><sub> <img src=3D"https://upload.wikimedia.org/wikipedia/commons/a/a0/Fl=
+ag_of_Somalia.svg" alt=3D"=D0=A1=D0=BE=D0=BC=D0=B0=D0=BB=D0=B8" width=3D"35=
+" title=3D"=D0=A1=D0=BE=D0=BC=D0=B0=D0=BB=D0=B8" height=3D"20"> </sub> =D0=
+=A1=D0=BE=D0=BC=D0=B0=D0=BB=D0=B8</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9F=D0=B0=D0=BB=D0=B5=D1=81=D1=82=
+=D0=B8=D0=BD=D0=B035=D0=9F=D0=B0=D0=BB=D0=B5=D1=81=D1=82=D0=B8=D0=BD=D0=B02=
+0=D0=9F=D0=B0=D0=BB=D0=B5=D1=81=D1=82=D0=B8=D0=BD=D0=B0(=D0=B2=D0=BA=D0=BB=
+=D1=8E=D1=87=D0=B0=D1=8F=D0=A1=D0=B5=D0=BA=D1=82=D0=BE=D1=80=D0=93=D0=B0=D0=
+=B7=D0=B0).1"><sub> <img src=3D"https://upload.wikimedia.org/wikipedia/comm=
+ons/0/00/Flag_of_Palestine.svg" alt=3D"=D0=9F=D0=B0=D0=BB=D0=B5=D1=81=D1=82=
+=D0=B8=D0=BD=D0=B0 " width=3D"35" title=3D"=D0=9F=D0=B0=D0=BB=D0=B5=D1=81=
+=D1=82=D0=B8=D0=BD=D0=B0 " height=3D"20"> </sub> =D0=9F=D0=B0=D0=BB=D0=B5=
+=D1=81=D1=82=D0=B8=D0=BD=D0=B0 (=D0=B2=D0=BA=D0=BB=D1=8E=D1=87=D0=B0=D1=8F =
+=D0=A1=D0=B5=D0=BA=D1=82=D0=BE=D1=80 =D0=93=D0=B0=D0=B7=D0=B0)</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=91=D1=83=D1=80=D0=BA=D0=B8=D0=BD=
+=D0=B0-=D0=A4=D0=B0=D1=81=D0=BE35=D0=91=D1=83=D1=80=D0=BA=D0=B8=D0=BD=D0=B0=
+-=D0=A4=D0=B0=D1=81=D0=BE20=D0=91=D1=83=D1=80=D0=BA=D0=B8=D0=BD=D0=B0-=D0=
+=A4=D0=B0=D1=81=D0=BE.1"><sub> <img src=3D"https://upload.wikimedia.org/wik=
+ipedia/commons/3/31/Flag_of_Burkina_Faso.svg" alt=3D"=D0=91=D1=83=D1=80=D0=
+=BA=D0=B8=D0=BD=D0=B0-=D0=A4=D0=B0=D1=81=D0=BE" width=3D"35" title=3D"=D0=
+=91=D1=83=D1=80=D0=BA=D0=B8=D0=BD=D0=B0-=D0=A4=D0=B0=D1=81=D0=BE" height=3D=
+"20"> </sub> =D0=91=D1=83=D1=80=D0=BA=D0=B8=D0=BD=D0=B0-=D0=A4=D0=B0=D1=81=
+=D0=BE</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9B=D0=B8=D0=B2=D0=B0=D0=BD35=D0=9B=
+=D0=B8=D0=B2=D0=B0=D0=BD20=D0=9B=D0=B8=D0=B2=D0=B0=D0=BD.1"><sub> <img src=
+=3D"https://upload.wikimedia.org/wikipedia/commons/5/59/Flag_of_Lebanon.svg=
+" alt=3D"=D0=9B=D0=B8=D0=B2=D0=B0=D0=BD" width=3D"35" title=3D"=D0=9B=D0=B8=
+=D0=B2=D0=B0=D0=BD" height=3D"20"> </sub> =D0=9B=D0=B8=D0=B2=D0=B0=D0=BD</h=
+4>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<p><strong>=D0=A1=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D0=BD=D0=B0=D0=BB=D0=B8=D1=
+=87=D0=BD=D1=8B=D1=85 =D0=B2 =D0=B1=D0=B0=D0=BD=D0=BA=D0=BE=D0=BC=D0=B0=D1=
+=82=D0=B0=D1=85, =D1=81=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D1=81 =D0=BA=D0=B0=
+=D1=81=D1=81=D1=8B, =D0=BE=D0=BF=D0=BB=D0=B0=D1=82=D0=B0 =D0=B2 =D0=B8=D0=
+=BD=D1=82=D0=B5=D1=80=D0=BD=D0=B5=D1=82=D0=B5,&nbsp;=D0=BF=D0=B5=D1=80=D0=
+=B5=D0=B2=D0=BE=D0=B4=D1=8B =D1=81 =D0=BA=D0=B0=D1=80=D1=82=D1=8B =D0=BD=D0=
+=B0 =D0=BA=D0=B0=D1=80=D1=82=D1=83 (P2P)&nbsp;</strong><br><span style=3D"c=
+olor: rgb(122,134,154);">=D0=97=D0=B0=D0=BF=D1=80=D0=B5=D1=82&nbsp;</span><=
+/p>
+<p><strong>=D0=9F=D0=BE=D0=BA=D1=83=D0=BF=D0=BA=D0=B8</strong>&nbsp;<br><sp=
+an style=3D"color: rgb(122,134,154);">=D0=94=D0=B5=D0=BD=D1=8C:&nbsp;100&nb=
+sp;USD&nbsp;</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:50%;min-width:50%;max-width:50%;"=
+>
+<div>
+<style>
+    .innerCell .aura-panel-2e9e17345a68fae9, .sectionMacro .aura-panel-2e9e=
+17345a68fae9 {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-2e9e17345a68fae9 {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-2e9e17345a68fae9 .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-2e9e17345a68fae9 a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-2e9e17345a68fae9 a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-2e9e17345a68fae9 .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-2e9e17345a68fae9 .aura-headline svg {
+          }
+
+    .aura-panel-2e9e17345a68fae9 .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-2e9e17345a68fae9" style=3D"min-height: 160px;borde=
+r-top: 1px solid #d0d0d0;border-right: 1px solid #d0d0d0;border-bottom: 1px=
+ solid #d0d0d0;border-left: 1px solid #d0d0d0;border-radius: 8.0px;">
+<div class=3D"aura-body" style=3D"">
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=98=D1=80=D0=B0=D0=BD35=D0=98=D1=80=
+=D0=B0=D0=BD20=D0=98=D1=80=D0=B0=D0=BD.1"><sub> <img src=3D"https://upload.=
+wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg" alt=3D"=D0=98=D1=80=
+=D0=B0=D0=BD" width=3D"35" title=3D"=D0=98=D1=80=D0=B0=D0=BD" height=3D"20"=
+> </sub> =D0=98=D1=80=D0=B0=D0=BD&nbsp;</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=A1=D0=B5=D0=B2=D0=B5=D1=80=D0=BD=
+=D0=B0=D1=8F=D0=9A=D0=BE=D1=80=D0=B5=D1=8F35=D0=A1=D0=B5=D0=B2=D0=B5=D1=80=
+=D0=BD=D0=B0=D1=8F=D0=9A=D0=BE=D1=80=D0=B5=D1=8F20=D0=A1=D0=B5=D0=B2=D0=B5=
+=D1=80=D0=BD=D0=B0=D1=8F=D0=9A=D0=BE=D1=80=D0=B5=D1=8F.1"><sub> <img src=3D=
+"https://upload.wikimedia.org/wikipedia/commons/5/51/Flag_of_North_Korea.sv=
+g" alt=3D"=D0=A1=D0=B5=D0=B2=D0=B5=D1=80=D0=BD=D0=B0=D1=8F =D0=9A=D0=BE=D1=
+=80=D0=B5=D1=8F" width=3D"35" title=3D"=D0=A1=D0=B5=D0=B2=D0=B5=D1=80=D0=BD=
+=D0=B0=D1=8F =D0=9A=D0=BE=D1=80=D0=B5=D1=8F" height=3D"20"> </sub> =D0=A1=
+=D0=B5=D0=B2=D0=B5=D1=80=D0=BD=D0=B0=D1=8F =D0=9A=D0=BE=D1=80=D0=B5=D1=8F</=
+h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9C=D1=8C=D1=8F=D0=BD=D0=BC=D0=B035=
+=D0=9C=D1=8C=D1=8F=D0=BD=D0=BC=D0=B020=D0=9C=D1=8C=D1=8F=D0=BD=D0=BC=D0=B0(=
+=D0=91=D0=B8=D1=80=D0=BC=D0=B0).1"><sub> <img src=3D"https://upload.wikimed=
+ia.org/wikipedia/commons/8/8c/Flag_of_Myanmar.svg" alt=3D"=D0=9C=D1=8C=D1=
+=8F=D0=BD=D0=BC=D0=B0 " width=3D"35" title=3D"=D0=9C=D1=8C=D1=8F=D0=BD=D0=
+=BC=D0=B0 " height=3D"20"> </sub> =D0=9C=D1=8C=D1=8F=D0=BD=D0=BC=D0=B0 (=D0=
+=91=D0=B8=D1=80=D0=BC=D0=B0)</h4>
+<hr>
+<p><span style=3D"color: rgb(122,134,154);">=D0=97=D0=B0=D0=BF=D1=80=D0=B5=
+=D1=82</span></p>
+</div>
+</div>
+</div>
+<div>
+<style>
+    .innerCell .aura-panel-2e9e17345a68fae9, .sectionMacro .aura-panel-2e9e=
+17345a68fae9 {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-2e9e17345a68fae9 {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-2e9e17345a68fae9 .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-2e9e17345a68fae9 a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-2e9e17345a68fae9 a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-2e9e17345a68fae9 .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-2e9e17345a68fae9 .aura-headline svg {
+          }
+
+    .aura-panel-2e9e17345a68fae9 .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-2e9e17345a68fae9" style=3D"min-height: 160px;borde=
+r-top: 1px solid #d0d0d0;border-right: 1px solid #d0d0d0;border-bottom: 1px=
+ solid #d0d0d0;border-left: 1px solid #d0d0d0;border-radius: 8.0px;">
+<div class=3D"aura-body" style=3D"">
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=9F=D0=B0=D0=BA=D0=B8=D1=81=D1=82=
+=D0=B0=D0=BD35=D0=9F=D0=B0=D0=BA=D0=B8=D1=81=D1=82=D0=B0=D0=BD20=D0=9F=D0=
+=B0=D0=BA=D0=B8=D1=81=D1=82=D0=B0=D0=BD.1"><sub> <img src=3D"https://upload=
+.wikimedia.org/wikipedia/commons/4/44/Flag_of_Muslim_League.svg" alt=3D"=D0=
+=9F=D0=B0=D0=BA=D0=B8=D1=81=D1=82=D0=B0=D0=BD" width=3D"35" title=3D"=D0=9F=
+=D0=B0=D0=BA=D0=B8=D1=81=D1=82=D0=B0=D0=BD" height=3D"20"> </sub> =D0=9F=D0=
+=B0=D0=BA=D0=B8=D1=81=D1=82=D0=B0=D0=BD</h4>
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=99=D0=B5=D0=BC=D0=B5=D0=BD35=D0=99=
+=D0=B5=D0=BC=D0=B5=D0=BD20=D0=99=D0=B5=D0=BC=D0=B5=D0=BD.1"><sub> <img src=
+=3D"https://upload.wikimedia.org/wikipedia/commons/8/89/Flag_of_Yemen.svg" =
+alt=3D"=D0=99=D0=B5=D0=BC=D0=B5=D0=BD" width=3D"35" title=3D"=D0=99=D0=B5=
+=D0=BC=D0=B5=D0=BD" height=3D"20"> </sub> =D0=99=D0=B5=D0=BC=D0=B5=D0=BD</h=
+4>
+<hr>
+<p><span style=3D"color: rgb(122,134,154);"><span style=3D"color: rgb(0,51,=
+102);"><strong>=D0=A1=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D0=BD=D0=B0=D0=BB=D0=
+=B8=D1=87=D0=BD=D1=8B=D1=85 =D0=B2 =D0=B1=D0=B0=D0=BD=D0=BA=D0=BE=D0=BC=D0=
+=B0=D1=82=D0=B0=D1=85 =D0=B8 =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4=D1=
+=8B =D1=81 =D0=BA=D0=B0=D1=80=D1=82=D1=8B =D0=BD=D0=B0 =D0=BA=D0=B0=D1=80=
+=D1=82=D1=83 (P2P)</strong></span><br>
+ =D0=97=D0=B0=D0=BF=D1=80=D0=B5=D1=82</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"columnMacro" style=3D"width:50%;min-width:50%;max-width:50%;"=
+>
+<div>
+<style>
+    .innerCell .aura-panel-e7afbb31efd509b1, .sectionMacro .aura-panel-e7af=
+bb31efd509b1 {
+      margin: 16px 6px;
+    }
+
+    .aura-panel-e7afbb31efd509b1 {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .aura-panel-e7afbb31efd509b1 .aura-header {
+      padding: 20px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }=20
+
+    .aura-panel-e7afbb31efd509b1 a.aura-header {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .aura-panel-e7afbb31efd509b1 a.aura-header:hover {
+      text-decoration: underline;
+      color: $linkColor;
+    }
+
+    .aura-panel-e7afbb31efd509b1 .aura-headline {
+      display: flex;
+      padding-bottom: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .aura-panel-e7afbb31efd509b1 .aura-headline svg {
+          }
+
+    .aura-panel-e7afbb31efd509b1 .aura-body {
+      padding: 20px;
+      box-sizing: border-box;
+      display: block;
+    }
+  </style>
+<div class=3D"aura-panel-e7afbb31efd509b1" style=3D"min-height: 340px;borde=
+r-top: 1px solid #d0d0d0;border-right: 1px solid #d0d0d0;border-bottom: 1px=
+ solid #d0d0d0;border-left: 1px solid #d0d0d0;border-radius: 8.0px;">
+<div class=3D"aura-body" style=3D"">
+<h4 id=3D"id-=D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B=D0=BA=D0=B0=D1=80=D1=82=
+=D0=B0=D0=BA=D0=B0=D1=80=D1=82=D0=B0-=D0=A7=D0=B5=D1=80=D0=BD=D0=BE=D0=B3=
+=D0=BE=D1=80=D0=B8=D1=8F35=D0=A7=D0=B5=D1=80=D0=BD=D0=BE=D0=B3=D0=BE=D1=80=
+=D0=B8=D1=8F20=D0=A7=D0=B5=D1=80=D0=BD=D0=BE=D0=B3=D0=BE=D1=80=D0=B8=D1=8F.=
+1"><sub> <img src=3D"https://upload.wikimedia.org/wikipedia/commons/thumb/6=
+/64/Flag_of_Montenegro.svg/1920px-Flag_of_Montenegro.svg.png" alt=3D"=D0=A7=
+=D0=B5=D1=80=D0=BD=D0=BE=D0=B3=D0=BE=D1=80=D0=B8=D1=8F" width=3D"35" title=
+=3D"=D0=A7=D0=B5=D1=80=D0=BD=D0=BE=D0=B3=D0=BE=D1=80=D0=B8=D1=8F" height=3D=
+"20"> </sub> =D0=A7=D0=B5=D1=80=D0=BD=D0=BE=D0=B3=D0=BE=D1=80=D0=B8=D1=8F</=
+h4>
+<hr>
+<p><strong>=D0=A1=D0=BD=D1=8F=D1=82=D0=B8=D0=B5 =D0=BD=D0=B0=D0=BB=D0=B8=D1=
+=87=D0=BD=D1=8B=D1=85 =D0=B2 =D0=B1=D0=B0=D0=BD=D0=BA=D0=BE=D0=BC=D0=B0=D1=
+=82=D0=B0=D1=85</strong><strong>&nbsp;</strong><br><span style=3D"color: rg=
+b(122,134,154);">=D0=94=D0=B5=D0=BD=D1=8C: 2 000 USD</span><br><span style=
+=3D"color: rgb(122,134,154);">=D0=9C=D0=B5=D1=81=D1=8F=D1=86: 30 000 USD&nb=
+sp;</span></p>
+<p><strong>=D0=9F=D0=BE=D0=BA=D1=83=D0=BF=D0=BA=D0=B8</strong><strong>&nbsp=
+;</strong><br><span style=3D"color: rgb(122,134,154);">=D0=94=D0=B5=D0=BD=
+=D1=8C: 5&nbsp;=E2=80=AF000&nbsp;USD&nbsp;</span><br><br><strong>=D0=A1=D0=
+=BD=D1=8F=D1=82=D0=B8=D0=B5 =D1=81 =D0=BA=D0=B0=D1=81=D1=81=D1=8B</strong><=
+strong>&nbsp;</strong><br><span style=3D"color: rgb(122,134,154);">=D0=94=
+=D0=B5=D0=BD=D1=8C: 5 000 USD&nbsp;</span></p>
+<p><strong>=D0=9E=D0=BF=D0=BB=D0=B0=D1=82=D0=B0 =D0=B2 =D0=B8=D0=BD=D1=82=
+=D0=B5=D1=80=D0=BD=D0=B5=D1=82=D0=B5</strong><strong>&nbsp;</strong><br><sp=
+an style=3D"color: rgb(122,134,154);">=D0=94=D0=B5=D0=BD=D1=8C: =D0=BD=D0=
+=B5 =D0=B1=D0=BE=D0=BB=D0=B5=D0=B5 5 000 USD</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p><br></p>
+<p></p>
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_134712_1249054203.1779962210163--
