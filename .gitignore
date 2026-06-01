@@ -1,0 +1,26 @@
+# ── Secrets ──────────────────────────────
+.env
+.env.local
+.env.production
+.env.development
+
+# ── Knowledge files (internal bank docs — add manually on server) ──
+backend/knowledge/**/*.doc
+backend/knowledge/**/*.docx
+
+# ── Python ───────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+backend/chroma_db/
+
+# ── Node ─────────────────────────────────
+node_modules/
+.next/
+frontend/.next/
+
+# ── OS ───────────────────────────────────
+.DS_Store
+Thumbs.db
