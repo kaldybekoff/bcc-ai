@@ -43,9 +43,8 @@ SYSTEM_PROMPT = """\
 {context}"""
 
 
-def find_relevant_sections(question: str, full_context: str, top_k: int = TOP_K) -> str:
+def find_relevant_sections(question: str, full_context: str, top_k: int = TOP_K, max_total_chars: int = 16000) -> str:
     """Найти топ-N разделов базы знаний по ключевым словам вопроса."""
-    # Разбиваем контекст на разделы по === filename ===
     header_re = re.compile(r"(=== .+? ===)", re.MULTILINE)
     parts = header_re.split(full_context)
 
@@ -58,9 +57,8 @@ def find_relevant_sections(question: str, full_context: str, top_k: int = TOP_K)
         i += 2
 
     if not sections:
-        return full_context[:15000]
+        return full_context[:max_total_chars]
 
-    # Скорим каждый раздел по пересечению слов с вопросом
     q_words = set(re.findall(r"\w+", question.lower()))
     scored: list[tuple[int, str]] = []
     for section in sections:
@@ -69,7 +67,19 @@ def find_relevant_sections(question: str, full_context: str, top_k: int = TOP_K)
         scored.append((score, section))
 
     scored.sort(key=lambda x: x[0], reverse=True)
-    return "\n\n".join(s for _, s in scored[:top_k])
+
+    # Набираем разделы пока не превысим лимит символов
+    result_parts: list[str] = []
+    total = 0
+    for _, section in scored[:top_k]:
+        remaining = max_total_chars - total
+        if remaining <= 500:
+            break
+        chunk = section[:remaining]
+        result_parts.append(chunk)
+        total += len(chunk)
+
+    return "\n\n".join(result_parts)
 
 
 @asynccontextmanager
