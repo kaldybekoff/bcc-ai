@@ -1,9 +1,14 @@
-"""BCC Assistant — FastAPI backend (Groq + Llama 3.3 70B)."""
+"""BCC Assistant — FastAPI backend (Groq + Llama 3.3 70B).
+
+Контекст не отправляется целиком — ищем топ-5 релевантных разделов
+по ключевым словам чтобы уложиться в лимит токенов Groq free tier.
+"""
 from __future__ import annotations
 
 import asyncio
 import json
 import os
+import re
 from contextlib import asynccontextmanager
 
 from dotenv import load_dotenv
@@ -17,9 +22,10 @@ from context import get_context, get_file_count
 
 load_dotenv()
 
-GROQ_API_KEY  = os.getenv("GROQ_API_KEY", "")
-MODEL         = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
-CORS_ORIGINS  = [o.strip() for o in os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",") if o.strip()]
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+MODEL        = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+CORS_ORIGINS = [o.strip() for o in os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",") if o.strip()]
+TOP_K        = int(os.getenv("TOP_K", "5"))
 
 SYSTEM_PROMPT = """\
 Ты — корпоративный AI ассистент для сотрудников-операторов БЦК Банка (Банк ЦентрКредит, Казахстан).
@@ -30,12 +36,40 @@ SYSTEM_PROMPT = """\
 2. Если ответ не найден — отвечай: "Эта информация не найдена в базе знаний. Обратитесь к руководителю."
 3. НИКОГДА не выдумывай цифры, условия или факты.
 4. Отвечай на том же языке что и вопрос (русский или казахский).
-5. Ответ должен быть чётким и структурированным.
-6. Используй **жирный текст** для ключевых цифр и списки для сложных ответов.
-7. Начинай сразу с ответа, без длинных вступлений.
+5. Используй **жирный текст** для ключевых цифр и списки для сложных ответов.
+6. Начинай сразу с ответа, без длинных вступлений.
 
-БАЗА ЗНАНИЙ BCC:
+РЕЛЕВАНТНЫЕ РАЗДЕЛЫ БАЗЫ ЗНАНИЙ BCC:
 {context}"""
+
+
+def find_relevant_sections(question: str, full_context: str, top_k: int = TOP_K) -> str:
+    """Найти топ-N разделов базы знаний по ключевым словам вопроса."""
+    # Разбиваем контекст на разделы по === filename ===
+    header_re = re.compile(r"(=== .+? ===)", re.MULTILINE)
+    parts = header_re.split(full_context)
+
+    sections: list[str] = []
+    i = 1
+    while i < len(parts):
+        header  = parts[i]
+        content = parts[i + 1] if i + 1 < len(parts) else ""
+        sections.append(f"{header}\n{content.strip()}")
+        i += 2
+
+    if not sections:
+        return full_context[:15000]
+
+    # Скорим каждый раздел по пересечению слов с вопросом
+    q_words = set(re.findall(r"\w+", question.lower()))
+    scored: list[tuple[int, str]] = []
+    for section in sections:
+        s_words = set(re.findall(r"\w+", section.lower()))
+        score   = len(q_words & s_words)
+        scored.append((score, section))
+
+    scored.sort(key=lambda x: x[0], reverse=True)
+    return "\n\n".join(s for _, s in scored[:top_k])
 
 
 @asynccontextmanager
@@ -61,9 +95,9 @@ class ChatRequest(BaseModel):
 
 
 async def _sse_stream(question: str):
-    loop = asyncio.get_event_loop()
+    loop  = asyncio.get_event_loop()
     queue: asyncio.Queue = asyncio.Queue()
-    context = get_context()
+    ctx   = find_relevant_sections(question, get_context())
 
     def _produce() -> None:
         try:
@@ -71,7 +105,7 @@ async def _sse_stream(question: str):
             stream = client.chat.completions.create(
                 model=MODEL,
                 messages=[
-                    {"role": "system", "content": SYSTEM_PROMPT.format(context=context)},
+                    {"role": "system", "content": SYSTEM_PROMPT.format(context=ctx)},
                     {"role": "user",   "content": question},
                 ],
                 stream=True,
