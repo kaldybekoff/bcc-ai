@@ -1,10 +1,14 @@
-"""BCC Assistant — FastAPI backend (OpenRouter + Gemini 2.0 Flash free)."""
+"""BCC Assistant — FastAPI backend (OpenAI gpt-4o-mini).
+
+Контекст не отправляется целиком — chunk-level keyword retrieval отбирает
+самые релевантные фрагменты базы знаний (см. retrieval.py): это даёт точные
+источники операторам и экономит токены.
+"""
 from __future__ import annotations
 
 import asyncio
 import json
 import os
-import re
 from contextlib import asynccontextmanager
 
 from dotenv import load_dotenv
@@ -15,13 +19,14 @@ from openai import OpenAI
 from pydantic import BaseModel, Field
 
 from context import get_context, get_file_count
+from retrieval import find_relevant, relevant_sources
 
 load_dotenv()
 
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
-MODEL              = os.getenv("MODEL", "google/gemini-2.0-flash-exp:free")
-CORS_ORIGINS       = [o.strip() for o in os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",") if o.strip()]
-TOP_K              = int(os.getenv("TOP_K", "5"))
+OPENAI_API_KEY    = os.getenv("OPENAI_API_KEY", "")
+MODEL             = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+CORS_ORIGINS      = [o.strip() for o in os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",") if o.strip()]
+MAX_CONTEXT_CHARS = int(os.getenv("MAX_CONTEXT_CHARS", "30000"))
 
 SYSTEM_PROMPT = """\
 Ты — корпоративный AI ассистент для сотрудников-операторов БЦК Банка (Банк ЦентрКредит, Казахстан).
@@ -29,46 +34,15 @@ SYSTEM_PROMPT = """\
 
 ПРАВИЛА:
 1. Отвечай ТОЛЬКО на основе предоставленной базы знаний BCC.
-2. Если ответ не найден — отвечай: "Эта информация не найдена в базе знаний. Обратитесь к руководителю."
-3. НИКОГДА не выдумывай цифры, условия или факты.
+2. Если ответ не найден в базе — отвечай: "Эта информация не найдена в базе знаний. Обратитесь к руководителю или продукт-оунеру."
+3. НИКОГДА не выдумывай цифры, условия, ставки или факты.
 4. Отвечай на том же языке что и вопрос (русский или казахский).
-5. Используй **жирный текст** для ключевых цифр и списки для сложных ответов.
-6. Начинай сразу с ответа, без длинных вступлений.
+5. Используй **жирный текст** для ключевых цифр и нумерованные списки для сложных ответов.
+6. Если есть расчёт (платёж, кэшбэк, переплата) — покажи формулу и пример с числами.
+7. Начинай сразу с ответа, без длинных вступлений.
 
 РЕЛЕВАНТНЫЕ РАЗДЕЛЫ БАЗЫ ЗНАНИЙ BCC:
 {context}"""
-
-
-def find_relevant_sections(question: str, full_context: str, top_k: int = TOP_K, max_total_chars: int = 40000) -> str:
-    header_re = re.compile(r"(=== .+? ===)", re.MULTILINE)
-    parts = header_re.split(full_context)
-
-    sections: list[str] = []
-    i = 1
-    while i < len(parts):
-        header  = parts[i]
-        content = parts[i + 1] if i + 1 < len(parts) else ""
-        sections.append(f"{header}\n{content.strip()}")
-        i += 2
-
-    if not sections:
-        return full_context[:max_total_chars]
-
-    q_words = set(re.findall(r"\w+", question.lower()))
-    scored  = [(len(q_words & set(re.findall(r"\w+", s.lower()))), s) for s in sections]
-    scored.sort(key=lambda x: x[0], reverse=True)
-
-    result_parts: list[str] = []
-    total = 0
-    for _, section in scored[:top_k]:
-        remaining = max_total_chars - total
-        if remaining <= 500:
-            break
-        chunk = section[:remaining]
-        result_parts.append(chunk)
-        total += len(chunk)
-
-    return "\n\n".join(result_parts)
 
 
 @asynccontextmanager
@@ -94,16 +68,15 @@ class ChatRequest(BaseModel):
 
 
 async def _sse_stream(question: str):
-    loop  = asyncio.get_event_loop()
+    loop     = asyncio.get_event_loop()
     queue: asyncio.Queue = asyncio.Queue()
-    ctx   = find_relevant_sections(question, get_context())
+    full_ctx = get_context()
+    ctx      = find_relevant(question, full_ctx, max_total_chars=MAX_CONTEXT_CHARS)
+    sources  = relevant_sources(question, full_ctx)[:3]
 
     def _produce() -> None:
         try:
-            client = OpenAI(
-                base_url="https://openrouter.ai/api/v1",
-                api_key=OPENROUTER_API_KEY,
-            )
+            client = OpenAI(api_key=OPENAI_API_KEY)
             stream = client.chat.completions.create(
                 model=MODEL,
                 messages=[
@@ -131,7 +104,7 @@ async def _sse_stream(question: str):
             break
         yield f"data: {json.dumps(event, ensure_ascii=False)}\n\n"
 
-    yield f"data: {json.dumps({'done': True, 'sources': []}, ensure_ascii=False)}\n\n"
+    yield f"data: {json.dumps({'done': True, 'sources': sources}, ensure_ascii=False)}\n\n"
 
 
 @app.post("/api/chat")
