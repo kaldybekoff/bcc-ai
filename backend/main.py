@@ -1,30 +1,28 @@
-"""BCC Assistant — FastAPI backend (Claude claude-sonnet-4-6).
-
-Контекст не отправляется целиком — ищем топ-5 релевантных разделов
-по ключевым словам вопроса.
-"""
+"""BCC Assistant — FastAPI backend (Google Gemini)."""
 from __future__ import annotations
 
+import asyncio
 import json
 import os
 import re
 from contextlib import asynccontextmanager
 
-import anthropic
 from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
+from google import genai
+from google.genai import types
 from pydantic import BaseModel, Field
 
 from context import get_context, get_file_count
 
 load_dotenv()
 
-ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
-MODEL             = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-6")
-CORS_ORIGINS      = [o.strip() for o in os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",") if o.strip()]
-TOP_K             = int(os.getenv("TOP_K", "5"))
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+MODEL          = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
+CORS_ORIGINS   = [o.strip() for o in os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",") if o.strip()]
+TOP_K          = int(os.getenv("TOP_K", "5"))
 
 SYSTEM_PROMPT = """\
 Ты — корпоративный AI ассистент для сотрудников-операторов БЦК Банка (Банк ЦентрКредит, Казахстан).
@@ -42,8 +40,7 @@ SYSTEM_PROMPT = """\
 {context}"""
 
 
-def find_relevant_sections(question: str, full_context: str, top_k: int = TOP_K, max_total_chars: int = 80000) -> str:
-    """Найти топ-N разделов базы знаний по ключевым словам вопроса."""
+def find_relevant_sections(question: str, full_context: str, top_k: int = TOP_K, max_total_chars: int = 40000) -> str:
     header_re = re.compile(r"(=== .+? ===)", re.MULTILINE)
     parts = header_re.split(full_context)
 
@@ -62,8 +59,7 @@ def find_relevant_sections(question: str, full_context: str, top_k: int = TOP_K,
     scored: list[tuple[int, str]] = []
     for section in sections:
         s_words = set(re.findall(r"\w+", section.lower()))
-        score   = len(q_words & s_words)
-        scored.append((score, section))
+        scored.append((len(q_words & s_words), section))
 
     scored.sort(key=lambda x: x[0], reverse=True)
 
@@ -103,22 +99,38 @@ class ChatRequest(BaseModel):
 
 
 async def _sse_stream(question: str):
-    ctx = find_relevant_sections(question, get_context())
+    loop  = asyncio.get_event_loop()
+    queue: asyncio.Queue = asyncio.Queue()
+    ctx   = find_relevant_sections(question, get_context())
 
-    try:
-        client = anthropic.AsyncAnthropic(api_key=ANTHROPIC_API_KEY)
-        async with client.messages.stream(
-            model=MODEL,
-            max_tokens=1024,
-            temperature=0.1,
-            system=SYSTEM_PROMPT.format(context=ctx),
-            messages=[{"role": "user", "content": question}],
-        ) as stream:
-            async for text in stream.text_stream:
-                yield f"data: {json.dumps({'text': text}, ensure_ascii=False)}\n\n"
-    except Exception as exc:
-        yield f"data: {json.dumps({'text': f'Ошибка: {exc}', 'done': True, 'sources': []}, ensure_ascii=False)}\n\n"
-        return
+    def _produce() -> None:
+        try:
+            client = genai.Client(api_key=GEMINI_API_KEY)
+            cfg    = types.GenerateContentConfig(
+                temperature=0.1,
+                max_output_tokens=1024,
+                system_instruction=SYSTEM_PROMPT.format(context=ctx),
+            )
+            for part in client.models.generate_content_stream(
+                model=MODEL,
+                contents=question,
+                config=cfg,
+            ):
+                text = part.text if part.text else ""
+                if text:
+                    loop.call_soon_threadsafe(queue.put_nowait, {"text": text})
+        except Exception as exc:  # noqa: BLE001
+            loop.call_soon_threadsafe(queue.put_nowait, {"text": f"Ошибка: {exc}", "done": True, "sources": []})
+        finally:
+            loop.call_soon_threadsafe(queue.put_nowait, None)
+
+    loop.run_in_executor(None, _produce)
+
+    while True:
+        event = await queue.get()
+        if event is None:
+            break
+        yield f"data: {json.dumps(event, ensure_ascii=False)}\n\n"
 
     yield f"data: {json.dumps({'done': True, 'sources': []}, ensure_ascii=False)}\n\n"
 
