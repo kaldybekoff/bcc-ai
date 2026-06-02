@@ -7,14 +7,8 @@ import ChatWindow from "@/components/ChatWindow";
 import { type Message } from "@/components/MessageBubble";
 import { streamChat } from "@/lib/api";
 
-const WELCOME: Message = {
-  id: "welcome",
-  role: "ai",
-  text: "Здравствуйте! Я знаю всё о продуктах BCC Bank — **#картакарта**, кредиты, автокредиты и рефинансирование.\n\nЗадайте вопрос на русском или казахском языке.",
-};
-
 export default function Home() {
-  const [messages, setMessages] = useState<Message[]>([WELCOME]);
+  const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
