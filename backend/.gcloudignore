@@ -1,8 +1,0 @@
-.gcloudignore
-.git
-__pycache__/
-*.pyc
-.env
-chroma_db/
-venv/
-.venv/
