@@ -27,9 +27,10 @@ interface Props {
   loading: boolean;
   onSend: (text: string) => void;
   inputRef: React.RefObject<HTMLInputElement | null>;
+  onOpenFAQ?: () => void;
 }
 
-export default function ChatWindow({ messages, input, setInput, loading, onSend, inputRef }: Props) {
+export default function ChatWindow({ messages, input, setInput, loading, onSend, inputRef, onOpenFAQ }: Props) {
   const bottomRef = useRef<HTMLDivElement>(null);
   const [focused, setFocused] = useState(false);
 
@@ -39,9 +40,7 @@ export default function ChatWindow({ messages, input, setInput, loading, onSend,
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (input.trim() && !loading) {
-      onSend(input);
-    }
+    if (input.trim() && !loading) onSend(input);
   };
 
   const canSend = !!input.trim() && !loading;
@@ -51,8 +50,23 @@ export default function ChatWindow({ messages, input, setInput, loading, onSend,
       {/* Messages */}
       <div
         className="flex-1 overflow-y-auto"
-        style={{ padding: "24px 28px", display: "flex", flexDirection: "column", gap: 20 }}
+        style={{
+          padding: "16px 12px",
+          display: "flex",
+          flexDirection: "column",
+          gap: 16,
+        }}
       >
+        {/* Desktop: more padding */}
+        <style>{`
+          @media (min-width: 768px) {
+            .chat-messages { padding: 24px 28px !important; gap: 20px !important; }
+          }
+        `}</style>
+        <div
+          className="chat-messages flex-1 flex flex-col"
+          style={{ display: "contents" }}
+        />
         <AnimatePresence initial={false}>
           {messages.map((msg) => (
             <motion.div
@@ -69,44 +83,68 @@ export default function ChatWindow({ messages, input, setInput, loading, onSend,
       </div>
 
       {/* Input bar */}
-      <div style={{ padding: "12px 20px 16px" }}>
+      <div style={{ padding: "8px 12px", paddingBottom: "calc(12px + env(safe-area-inset-bottom, 0px))" }}>
         <form
           onSubmit={handleSubmit}
-          className="flex items-center gap-2.5"
+          className="flex items-center gap-2"
           style={{
             background: "var(--bg-card)",
             border: `1px solid ${focused ? "rgba(245,166,35,0.3)" : "rgba(255,255,255,0.09)"}`,
             borderRadius: 14,
-            padding: "10px 10px 10px 16px",
+            padding: "8px 8px 8px 14px",
             transition: "border-color 0.2s",
             boxShadow: focused ? "0 0 0 1px rgba(245,166,35,0.08)" : "none",
           }}
         >
+          {/* FAQ button — mobile only */}
+          {onOpenFAQ && (
+            <button
+              type="button"
+              onClick={onOpenFAQ}
+              className="md:hidden shrink-0 flex items-center justify-center"
+              style={{
+                width: 40,
+                height: 40,
+                borderRadius: 8,
+                border: "1px solid rgba(245,166,35,0.25)",
+                background: "rgba(245,166,35,0.08)",
+                cursor: "pointer",
+                fontSize: 15,
+              }}
+              title="Частые вопросы"
+            >
+              ☰
+            </button>
+          )}
+
           <SparklesIcon />
           <input
             ref={inputRef}
             type="text"
+            inputMode="text"
+            enterKeyHint="send"
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onFocus={() => setFocused(true)}
             onBlur={() => setFocused(false)}
-            placeholder="Задайте вопрос сотруднику BCC..."
+            placeholder="Задайте вопрос..."
             disabled={loading}
             style={{
               flex: 1,
               background: "transparent",
               border: "none",
               outline: "none",
-              fontSize: 13,
+              fontSize: 16,
               color: "#fff",
+              minWidth: 0,
             }}
           />
           <button
             type="submit"
             disabled={!canSend}
             style={{
-              width: 38,
-              height: 38,
+              width: 40,
+              height: 40,
               background: canSend ? "#F5A623" : "rgba(255,255,255,0.08)",
               borderRadius: 10,
               border: "none",
@@ -118,8 +156,8 @@ export default function ChatWindow({ messages, input, setInput, loading, onSend,
               transition: "all 0.15s",
               opacity: canSend ? 1 : 0.4,
             }}
-            onMouseEnter={(e) => { if (canSend) { (e.currentTarget as HTMLElement).style.background = "#E09415"; (e.currentTarget as HTMLElement).style.transform = "scale(1.05)"; } }}
-            onMouseLeave={(e) => { if (canSend) { (e.currentTarget as HTMLElement).style.background = "#F5A623"; (e.currentTarget as HTMLElement).style.transform = "scale(1)"; } }}
+            onMouseEnter={(e) => { if (canSend) { (e.currentTarget as HTMLElement).style.background = "#E09415"; } }}
+            onMouseLeave={(e) => { if (canSend) { (e.currentTarget as HTMLElement).style.background = "#F5A623"; } }}
           >
             <ArrowIcon />
           </button>

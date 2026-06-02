@@ -39,8 +39,7 @@ function TypingDots() {
         <span
           key={i}
           style={{
-            width: 6,
-            height: 6,
+            width: 6, height: 6,
             borderRadius: "50%",
             background: "#F5A623",
             display: "inline-block",
@@ -89,34 +88,23 @@ export default function MessageBubble({ msg }: { msg: Message }) {
 
   if (isAI) {
     return (
-      <div className="msg-enter flex gap-2.5" style={{ alignItems: "flex-start" }}>
+      <div className="msg-enter flex gap-2" style={{ alignItems: "flex-start" }}>
         <HexAvatar />
-        <div style={{ maxWidth: "75%" }}>
-          {/* Bubble */}
+        {/* maxWidth responsive: 90% mobile, 78% desktop */}
+        <div style={{ maxWidth: "min(78%, calc(100vw - 80px))", width: "100%" }}>
           <div
             style={{
               position: "relative",
               background: "var(--bg-card)",
               border: "1px solid var(--border)",
               borderRadius: "4px 14px 14px 14px",
-              padding: "14px 16px",
+              padding: "12px 14px",
               boxShadow: "0 4px 24px rgba(0,0,0,0.3)",
               overflow: "hidden",
             }}
           >
-            {/* Gold top line */}
-            <div
-              style={{
-                position: "absolute",
-                top: 0,
-                left: 0,
-                right: 0,
-                height: 1,
-                background: "linear-gradient(90deg, rgba(245,166,35,0.5), transparent)",
-              }}
-            />
+            <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 1, background: "linear-gradient(90deg, rgba(245,166,35,0.5), transparent)" }} />
 
-            {/* Content */}
             {msg.streaming && !msg.text ? (
               <TypingDots />
             ) : (
@@ -125,49 +113,24 @@ export default function MessageBubble({ msg }: { msg: Message }) {
               </div>
             )}
 
-            {/* Sources */}
             {!msg.streaming && msg.sources && msg.sources.length > 0 && (
-              <div
-                className="flex flex-wrap gap-1.5"
-                style={{
-                  marginTop: 10,
-                  paddingTop: 10,
-                  borderTop: "1px solid rgba(255,255,255,0.06)",
-                }}
-              >
+              <div className="flex flex-wrap gap-1.5" style={{ marginTop: 10, paddingTop: 10, borderTop: "1px solid rgba(255,255,255,0.06)" }}>
                 {msg.sources.map((s) => <SourceTag key={s} name={s} />)}
               </div>
             )}
 
-            {/* Actions */}
             {!msg.streaming && msg.text && (
               <div className="flex gap-2" style={{ marginTop: 8 }}>
                 <button
                   onClick={copy}
-                  style={{
-                    fontSize: 11,
-                    color: copied ? "#F5A623" : "rgba(255,255,255,0.28)",
-                    background: "none",
-                    border: "none",
-                    cursor: "pointer",
-                    display: "flex",
-                    alignItems: "center",
-                    gap: 3,
-                    transition: "color 0.15s",
-                  }}
+                  style={{ fontSize: 11, color: copied ? "#F5A623" : "rgba(255,255,255,0.28)", background: "none", border: "none", cursor: "pointer", transition: "color 0.15s" }}
                   onMouseEnter={(e) => { if (!copied) (e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.7)"; }}
                   onMouseLeave={(e) => { if (!copied) (e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.28)"; }}
                 >
                   {copied ? "✓ Скопировано" : "Копировать"}
                 </button>
                 <button
-                  style={{
-                    fontSize: 11,
-                    color: "rgba(255,255,255,0.28)",
-                    background: "none",
-                    border: "none",
-                    cursor: "pointer",
-                  }}
+                  style={{ fontSize: 11, color: "rgba(255,255,255,0.28)", background: "none", border: "none", cursor: "pointer" }}
                   onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.7)"; }}
                   onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.28)"; }}
                 >
@@ -181,12 +144,11 @@ export default function MessageBubble({ msg }: { msg: Message }) {
     );
   }
 
-  // User bubble
   return (
     <div className="msg-enter flex justify-end">
       <div
         style={{
-          maxWidth: "60%",
+          maxWidth: "min(72%, calc(100vw - 48px))",
           background: "var(--bg-user)",
           border: "1px solid rgba(245,166,35,0.12)",
           borderRadius: "14px 4px 14px 14px",
@@ -195,6 +157,7 @@ export default function MessageBubble({ msg }: { msg: Message }) {
           color: "#fff",
           lineHeight: 1.6,
           boxShadow: "0 2px 12px rgba(0,0,0,0.2)",
+          wordBreak: "break-word",
         }}
       >
         {msg.text}

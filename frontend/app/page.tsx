@@ -11,6 +11,7 @@ export default function Home() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
+  const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
 
   const send = useCallback(async (text: string) => {
@@ -52,6 +53,7 @@ export default function Home() {
 
   const handleFAQSelect = (question: string) => {
     setInput(question);
+    setMobileDrawerOpen(false);
     inputRef.current?.focus();
   };
 
@@ -59,7 +61,11 @@ export default function Home() {
     <div className="flex flex-col h-full">
       <Header />
       <div className="flex flex-1 overflow-hidden">
-        <FAQSidebar onSelect={handleFAQSelect} />
+        <FAQSidebar
+          onSelect={handleFAQSelect}
+          mobileOpen={mobileDrawerOpen}
+          onClose={() => setMobileDrawerOpen(false)}
+        />
         <ChatWindow
           messages={messages}
           input={input}
@@ -67,6 +73,7 @@ export default function Home() {
           loading={loading}
           onSend={send}
           inputRef={inputRef}
+          onOpenFAQ={() => setMobileDrawerOpen(true)}
         />
       </div>
     </div>
