@@ -1,4 +1,4 @@
-"""BCC Assistant — FastAPI backend (Google Gemini)."""
+"""BCC Assistant — FastAPI backend (OpenRouter + Gemini 2.0 Flash free)."""
 from __future__ import annotations
 
 import asyncio
@@ -11,18 +11,17 @@ from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
-from google import genai
-from google.genai import types
+from openai import OpenAI
 from pydantic import BaseModel, Field
 
 from context import get_context, get_file_count
 
 load_dotenv()
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
-MODEL          = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
-CORS_ORIGINS   = [o.strip() for o in os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",") if o.strip()]
-TOP_K          = int(os.getenv("TOP_K", "5"))
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
+MODEL              = os.getenv("MODEL", "google/gemini-2.0-flash-exp:free")
+CORS_ORIGINS       = [o.strip() for o in os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",") if o.strip()]
+TOP_K              = int(os.getenv("TOP_K", "5"))
 
 SYSTEM_PROMPT = """\
 Ты — корпоративный AI ассистент для сотрудников-операторов БЦК Банка (Банк ЦентрКредит, Казахстан).
@@ -56,11 +55,7 @@ def find_relevant_sections(question: str, full_context: str, top_k: int = TOP_K,
         return full_context[:max_total_chars]
 
     q_words = set(re.findall(r"\w+", question.lower()))
-    scored: list[tuple[int, str]] = []
-    for section in sections:
-        s_words = set(re.findall(r"\w+", section.lower()))
-        scored.append((len(q_words & s_words), section))
-
+    scored  = [(len(q_words & set(re.findall(r"\w+", s.lower()))), s) for s in sections]
     scored.sort(key=lambda x: x[0], reverse=True)
 
     result_parts: list[str] = []
@@ -105,18 +100,22 @@ async def _sse_stream(question: str):
 
     def _produce() -> None:
         try:
-            client = genai.Client(api_key=GEMINI_API_KEY)
-            cfg    = types.GenerateContentConfig(
-                temperature=0.1,
-                max_output_tokens=1024,
-                system_instruction=SYSTEM_PROMPT.format(context=ctx),
+            client = OpenAI(
+                base_url="https://openrouter.ai/api/v1",
+                api_key=OPENROUTER_API_KEY,
             )
-            for part in client.models.generate_content_stream(
+            stream = client.chat.completions.create(
                 model=MODEL,
-                contents=question,
-                config=cfg,
-            ):
-                text = part.text if part.text else ""
+                messages=[
+                    {"role": "system", "content": SYSTEM_PROMPT.format(context=ctx)},
+                    {"role": "user",   "content": question},
+                ],
+                stream=True,
+                temperature=0.1,
+                max_tokens=1024,
+            )
+            for chunk in stream:
+                text = chunk.choices[0].delta.content or ""
                 if text:
                     loop.call_soon_threadsafe(queue.put_nowait, {"text": text})
         except Exception as exc:  # noqa: BLE001
