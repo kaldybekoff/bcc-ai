@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import BCCLogo from "./BCCLogo";
 import HelpModal from "./HelpModal";
 
@@ -20,8 +21,10 @@ export default function Header() {
         borderBottom: "1px solid var(--border)",
       }}
     >
-      {/* Logo */}
-      <BCCLogo variant="horizontal" />
+      {/* Logo → landing */}
+      <Link href="/" aria-label="На главную">
+        <BCCLogo variant="horizontal" />
+      </Link>
 
       {/* Tabs — desktop only */}
       <div className="hidden md:flex gap-1">

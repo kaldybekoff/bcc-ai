@@ -81,18 +81,20 @@ function StartButton({ large = false }: { large?: boolean }) {
 
 export default function Landing() {
   return (
-    <main style={{ background: "var(--bg)", color: "var(--text)", overflowX: "hidden" }}>
-      {/* Navbar */}
+    <main style={{ background: "var(--bg)", color: "var(--text)", overflowX: "clip" }}>
+      {/* Navbar — sticky, stays on scroll */}
       <nav
         className="sticky top-0 z-30 flex items-center justify-between"
-        style={{ height: 64, padding: "0 20px", background: "rgba(255,255,255,0.8)", backdropFilter: "blur(12px)", borderBottom: "1px solid var(--border)" }}
+        style={{ height: 64, padding: "0 16px", background: "rgba(255,255,255,0.85)", backdropFilter: "blur(12px)", WebkitBackdropFilter: "blur(12px)", borderBottom: "1px solid var(--border)" }}
       >
-        <BCCLogo variant="horizontal" />
+        <Link href="/" aria-label="На главную">
+          <BCCLogo variant="horizontal" />
+        </Link>
         <StartButton />
       </nav>
 
       {/* Hero */}
-      <section className="relative" style={{ padding: "72px 20px 64px" }}>
+      <section className="relative" style={{ padding: "clamp(40px, 7vw, 72px) 20px 56px" }}>
         {/* decorative blobs */}
         <div aria-hidden style={{ position: "absolute", top: -80, right: -60, width: 420, height: 420, background: "radial-gradient(circle, rgba(0,168,107,0.18), transparent 70%)", filter: "blur(20px)", pointerEvents: "none" }} />
         <div aria-hidden style={{ position: "absolute", bottom: -120, left: -80, width: 380, height: 380, background: "radial-gradient(circle, rgba(0,192,122,0.12), transparent 70%)", filter: "blur(20px)", pointerEvents: "none" }} />
@@ -260,7 +262,9 @@ export default function Landing() {
       {/* Footer */}
       <footer style={{ borderTop: "1px solid var(--border)", padding: "24px 20px", background: "var(--surface)" }}>
         <div className="mx-auto flex flex-col items-center gap-2 text-center md:flex-row md:justify-between" style={{ maxWidth: 1120 }}>
-          <BCCLogo variant="horizontal" />
+          <Link href="/" aria-label="На главную">
+            <BCCLogo variant="horizontal" />
+          </Link>
           <span style={{ fontSize: 13, color: "var(--text-muted)" }}>© BCC Bank — внутренний инструмент для сотрудников</span>
         </div>
       </footer>
