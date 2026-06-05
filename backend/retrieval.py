@@ -246,7 +246,7 @@ def _rank(question: str, full_context: str) -> list[tuple[float, Chunk]]:
 def retrieve(
     question: str,
     full_context: str,
-    top_k: int = 8,
+    top_k: int = 14,
     max_total_chars: int = 24000,
 ) -> tuple[str, list[str]]:
     """Вернуть (текст релевантных чанков, список файлов-источников)."""
@@ -276,12 +276,12 @@ def retrieve(
 
 
 # Обратная совместимость со старым API main.py
-def find_relevant(question: str, full_context: str, top_k: int = 8,
+def find_relevant(question: str, full_context: str, top_k: int = 14,
                   max_total_chars: int = 24000) -> str:
     return retrieve(question, full_context, top_k, max_total_chars)[0]
 
 
-def relevant_sources(question: str, full_context: str, top_k: int = 8) -> list[str]:
+def relevant_sources(question: str, full_context: str, top_k: int = 14) -> list[str]:
     ranked = _rank(question, full_context)
     sources: list[str] = []
     for _, ch in ranked[:top_k]:
