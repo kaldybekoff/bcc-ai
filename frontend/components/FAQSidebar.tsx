@@ -212,10 +212,12 @@ export default function FAQSidebar({ onSelect, mobileOpen = false, onClose, rece
               onClick={() => handleClick(r.q)}
               className="flex items-center justify-between gap-2"
               style={{
-                width: "100%", textAlign: "left",
-                padding: "8px 14px",
+                width: "calc(100% - 16px)", textAlign: "left",
+                margin: "1px 8px",
+                padding: "8px 12px",
+                borderRadius: 8,
                 background: "transparent", border: "none", cursor: "pointer",
-                transition: "background 0.15s",
+                transition: "background 0.12s ease",
               }}
               onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.background = "var(--surface-soft)")}
               onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.background = "transparent")}
@@ -245,14 +247,17 @@ export default function FAQSidebar({ onSelect, mobileOpen = false, onClose, rece
                 key={item.question}
                 onClick={() => handleClick(item.question)}
                 style={{
-                  width: "100%", textAlign: "left", display: "block",
-                  padding: "7px 14px 7px 24px",
+                  display: "block", textAlign: "left",
+                  width: "calc(100% - 16px)",
+                  margin: "1px 8px",
+                  padding: "8px 12px 8px 16px",
                   fontSize: 13,
+                  borderRadius: 8,
+                  border: "none",
                   color: isActive ? "var(--primary)" : "var(--text-sec)",
                   background: isActive ? "var(--primary-soft)" : "transparent",
-                  borderLeft: isActive ? "2px solid var(--primary)" : "2px solid transparent",
-                  borderTop: "none", borderRight: "none", borderBottom: "none",
-                  cursor: "pointer", lineHeight: 1.4, transition: "all 0.15s ease",
+                  cursor: "pointer", lineHeight: 1.4,
+                  transition: "background 0.12s ease, color 0.12s ease",
                 }}
                 onMouseEnter={(e) => {
                   if (isActive) return;
