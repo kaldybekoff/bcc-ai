@@ -16,8 +16,8 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ru" className={`${inter.className} h-full`}>
-      <body className="h-full flex flex-col antialiased">{children}</body>
+    <html lang="ru" className={inter.className}>
+      <body className="antialiased">{children}</body>
     </html>
   );
 }
