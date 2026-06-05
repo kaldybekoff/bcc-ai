@@ -97,49 +97,48 @@ export default function Landing() {
         <div aria-hidden style={{ position: "absolute", top: -80, right: -60, width: 420, height: 420, background: "radial-gradient(circle, rgba(0,168,107,0.18), transparent 70%)", filter: "blur(20px)", pointerEvents: "none" }} />
         <div aria-hidden style={{ position: "absolute", bottom: -120, left: -80, width: 380, height: 380, background: "radial-gradient(circle, rgba(0,192,122,0.12), transparent 70%)", filter: "blur(20px)", pointerEvents: "none" }} />
 
-        <div className="relative mx-auto grid items-center gap-12 md:grid-cols-2" style={{ maxWidth: 1120 }}>
+        <div className="relative mx-auto flex flex-col items-center text-center" style={{ maxWidth: 820 }}>
           {/* copy */}
-          <div>
-            <motion.div
-              initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2"
-              style={{ background: "var(--primary-soft)", color: "var(--primary)", border: "1px solid var(--primary-border)", borderRadius: 999, padding: "6px 14px", fontSize: 13, fontWeight: 600, marginBottom: 20 }}
-            >
-              <span style={{ width: 7, height: 7, borderRadius: "50%", background: "var(--primary)" }} />
-              AI-ассистент для сотрудников БЦК
-            </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}
+            className="inline-flex items-center gap-2"
+            style={{ background: "var(--primary-soft)", color: "var(--primary)", border: "1px solid var(--primary-border)", borderRadius: 999, padding: "6px 14px", fontSize: 13, fontWeight: 600, marginBottom: 20 }}
+          >
+            <span style={{ width: 7, height: 7, borderRadius: "50%", background: "var(--primary)" }} />
+            AI-ассистент для сотрудников БЦК
+          </motion.div>
 
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.05 }}
-              style={{ fontSize: "clamp(32px, 5vw, 52px)", fontWeight: 800, lineHeight: 1.08, letterSpacing: "-0.02em" }}
-            >
-              Точные ответы по продуктам банка — <span style={{ color: "var(--primary)" }}>за секунды</span>
-            </motion.h1>
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.05 }}
+            style={{ fontSize: "clamp(32px, 5vw, 52px)", fontWeight: 800, lineHeight: 1.08, letterSpacing: "-0.02em" }}
+          >
+            Точные ответы по продуктам банка — <span style={{ color: "var(--primary)" }}>за секунды</span>
+          </motion.h1>
 
-            <motion.p
-              initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.12 }}
-              style={{ fontSize: 18, color: "var(--text-sec)", marginTop: 20, lineHeight: 1.6, maxWidth: 520 }}
-            >
-              Задайте вопрос на русском или казахском — ассистент найдёт ответ в базе знаний БЦК:
-              кредиты, депозиты, ипотека, кэшбэк, тарифы и условия.
-            </motion.p>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.12 }}
+            style={{ fontSize: 18, color: "var(--text-sec)", marginTop: 20, lineHeight: 1.6, maxWidth: 600 }}
+          >
+            Задайте вопрос на русском или казахском — ассистент найдёт ответ в базе знаний БЦК:
+            кредиты, депозиты, ипотека, кэшбэк, тарифы и условия.
+          </motion.p>
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.18 }}
-              className="flex flex-wrap items-center gap-3" style={{ marginTop: 32 }}
-            >
-              <StartButton large />
-              <a href="#features" className="inline-flex items-center font-medium" style={{ color: "var(--text-sec)", borderRadius: 14, padding: "15px 24px", fontSize: 16, border: "1px solid var(--border)", background: "var(--surface)" }}>
-                Узнать больше
-              </a>
-            </motion.div>
-          </div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.18 }}
+            className="flex flex-wrap items-center justify-center gap-3" style={{ marginTop: 32 }}
+          >
+            <StartButton large />
+            <a href="#features" className="inline-flex items-center font-medium" style={{ color: "var(--text-sec)", borderRadius: 14, padding: "15px 24px", fontSize: 16, border: "1px solid var(--border)", background: "var(--surface)" }}>
+              Узнать больше
+            </a>
+          </motion.div>
 
           {/* hero chat preview */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.96, y: 20 }} animate={{ opacity: 1, scale: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.15 }}
+            initial={{ opacity: 0, scale: 0.96, y: 20 }} animate={{ opacity: 1, scale: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.25 }}
+            style={{ width: "100%", maxWidth: 560, marginTop: 44 }}
           >
-            <div style={{ background: "var(--surface)", border: "1px solid var(--border)", borderRadius: 22, padding: 18, boxShadow: "0 20px 50px rgba(17,24,39,0.10)" }}>
+            <div className="text-left" style={{ background: "var(--surface)", border: "1px solid var(--border)", borderRadius: 22, padding: 18, boxShadow: "0 20px 50px rgba(17,24,39,0.10)" }}>
               {/* user bubble */}
               <div className="flex justify-end" style={{ marginBottom: 14 }}>
                 <div style={{ background: "var(--user-bubble)", border: "1px solid var(--primary-border)", color: "#0b5a3f", borderRadius: "16px 6px 16px 16px", padding: "10px 14px", fontSize: 14, maxWidth: "80%" }}>
