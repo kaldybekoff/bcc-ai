@@ -1,19 +1,30 @@
 @import "tailwindcss";
 
 :root {
-  --bg-primary:    #050D1A;
-  --bg-surface:    #0A1628;
-  --bg-card:       #0F2040;
-  --bg-user:       #1a3654;
-  --accent:        #F5A623;
-  --accent-dim:    rgba(245,166,35,0.10);
-  --accent-border: rgba(245,166,35,0.20);
-  --accent-glow:   rgba(245,166,35,0.35);
-  --text:          #FFFFFF;
-  --text-sec:      #8BA3C7;
-  --text-muted:    rgba(255,255,255,0.25);
-  --border:        rgba(255,255,255,0.07);
-  --green:         #22C55E;
+  /* Light theme — BCC fintech */
+  --bg:            #F6F8FA;   /* page background */
+  --surface:       #FFFFFF;   /* header, sidebar, cards */
+  --surface-soft:  #F3F5F7;   /* hover, soft fills */
+  --user-bubble:   #E8F7F0;   /* user message (light green) */
+  --primary:       #00A86B;   /* BCC green — buttons, active, links */
+  --primary-hover: #00915C;
+  --primary-soft:  #E8F7F0;   /* light green tint */
+  --primary-dim:   rgba(0,168,107,0.08);
+  --primary-border:rgba(0,168,107,0.25);
+  --text:          #111827;   /* primary text */
+  --text-sec:      #6B7280;   /* secondary text, placeholders */
+  --text-muted:    #9CA3AF;   /* captions, meta */
+  --border:        #EAECEF;   /* hairline borders */
+
+  /* legacy aliases (used by some components) */
+  --bg-primary:    var(--bg);
+  --bg-surface:    var(--surface);
+  --bg-card:       var(--surface);
+  --bg-user:       var(--user-bubble);
+  --accent:        var(--primary);
+  --accent-dim:    var(--primary-dim);
+  --accent-border: var(--primary-border);
+  --green:         var(--primary);
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -21,17 +32,16 @@
 html, body { height: 100%; }
 
 body {
-  background: var(--bg-primary);
-  background-image:
-    radial-gradient(ellipse 80% 50% at 60% 40%, rgba(245,166,35,0.03) 0%, transparent 70%),
-    radial-gradient(ellipse 60% 60% at 20% 80%, rgba(99,72,220,0.04) 0%, transparent 60%);
+  background: var(--bg);
   color: var(--text);
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
-::-webkit-scrollbar        { width: 4px; }
+::-webkit-scrollbar        { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track  { background: transparent; }
-::-webkit-scrollbar-thumb  { background: rgba(255,255,255,0.10); border-radius: 2px; }
+::-webkit-scrollbar-thumb  { background: rgba(17,24,39,0.12); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(17,24,39,0.22); }
 
 /* ── BCC Logo animations ─────────────────────────────────────────── */
 @keyframes bcc-hex-spin     { from { transform: rotate(0deg)   } to { transform: rotate(360deg)  } }
@@ -59,13 +69,19 @@ body {
   40%           { opacity: 1;   transform: scale(1); }
 }
 
-/* Markdown inside AI bubbles */
-.prose-bcc p          { margin-bottom: 0.45rem; line-height: 1.65; font-size: 13px; color: #c8d4e0; }
+/* Markdown inside AI bubbles (light theme) */
+.prose-bcc p          { margin-bottom: 0.5rem; line-height: 1.65; font-size: 14px; color: #374151; }
+.prose-bcc p:last-child { margin-bottom: 0; }
 .prose-bcc ul,
-.prose-bcc ol         { padding-left: 1.2rem; margin-bottom: 0.45rem; }
-.prose-bcc li         { margin-bottom: 0.2rem; line-height: 1.55; font-size: 13px; color: #c8d4e0; }
-.prose-bcc strong     { color: #fff; font-weight: 600; }
-.prose-bcc code       { background: rgba(255,255,255,0.08); padding: 0.1rem 0.3rem; border-radius: 4px; font-size: 0.85em; }
+.prose-bcc ol         { padding-left: 1.25rem; margin-bottom: 0.5rem; }
+.prose-bcc li         { margin-bottom: 0.25rem; line-height: 1.55; font-size: 14px; color: #374151; }
+.prose-bcc strong     { color: var(--text); font-weight: 600; }
+.prose-bcc a          { color: var(--primary); text-decoration: underline; }
+.prose-bcc code       { background: var(--surface-soft); padding: 0.1rem 0.35rem; border-radius: 5px; font-size: 0.85em; color: #0b5a3f; }
 .prose-bcc h1,
 .prose-bcc h2,
-.prose-bcc h3         { font-weight: 600; margin-top: 0.6rem; margin-bottom: 0.3rem; color: #fff; font-size: 13px; }
+.prose-bcc h3         { font-weight: 600; margin-top: 0.7rem; margin-bottom: 0.35rem; color: var(--text); font-size: 15px; }
+.prose-bcc table      { border-collapse: collapse; margin: 0.4rem 0; font-size: 13px; width: 100%; }
+.prose-bcc th,
+.prose-bcc td         { border: 1px solid var(--border); padding: 5px 8px; text-align: left; color: #374151; }
+.prose-bcc th         { background: var(--surface-soft); font-weight: 600; color: var(--text); }

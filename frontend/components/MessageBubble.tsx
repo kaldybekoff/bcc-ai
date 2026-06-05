@@ -11,22 +11,22 @@ export interface Message {
   streaming?: boolean;
 }
 
-function HexAvatar() {
+function Avatar() {
   return (
     <div
       className="flex items-center justify-center shrink-0"
       style={{
-        width: 28,
-        height: 28,
-        background: "var(--bg-card)",
-        border: "1px solid rgba(245,166,35,0.3)",
-        borderRadius: 8,
+        width: 30,
+        height: 30,
+        background: "linear-gradient(135deg, #00C07A 0%, #00A86B 100%)",
+        borderRadius: 9,
         alignSelf: "flex-start",
+        boxShadow: "0 2px 6px rgba(0,168,107,0.3)",
       }}
     >
-      <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
-        <polygon points="8,1 14,4.5 14,11.5 8,15 2,11.5 2,4.5" fill="none" stroke="#F5A623" strokeWidth="1.2" />
-        <circle cx="8" cy="7" r="2" fill="#F5A623" />
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none">
+        <path d="M12 4 L20 18 L12 18 Z" fill="#FFFFFF" />
+        <path d="M12 4 L4 18 L12 18 Z" fill="rgba(255,255,255,0.62)" />
       </svg>
     </div>
   );
@@ -41,7 +41,7 @@ function TypingDots() {
           style={{
             width: 6, height: 6,
             borderRadius: "50%",
-            background: "#F5A623",
+            background: "var(--primary)",
             display: "inline-block",
             animation: "typingPulse 1.2s ease-in-out infinite",
             animationDelay: `${delay}s`,
@@ -58,11 +58,11 @@ function SourceTag({ name }: { name: string }) {
       className="flex items-center gap-1"
       style={{
         fontSize: 11,
-        color: "var(--text-sec)",
-        background: "rgba(245,166,35,0.07)",
-        border: "1px solid rgba(245,166,35,0.18)",
-        borderRadius: 4,
-        padding: "2px 7px",
+        color: "var(--primary)",
+        background: "var(--primary-dim)",
+        border: "1px solid var(--primary-border)",
+        borderRadius: 6,
+        padding: "2px 8px",
       }}
     >
       <svg width="11" height="11" viewBox="0 0 12 12" fill="none">
@@ -88,23 +88,18 @@ export default function MessageBubble({ msg }: { msg: Message }) {
 
   if (isAI) {
     return (
-      <div className="msg-enter flex gap-2" style={{ alignItems: "flex-start" }}>
-        <HexAvatar />
-        {/* maxWidth responsive: 90% mobile, 78% desktop */}
-        <div style={{ maxWidth: "min(78%, calc(100vw - 80px))", width: "100%" }}>
+      <div className="msg-enter flex gap-2.5" style={{ alignItems: "flex-start" }}>
+        <Avatar />
+        <div style={{ maxWidth: "min(80%, calc(100vw - 80px))", width: "100%" }}>
           <div
             style={{
-              position: "relative",
-              background: "var(--bg-card)",
+              background: "var(--surface)",
               border: "1px solid var(--border)",
-              borderRadius: "4px 14px 14px 14px",
-              padding: "12px 14px",
-              boxShadow: "0 4px 24px rgba(0,0,0,0.3)",
-              overflow: "hidden",
+              borderRadius: "6px 16px 16px 16px",
+              padding: "14px 16px",
+              boxShadow: "0 2px 10px rgba(17,24,39,0.05)",
             }}
           >
-            <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 1, background: "linear-gradient(90deg, rgba(245,166,35,0.5), transparent)" }} />
-
             {msg.streaming && !msg.text ? (
               <TypingDots />
             ) : (
@@ -114,27 +109,20 @@ export default function MessageBubble({ msg }: { msg: Message }) {
             )}
 
             {!msg.streaming && msg.sources && msg.sources.length > 0 && (
-              <div className="flex flex-wrap gap-1.5" style={{ marginTop: 10, paddingTop: 10, borderTop: "1px solid rgba(255,255,255,0.06)" }}>
+              <div className="flex flex-wrap gap-1.5" style={{ marginTop: 12, paddingTop: 12, borderTop: "1px solid var(--border)" }}>
                 {msg.sources.map((s) => <SourceTag key={s} name={s} />)}
               </div>
             )}
 
             {!msg.streaming && msg.text && (
-              <div className="flex gap-2" style={{ marginTop: 8 }}>
+              <div className="flex gap-2" style={{ marginTop: 10 }}>
                 <button
                   onClick={copy}
-                  style={{ fontSize: 11, color: copied ? "#F5A623" : "rgba(255,255,255,0.28)", background: "none", border: "none", cursor: "pointer", transition: "color 0.15s" }}
-                  onMouseEnter={(e) => { if (!copied) (e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.7)"; }}
-                  onMouseLeave={(e) => { if (!copied) (e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.28)"; }}
+                  style={{ fontSize: 12, color: copied ? "var(--primary)" : "var(--text-muted)", background: "none", border: "none", cursor: "pointer", transition: "color 0.15s", padding: 0 }}
+                  onMouseEnter={(e) => { if (!copied) (e.currentTarget as HTMLElement).style.color = "var(--text-sec)"; }}
+                  onMouseLeave={(e) => { if (!copied) (e.currentTarget as HTMLElement).style.color = "var(--text-muted)"; }}
                 >
                   {copied ? "✓ Скопировано" : "Копировать"}
-                </button>
-                <button
-                  style={{ fontSize: 11, color: "rgba(255,255,255,0.28)", background: "none", border: "none", cursor: "pointer" }}
-                  onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.7)"; }}
-                  onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.28)"; }}
-                >
-                  👍
                 </button>
               </div>
             )}
@@ -149,14 +137,13 @@ export default function MessageBubble({ msg }: { msg: Message }) {
       <div
         style={{
           maxWidth: "min(72%, calc(100vw - 48px))",
-          background: "var(--bg-user)",
-          border: "1px solid rgba(245,166,35,0.12)",
-          borderRadius: "14px 4px 14px 14px",
-          padding: "10px 14px",
-          fontSize: 13,
-          color: "#fff",
+          background: "var(--user-bubble)",
+          border: "1px solid var(--primary-border)",
+          borderRadius: "16px 6px 16px 16px",
+          padding: "11px 15px",
+          fontSize: 14,
+          color: "#0b5a3f",
           lineHeight: 1.6,
-          boxShadow: "0 2px 12px rgba(0,0,0,0.2)",
           wordBreak: "break-word",
         }}
       >

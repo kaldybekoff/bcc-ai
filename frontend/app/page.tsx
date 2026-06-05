@@ -2,24 +2,50 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import Header from "@/components/Header";
-import FAQSidebar from "@/components/FAQSidebar";
+import FAQSidebar, { type RecentItem } from "@/components/FAQSidebar";
 import ChatWindow from "@/components/ChatWindow";
 import { type Message } from "@/components/MessageBubble";
 import { streamChat, type HistoryMessage } from "@/lib/api";
+
+const RECENT_KEY = "bcc-recent";
+const RECENT_MAX = 8;
 
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
+  const [recent, setRecent] = useState<RecentItem[]>([]);
   const inputRef = useRef<HTMLInputElement>(null);
   const messagesRef = useRef<Message[]>([]);
   useEffect(() => { messagesRef.current = messages; }, [messages]);
+
+  // Загрузка истории запросов из localStorage
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(RECENT_KEY);
+      if (raw) setRecent(JSON.parse(raw));
+    } catch { /* ignore */ }
+  }, []);
+
+  const pushRecent = useCallback((q: string) => {
+    setRecent((prev) => {
+      const next = [{ q, ts: Date.now() }, ...prev.filter((r) => r.q !== q)].slice(0, RECENT_MAX);
+      try { localStorage.setItem(RECENT_KEY, JSON.stringify(next)); } catch { /* ignore */ }
+      return next;
+    });
+  }, []);
+
+  const clearRecent = useCallback(() => {
+    setRecent([]);
+    try { localStorage.removeItem(RECENT_KEY); } catch { /* ignore */ }
+  }, []);
 
   const send = useCallback(async (text: string) => {
     const q = text.trim();
     if (!q || loading) return;
     setInput("");
+    pushRecent(q);
 
     // история диалога для контекста бэкенда (без пустых/стриминговых сообщений)
     const history: HistoryMessage[] = messagesRef.current
@@ -56,7 +82,7 @@ export default function Home() {
     } finally {
       setLoading(false);
     }
-  }, [loading]);
+  }, [loading, pushRecent]);
 
   const handleFAQSelect = (question: string) => {
     setInput(question);
@@ -72,6 +98,8 @@ export default function Home() {
           onSelect={handleFAQSelect}
           mobileOpen={mobileDrawerOpen}
           onClose={() => setMobileDrawerOpen(false)}
+          recent={recent}
+          onClearRecent={clearRecent}
         />
         <ChatWindow
           messages={messages}

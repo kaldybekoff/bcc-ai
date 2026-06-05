@@ -11,6 +11,11 @@ interface Category {
   items: FAQItem[];
 }
 
+export interface RecentItem {
+  q: string;
+  ts: number;
+}
+
 const CATEGORIES: Category[] = [
   {
     name: "Кредитный лимит",
@@ -101,13 +106,27 @@ const CATEGORIES: Category[] = [
   },
 ];
 
+function relativeTime(ts: number): string {
+  const s = Math.floor((Date.now() - ts) / 1000);
+  if (s < 60) return "только что";
+  const m = Math.floor(s / 60);
+  if (m < 60) return `${m} мин назад`;
+  const h = Math.floor(m / 60);
+  if (h < 24) return `${h} ч назад`;
+  const d = Math.floor(h / 24);
+  if (d === 1) return "вчера";
+  return `${d} дн назад`;
+}
+
 interface Props {
   onSelect: (question: string) => void;
   mobileOpen?: boolean;
   onClose?: () => void;
+  recent?: RecentItem[];
+  onClearRecent?: () => void;
 }
 
-export default function FAQSidebar({ onSelect, mobileOpen = false, onClose }: Props) {
+export default function FAQSidebar({ onSelect, mobileOpen = false, onClose, recent = [], onClearRecent }: Props) {
   const [search, setSearch] = useState("");
   const [activeId, setActiveId] = useState<string | null>(null);
 
@@ -122,26 +141,26 @@ export default function FAQSidebar({ onSelect, mobileOpen = false, onClose }: Pr
     })).filter((cat) => cat.items.length > 0);
   }, [search]);
 
-  const handleClick = (item: FAQItem) => {
-    setActiveId(item.question);
-    onSelect(item.question);
+  const handleClick = (question: string) => {
+    setActiveId(question);
+    onSelect(question);
     onClose?.();
   };
 
   const searchBox = (
-    <div style={{ padding: "12px 12px 8px" }}>
+    <div style={{ padding: "14px 14px 8px" }}>
       <div
-        className="flex items-center gap-1.5"
+        className="flex items-center gap-2"
         style={{
-          background: "rgba(255,255,255,0.05)",
+          background: "var(--surface-soft)",
           border: "1px solid var(--border)",
-          borderRadius: 8,
-          padding: "7px 10px",
+          borderRadius: 10,
+          padding: "9px 12px",
         }}
       >
-        <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
-          <circle cx="5.5" cy="5.5" r="3.5" stroke="rgba(255,255,255,0.25)" strokeWidth="1.2" />
-          <path d="M8.5 8.5L11 11" stroke="rgba(255,255,255,0.25)" strokeWidth="1.2" strokeLinecap="round" />
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <circle cx="6" cy="6" r="4" stroke="var(--text-muted)" strokeWidth="1.3" />
+          <path d="M9 9L12 12" stroke="var(--text-muted)" strokeWidth="1.3" strokeLinecap="round" />
         </svg>
         <input
           type="text"
@@ -153,26 +172,70 @@ export default function FAQSidebar({ onSelect, mobileOpen = false, onClose }: Pr
             background: "transparent",
             border: "none",
             outline: "none",
-            fontSize: 16,
-            color: "rgba(255,255,255,0.7)",
+            fontSize: 14,
+            color: "var(--text)",
+            minWidth: 0,
           }}
         />
       </div>
     </div>
   );
 
-  const categoryList = (
+  const sectionTitle = (text: string, action?: React.ReactNode) => (
+    <div className="flex items-center justify-between" style={{ padding: "12px 14px 6px" }}>
+      <span style={{ fontSize: 11, fontWeight: 600, color: "var(--text-muted)", textTransform: "uppercase", letterSpacing: "0.07em" }}>
+        {text}
+      </span>
+      {action}
+    </div>
+  );
+
+  const content = (
     <div className="overflow-y-auto flex-1" style={{ paddingBottom: 12 }}>
+      {/* Recent requests */}
+      {recent.length > 0 && (
+        <div style={{ marginBottom: 6 }}>
+          {sectionTitle(
+            "Недавние запросы",
+            <button
+              onClick={onClearRecent}
+              style={{ fontSize: 11, color: "var(--text-muted)", background: "none", border: "none", cursor: "pointer" }}
+              onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--primary)")}
+              onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--text-muted)")}
+            >
+              Очистить
+            </button>
+          )}
+          {recent.map((r, i) => (
+            <button
+              key={`${r.ts}-${i}`}
+              onClick={() => handleClick(r.q)}
+              className="flex items-center justify-between gap-2"
+              style={{
+                width: "100%", textAlign: "left",
+                padding: "8px 14px",
+                background: "transparent", border: "none", cursor: "pointer",
+                transition: "background 0.15s",
+              }}
+              onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.background = "var(--surface-soft)")}
+              onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.background = "transparent")}
+            >
+              <span style={{ fontSize: 13, color: "var(--text-sec)", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+                {r.q}
+              </span>
+              <span style={{ fontSize: 11, color: "var(--text-muted)", flexShrink: 0 }}>{relativeTime(r.ts)}</span>
+            </button>
+          ))}
+        </div>
+      )}
+
+      {/* Popular topics */}
+      {sectionTitle("Популярные темы")}
       {filtered.map((cat) => (
-        <div key={cat.name} style={{ marginBottom: 4 }}>
-          <div
-            className="flex items-center gap-1.5"
-            style={{ padding: "10px 12px 4px" }}
-          >
-            <span style={{ width: 5, height: 5, borderRadius: "50%", background: "#F5A623", display: "inline-block", flexShrink: 0 }} />
-            <span style={{ fontSize: 11, fontWeight: 500, color: "#F5A623", textTransform: "uppercase", letterSpacing: "0.06em" }}>
-              {cat.name}
-            </span>
+        <div key={cat.name} style={{ marginBottom: 2 }}>
+          <div className="flex items-center gap-1.5" style={{ padding: "8px 14px 3px" }}>
+            <span style={{ width: 5, height: 5, borderRadius: "50%", background: "var(--primary)", display: "inline-block", flexShrink: 0 }} />
+            <span style={{ fontSize: 12, fontWeight: 600, color: "var(--text)" }}>{cat.name}</span>
           </div>
 
           {cat.items.map((item) => {
@@ -180,37 +243,28 @@ export default function FAQSidebar({ onSelect, mobileOpen = false, onClose }: Pr
             return (
               <button
                 key={item.question}
-                onClick={() => handleClick(item)}
+                onClick={() => handleClick(item.question)}
                 style={{
-                  width: "100%",
-                  textAlign: "left",
-                  display: "block",
-                  padding: "8px 12px 8px 22px",
+                  width: "100%", textAlign: "left", display: "block",
+                  padding: "7px 14px 7px 24px",
                   fontSize: 13,
-                  color: isActive ? "#fff" : "var(--text-sec)",
-                  background: isActive ? "rgba(245,166,35,0.07)" : "transparent",
-                  borderLeft: isActive ? "2px solid #F5A623" : "2px solid transparent",
-                  borderTop: "none",
-                  borderRight: "none",
-                  borderBottom: "none",
-                  borderRadius: "0 6px 6px 0",
-                  cursor: "pointer",
-                  lineHeight: 1.4,
-                  transition: "all 0.15s ease",
+                  color: isActive ? "var(--primary)" : "var(--text-sec)",
+                  background: isActive ? "var(--primary-soft)" : "transparent",
+                  borderLeft: isActive ? "2px solid var(--primary)" : "2px solid transparent",
+                  borderTop: "none", borderRight: "none", borderBottom: "none",
+                  cursor: "pointer", lineHeight: 1.4, transition: "all 0.15s ease",
                 }}
                 onMouseEnter={(e) => {
                   if (isActive) return;
                   const el = e.currentTarget;
-                  el.style.color = "#d4dce8";
-                  el.style.background = "rgba(255,255,255,0.03)";
-                  el.style.transform = "translateX(2px)";
+                  el.style.color = "var(--text)";
+                  el.style.background = "var(--surface-soft)";
                 }}
                 onMouseLeave={(e) => {
                   if (isActive) return;
                   const el = e.currentTarget;
                   el.style.color = "var(--text-sec)";
                   el.style.background = "transparent";
-                  el.style.transform = "translateX(0)";
                 }}
               >
                 {item.label}
@@ -228,93 +282,53 @@ export default function FAQSidebar({ onSelect, mobileOpen = false, onClose }: Pr
       <aside
         className="hidden md:flex flex-col shrink-0 overflow-hidden"
         style={{
-          width: 220,
-          background: "var(--bg-surface)",
+          width: 270,
+          background: "var(--surface)",
           borderRight: "1px solid var(--border)",
         }}
       >
         {searchBox}
-        {categoryList}
+        {content}
       </aside>
 
       {/* Mobile bottom sheet */}
-      <div
-        className="md:hidden"
-        style={{
-          position: "fixed",
-          inset: 0,
-          zIndex: 50,
-          pointerEvents: mobileOpen ? "auto" : "none",
-        }}
-      >
-        {/* Backdrop */}
+      <div className="md:hidden" style={{ position: "fixed", inset: 0, zIndex: 50, pointerEvents: mobileOpen ? "auto" : "none" }}>
         <div
           onClick={onClose}
-          style={{
-            position: "absolute",
-            inset: 0,
-            background: "rgba(0,0,0,0.6)",
-            opacity: mobileOpen ? 1 : 0,
-            transition: "opacity 0.25s",
-          }}
+          style={{ position: "absolute", inset: 0, background: "rgba(17,24,39,0.4)", opacity: mobileOpen ? 1 : 0, transition: "opacity 0.25s" }}
         />
-
-        {/* Sheet */}
         <div
           style={{
-            position: "absolute",
-            bottom: 0,
-            left: 0,
-            right: 0,
-            background: "var(--bg-surface)",
+            position: "absolute", bottom: 0, left: 0, right: 0,
+            background: "var(--surface)",
             borderRadius: "16px 16px 0 0",
             maxHeight: "75dvh",
-            display: "flex",
-            flexDirection: "column",
-            borderTop: "1px solid rgba(245,166,35,0.15)",
+            display: "flex", flexDirection: "column",
+            boxShadow: "0 -4px 24px rgba(17,24,39,0.12)",
             transform: mobileOpen ? "translateY(0)" : "translateY(100%)",
             transition: "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
             paddingBottom: "env(safe-area-inset-bottom, 0px)",
           }}
         >
-          {/* Drag handle */}
           <div style={{ padding: "12px 0 4px", display: "flex", justifyContent: "center", flexShrink: 0 }}>
-            <div style={{ width: 36, height: 4, borderRadius: 2, background: "rgba(255,255,255,0.15)" }} />
+            <div style={{ width: 36, height: 4, borderRadius: 2, background: "var(--border)" }} />
           </div>
-
-          {/* Header */}
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "center",
-              padding: "0 16px 8px",
-              flexShrink: 0,
-            }}
-          >
-            <span style={{ fontSize: 15, fontWeight: 600, color: "#fff" }}>Частые вопросы</span>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0 16px 8px", flexShrink: 0 }}>
+            <span style={{ fontSize: 15, fontWeight: 600, color: "var(--text)" }}>Частые вопросы</span>
             <button
               onClick={onClose}
               style={{
-                width: 32,
-                height: 32,
-                borderRadius: 8,
-                border: "1px solid rgba(255,255,255,0.1)",
-                background: "rgba(255,255,255,0.06)",
-                color: "rgba(255,255,255,0.6)",
-                fontSize: 16,
-                cursor: "pointer",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
+                width: 32, height: 32, borderRadius: 8,
+                border: "1px solid var(--border)", background: "var(--surface-soft)",
+                color: "var(--text-sec)", fontSize: 16, cursor: "pointer",
+                display: "flex", alignItems: "center", justifyContent: "center",
               }}
             >
               ✕
             </button>
           </div>
-
           {searchBox}
-          {categoryList}
+          {content}
         </div>
       </div>
     </>

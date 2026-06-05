@@ -14,9 +14,9 @@ export default function Header() {
     <header
       className="flex items-center justify-between shrink-0 z-10 relative"
       style={{
-        height: 56,
-        padding: "0 16px",
-        background: "var(--bg-surface)",
+        height: 60,
+        padding: "0 20px",
+        background: "var(--surface)",
         borderBottom: "1px solid var(--border)",
       }}
     >
@@ -25,24 +25,30 @@ export default function Header() {
 
       {/* Tabs — desktop only */}
       <div className="hidden md:flex gap-1">
-        {TABS.map((tab) => (
-          <button
-            key={tab}
-            onClick={() => setHelpOpen(tab === "Справка")}
-            style={{
-              padding: "6px 14px",
-              fontSize: 12,
-              borderRadius: 6,
-              border: activeTab === tab ? "1px solid rgba(245,166,35,0.2)" : "1px solid transparent",
-              background: activeTab === tab ? "rgba(245,166,35,0.10)" : "transparent",
-              color: activeTab === tab ? "#F5A623" : "var(--text-sec)",
-              cursor: "pointer",
-              transition: "all 0.15s",
-            }}
-          >
-            {tab}
-          </button>
-        ))}
+        {TABS.map((tab) => {
+          const active = activeTab === tab;
+          return (
+            <button
+              key={tab}
+              onClick={() => setHelpOpen(tab === "Справка")}
+              style={{
+                padding: "7px 16px",
+                fontSize: 14,
+                fontWeight: 500,
+                borderRadius: 8,
+                border: "none",
+                background: active ? "var(--primary-soft)" : "transparent",
+                color: active ? "var(--primary)" : "var(--text-sec)",
+                cursor: "pointer",
+                transition: "all 0.15s",
+              }}
+              onMouseEnter={(e) => { if (!active) (e.currentTarget as HTMLElement).style.background = "var(--surface-soft)"; }}
+              onMouseLeave={(e) => { if (!active) (e.currentTarget as HTMLElement).style.background = "transparent"; }}
+            >
+              {tab}
+            </button>
+          );
+        })}
       </div>
 
       {/* Status */}
@@ -53,12 +59,12 @@ export default function Header() {
           aria-label="Справка"
           className="md:hidden flex items-center justify-center"
           style={{
-            width: 28,
-            height: 28,
+            width: 30,
+            height: 30,
             borderRadius: "50%",
-            border: "1px solid var(--accent-border)",
-            background: "var(--accent-dim)",
-            color: "var(--accent)",
+            border: "1px solid var(--primary-border)",
+            background: "var(--primary-dim)",
+            color: "var(--primary)",
             cursor: "pointer",
             fontSize: 14,
             fontWeight: 700,
@@ -67,8 +73,18 @@ export default function Header() {
         >
           ?
         </button>
-        <span style={{ width: 7, height: 7, borderRadius: "50%", background: "var(--green)", display: "inline-block" }} />
-        <span className="hidden sm:inline" style={{ fontSize: 12, color: "var(--text-sec)" }}>Активен</span>
+        <div
+          className="flex items-center gap-2"
+          style={{
+            padding: "5px 12px",
+            borderRadius: 999,
+            background: "var(--primary-dim)",
+            border: "1px solid var(--primary-border)",
+          }}
+        >
+          <span style={{ width: 7, height: 7, borderRadius: "50%", background: "var(--primary)", display: "inline-block" }} />
+          <span className="hidden sm:inline" style={{ fontSize: 12, fontWeight: 500, color: "var(--primary)" }}>Активен</span>
+        </div>
       </div>
 
       <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)} />
