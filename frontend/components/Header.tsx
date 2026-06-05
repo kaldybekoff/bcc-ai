@@ -2,11 +2,13 @@
 
 import { useState } from "react";
 import BCCLogo from "./BCCLogo";
+import HelpModal from "./HelpModal";
 
-const TABS = ["Чат", "История", "Справка"] as const;
+const TABS = ["Чат", "Справка"] as const;
 
 export default function Header() {
-  const [activeTab, setActiveTab] = useState<string>("Чат");
+  const [helpOpen, setHelpOpen] = useState(false);
+  const activeTab = helpOpen ? "Справка" : "Чат";
 
   return (
     <header
@@ -26,7 +28,7 @@ export default function Header() {
         {TABS.map((tab) => (
           <button
             key={tab}
-            onClick={() => setActiveTab(tab)}
+            onClick={() => setHelpOpen(tab === "Справка")}
             style={{
               padding: "6px 14px",
               fontSize: 12,
@@ -48,6 +50,8 @@ export default function Header() {
         <span style={{ width: 7, height: 7, borderRadius: "50%", background: "var(--green)", display: "inline-block" }} />
         <span className="hidden sm:inline" style={{ fontSize: 12, color: "var(--text-sec)" }}>Активен</span>
       </div>
+
+      <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)} />
     </header>
   );
 }
