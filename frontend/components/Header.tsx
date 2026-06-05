@@ -46,7 +46,27 @@ export default function Header() {
       </div>
 
       {/* Status */}
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-3">
+        {/* Help — mobile only (tabs are desktop-only) */}
+        <button
+          onClick={() => setHelpOpen(true)}
+          aria-label="Справка"
+          className="md:hidden flex items-center justify-center"
+          style={{
+            width: 28,
+            height: 28,
+            borderRadius: "50%",
+            border: "1px solid var(--accent-border)",
+            background: "var(--accent-dim)",
+            color: "var(--accent)",
+            cursor: "pointer",
+            fontSize: 14,
+            fontWeight: 700,
+            lineHeight: 1,
+          }}
+        >
+          ?
+        </button>
         <span style={{ width: 7, height: 7, borderRadius: "50%", background: "var(--green)", display: "inline-block" }} />
         <span className="hidden sm:inline" style={{ fontSize: 12, color: "var(--text-sec)" }}>Активен</span>
       </div>
