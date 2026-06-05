@@ -4,151 +4,71 @@
 
 | Часть | Платформа | URL |
 |---|---|---|
-| Frontend | Vercel | https://bcc-assistant.vercel.app |
-| Backend | Google Cloud Run | https://bcc-assistant-backend-xxxx-uc.a.run.app |
+| Frontend | Vercel | https://bcc-ai.vercel.app |
+| Backend | Render (Docker) | https://bcc-ai.onrender.com |
+
+Оба деплоятся автоматически из ветки `main` на GitHub (auto-deploy on push).
 
 ---
 
-## Backend → Google Cloud Run
+## Backend → Render
 
-### Шаг 1: Установить Google Cloud CLI
+Бэкенд собирается из `backend/Dockerfile`.
 
-```bash
-# macOS
-brew install google-cloud-sdk
+### Настройка сервиса (один раз)
+1. Render → **New → Web Service**, подключить GitHub-репозиторий.
+2. **Root Directory:** `backend`
+3. **Runtime:** Docker (Render возьмёт `backend/Dockerfile`).
+4. **Environment** — задать переменные (см. ENV.md):
+   - `OPENAI_API_KEY`, `OPENAI_MODEL=gpt-4o-mini`, `EMBED_MODEL=text-embedding-3-small`, `CORS_ORIGINS=https://bcc-ai.vercel.app`
+5. **Auto-Deploy:** Yes (деплой на каждый push в `main`).
 
-# Linux
-curl https://sdk.cloud.google.com | bash
-
-# Авторизация
-gcloud auth login
-gcloud config set project ВАШ_PROJECT_ID
-```
-
-Создать проект: https://console.cloud.google.com/projectcreate
-
-### Шаг 2: Включить необходимые API
-
-```bash
-gcloud services enable run.googleapis.com
-gcloud services enable cloudbuild.googleapis.com
-gcloud services enable containerregistry.googleapis.com
-```
-
-### Шаг 3: Dockerfile (уже в проекте)
-
+### Dockerfile (в репозитории)
 ```dockerfile
-# backend/Dockerfile
 FROM python:3.11-slim
-
 WORKDIR /app
-
-# Установка системных зависимостей (для LibreOffice — общие_условия.doc)
-RUN apt-get update && apt-get install -y \
-    libreoffice \
+RUN apt-get update && apt-get install -y --no-install-recommends libreoffice-writer \
     && rm -rf /var/lib/apt/lists/*
-
-# Установка Python зависимостей
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-
-# Копирование кода
 COPY . .
-
-# Индексация базы знаний при сборке образа
-RUN python embeddings.py
-
-# Запуск
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
+ENV PORT=8080
+CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port ${PORT}"]
 ```
 
-### Шаг 4: Деплой
+### Обновление
+`git push origin main` → Render пересобирает образ автоматически.
+Если auto-deploy выключен: Render → **Manual Deploy → Deploy latest commit**.
 
-```bash
-cd backend
-
-# Сборка и пуш образа
-gcloud builds submit --tag gcr.io/PROJECT_ID/bcc-assistant-backend
-
-# Деплой на Cloud Run
-gcloud run deploy bcc-assistant-backend \
-  --image gcr.io/PROJECT_ID/bcc-assistant-backend \
-  --platform managed \
-  --region us-central1 \
-  --allow-unauthenticated \
-  --memory 512Mi \
-  --cpu 1 \
-  --set-env-vars GEMINI_API_KEY=AIza...,ENVIRONMENT=production,CORS_ORIGINS=https://bcc-assistant.vercel.app
-
-# Получить URL бэкенда
-gcloud run services describe bcc-assistant-backend \
-  --region us-central1 \
-  --format 'value(status.url)'
-```
-
-### Шаг 5: Обновление бэкенда
-
-```bash
-# После изменений в коде или базе знаний
-cd backend
-gcloud builds submit --tag gcr.io/PROJECT_ID/bcc-assistant-backend
-gcloud run deploy bcc-assistant-backend \
-  --image gcr.io/PROJECT_ID/bcc-assistant-backend \
-  --region us-central1
-```
+⚠️ При старте контейнера строятся эмбеддинги базы (~354 чанка, несколько секунд).
+Диск-кэш `.embcache/` не переживает рестарт инстанса → пересчёт при холодном старте (копейки).
 
 ---
 
 ## Frontend → Vercel
 
-### Шаг 1: Установить Vercel CLI
+### Настройка (один раз)
+1. Vercel → **Add New → Project**, импортировать репозиторий.
+2. **Root Directory:** `frontend`
+3. Framework: Next.js (определяется автоматически).
+4. **Environment Variables:** `NEXT_PUBLIC_API_URL=https://bcc-ai.onrender.com`
 
-```bash
-npm i -g vercel
-```
-
-### Шаг 2: Первый деплой
-
-```bash
-cd frontend
-
-# Логин в Vercel
-vercel login
-
-# Деплой
-vercel --prod
-```
-
-### Шаг 3: Добавить переменные окружения
-
-В Vercel Dashboard:
-Project → Settings → Environment Variables
-
-| Название | Значение |
-|---|---|
-| NEXT_PUBLIC_API_URL | https://bcc-assistant-backend-xxxx-uc.a.run.app |
-
-### Шаг 4: Обновление фронтенда
-
-```bash
-cd frontend
-vercel --prod
-```
+### Обновление
+`git push origin main` → Vercel пересобирает фронт автоматически.
 
 ---
 
 ## requirements.txt (backend)
-
 ```txt
 fastapi==0.111.0
 uvicorn[standard]==0.29.0
-google-generativeai==0.7.2
-chromadb==0.5.0
-html2text==2024.2.26
+openai
+beautifulsoup4==4.12.3
+numpy
 python-docx==1.1.2
-python-multipart==0.0.9
 python-dotenv==1.0.1
 pydantic==2.7.0
+python-multipart==0.0.9
 ```
 
 ---
@@ -156,41 +76,34 @@ pydantic==2.7.0
 ## Чеклист перед деплоем
 
 ### Backend
-- [ ] Все 16 .doc файлов в `backend/knowledge/`
-- [ ] `python embeddings.py` отработал без ошибок
-- [ ] `curl http://localhost:8000/api/health` возвращает `{"status": "ok"}`
-- [ ] `curl -X POST http://localhost:8000/api/chat -d '{"question":"тест"}'` стримит ответ
-- [ ] GEMINI_API_KEY задан корректно
-- [ ] CORS_ORIGINS содержит URL фронтенда
+- [ ] Все `.doc` файлы в `backend/knowledge/` (в подпапках) закоммичены
+- [ ] `GET /api/health` возвращает `files_loaded` = ожидаемое число и нужную `model`
+- [ ] `POST /api/chat` стримит корректный ответ с источниками
+- [ ] На Render заданы `OPENAI_API_KEY`, `OPENAI_MODEL`, `CORS_ORIGINS`
 
 ### Frontend
-- [ ] `NEXT_PUBLIC_API_URL` указывает на Cloud Run URL
-- [ ] Стриминг работает (текст появляется постепенно)
-- [ ] FAQ отображается и кликабелен
-- [ ] Мобильная версия проверена
-- [ ] Начальное приветственное сообщение показывается
+- [ ] `NEXT_PUBLIC_API_URL` указывает на Render-URL
+- [ ] Стриминг работает, FAQ кликается, мобильная версия и Справка открываются
 
 ---
 
-## Мониторинг
+## Проверка прода
 
 ```bash
-# Логи Cloud Run в реальном времени
-gcloud run services logs tail bcc-assistant-backend --region us-central1
+# Health
+curl https://bcc-ai.onrender.com/api/health
 
-# Статус сервиса
-gcloud run services describe bcc-assistant-backend --region us-central1
+# Чат (UTF-8 JSON)
+curl -X POST https://bcc-ai.onrender.com/api/chat \
+  -H "Content-Type: application/json" \
+  --data-binary '{"question":"Какой максимальный кредитный лимит по картакарта?"}'
 ```
 
 ---
 
-## Стоимость (ожидаемая)
-
+## Стоимость
 | Сервис | Стоимость |
 |---|---|
-| Gemini API (1 500 запросов/день) | $0 (free tier) |
-| Google Cloud Run | $0 (free tier: 2M req/мес) |
-| Vercel | $0 (free tier) |
-| **Итого** | **$0/мес** |
-
-При превышении free tier Cloud Run: ~$0.40 за 1М запросов.
+| OpenAI (gpt-4o-mini + эмбеддинги) | ~$0.002/вопрос |
+| Render | Free tier |
+| Vercel | Free tier |

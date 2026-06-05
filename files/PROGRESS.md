@@ -1,113 +1,60 @@
 # Прогресс разработки BCC Assistant
 
-## Текущий статус: 🟢 ПОЛНОСТЬЮ ГОТОВ — следующий шаг: Деплой (Cloud Run + Vercel)
+## Текущий статус: 🟢 В ПРОДЕ И РАБОТАЕТ
+
+- Frontend: https://bcc-ai.vercel.app (Vercel)
+- Backend: https://bcc-ai.onrender.com (Render)
 
 ---
 
 ## ✅ Завершено
 
-### Планирование и документация
-- [x] Спроектирована архитектура системы
-- [x] Выбран стек (Next.js + FastAPI + ChromaDB + Gemini)
-- [x] Проанализированы все 16 файлов базы знаний
-- [x] Создана документация (все MD файлы)
-- [x] Выявлен формат файлов: MHTML из Confluence
-- [x] Написан парсер MHTML → текст
-- [x] Определена стратегия чанкинга для каждого файла
+### Backend (FastAPI)
+- [x] `context.py` — парсинг 21 `.doc` через BeautifulSoup (таблицы→markdown, карточки aura-card, фильтр base64), Word97 через LibreOffice, кэш в памяти
+- [x] `retrieval.py` — гибридный поиск: эмбеддинги `text-embedding-3-small` + бонус за точные слова, чанки ~2000 симв, `top_k=14`, диск-кэш `.embcache/`, откат на keyword-only без ключа
+- [x] `main.py` — `POST /api/chat` (SSE-стриминг) + `GET /api/health`, поддержка истории диалога
+- [x] OpenAI `gpt-4o-mini` (генерация), промпт на глубину/структуру/расчёты
+- [x] `Dockerfile` (с LibreOffice), `requirements.txt`, `.env.example`
 
----
+### Frontend (Next.js 16 + React 19)
+- [x] `globals.css` — тема BCC (тёмно-синий + золотой), шрифт Inter
+- [x] `Header.tsx` — логотип, вкладки Чат/Справка, статус; кнопка справки на мобильном
+- [x] `FAQSidebar.tsx` — категории вопросов (клик → автовставка), мобильный drawer
+- [x] `MessageBubble.tsx` — пузыри user/AI, markdown, копирование, источники
+- [x] `ChatWindow.tsx` — чат с SSE-стримингом
+- [x] `HelpModal.tsx` — панель справки для оператора
+- [x] `lib/api.ts` — SSE-клиент, передача истории диалога
+- [x] Мобильная адаптация (FAQ как bottom-sheet)
 
-## 🔄 Следующий шаг: FRONTEND (backend написан)
-
-### Backend (FastAPI) — ✅ КОД ГОТОВ
-- [x] `requirements.txt` — все зависимости
-- [x] `config.py` — настройки из .env (пути, модели, RAG-параметры, chunk-размеры)
-- [x] `parsers.py` — парсинг MHTML + Word 97 (автоопределение формата)
-- [x] `chunker.py` — семантический чанкинг (по заголовкам → абзацам, target ~1800 симв, overlap 200)
-- [x] `embeddings.py` — парсинг 16 .doc + чанкинг + text-embedding-004 + ChromaDB индексация
-- [x] `rag.py` — RAG pipeline: embed вопрос → поиск (порог 1.5) → промпт → стрим Gemini
-- [x] `main.py` — FastAPI endpoints: POST /api/chat (SSE), GET /api/health
-- [x] `Dockerfile` — для Cloud Run
-- [x] `.env.example` + корневой `.gitignore`
-- [x] Все модули проходят `py_compile`; chunker протестирован на образце
-- [x] Положить 16 .doc файлов в `backend/knowledge/` (в подпапках автокредит/карткарта/кн)
-- [x] Задать `GEMINI_API_KEY` в `backend/.env`
-- [x] Тест индексации: 136 чанков в ChromaDB ✅
-- [x] Тест API: SSE стриминг работает, ответы корректные ✅
-
-**Важные изменения от плана:**
-- Модели изменены: `gemini-embedding-001` (вместо text-embedding-004) + `gemini-2.5-flash` (вместо 1.5-flash) — API ключ поддерживает только новые модели
-- ChromaDB rglob: файлы в подпапках (не корне knowledge/)
-- SSE streaming: sync генератор запускается через `run_in_executor` + asyncio.Queue для правильной async интеграции
-- Ключ API: формат `AQ.xxx` (не `AIza`) — это новый формат Google AI Studio
-
-### Frontend (Next.js)
-- [ ] `npx create-next-app@latest frontend`
-- [ ] Установка: Tailwind + shadcn/ui + Framer Motion
-- [ ] `globals.css` — CSS переменные BCC (тёмно-синий + золотой)
-- [ ] `Header.tsx` — логотип BCC + "AI Ассистент" + статус онлайн
-- [ ] `FAQSidebar.tsx` — сайдбар с кликабельными вопросами
-- [ ] `MessageBubble.tsx` — пузырь сообщения (user/AI) + кнопка копировать
-- [ ] `ChatWindow.tsx` — чат с SSE стримингом
-- [ ] `faq-data.ts` — данные FAQ из FAQ_CONTENT.md
-- [ ] `api.ts` — функции запросов к бэкенду
-- [ ] Мобильная версия (FAQ как drawer снизу)
+### База знаний (21 файл)
+- [x] #картакарта (лимит, кэшбэк, рассрочка, тарифы, лимиты, вопросы-ответы, продажи, общие условия и др.)
+- [x] Кредиты наличными (отделение, онлайн) + рефинансирование
+- [x] Автокредиты (автосалоны, физлица)
+- [x] Депозиты, Ипотека (#Ипотека/ДДУ/онлайн), Кредит под залог недвижимости
 
 ### Деплой
-- [ ] Деплой бэкенда на Google Cloud Run
-- [ ] Деплой фронтенда на Vercel
-- [ ] Проверка CORS
-- [ ] E2E тест
+- [x] Backend на Render (Docker, auto-deploy на push)
+- [x] Frontend на Vercel (auto-deploy на push)
+- [x] CORS, E2E проверка живых ответов на проде
 
 ---
 
-## 🐛 Известные проблемы и решения
+## 🔧 Известные нюансы
 
-### общие_условия.doc не читается как MHTML
-**Проблема:** Старый Word 97 бинарный формат, не MHTML.
-**Решение:** Конвертировать через LibreOffice:
-```bash
-soffice --headless --convert-to docx --outdir /tmp/ общие_условия.doc
-```
-Затем читать через python-docx.
+- **Матрица ставок депозитов** (продукт × валюта) в исходном Confluence — визуальная CSS-сетка без связи в HTML; основные ставки лежат в обычных таблицах и парсятся корректно.
+- **Диск-кэш эмбеддингов** на Render не переживает рестарт → пересчёт при холодном старте (~секунды, копейки).
+- **Источники** в редких случаях ранжируются неидеально (напр., общее условие может прийти из соседнего файла), но текст ответа корректен.
 
 ---
 
-## 📝 Лог сессий
-
-### Сессия 1 — планирование
-- Обсуждена архитектура: Next.js + FastAPI + ChromaDB + Gemini
-- Решено НЕ делать аутентификацию
-- Решено использовать Gemini (бесплатный) вместо Claude API
-- Деплой: Vercel (фронт) + Google Cloud Run (бэк)
-- Языки: RU + KZ (автоопределение)
-
-### Сессия 2 — анализ базы знаний
-- Все 16 файлов прочитаны и проанализированы
-- Формат: MHTML из Confluence (15 файлов) + Word 97 (1 файл)
-- Написан рабочий MHTML парсер
-- Определена детальная стратегия чанкинга
-- Созданы все MD файлы с полной документацией
-
-### Сессия 3 — backend (31.05.2026)
-- Создана структура `backend/` (модули + knowledge/ + Dockerfile)
-- Написан весь backend-код: config, parsers, chunker, embeddings, rag, main
-- Парсер с автоопределением MHTML vs Word 97 (по сигнатуре файла)
-- Чанкер: режет по markdown-заголовкам → абзацам, накапливает до ~1800 симв с overlap 200
-- Эмбеддинги считаем сами (Gemini), Chroma хранит готовые векторы (cosine)
-- RAG: фильтр по DISTANCE_THRESHOLD=1.5, при пустоте — стандартный ответ "не найдено"
-- SSE-стриминг через StreamingResponse, health отдаёт число чанков
-- Проверка: все модули py_compile OK, чанкер протестирован на образце текста
-- ⚠️ НЕ хватает 16 .doc файлов и GEMINI_API_KEY — индексацию не запускали
+## 💸 Стоимость
+- Модель `gpt-4o-mini`: ~$0.002 за вопрос (~2000+ вопросов на $5).
+- Эмбеддинги `text-embedding-3-small`: ~$0.002 за полную переиндексацию базы.
+- Render free + Vercel free.
 
 ---
 
-## ⚡ Быстрый старт для новой сессии
-
-```
-Read CLAUDE.md and PROGRESS.md first.
-Continue from where we left off.
-Next step: FRONTEND — npx create-next-app@latest frontend --typescript --tailwind --app
-Then install: shadcn/ui + framer-motion
-Build: Header → FAQSidebar → MessageBubble → ChatWindow → api.ts → faq-data.ts
-```
+## 🚀 Возможные улучшения
+- Точечная доводка ранжирования источников (вес keyword-бонуса).
+- Persistent-кэш эмбеддингов (volume) или предсборка при билде.
+- История диалогов с сохранением (localStorage / backend) — сейчас не реализована.

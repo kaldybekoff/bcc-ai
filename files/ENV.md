@@ -1,106 +1,74 @@
 # Переменные окружения BCC Assistant
 
-## ⚠️ НИКОГДА не коммитить реальные ключи в git!
-## Добавить в .gitignore: .env, .env.local, .env.production
+## ⚠️ НИКОГДА не коммитить реальные ключи!
+`.env`, `.env.local` уже в `.gitignore`.
 
 ---
 
-## Backend — backend/.env
+## Backend — `backend/.env`
 
 ```env
-# Google Gemini API Key
-# Получить: https://aistudio.google.com/ → Get API Key → Create API key
-GEMINI_API_KEY=AIza...
+# OpenAI API Key — https://platform.openai.com/api-keys
+OPENAI_API_KEY=sk-...
 
-# Окружение
-ENVIRONMENT=development
+# Модель генерации ответов (gpt-4o-mini — дёшево; gpt-4o — глубже, дороже ~в 16 раз)
+OPENAI_MODEL=gpt-4o-mini
 
-# CORS — фронтенд URL через запятую
-CORS_ORIGINS=http://localhost:3000,https://твой-домен.vercel.app
+# Модель эмбеддингов для семантического поиска
+EMBED_MODEL=text-embedding-3-small
 
-# ChromaDB путь (опционально, по умолчанию ./chroma_db)
-CHROMA_PATH=./chroma_db
+# CORS — URL фронтенда через запятую
+CORS_ORIGINS=https://bcc-ai.vercel.app,http://localhost:3000
 
-# ChromaDB коллекция
-CHROMA_COLLECTION=bcc_knowledge
+# Опционально:
+# MAX_CONTEXT_CHARS=30000      # бюджет символов контекста на запрос
+# MAX_OUTPUT_TOKENS=3000       # максимум токенов в ответе
+# MAX_HISTORY_MESSAGES=8       # сколько предыдущих сообщений диалога учитывать
 ```
 
 ---
 
-## Frontend — frontend/.env.local
+## Frontend — `frontend/.env.local`
 
 ```env
-# URL бэкенда
 # Development:
 NEXT_PUBLIC_API_URL=http://localhost:8000
 
-# Production (заменить после деплоя на Cloud Run):
-# NEXT_PUBLIC_API_URL=https://bcc-assistant-backend-xxxx-uc.a.run.app
+# Production (на Vercel задаётся в Dashboard):
+# NEXT_PUBLIC_API_URL=https://bcc-ai.onrender.com
 ```
 
 ---
 
-## Как получить GEMINI_API_KEY
+## Как получить OPENAI_API_KEY
+1. https://platform.openai.com/api-keys
+2. Sign in → **Create new secret key**
+3. Скопировать (`sk-...`) и вставить в `backend/.env`
+4. Убедиться, что на аккаунте есть баланс (Billing) — без него запросы вернут 401/429
 
-1. Перейти: https://aistudio.google.com/
-2. Sign in с Google аккаунтом
-3. Нажать "Get API Key" → "Create API key in new project"
-4. Скопировать ключ (начинается с AIza...)
-5. Вставить в `backend/.env`
-
-**Лимиты бесплатного Gemini (проверено 2025):**
-
-| Модель | RPM | RPD | TPM |
-|---|---|---|---|
-| gemini-1.5-flash | 15 | 1 500 | 1 000 000 |
-| text-embedding-004 | 1 500 | 1 500 | — |
-
-Для 20-30 сотрудников при ~50 запросах/день — хватает с запасом.
+**Примерная стоимость:** `gpt-4o-mini` ~$0.002/вопрос; `text-embedding-3-small` ~$0.002 за переиндексацию всей базы. Для 20-30 операторов — копейки.
 
 ---
 
-## Production — Google Cloud Run
+## Production — Render (backend)
 
-Переменные задаются в консоли GCP, НЕ в файле.
-
-```bash
-gcloud run deploy bcc-assistant-backend \
-  --set-env-vars GEMINI_API_KEY=AIza...,ENVIRONMENT=production,CORS_ORIGINS=https://твой-домен.vercel.app
-```
-
-Или через UI: Cloud Run → Сервис → Редактировать → Переменные среды
-
----
-
-## Production — Vercel
-
-Задаются в Vercel Dashboard:
-Project → Settings → Environment Variables
+Render → сервис → **Environment** → задать переменные:
 
 | Переменная | Значение |
 |---|---|
-| NEXT_PUBLIC_API_URL | https://bcc-assistant-backend-xxxx-uc.a.run.app |
+| `OPENAI_API_KEY` | `sk-...` |
+| `OPENAI_MODEL` | `gpt-4o-mini` |
+| `EMBED_MODEL` | `text-embedding-3-small` |
+| `CORS_ORIGINS` | `https://bcc-ai.vercel.app` |
+
+Сохранение переменной триггерит передеплой.
 
 ---
 
-## .gitignore (добавить)
+## Production — Vercel (frontend)
 
-```gitignore
-# Environment files
-.env
-.env.local
-.env.production
-.env.development
+Vercel → Project → Settings → Environment Variables:
 
-# ChromaDB данные
-backend/chroma_db/
-
-# Python
-__pycache__/
-*.pyc
-venv/
-
-# Node
-node_modules/
-.next/
-```
+| Переменная | Значение |
+|---|---|
+| `NEXT_PUBLIC_API_URL` | `https://bcc-ai.onrender.com` |

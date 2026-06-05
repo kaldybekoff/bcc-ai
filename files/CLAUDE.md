@@ -1,144 +1,111 @@
-# BCC Assistant — AI Чат для сотрудников BCC Bank
+# BCC Assistant — AI чат для сотрудников BCC Bank
 
 ## Цель проекта
-Корпоративный AI ассистент для сотрудников-операторов BCC Bank (Банк ЦентрКредит).
-Сотрудники задают вопросы в чат → вся база знаний передаётся в контекст → Gemini даёт чёткий ответ.
-Сайт только для внутреннего использования сотрудниками, не для клиентов.
+Корпоративный AI-ассистент для сотрудников-операторов BCC Bank (Банк ЦентрКредит).
+Оператор задаёт вопрос в чат → бэкенд находит релевантные фрагменты базы знаний →
+OpenAI даёт точный структурированный ответ. Только для внутреннего использования.
 
 ---
 
-## Стек
-- **Frontend:** Next.js 14 (App Router) + Tailwind CSS + shadcn/ui + Framer Motion
+## Стек (актуальный)
+- **Frontend:** Next.js 16 (App Router) + React 19 + Tailwind CSS v4 + Framer Motion + react-markdown
 - **Backend:** FastAPI (Python 3.11)
-- **AI модель:** Google Gemini 1.5 Flash
-- **Деплой Frontend:** Vercel
-- **Деплой Backend:** Google Cloud Run
+- **AI (генерация):** OpenAI `gpt-4o-mini` (env `OPENAI_MODEL`)
+- **AI (поиск):** OpenAI `text-embedding-3-small` (env `EMBED_MODEL`)
+- **Деплой Frontend:** Vercel — https://bcc-ai.vercel.app
+- **Деплой Backend:** Render (Docker) — https://bcc-ai.onrender.com
 
-❌ ChromaDB — НЕ используется
-❌ text-embedding-004 — НЕ используется
-❌ RAG pipeline — НЕ используется
-✅ Вся база знаний (~42k токенов) передаётся целиком в system prompt
+❌ Gemini — не используется (исторически был, переключились на OpenAI)
+❌ ChromaDB / RAG-фреймворк — не используется (свой лёгкий поиск in-memory на numpy)
+❌ shadcn/ui — не используется
 
 ---
 
-## Почему не RAG
+## Как работает retrieval (важно)
 
-Все 16 файлов = ~42 000 токенов.
-Контекстное окно Gemini 1.5 Flash = 1 000 000 токенов.
-База знаний занимает 4% контекста → RAG избыточен.
-Full context = более точные ответы + проще код.
+База НЕ передаётся целиком. Используется **гибридный chunk-level поиск** (`retrieval.py`):
+- каждый файл режется на чанки ~2000 символов;
+- запрос ищется по **эмбеддингам** (семантика) + **бонус за точные слова** (термины вроде `#картакарта`, MCC-кодов, названий продуктов);
+- берётся `top_k=14` лучших чанков в пределах бюджета (`MAX_CONTEXT_CHARS`, по умолч. 30000 символов);
+- эмбеддинги считаются один раз и кэшируются на диск (`.embcache/`); при отсутствии `OPENAI_API_KEY` — мягкий откат на keyword-only.
+
+Это даёт точные источники операторам и экономит токены.
+
+---
+
+## КРИТИЧНО: парсинг базы знаний (`context.py`)
+
+Файлы базы — **MHTML-экспорт из Confluence** (большинство) + один Word 97 (`общие условия.doc`).
+Парсинг через **BeautifulSoup** (не голый html2text):
+- реальные `<table>` → markdown-таблицы (строки/колонки сохраняются);
+- карточки Confluence `aura-card` → строки `**заголовок** — значение` (иначе цифры теряют привязку к продукту);
+- фильтр base64-блобов встроенных картинок (без него `общие условия.doc` раздувался до ~2.7M символов мусора);
+- Word 97 конвертируется через LibreOffice (`soffice`) → `python-docx`.
+
+База: 21 файл, ~600k символов, ~354 чанка.
 
 ---
 
 ## Структура проекта
 ```
 bcc-assistant/
-├── frontend/
-│   ├── app/
-│   │   ├── page.tsx
-│   │   ├── layout.tsx
-│   │   └── globals.css
-│   ├── components/
-│   │   ├── ChatWindow.tsx
-│   │   ├── FAQSidebar.tsx
-│   │   ├── MessageBubble.tsx
-│   │   └── Header.tsx
-│   ├── lib/
-│   │   ├── api.ts
-│   │   └── faq-data.ts
-│   ├── public/
-│   │   └── bcc-logo.svg
-│   └── package.json
+├── frontend/                 # Next.js 16, деплой на Vercel
+│   ├── app/                  # page.tsx, layout.tsx, globals.css
+│   ├── components/           # Header, FAQSidebar, ChatWindow, MessageBubble, BCCLogo, HelpModal
+│   └── lib/api.ts            # SSE-клиент к бэкенду
 │
-└── backend/
-    ├── main.py          ← FastAPI endpoints
-    ├── context.py       ← парсинг .doc → единый текст контекста
-    ├── knowledge/       ← 16 .doc файлов базы знаний
+└── backend/                  # FastAPI, деплой на Render (Docker)
+    ├── main.py               # /api/chat (SSE) + /api/health
+    ├── context.py            # парсинг .doc → единый текст (BeautifulSoup), кэш в памяти
+    ├── retrieval.py          # гибридный поиск (эмбеддинги + keyword), кэш эмбеддингов
+    ├── knowledge/            # 21 .doc базы знаний (в подпапках)
     ├── requirements.txt
     └── Dockerfile
 ```
 
----
-
-## Как работает бэкенд (просто)
-
-```python
-# context.py — запускается один раз при старте сервера
-KNOWLEDGE_CONTEXT = load_all_docs("knowledge/")  # ~42k токенов
-
-# main.py — при каждом запросе
-@app.post("/api/chat")
-async def chat(question: str):
-    prompt = SYSTEM_PROMPT.format(context=KNOWLEDGE_CONTEXT, question=question)
-    return StreamingResponse(gemini.stream(prompt))
-```
+Подпапки `knowledge/`: `картa/`, `кн/`, `автокредит/`, `депозиты/`, `ипотека/`, `залог/`.
+`context.py` ищет файлы рекурсивно (`rglob("*.doc")`) — новые файлы подхватываются автоматически.
 
 ---
 
-## КРИТИЧНО: Формат файлов базы знаний
+## Поток запроса
 
-Все 16 файлов `.doc` — это **MHTML экспорт из Confluence**, НЕ бинарный Word.
-Исключение: `общие_условия.doc` — старый Word 97.
-
-### Парсинг MHTML файлов (15 файлов):
 ```python
-import email
-import html2text
-from pathlib import Path
+# context.py — при старте сервера (lifespan)
+KNOWLEDGE = get_context()      # парсинг всех .doc, кэш в памяти
+warmup(KNOWLEDGE)              # построение чанков + эмбеддингов (с диск-кэшем)
 
-def parse_mhtml(filepath: str) -> str:
-    with open(filepath, 'rb') as f:
-        raw = f.read()
-    msg = email.message_from_bytes(raw)
-    text = ''
-    for part in msg.walk():
-        if part.get_content_type() == 'text/html':
-            payload = part.get_payload(decode=True)
-            if payload:
-                html = payload.decode('utf-8', errors='replace')
-                h = html2text.HTML2Text()
-                h.ignore_links = True
-                h.ignore_images = True
-                h.body_width = 0
-                text += h.handle(html)
-    return text
-
-def load_all_docs(folder: str) -> str:
-    context = ""
-    for filepath in Path(folder).glob("*.doc"):
-        text = parse_mhtml(str(filepath))
-        context += f"\n\n=== {filepath.name} ===\n{text}"
-    return context.strip()
+# main.py — на каждый запрос
+ctx, sources = retrieve(question, KNOWLEDGE)        # топ-14 чанков
+messages = [system(ctx)] + history + [user(question)]
+StreamingResponse(openai.stream(messages))          # SSE
 ```
 
-### Парсинг общие_условия.doc (Word 97):
-```bash
-soffice --headless --convert-to docx --outdir /tmp/ общие_условия.doc
-```
-Затем читать через `python-docx` и добавить в общий контекст.
+Фронтенд передаёт историю диалога — ассистент помнит контекст уточняющих вопросов.
 
 ---
 
 ## Переменные окружения
 ```
-Backend (.env):
-  GEMINI_API_KEY=...
-  ENVIRONMENT=development
-  CORS_ORIGINS=http://localhost:3000,https://твой-домен.vercel.app
+Backend:
+  OPENAI_API_KEY=sk-...
+  OPENAI_MODEL=gpt-4o-mini
+  EMBED_MODEL=text-embedding-3-small
+  CORS_ORIGINS=https://bcc-ai.vercel.app,http://localhost:3000
+  # опционально: MAX_CONTEXT_CHARS, MAX_OUTPUT_TOKENS, MAX_HISTORY_MESSAGES
 
-Frontend (.env.local):
-  NEXT_PUBLIC_API_URL=http://localhost:8000
+Frontend:
+  NEXT_PUBLIC_API_URL=https://bcc-ai.onrender.com   # или http://localhost:8000 локально
 ```
 
 ---
 
-## Команды запуска (development)
+## Запуск локально
 ```bash
 # Backend
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
-# ← embeddings.py больше НЕ нужен
 
 # Frontend
 cd frontend
@@ -148,31 +115,12 @@ npm run dev
 
 ---
 
-## requirements.txt (backend)
-```
-fastapi
-uvicorn[standard]
-google-generativeai
-html2text
-python-docx
-python-dotenv
-python-multipart
-```
-
-❌ chromadb — убрать
-❌ sentence-transformers — убрать
-
----
-
-## Первая фраза при старте новой сессии
-```
-Read CLAUDE.md and PROGRESS.md first, then continue from where we left off.
-```
-
-## Статус → см. PROGRESS.md
-## Архитектура → см. ARCHITECTURE.md
-## База знаний → см. KNOWLEDGE_BASE.md
-## Дизайн → см. DESIGN.md
-## FAQ контент → см. FAQ_CONTENT.md
-## Промпты → см. PROMPTS.md
-## Деплой → см. DEPLOYMENT.md
+## Документация
+- Архитектура → ARCHITECTURE.md
+- Статус → PROGRESS.md
+- База знаний → KNOWLEDGE_BASE.md
+- Дизайн → DESIGN.md
+- FAQ → FAQ_CONTENT.md
+- Промпт → PROMPTS.md
+- Деплой → DEPLOYMENT.md
+- Переменные окружения → ENV.md
