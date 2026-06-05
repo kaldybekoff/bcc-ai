@@ -99,7 +99,7 @@ export default function Landing() {
         <div aria-hidden style={{ position: "absolute", top: -80, right: -60, width: 420, height: 420, background: "radial-gradient(circle, rgba(0,168,107,0.18), transparent 70%)", filter: "blur(20px)", pointerEvents: "none" }} />
         <div aria-hidden style={{ position: "absolute", bottom: -120, left: -80, width: 380, height: 380, background: "radial-gradient(circle, rgba(0,192,122,0.12), transparent 70%)", filter: "blur(20px)", pointerEvents: "none" }} />
 
-        <div className="relative mx-auto flex flex-col items-center text-center" style={{ maxWidth: 820 }}>
+        <div className="relative mx-auto flex flex-col items-center text-center" style={{ width: "min(100%, 820px)", margin: "0 auto" }}>
           {/* copy */}
           <motion.div
             initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}
@@ -166,7 +166,7 @@ export default function Landing() {
         </div>
 
         {/* stats strip */}
-        <div className="mx-auto grid grid-cols-2 gap-4 md:grid-cols-4" style={{ maxWidth: 1120, marginTop: 56 }}>
+        <div className="mx-auto grid grid-cols-2 gap-4 md:grid-cols-4" style={{ width: "min(100%, 1120px)", margin: "56px auto 0" }}>
           {STATS.map((s) => (
             <Reveal key={s.l}>
               <div style={{ background: "var(--surface)", border: "1px solid var(--border)", borderRadius: 16, padding: "18px 20px", textAlign: "center" }}>
@@ -180,7 +180,7 @@ export default function Landing() {
 
       {/* Features */}
       <section id="features" style={{ padding: "56px 20px" }}>
-        <div className="mx-auto" style={{ maxWidth: 1120 }}>
+        <div className="mx-auto" style={{ width: "min(100%, 1120px)", margin: "0 auto" }}>
           <Reveal>
             <h2 style={{ fontSize: "clamp(26px,3.5vw,36px)", fontWeight: 800, textAlign: "center", letterSpacing: "-0.02em" }}>Почему это удобно</h2>
             <p style={{ fontSize: 16, color: "var(--text-sec)", textAlign: "center", marginTop: 10 }}>Быстро, точно и без риска ошибиться перед клиентом.</p>
@@ -208,7 +208,7 @@ export default function Landing() {
 
       {/* How it works */}
       <section style={{ padding: "56px 20px", background: "var(--surface)" }}>
-        <div className="mx-auto" style={{ maxWidth: 1120 }}>
+        <div className="mx-auto" style={{ width: "min(100%, 1120px)", margin: "0 auto" }}>
           <Reveal>
             <h2 style={{ fontSize: "clamp(26px,3.5vw,36px)", fontWeight: 800, textAlign: "center", letterSpacing: "-0.02em" }}>Как это работает</h2>
           </Reveal>
@@ -228,12 +228,12 @@ export default function Landing() {
 
       {/* Products */}
       <section style={{ padding: "56px 20px" }}>
-        <div className="mx-auto text-center" style={{ maxWidth: 900 }}>
+        <div className="mx-auto text-center" style={{ width: "min(100%, 900px)", margin: "0 auto", textAlign: "center" }}>
           <Reveal>
             <div className="inline-flex items-center gap-2" style={{ color: "var(--primary)", fontWeight: 600, fontSize: 14, marginBottom: 10 }}>
               {IconBolt} Знает все продукты банка
             </div>
-            <div className="flex flex-wrap justify-center gap-2.5" style={{ marginTop: 12 }}>
+            <div className="flex flex-wrap justify-center gap-2.5" style={{ marginTop: 12, display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
               {PRODUCTS.map((p) => (
                 <span key={p} style={{ background: "var(--surface)", border: "1px solid var(--border)", borderRadius: 999, padding: "9px 16px", fontSize: 14, fontWeight: 500, color: "var(--text)" }}>{p}</span>
               ))}
@@ -245,7 +245,7 @@ export default function Landing() {
       {/* Final CTA */}
       <section style={{ padding: "20px 20px 72px" }}>
         <Reveal>
-          <div className="mx-auto text-center" style={{ maxWidth: 1120, borderRadius: 28, padding: "56px 24px", background: "linear-gradient(135deg, #00A86B 0%, #009159 100%)", boxShadow: "0 20px 50px rgba(0,168,107,0.28)" }}>
+          <div className="mx-auto text-center" style={{ width: "min(100%, 1120px)", margin: "0 auto", textAlign: "center", borderRadius: 28, padding: "56px 24px", background: "linear-gradient(135deg, #00A86B 0%, #009159 100%)", boxShadow: "0 20px 50px rgba(0,168,107,0.28)" }}>
             <h2 style={{ fontSize: "clamp(26px,4vw,40px)", fontWeight: 800, color: "#fff", letterSpacing: "-0.02em" }}>Готовы начать?</h2>
             <p style={{ fontSize: 17, color: "rgba(255,255,255,0.9)", marginTop: 12, marginBottom: 28 }}>Откройте чат и задайте первый вопрос — ответ придёт за секунды.</p>
             <Link
@@ -261,7 +261,7 @@ export default function Landing() {
 
       {/* Footer */}
       <footer style={{ borderTop: "1px solid var(--border)", padding: "24px 20px", background: "var(--surface)" }}>
-        <div className="mx-auto flex flex-col items-center gap-2 text-center md:flex-row md:justify-between" style={{ maxWidth: 1120 }}>
+        <div className="mx-auto flex flex-col items-center gap-2 text-center md:flex-row md:justify-between" style={{ width: "min(100%, 1120px)", margin: "0 auto" }}>
           <Link href="/" aria-label="На главную">
             <BCCLogo variant="horizontal" />
           </Link>
