@@ -1,23 +1,45 @@
 """
-Поиск релевантных фрагментов базы знаний BCC (keyword retrieval).
+Поиск релевантных фрагментов базы знаний BCC — ГИБРИДНЫЙ (семантика + ключевые слова).
 
-Проблема старого подхода: каждый .doc считался одним «разделом», поэтому
-большие файлы (вопросы-ответы, общие условия, Рефинансирование) с огромным
-словарём матчили почти любой вопрос и вытесняли маленькие точечные файлы
-(тарифы.doc, кэшбэк.doc). Операторы получали неверные источники.
+Почему гибрид:
+  • Семантические эмбеддинги (text-embedding-3-small) понимают СМЫСЛ вопроса:
+    «сколько стоит обслуживание карты» находит «выпуск 0 ₸, обслуживание 0 ₸»,
+    даже если слова не совпадают. Keyword-поиск это пропускал.
+  • Но эмбеддинги хуже ловят ТОЧНЫЕ термины: «#картакарта», MCC-коды, названия
+    продуктов («Birge+», «AQYL»). Поэтому к косинусной близости добавляется
+    небольшой бонус за точное совпадение редких слов запроса.
 
-Решение: режем каждый файл на чанки ~1800 символов, ищем лучшие чанки по
-ВСЕЙ базе (а не по файлам), с отсевом стоп-слов и частотным скорингом.
-Так маленький точный файл побеждает большой нерелевантный.
+Эмбеддинги чанков считаются один раз и кэшируются на диск (.embcache/),
+ключ кэша = хэш(модель + полный контекст). При неизменной базе повторного
+вызова API при старте сервера нет. Если ключа OPENAI_API_KEY нет или API
+недоступен — мягкий откат на чистый keyword-поиск.
 """
 from __future__ import annotations
 
+import hashlib
+import json
+import os
 import re
 from collections import Counter
+from functools import lru_cache
+from pathlib import Path
+
+import numpy as np
+from openai import OpenAI
+
+_CACHE_DIR = Path(__file__).parent / ".embcache"
+
+
+def _embed_model() -> str:
+    # читаем лениво: переменные окружения грузятся (load_dotenv) после импорта модуля
+    return os.getenv("EMBED_MODEL", "text-embedding-3-small")
+
+
+def _api_key() -> str:
+    return os.getenv("OPENAI_API_KEY", "")
 
 # ── Стоп-слова (RU + немного KZ) ─────────────────────────────────────────────
 _STOPWORDS: set[str] = {
-    # русские предлоги/союзы/частицы/местоимения
     "и", "в", "во", "не", "что", "он", "на", "я", "с", "со", "как", "а", "то",
     "все", "она", "так", "его", "но", "да", "ты", "к", "у", "же", "вы", "за",
     "бы", "по", "только", "ее", "мне", "было", "вот", "от", "меня", "еще",
@@ -34,22 +56,24 @@ _STOPWORDS: set[str] = {
     "много", "разве", "три", "эту", "моя", "впрочем", "хорошо", "свою", "этой",
     "перед", "иногда", "лучше", "чуть", "том", "нельзя", "такой", "им", "более",
     "всю", "между", "это", "клиент", "клиента", "клиенту", "вопрос", "ответ",
-    "какие", "какой", "сколько", "можно", "нужно", "это",
-    # казахские частые служебные
-    "мен", "бен", "пен", "және", "не", "ме", "ба", "бе", "па", "пе", "ге",
+    "какие", "сколько", "нужно",
+    "мен", "бен", "пен", "және", "ме", "ба", "бе", "па", "пе", "ге",
 }
 
 
 def _tokenize(text: str) -> list[str]:
-    """Слова длиной ≥3, без стоп-слов, в нижнем регистре."""
     words = re.findall(r"[а-яёa-z0-9#]+", text.lower())
     return [w for w in words if len(w) >= 3 and w not in _STOPWORDS]
 
 
 # ── Чанкинг ──────────────────────────────────────────────────────────────────
 
-def _split_file(text: str, target: int = 1800) -> list[str]:
-    """Разбить текст файла на чанки ~target символов по абзацам."""
+def _split_file(text: str, target: int = 2000) -> list[str]:
+    """Разбить текст файла на чанки ~target символов по абзацам.
+
+    Абзацы (включая целые markdown-таблицы — у них нет пустых строк внутри)
+    не разрываются, пока помещаются в бюджет.
+    """
     paras = [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
     chunks: list[str] = []
     buf = ""
@@ -57,7 +81,6 @@ def _split_file(text: str, target: int = 1800) -> list[str]:
         if buf and len(buf) + len(p) + 2 > target:
             chunks.append(buf.strip())
             buf = ""
-        # абзац сам по себе длиннее target — режем по строкам
         if len(p) > target:
             if buf:
                 chunks.append(buf.strip())
@@ -83,17 +106,19 @@ class Chunk:
         self.tokens = Counter(_tokenize(text))
 
 
-_INDEX: list[Chunk] | None = None
+# ── Индекс (чанки + эмбеддинги) ───────────────────────────────────────────────
+
+_CHUNKS: list[Chunk] | None = None
+_EMB: np.ndarray | None = None          # (N, D), L2-нормированные; None → keyword-only
 
 
-def build_index(full_context: str) -> list[Chunk]:
-    """Построить индекс чанков из полной базы (=== filename === разделители)."""
+def build_chunks(full_context: str) -> list[Chunk]:
+    """Разрезать полную базу (=== filename === разделители) на чанки."""
     parts = re.split(r"(=== .+? ===)", full_context)
     chunks: list[Chunk] = []
     i = 1
     while i < len(parts):
-        header = parts[i].strip()
-        source = header.strip("= ").strip()
+        source = parts[i].strip("= ").strip()
         content = parts[i + 1] if i + 1 < len(parts) else ""
         for piece in _split_file(content.strip()):
             chunks.append(Chunk(source, piece))
@@ -101,77 +126,165 @@ def build_index(full_context: str) -> list[Chunk]:
     return chunks
 
 
-def get_index(full_context: str) -> list[Chunk]:
-    global _INDEX
-    if _INDEX is None:
-        _INDEX = build_index(full_context)
-    return _INDEX
+def _embed_texts(texts: list[str]) -> np.ndarray:
+    """Получить эмбеддинги через OpenAI батчами. Возвращает (len(texts), D)."""
+    client = OpenAI(api_key=_api_key())
+    model = _embed_model()
+    vecs: list[list[float]] = []
+    BATCH = 100
+    for start in range(0, len(texts), BATCH):
+        batch = texts[start:start + BATCH]
+        resp = client.embeddings.create(model=model, input=batch)
+        vecs.extend(d.embedding for d in resp.data)
+    arr = np.asarray(vecs, dtype=np.float32)
+    norms = np.linalg.norm(arr, axis=1, keepdims=True)
+    norms[norms == 0] = 1.0
+    return arr / norms
 
 
-# ── Поиск ────────────────────────────────────────────────────────────────────
+def _cache_key(full_context: str) -> str:
+    h = hashlib.sha256((_embed_model() + "\n" + full_context).encode("utf-8"))
+    return h.hexdigest()[:16]
 
-def find_relevant(
+
+def _load_cache(key: str) -> np.ndarray | None:
+    f = _CACHE_DIR / f"{key}.npy"
+    if f.exists():
+        try:
+            return np.load(f)
+        except Exception:  # noqa: BLE001
+            return None
+    return None
+
+
+def _save_cache(key: str, emb: np.ndarray) -> None:
+    try:
+        _CACHE_DIR.mkdir(exist_ok=True)
+        np.save(_CACHE_DIR / f"{key}.npy", emb)
+    except Exception:  # noqa: BLE001
+        pass
+
+
+def warmup(full_context: str) -> None:
+    """Построить индекс чанков и эмбеддинги (с диск-кэшем). Вызывать при старте."""
+    global _CHUNKS, _EMB
+    if _CHUNKS is not None:
+        return
+    _CHUNKS = build_chunks(full_context)
+    print(f"Retrieval: {len(_CHUNKS)} чанков.")
+
+    if not _api_key():
+        print("Retrieval: OPENAI_API_KEY не задан → keyword-only режим.")
+        _EMB = None
+        return
+
+    key = _cache_key(full_context)
+    emb = _load_cache(key)
+    if emb is not None and emb.shape[0] == len(_CHUNKS):
+        print(f"Retrieval: эмбеддинги из кэша ({emb.shape}).")
+        _EMB = emb
+        return
+
+    try:
+        print(f"Retrieval: считаю эмбеддинги {len(_CHUNKS)} чанков ({_embed_model()})…")
+        _EMB = _embed_texts([c.text for c in _CHUNKS])
+        _save_cache(key, _EMB)
+        print(f"Retrieval: эмбеддинги готовы и закэшированы ({_EMB.shape}).")
+    except Exception as exc:  # noqa: BLE001
+        print(f"Retrieval: ошибка эмбеддингов ({exc}) → keyword-only режим.")
+        _EMB = None
+
+
+def _ensure(full_context: str) -> list[Chunk]:
+    if _CHUNKS is None:
+        warmup(full_context)
+    return _CHUNKS or []
+
+
+@lru_cache(maxsize=256)
+def _embed_query(question: str) -> tuple[float, ...]:
+    """Эмбеддинг запроса (кэш в памяти, чтобы не дёргать API дважды за запрос)."""
+    arr = _embed_texts([question])[0]
+    return tuple(float(x) for x in arr)
+
+
+def _keyword_scores(q_tokens: set[str], chunks: list[Chunk]) -> np.ndarray:
+    """Доля совпавших РАЗНЫХ слов запроса в чанке (0..1)."""
+    n = len(chunks)
+    scores = np.zeros(n, dtype=np.float32)
+    if not q_tokens:
+        return scores
+    qn = len(q_tokens)
+    for i, ch in enumerate(chunks):
+        distinct = sum(1 for t in q_tokens if t in ch.tokens)
+        scores[i] = distinct / qn
+    return scores
+
+
+def _rank(question: str, full_context: str) -> list[tuple[float, Chunk]]:
+    chunks = _ensure(full_context)
+    if not chunks:
+        return []
+    q_tokens = set(_tokenize(question))
+    kw = _keyword_scores(q_tokens, chunks)
+
+    if _EMB is not None:
+        q = np.asarray(_embed_query(question), dtype=np.float32)
+        qn = np.linalg.norm(q) or 1.0
+        cos = _EMB @ (q / qn)          # (N,) косинусная близость, т.к. _EMB нормирован
+        # семантика — основа, ключевые слова — бонус за точные термины
+        final = cos + 0.12 * kw
+    else:
+        final = kw
+
+    order = np.argsort(-final)
+    return [(float(final[i]), chunks[i]) for i in order]
+
+
+# ── Публичный API ─────────────────────────────────────────────────────────────
+
+def retrieve(
     question: str,
     full_context: str,
     top_k: int = 8,
     max_total_chars: int = 24000,
-) -> str:
-    """Вернуть топ-K релевантных чанков по всей базе, сгруппированных по файлам."""
-    index = get_index(full_context)
-    q_tokens = set(_tokenize(question))
-    if not q_tokens:
-        # вопрос из одних стоп-слов — отдать начало базы
-        return full_context[:max_total_chars]
+) -> tuple[str, list[str]]:
+    """Вернуть (текст релевантных чанков, список файлов-источников)."""
+    ranked = _rank(question, full_context)
+    if not ranked:
+        return full_context[:max_total_chars], []
 
-    scored: list[tuple[float, Chunk]] = []
-    for ch in index:
-        # сколько РАЗНЫХ слов запроса встретилось (точность) + лёгкий бонус за частоту
-        distinct = sum(1 for t in q_tokens if t in ch.tokens)
-        if distinct == 0:
-            continue
-        freq = sum(ch.tokens[t] for t in q_tokens)
-        score = distinct * 10 + freq  # distinct важнее частоты
-        scored.append((score, ch))
-
-    if not scored:
-        return full_context[:max_total_chars]
-
-    scored.sort(key=lambda x: x[0], reverse=True)
-
-    # собираем чанки в рамках бюджета, группируя по исходному файлу
     selected: list[Chunk] = []
     total = 0
-    for _, ch in scored[:top_k]:
-        if total + len(ch.text) > max_total_chars:
+    for _, ch in ranked[:top_k]:
+        if total + len(ch.text) > max_total_chars and selected:
             continue
         selected.append(ch)
         total += len(ch.text)
         if total >= max_total_chars:
             break
 
-    # группировка по файлу для читаемости промпта
     by_file: dict[str, list[str]] = {}
+    sources: list[str] = []
     for ch in selected:
         by_file.setdefault(ch.source, []).append(ch.text)
+        if ch.source not in sources:
+            sources.append(ch.source)
 
     blocks = [f"=== {src} ===\n" + "\n\n".join(texts) for src, texts in by_file.items()]
-    return "\n\n".join(blocks)
+    return "\n\n".join(blocks), sources
+
+
+# Обратная совместимость со старым API main.py
+def find_relevant(question: str, full_context: str, top_k: int = 8,
+                  max_total_chars: int = 24000) -> str:
+    return retrieve(question, full_context, top_k, max_total_chars)[0]
 
 
 def relevant_sources(question: str, full_context: str, top_k: int = 8) -> list[str]:
-    """Список файлов-источников для топ-чанков (для UI)."""
-    index = get_index(full_context)
-    q_tokens = set(_tokenize(question))
-    if not q_tokens:
-        return []
-    scored: list[tuple[float, Chunk]] = []
-    for ch in index:
-        distinct = sum(1 for t in q_tokens if t in ch.tokens)
-        if distinct:
-            scored.append((distinct * 10 + sum(ch.tokens[t] for t in q_tokens), ch))
-    scored.sort(key=lambda x: x[0], reverse=True)
-    seen: list[str] = []
-    for _, ch in scored[:top_k]:
-        if ch.source not in seen:
-            seen.append(ch.source)
-    return seen
+    ranked = _rank(question, full_context)
+    sources: list[str] = []
+    for _, ch in ranked[:top_k]:
+        if ch.source not in sources:
+            sources.append(ch.source)
+    return sources

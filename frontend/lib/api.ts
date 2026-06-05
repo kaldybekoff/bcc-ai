@@ -7,11 +7,19 @@ export interface ChatEvent {
   error?: string
 }
 
-export async function* streamChat(question: string): AsyncGenerator<ChatEvent> {
+export interface HistoryMessage {
+  role: "user" | "ai"
+  text: string
+}
+
+export async function* streamChat(
+  question: string,
+  history: HistoryMessage[] = []
+): AsyncGenerator<ChatEvent> {
   const resp = await fetch(`${API_URL}/api/chat`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ question }),
+    body: JSON.stringify({ question, history }),
   });
 
   if (!resp.ok) throw new Error(`Backend error: ${resp.status}`);

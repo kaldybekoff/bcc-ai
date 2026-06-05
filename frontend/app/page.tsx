@@ -1,11 +1,11 @@
 "use client";
 
-import { useCallback, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import Header from "@/components/Header";
 import FAQSidebar from "@/components/FAQSidebar";
 import ChatWindow from "@/components/ChatWindow";
 import { type Message } from "@/components/MessageBubble";
-import { streamChat } from "@/lib/api";
+import { streamChat, type HistoryMessage } from "@/lib/api";
 
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([]);
@@ -13,11 +13,18 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+  const messagesRef = useRef<Message[]>([]);
+  useEffect(() => { messagesRef.current = messages; }, [messages]);
 
   const send = useCallback(async (text: string) => {
     const q = text.trim();
     if (!q || loading) return;
     setInput("");
+
+    // история диалога для контекста бэкенда (без пустых/стриминговых сообщений)
+    const history: HistoryMessage[] = messagesRef.current
+      .filter((m) => m.text.trim())
+      .map((m) => ({ role: m.role, text: m.text }));
 
     const userMsg: Message = { id: `u-${Date.now()}`, role: "user", text: q };
     const aiId = `a-${Date.now()}`;
@@ -28,7 +35,7 @@ export default function Home() {
     try {
       let aiText = "";
       let sources: string[] = [];
-      for await (const ev of streamChat(q)) {
+      for await (const ev of streamChat(q, history)) {
         if (ev.text) {
           aiText += ev.text;
           setMessages((p) => p.map((m) => (m.id === aiId ? { ...m, text: aiText } : m)));
